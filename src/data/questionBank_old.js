@@ -1,5 +1,4 @@
 // Question bank with state-specific auction licensing exam questions
-// Currently supporting Texas and Tennessee with official source documents
 
 // Only Texas and Tennessee are currently supported with official source documents
 export const states = [
@@ -22,7 +21,9 @@ export const topics = [
   'Consumer Protection'
 ];
 
-// Question bank - will be populated with real questions from source documents
+// Question bank with state-specific auction licensing exam questions
+// Currently supporting Texas and Tennessee with official source documents
+
 export const questionBank = {
   'Tennessee': [
     {
@@ -80,15 +81,15 @@ export const questionBank = {
     {
       id: 5,
       topic: 'State-Specific Laws',
-      question: 'In Tennessee, what requirements must be met to obtain an auctioneer license?',
+      question: 'In Alabama, what is required to obtain an auctioneer license?',
       options: [
         'Only a written exam',
-        'Written exam and background check',
+        'Written exam and apprenticeship',
         'High school diploma only',
         'No license is required'
       ],
       correctAnswer: 1,
-      explanation: 'Tennessee requires passing a written examination and meeting other state-specific requirements for auctioneer licensing.'
+      explanation: 'Alabama requires both passing a written examination and completing an apprenticeship period under a licensed auctioneer.'
     },
     {
       id: 6,
@@ -154,6 +155,47 @@ export const questionBank = {
       ],
       correctAnswer: 1,
       explanation: 'Shill bidding is the illegal or unethical practice of having the seller or their representatives bid on items to artificially inflate prices.'
+    }
+  ],
+  'Tennessee': [
+    {
+      id: 1,
+      topic: 'Auction Basics',
+      question: 'What is the primary role of an auctioneer?',
+      options: [
+        'To sell items at the highest possible price',
+        'To act as an agent for the seller',
+        'To purchase items for resale',
+        'To appraise items for sale'
+      ],
+      correctAnswer: 1,
+      explanation: 'An auctioneer acts as an agent for the seller, representing their interests in the sale of property at auction.'
+    },
+    {
+      id: 2,
+      topic: 'State-Specific Laws',
+      question: 'In Tennessee, what requirements must be met to obtain an auctioneer license?',
+      options: [
+        'Only a written exam',
+        'Written exam and background check',
+        'High school diploma only',
+        'No license is required'
+      ],
+      correctAnswer: 1,
+      explanation: 'Tennessee requires passing a written examination and meeting other state-specific requirements for auctioneer licensing.'
+    },
+    {
+      id: 3,
+      topic: 'Ethics and Professional Conduct',
+      question: 'Which of the following is considered unethical for an auctioneer?',
+      options: [
+        'Announcing reserve prices',
+        'Taking bids from the audience',
+        'Making false statements about merchandise',
+        'Using a wireless microphone'
+      ],
+      correctAnswer: 2,
+      explanation: 'Making false statements about merchandise is unethical and potentially illegal. Auctioneers must provide accurate information about items being sold.'
     }
   ],
   'Texas': [
