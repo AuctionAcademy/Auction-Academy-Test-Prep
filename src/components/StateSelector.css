@@ -8,10 +8,17 @@
   text-align: center;
   margin-bottom: 3rem;
   padding: 2rem;
-  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  background: #001829;
   color: white;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.brand-logo {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .brand-header h1 {
@@ -44,7 +51,7 @@
 .state-selector-card h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #1e3a8a;
+  color: #001829;
 }
 
 .state-selector-card p {
@@ -72,16 +79,16 @@
 }
 
 .state-selector-card select:hover {
-  border-color: #3b82f6;
+  border-color: #d60000;
 }
 
 .state-selector-card select:focus {
   outline: none;
-  border-color: #1e3a8a;
+  border-color: #001829;
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  background: #d60000;
   color: white;
   padding: 1rem 3rem;
   font-size: 1.2rem;
@@ -89,13 +96,14 @@
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .btn-primary:hover {
+  background: #b00000;
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(214, 0, 0, 0.3);
 }
 
 .btn-primary:active {
@@ -115,6 +123,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 4px solid #d60000;
 }
 
 .feature-card:hover {
@@ -128,7 +137,7 @@
 }
 
 .feature-card h4 {
-  color: #1e3a8a;
+  color: #001829;
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
 }
@@ -139,6 +148,10 @@
 }
 
 @media (max-width: 768px) {
+  .brand-logo {
+    max-width: 300px;
+  }
+  
   .brand-header h1 {
     font-size: 2rem;
   }
