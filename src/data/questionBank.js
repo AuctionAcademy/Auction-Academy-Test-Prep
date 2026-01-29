@@ -1,8 +1,9 @@
 // Question bank for Auctioneer Exam Prep
-// Contains authentic exam questions for Tennessee and Texas
+// Contains authentic exam questions for Alabama, Tennessee, and Texas
 // UPDATED: Using latest question banks from reformatted source documents
 
 export const states = [
+  'Alabama',
   'Tennessee',
   'Texas'
 ];
@@ -25,6 +26,269 @@ export const topics = [
 ];
 
 export const questionBank = {
+  'Alabama': [
+  {
+    "topic": "Contracts – Definition",
+    "question": "Which best defines a contract in auction law?",
+    "options": [
+      "A verbal promise that cannot be enforced",
+      "An enforceable promise that can be sued upon",
+      "A casual agreement between buyer and seller",
+      "A document that only applies to real estate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Alabama guide defines a contract as an enforceable promise that can be sued upon if one party fails to perform. Auction transactions are built on enforceable agreements, not informal understandings.",
+    "id": 1
+  },
+  {
+    "topic": "Contract Formation – Negotiation",
+    "question": "Which of the following must be definite during contract negotiation?",
+    "options": [
+      "The auctioneer's chant style",
+      "Price, property description, delivery, parties",
+      "The number of bidders expected",
+      "The seller's motivations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Negotiation requires definite terms such as price, delivery, and property description. Without clear terms, no enforceable obligation exists.",
+    "id": 2
+  },
+  {
+    "topic": "Parol Evidence Rule",
+    "question": "What does the parol evidence rule mean for auctions?",
+    "options": [
+      "Oral promises override written contracts",
+      "Verbal agreements are admissible in court",
+      "Oral promises outside the written contract are unenforceable",
+      "Contracts may never be modified"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Parol evidence refers to verbal agreements. In auction contracts, oral promises made outside the written agreement are generally not enforceable in court.",
+    "id": 3
+  },
+  {
+    "topic": "Essential Elements of Contract",
+    "question": "Which is NOT an essential element of a valid contract?",
+    "options": [
+      "Offer",
+      "Acceptance",
+      "Consideration",
+      "Personal friendship"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A valid contract requires offer, acceptance, consideration, legal capacity, and consent. Friendship is not legally required.",
+    "id": 4
+  },
+  {
+    "topic": "Offer",
+    "question": "An offer must be:",
+    "options": [
+      "Forced and mandatory",
+      "Reasonably certain and voluntary",
+      "Implied only",
+      "Made by the buyer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The offer must be free, voluntary, and clear enough that a \"reasonable person\" can understand its terms.",
+    "id": 5
+  },
+  {
+    "topic": "Revocation of Offer",
+    "question": "When may an offer be withdrawn?",
+    "options": [
+      "Only after acceptance",
+      "At any time before acceptance",
+      "Only if written in ink",
+      "Never"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Offers may be revoked any time before acceptance, even if the offer claimed it would remain open.",
+    "id": 6
+  },
+  {
+    "topic": "Death and Offers",
+    "question": "What happens if the offeror dies before acceptance?",
+    "options": [
+      "The offer remains valid forever",
+      "The offer is terminated immediately",
+      "The auctioneer decides",
+      "The buyer must still perform"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Death of either party before acceptance immediately terminates the offer.",
+    "id": 7
+  },
+  {
+    "topic": "Mistake of Law",
+    "question": "A mistake of law has what effect?",
+    "options": [
+      "Makes contract voidable",
+      "No effect",
+      "Automatically void",
+      "Creates fraud"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Not understanding the law does not excuse contractual obligations.",
+    "id": 8
+  },
+  {
+    "topic": "Consideration – Fairness",
+    "question": "Which is true about consideration?",
+    "options": [
+      "It must always be equal between parties",
+      "It must always be fair market value",
+      "It does not have to be fair",
+      "It must be reviewed by the Board"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Courts do not require consideration to be \"fair.\" Consideration need only exist; it doesn't have to be equal or fair market value.",
+    "id": 9
+  },
+  {
+    "topic": "Misrepresentation and Fraud",
+    "question": "For fraud, a material misrepresentation must be:",
+    "options": [
+      "Made accidentally",
+      "Made intentionally to deceive",
+      "Immaterial",
+      "Made after the sale"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fraud requires intent to deceive. If the misrepresentation is made innocently, it is not fraud, though other legal remedies may exist.",
+    "id": 10
+  },
+  {
+    "topic": "Minors and Capacity",
+    "question": "Contracts with minors are generally:",
+    "options": [
+      "Enforceable in all cases",
+      "Voidable by the minor",
+      "Void automatically",
+      "Enforceable only if signed by both parents"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A minor may disaffirm (cancel) most contracts, though some exceptions exist for necessities.",
+    "id": 11
+  },
+  {
+    "topic": "Statute of Frauds",
+    "question": "In Alabama auction practice, contracts must generally be:",
+    "options": [
+      "Oral to be valid",
+      "Handwritten only",
+      "In writing and signed",
+      "Recorded in court"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Alabama licensing law requires auction contracts to be written and signed by the appropriate parties.",
+    "id": 12
+  },
+  {
+    "topic": "Liquidated Damages",
+    "question": "What is a liquidated damages clause?",
+    "options": [
+      "An unpaid commission",
+      "Predetermined damages if breach occurs",
+      "An unlimited penalty",
+      "A criminal fine"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Liquidated damages are reasonable estimates of actual damages agreed upon in advance in case of contract breach. They must be a reasonable estimate, not a penalty.",
+    "id": 13
+  },
+  {
+    "topic": "Warranties – Express vs. Implied",
+    "question": "An \"as-is\" sale typically means:",
+    "options": [
+      "The seller guarantees the item's value",
+      "Implied warranties still apply",
+      "The buyer accepts the item in its current condition",
+      "The auctioneer warrants the title"
+    ],
+    "correctAnswer": 2,
+    "explanation": "\"As-is\" sales mean the buyer accepts the item in its current condition without implied warranties, though express warranties made by the seller may still apply.",
+    "id": 14
+  },
+  {
+    "topic": "Agency – Principal Responsibilities",
+    "question": "When an auctioneer acts as an agent for a seller, the seller is called the:",
+    "options": [
+      "Buyer",
+      "Principal",
+      "Trustee",
+      "Assignee"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In an agency relationship, the person who hires the agent (here, the seller hiring the auctioneer) is called the principal.",
+    "id": 15
+  },
+  {
+    "topic": "Duties of Agent",
+    "question": "An auctioneer (agent) owes what duty to the seller (principal)?",
+    "options": [
+      "Loyalty",
+      "Casual care",
+      "No duty",
+      "Negligence"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Agents owe their principals duties of loyalty, obedience, and reasonable care.",
+    "id": 16
+  },
+  {
+    "topic": "Third-Party Rights",
+    "question": "If an auctioneer fails to disclose they are acting as an agent:",
+    "options": [
+      "No liability",
+      "The agent may become personally liable",
+      "Only criminal penalties apply",
+      "The buyer is always liable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If an agent does not disclose the agency relationship, the agent may become personally liable on the contract.",
+    "id": 17
+  },
+  {
+    "topic": "Termination of Agency",
+    "question": "An agency relationship may be terminated by:",
+    "options": [
+      "Death of the principal",
+      "Completion of the agreed task",
+      "Mutual agreement",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Agency relationships can be terminated by death, accomplishment of the purpose, mutual agreement, or other specified events.",
+    "id": 18
+  },
+  {
+    "topic": "Auctioneer Licensing",
+    "question": "In Alabama, who must have an auctioneer license?",
+    "options": [
+      "Anyone who cries a bid",
+      "Only those auctioning real estate",
+      "Those conducting auctions for compensation",
+      "Only auctioneers selling livestock"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Alabama law generally requires a license for those conducting auctions for compensation, with certain exemptions.",
+    "id": 19
+  },
+  {
+    "topic": "Ethical Conduct",
+    "question": "Auctioneers must avoid:",
+    "options": [
+      "Conflicts of interest",
+      "Self-dealing without disclosure",
+      "Misrepresentation",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Auctioneers have ethical and legal duties to avoid conflicts of interest, self-dealing without disclosure, and misrepresentation.",
+    "id": 20
+  }
+],
+
   'Tennessee': [
   {
     "topic": "Definitions (T.C.A. \u00a7 62-19-101)",
