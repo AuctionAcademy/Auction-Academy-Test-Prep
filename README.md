@@ -39,6 +39,8 @@ You must either:
 
 📘 **[Learn about Static vs Server Hosting](HOSTING-GUIDE.md)** - Understand hosting options for this app.
 
+🔧 **[TROUBLESHOOTING GUIDE](TROUBLESHOOTING.md)** - Not seeing the latest features? Follow this step-by-step guide.
+
 ## 🎯 Features
 
 ### State-Specific Preparation
