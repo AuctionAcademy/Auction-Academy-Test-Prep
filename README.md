@@ -2,6 +2,21 @@
 
 A comprehensive web application designed to help auctioneer students prepare for their state licensing exams. Built with React and modern web technologies.
 
+## 🚀 Simplest Way to Open This Website
+
+**3 commands - that's it!**
+
+```bash
+npm install
+npm run dev
+```
+
+Then open your browser to: **http://localhost:5173**
+
+> **Don't have Node.js?** [Download it here](https://nodejs.org/) (takes 2 minutes to install)
+
+---
+
 ## ⚠️ Important: How to Run This App
 
 **This is a React web application that CANNOT be opened directly by double-clicking `index.html`.** 
