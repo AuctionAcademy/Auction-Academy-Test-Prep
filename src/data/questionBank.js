@@ -3938,8 +3938,8 @@ export const questionBank = {
       "$1,255",
       "$1,105"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,050"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,155"
   },
   {
     "id": 2,
@@ -3951,8 +3951,8 @@ export const questionBank = {
       "$1,310",
       "$1,160"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,100"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,210"
   },
   {
     "id": 3,
@@ -3964,8 +3964,8 @@ export const questionBank = {
       "$1,365",
       "$1,215"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,150"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,265"
   },
   {
     "id": 4,
@@ -3977,8 +3977,8 @@ export const questionBank = {
       "$1,420",
       "$1,270"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,200"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,320"
   },
   {
     "id": 5,
@@ -3990,8 +3990,8 @@ export const questionBank = {
       "$1,475",
       "$1,325"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,250"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,375"
   },
   {
     "id": 6,
@@ -4003,8 +4003,8 @@ export const questionBank = {
       "$1,530",
       "$1,380"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,300"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,430"
   },
   {
     "id": 7,
@@ -4016,8 +4016,8 @@ export const questionBank = {
       "$1,585",
       "$1,435"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,350"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,485"
   },
   {
     "id": 8,
@@ -4029,8 +4029,8 @@ export const questionBank = {
       "$1,640",
       "$1,490"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,400"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,540"
   },
   {
     "id": 9,
@@ -4042,8 +4042,8 @@ export const questionBank = {
       "$1,695",
       "$1,545"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,450"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,595"
   },
   {
     "id": 10,
@@ -4055,8 +4055,8 @@ export const questionBank = {
       "$1,750",
       "$1,600"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,500"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,650"
   },
   {
     "id": 11,
@@ -4068,8 +4068,8 @@ export const questionBank = {
       "$1,805",
       "$1,655"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,550"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,705"
   },
   {
     "id": 12,
@@ -4081,8 +4081,8 @@ export const questionBank = {
       "$1,860",
       "$1,710"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,600"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,760"
   },
   {
     "id": 13,
@@ -4094,8 +4094,8 @@ export const questionBank = {
       "$1,915",
       "$1,765"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,650"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,815"
   },
   {
     "id": 14,
@@ -4107,8 +4107,8 @@ export const questionBank = {
       "$1,970",
       "$1,820"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,700"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,870"
   },
   {
     "id": 15,
@@ -4120,8 +4120,8 @@ export const questionBank = {
       "$2,025",
       "$1,875"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,750"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,925"
   },
   {
     "id": 16,
@@ -4133,8 +4133,8 @@ export const questionBank = {
       "$2,080",
       "$1,930"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,800"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $1,980"
   },
   {
     "id": 17,
@@ -4146,8 +4146,8 @@ export const questionBank = {
       "$2,135",
       "$1,985"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,850"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,035"
   },
   {
     "id": 18,
@@ -4159,8 +4159,8 @@ export const questionBank = {
       "$2,190",
       "$2,040"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,900"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,090"
   },
   {
     "id": 19,
@@ -4172,8 +4172,8 @@ export const questionBank = {
       "$2,245",
       "$2,095"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $1,950"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,145"
   },
   {
     "id": 20,
@@ -4185,8 +4185,8 @@ export const questionBank = {
       "$2,300",
       "$2,150"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,000"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,200"
   },
   {
     "id": 21,
@@ -4198,8 +4198,8 @@ export const questionBank = {
       "$2,355",
       "$2,205"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,050"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,255"
   },
   {
     "id": 22,
@@ -4211,8 +4211,8 @@ export const questionBank = {
       "$2,410",
       "$2,260"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,100"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,310"
   },
   {
     "id": 23,
@@ -4224,8 +4224,8 @@ export const questionBank = {
       "$2,465",
       "$2,315"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,150"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,365"
   },
   {
     "id": 24,
@@ -4237,8 +4237,8 @@ export const questionBank = {
       "$2,520",
       "$2,370"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,200"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,420"
   },
   {
     "id": 25,
@@ -4250,8 +4250,8 @@ export const questionBank = {
       "$2,575",
       "$2,425"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,250"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,475"
   },
   {
     "id": 26,
@@ -4263,8 +4263,8 @@ export const questionBank = {
       "$2,630",
       "$2,480"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,300"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,530"
   },
   {
     "id": 27,
@@ -4276,8 +4276,8 @@ export const questionBank = {
       "$2,685",
       "$2,535"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,350"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,585"
   },
   {
     "id": 28,
@@ -4289,8 +4289,8 @@ export const questionBank = {
       "$2,740",
       "$2,590"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,400"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,640"
   },
   {
     "id": 29,
@@ -4302,8 +4302,8 @@ export const questionBank = {
       "$2,795",
       "$2,645"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,450"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,695"
   },
   {
     "id": 30,
@@ -4315,8 +4315,8 @@ export const questionBank = {
       "$2,850",
       "$2,700"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,500"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,750"
   },
   {
     "id": 31,
@@ -4328,8 +4328,8 @@ export const questionBank = {
       "$2,905",
       "$2,755"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,550"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,805"
   },
   {
     "id": 32,
@@ -4341,8 +4341,8 @@ export const questionBank = {
       "$2,960",
       "$2,810"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,600"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,860"
   },
   {
     "id": 33,
@@ -4354,8 +4354,8 @@ export const questionBank = {
       "$3,015",
       "$2,865"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,650"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,915"
   },
   {
     "id": 34,
@@ -4367,8 +4367,8 @@ export const questionBank = {
       "$3,070",
       "$2,920"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,700"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $2,970"
   },
   {
     "id": 35,
@@ -4380,8 +4380,8 @@ export const questionBank = {
       "$3,125",
       "$2,975"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,750"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,025"
   },
   {
     "id": 36,
@@ -4393,8 +4393,8 @@ export const questionBank = {
       "$3,180",
       "$3,030"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,800"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,080"
   },
   {
     "id": 37,
@@ -4406,8 +4406,8 @@ export const questionBank = {
       "$3,235",
       "$3,085"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,850"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,135"
   },
   {
     "id": 38,
@@ -4419,8 +4419,8 @@ export const questionBank = {
       "$3,290",
       "$3,140"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,900"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,190"
   },
   {
     "id": 39,
@@ -4432,8 +4432,8 @@ export const questionBank = {
       "$3,345",
       "$3,195"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $2,950"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,245"
   },
   {
     "id": 40,
@@ -4445,8 +4445,8 @@ export const questionBank = {
       "$3,400",
       "$3,250"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,000"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,300"
   },
   {
     "id": 41,
@@ -4458,8 +4458,8 @@ export const questionBank = {
       "$3,455",
       "$3,305"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,050"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,355"
   },
   {
     "id": 42,
@@ -4471,8 +4471,8 @@ export const questionBank = {
       "$3,510",
       "$3,360"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,100"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,410"
   },
   {
     "id": 43,
@@ -4484,8 +4484,8 @@ export const questionBank = {
       "$3,565",
       "$3,415"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,150"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,465"
   },
   {
     "id": 44,
@@ -4497,8 +4497,8 @@ export const questionBank = {
       "$3,620",
       "$3,470"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,200"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,520"
   },
   {
     "id": 45,
@@ -4510,8 +4510,8 @@ export const questionBank = {
       "$3,675",
       "$3,525"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,250"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,575"
   },
   {
     "id": 46,
@@ -4523,8 +4523,8 @@ export const questionBank = {
       "$3,730",
       "$3,580"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,300"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,630"
   },
   {
     "id": 47,
@@ -4536,8 +4536,8 @@ export const questionBank = {
       "$3,785",
       "$3,635"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,350"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,685"
   },
   {
     "id": 48,
@@ -4549,8 +4549,8 @@ export const questionBank = {
       "$3,840",
       "$3,690"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,400"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,740"
   },
   {
     "id": 49,
@@ -4562,8 +4562,8 @@ export const questionBank = {
       "$3,895",
       "$3,745"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,450"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,795"
   },
   {
     "id": 50,
@@ -4575,11 +4575,11 @@ export const questionBank = {
       "$3,950",
       "$3,800"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. $3,500"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. $3,850"
   },
   {
-    "id": 51,
+    "id": 101,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -4588,11 +4588,11 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
-    "id": 52,
+    "id": 102,
     "topic": "Auction Basics",
     "question": "A sale by auction is complete when:",
     "options": [
@@ -4601,11 +4601,11 @@ export const questionBank = {
       "The buyer pays",
       "The catalog is printed"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The first bid is made"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The auctioneer announces completion by fall of the hammer or customary manner"
   },
   {
-    "id": 53,
+    "id": 103,
     "topic": "Bidding Procedures",
     "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
     "options": [
@@ -4614,11 +4614,11 @@ export const questionBank = {
       "Only with buyer approval",
       "Never"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only before bidding begins"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Any time until completion is announced"
   },
   {
-    "id": 54,
+    "id": 104,
     "topic": "Bidding Procedures",
     "question": "In an auction without reserve, once bids are called for, the lot:",
     "options": [
@@ -4627,11 +4627,11 @@ export const questionBank = {
       "Can be withdrawn after any bid",
       "Must be sold regardless of fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Can always be withdrawn"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Cannot be withdrawn unless no bid is made within a reasonable time"
   },
   {
-    "id": 55,
+    "id": 105,
     "topic": "Bidding Procedures",
     "question": "A bidder may retract a bid:",
     "options": [
@@ -4640,11 +4640,11 @@ export const questionBank = {
       "Only if the seller agrees",
       "Never"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. At any time, even after the hammer falls"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Until the auctioneer announces completion"
   },
   {
-    "id": 56,
+    "id": 106,
     "topic": "Bidding Procedures",
     "question": "If a bid is retracted, it does NOT revive:",
     "options": [
@@ -4653,11 +4653,11 @@ export const questionBank = {
       "The buyer\u2019s deposit",
       "The auctioneer\u2019s commission"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The seller\u2019s reserve"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Any previous bid"
   },
   {
-    "id": 57,
+    "id": 107,
     "topic": "Bidding Procedures",
     "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
     "options": [
@@ -4666,11 +4666,11 @@ export const questionBank = {
       "Only sue for damages",
       "Automatically win the item free"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Be forced to complete purchase"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Avoid the sale or take goods at last good faith bid"
   },
   {
-    "id": 58,
+    "id": 108,
     "topic": "Bidding Procedures",
     "question": "Seller bidding rules do NOT apply to:",
     "options": [
@@ -4679,12 +4679,12 @@ export const questionBank = {
       "Antique auctions",
       "Reserve auctions"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Online auctions"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Forced sales"
   },
   {
-    "id": 59,
-    "topic": "Auction Math",
+    "id": 109,
+    "topic": "Auction Basics",
     "question": "Buyer\u2019s premium is best defined as:",
     "options": [
       "Auctioneer fee paid by seller",
@@ -4692,11 +4692,11 @@ export const questionBank = {
       "Deposit refunded after sale",
       "Sales tax amount"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auctioneer fee paid by seller"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Percentage added to hammer price paid by buyer"
   },
   {
-    "id": 60,
+    "id": 110,
     "topic": "Auction Basics",
     "question": "Conditions of sale are:",
     "options": [
@@ -4705,11 +4705,11 @@ export const questionBank = {
       "Only the seller\u2019s warranty",
       "The auctioneer\u2019s chant"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Optional marketing notes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Legal terms governing the auction (payment, premiums, removal, reserve)"
   },
   {
-    "id": 61,
+    "id": 111,
     "topic": "Auction Basics",
     "question": "An 'as is' sale means:",
     "options": [
@@ -4718,11 +4718,11 @@ export const questionBank = {
       "Buyer may return goods anytime",
       "Auctioneer insures the item"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Seller guarantees condition"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. No warranty; buyer must inspect"
   },
   {
-    "id": 62,
+    "id": 112,
     "topic": "Advertising and Marketing",
     "question": "Advertising an auction with intentionally false descriptions could violate:",
     "options": [
@@ -4731,12 +4731,12 @@ export const questionBank = {
       "Only bankruptcy code",
       "Wildlife regulations"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only UCC rules"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive Trade Practices protections"
   },
   {
-    "id": 63,
-    "topic": "Auction Math",
+    "id": 113,
+    "topic": "Bidding Procedures",
     "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
     "options": [
       "Ignore it automatically",
@@ -4744,11 +4744,11 @@ export const questionBank = {
       "Arrest the bidder",
       "Void the auction"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Ignore it automatically"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Reopen bidding or declare goods sold under the bid being accepted"
   },
   {
-    "id": 64,
+    "id": 114,
     "topic": "Auction Basics",
     "question": "Before an auction under a temporary charitable alcohol permit, notice must include:",
     "options": [
@@ -4757,11 +4757,11 @@ export const questionBank = {
       "Buyer credit scores",
       "Auction chant script"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only seller name"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Date, time, place, and inventory of beverages"
   },
   {
-    "id": 65,
+    "id": 115,
     "topic": "Auction Basics",
     "question": "A temporary charitable auction permit holder may NOT:",
     "options": [
@@ -4770,11 +4770,11 @@ export const questionBank = {
       "Auction donated beverages",
       "Provide notice"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Deposit proceeds into its account"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Pay commission to arrange or conduct the auction"
   },
   {
-    "id": 66,
+    "id": 116,
     "topic": "State-Specific Laws",
     "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
@@ -4783,11 +4783,11 @@ export const questionBank = {
       "A buyer\u2019s premium receipt",
       "A UCC financing statement"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a handshake"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A written transfer describing marks/brands"
   },
   {
-    "id": 67,
+    "id": 117,
     "topic": "Bidding Procedures",
     "question": "A bidder may retract a bid:",
     "options": [
@@ -4796,11 +4796,11 @@ export const questionBank = {
       "Only if the seller agrees",
       "Never"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. At any time, even after the hammer falls"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Until the auctioneer announces completion"
   },
   {
-    "id": 68,
+    "id": 118,
     "topic": "Bidding Procedures",
     "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
     "options": [
@@ -4809,12 +4809,12 @@ export const questionBank = {
       "Only with buyer approval",
       "Never"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only before bidding begins"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Any time until completion is announced"
   },
   {
-    "id": 69,
-    "topic": "Auction Math",
+    "id": 119,
+    "topic": "Auction Basics",
     "question": "Buyer\u2019s premium is best defined as:",
     "options": [
       "Auctioneer fee paid by seller",
@@ -4822,11 +4822,11 @@ export const questionBank = {
       "Deposit refunded after sale",
       "Sales tax amount"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auctioneer fee paid by seller"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Percentage added to hammer price paid by buyer"
   },
   {
-    "id": 70,
+    "id": 120,
     "topic": "Bidding Procedures",
     "question": "In an auction without reserve, once bids are called for, the lot:",
     "options": [
@@ -4835,11 +4835,11 @@ export const questionBank = {
       "Can be withdrawn after any bid",
       "Must be sold regardless of fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Can always be withdrawn"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Cannot be withdrawn unless no bid is made within a reasonable time"
   },
   {
-    "id": 71,
+    "id": 121,
     "topic": "State-Specific Laws",
     "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
@@ -4848,11 +4848,11 @@ export const questionBank = {
       "A buyer\u2019s premium receipt",
       "A UCC financing statement"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a handshake"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A written transfer describing marks/brands"
   },
   {
-    "id": 72,
+    "id": 122,
     "topic": "Auction Basics",
     "question": "A temporary charitable auction permit holder may NOT:",
     "options": [
@@ -4861,11 +4861,11 @@ export const questionBank = {
       "Auction donated beverages",
       "Provide notice"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Deposit proceeds into its account"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Pay commission to arrange or conduct the auction"
   },
   {
-    "id": 73,
+    "id": 123,
     "topic": "State-Specific Laws",
     "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
@@ -4874,11 +4874,11 @@ export const questionBank = {
       "A buyer\u2019s premium receipt",
       "A UCC financing statement"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a handshake"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A written transfer describing marks/brands"
   },
   {
-    "id": 74,
+    "id": 124,
     "topic": "State-Specific Laws",
     "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
@@ -4887,12 +4887,12 @@ export const questionBank = {
       "A buyer\u2019s premium receipt",
       "A UCC financing statement"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a handshake"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A written transfer describing marks/brands"
   },
   {
-    "id": 75,
-    "topic": "Auction Math",
+    "id": 125,
+    "topic": "Bidding Procedures",
     "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
     "options": [
       "Ignore it automatically",
@@ -4900,11 +4900,11 @@ export const questionBank = {
       "Arrest the bidder",
       "Void the auction"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Ignore it automatically"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Reopen bidding or declare goods sold under the bid being accepted"
   },
   {
-    "id": 76,
+    "id": 126,
     "topic": "Bidding Procedures",
     "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
     "options": [
@@ -4913,11 +4913,11 @@ export const questionBank = {
       "Only sue for damages",
       "Automatically win the item free"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Be forced to complete purchase"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Avoid the sale or take goods at last good faith bid"
   },
   {
-    "id": 77,
+    "id": 127,
     "topic": "Bidding Procedures",
     "question": "In an auction without reserve, once bids are called for, the lot:",
     "options": [
@@ -4926,11 +4926,11 @@ export const questionBank = {
       "Can be withdrawn after any bid",
       "Must be sold regardless of fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Can always be withdrawn"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Cannot be withdrawn unless no bid is made within a reasonable time"
   },
   {
-    "id": 78,
+    "id": 128,
     "topic": "State-Specific Laws",
     "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
@@ -4939,11 +4939,11 @@ export const questionBank = {
       "A buyer\u2019s premium receipt",
       "A UCC financing statement"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a handshake"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A written transfer describing marks/brands"
   },
   {
-    "id": 79,
+    "id": 129,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -4952,11 +4952,11 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
-    "id": 80,
+    "id": 130,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -4965,11 +4965,11 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
-    "id": 81,
+    "id": 131,
     "topic": "Bidding Procedures",
     "question": "In an auction without reserve, once bids are called for, the lot:",
     "options": [
@@ -4978,12 +4978,12 @@ export const questionBank = {
       "Can be withdrawn after any bid",
       "Must be sold regardless of fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Can always be withdrawn"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Cannot be withdrawn unless no bid is made within a reasonable time"
   },
   {
-    "id": 82,
-    "topic": "Auction Math",
+    "id": 132,
+    "topic": "Bidding Procedures",
     "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
     "options": [
       "Ignore it automatically",
@@ -4991,11 +4991,11 @@ export const questionBank = {
       "Arrest the bidder",
       "Void the auction"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Ignore it automatically"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Reopen bidding or declare goods sold under the bid being accepted"
   },
   {
-    "id": 83,
+    "id": 133,
     "topic": "State-Specific Laws",
     "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
@@ -5004,11 +5004,11 @@ export const questionBank = {
       "A buyer\u2019s premium receipt",
       "A UCC financing statement"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a handshake"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A written transfer describing marks/brands"
   },
   {
-    "id": 84,
+    "id": 134,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -5017,11 +5017,11 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
-    "id": 85,
+    "id": 135,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -5030,11 +5030,11 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
-    "id": 86,
+    "id": 136,
     "topic": "Bidding Procedures",
     "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
     "options": [
@@ -5043,11 +5043,11 @@ export const questionBank = {
       "Only with buyer approval",
       "Never"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only before bidding begins"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Any time until completion is announced"
   },
   {
-    "id": 87,
+    "id": 137,
     "topic": "Auction Basics",
     "question": "A temporary charitable auction permit holder may NOT:",
     "options": [
@@ -5056,11 +5056,11 @@ export const questionBank = {
       "Auction donated beverages",
       "Provide notice"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Deposit proceeds into its account"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Pay commission to arrange or conduct the auction"
   },
   {
-    "id": 88,
+    "id": 138,
     "topic": "Bidding Procedures",
     "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
     "options": [
@@ -5069,11 +5069,11 @@ export const questionBank = {
       "Only sue for damages",
       "Automatically win the item free"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Be forced to complete purchase"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Avoid the sale or take goods at last good faith bid"
   },
   {
-    "id": 89,
+    "id": 139,
     "topic": "State-Specific Laws",
     "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
@@ -5082,11 +5082,11 @@ export const questionBank = {
       "A buyer\u2019s premium receipt",
       "A UCC financing statement"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a handshake"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A written transfer describing marks/brands"
   },
   {
-    "id": 90,
+    "id": 140,
     "topic": "Auction Basics",
     "question": "A sale by auction is complete when:",
     "options": [
@@ -5095,11 +5095,11 @@ export const questionBank = {
       "The buyer pays",
       "The catalog is printed"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The first bid is made"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The auctioneer announces completion by fall of the hammer or customary manner"
   },
   {
-    "id": 91,
+    "id": 141,
     "topic": "Auction Basics",
     "question": "A sale by auction is complete when:",
     "options": [
@@ -5108,11 +5108,11 @@ export const questionBank = {
       "The buyer pays",
       "The catalog is printed"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The first bid is made"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The auctioneer announces completion by fall of the hammer or customary manner"
   },
   {
-    "id": 92,
+    "id": 142,
     "topic": "Auction Basics",
     "question": "A sale by auction is complete when:",
     "options": [
@@ -5121,11 +5121,11 @@ export const questionBank = {
       "The buyer pays",
       "The catalog is printed"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The first bid is made"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The auctioneer announces completion by fall of the hammer or customary manner"
   },
   {
-    "id": 93,
+    "id": 143,
     "topic": "Auction Basics",
     "question": "A sale by auction is complete when:",
     "options": [
@@ -5134,11 +5134,11 @@ export const questionBank = {
       "The buyer pays",
       "The catalog is printed"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The first bid is made"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The auctioneer announces completion by fall of the hammer or customary manner"
   },
   {
-    "id": 94,
+    "id": 144,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -5147,11 +5147,11 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
-    "id": 95,
+    "id": 145,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -5160,12 +5160,12 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
-    "id": 96,
-    "topic": "Auction Math",
+    "id": 146,
+    "topic": "Bidding Procedures",
     "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
     "options": [
       "Ignore it automatically",
@@ -5173,11 +5173,11 @@ export const questionBank = {
       "Arrest the bidder",
       "Void the auction"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Ignore it automatically"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Reopen bidding or declare goods sold under the bid being accepted"
   },
   {
-    "id": 97,
+    "id": 147,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -5186,11 +5186,11 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
-    "id": 98,
+    "id": 148,
     "topic": "Auction Basics",
     "question": "Before an auction under a temporary charitable alcohol permit, notice must include:",
     "options": [
@@ -5199,11 +5199,11 @@ export const questionBank = {
       "Buyer credit scores",
       "Auction chant script"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only seller name"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Date, time, place, and inventory of beverages"
   },
   {
-    "id": 99,
+    "id": 149,
     "topic": "State-Specific Laws",
     "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
@@ -5212,11 +5212,11 @@ export const questionBank = {
       "A buyer\u2019s premium receipt",
       "A UCC financing statement"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a handshake"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A written transfer describing marks/brands"
   },
   {
-    "id": 100,
+    "id": 150,
     "topic": "Auction Basics",
     "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
@@ -5225,658 +5225,8 @@ export const questionBank = {
       "Withdrawn automatically",
       "Always without reserve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Part of one single sale"
-  },
-  {
-    "id": 101,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Under UCC Article 9, collateral refers to:",
-    "options": [
-      "Buyer premium",
-      "Property subject to a security interest",
-      "Auction license",
-      "Sales tax"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Buyer premium"
-  },
-  {
-    "id": 102,
-    "topic": "Contract Law",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction contract between buyer and auctioneer"
-  },
-  {
-    "id": 103,
-    "topic": "Auction Basics",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
-  },
-  {
-    "id": 104,
-    "topic": "Auction Basics",
-    "question": "A disposition of collateral must be:",
-    "options": [
-      "Secret",
-      "Commercially reasonable",
-      "Always without reserve",
-      "Tax free"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Secret"
-  },
-  {
-    "id": 105,
-    "topic": "Auction Basics",
-    "question": "Reasonable notification of disposition generally must be sent to:",
-    "options": [
-      "Only the auctioneer",
-      "Debtor and certain secured parties",
-      "Only the buyer",
-      "The governor"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only the auctioneer"
-  },
-  {
-    "id": 106,
-    "topic": "Auction Basics",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
-  },
-  {
-    "id": 107,
-    "topic": "State-Specific Laws",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only auctioneers"
-  },
-  {
-    "id": 108,
-    "topic": "Consumer Protection",
-    "question": "A 'consumer' under DTPA generally is someone who:",
-    "options": [
-      "Buys or leases goods or services",
-      "Only sells goods",
-      "Only bids online",
-      "Holds an auction license"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Buys or leases goods or services"
-  },
-  {
-    "id": 109,
-    "topic": "Auction Basics",
-    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
-    "options": [
-      "Only UCC remedies",
-      "DTPA liability",
-      "No consequences",
-      "Automatic license renewal"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only UCC remedies"
-  },
-  {
-    "id": 110,
-    "topic": "Auction Basics",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Puffery only"
-  },
-  {
-    "id": 111,
-    "topic": "Bidding Procedures",
-    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
-    "options": [
-      "Standard practice",
-      "Deceptive and unethical conduct",
-      "Required in reserve auctions",
-      "Buyer protection"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Standard practice"
-  },
-  {
-    "id": 112,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 113,
-    "topic": "Auction Math",
-    "question": "An auction company advertises 'No buyer premium' but charges one at settlement. This is:",
-    "options": [
-      "Acceptable",
-      "Potentially deceptive under DTPA",
-      "Required by UCC",
-      "A tax issue only"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Acceptable"
-  },
-  {
-    "id": 114,
-    "topic": "Auction Basics",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. It maximizes price in every case"
-  },
-  {
-    "id": 115,
-    "topic": "Consumer Protection",
-    "question": "A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
-    "options": [
-      "Subject to all unknown liens",
-      "Free of the debtor\u2019s interest and subordinate security interests if disposition complies",
-      "Nothing",
-      "Only partial title"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Subject to all unknown liens"
-  },
-  {
-    "id": 116,
-    "topic": "Auction Basics",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. It maximizes price in every case"
-  },
-  {
-    "id": 117,
-    "topic": "Contract Law",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction contract between buyer and auctioneer"
-  },
-  {
-    "id": 118,
-    "topic": "Auction Basics",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
-  },
-  {
-    "id": 119,
-    "topic": "Auction Basics",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
-  },
-  {
-    "id": 120,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 121,
-    "topic": "Auction Basics",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
-  },
-  {
-    "id": 122,
-    "topic": "Auction Basics",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Puffery only"
-  },
-  {
-    "id": 123,
-    "topic": "Auction Basics",
-    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
-    "options": [
-      "Only UCC remedies",
-      "DTPA liability",
-      "No consequences",
-      "Automatic license renewal"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only UCC remedies"
-  },
-  {
-    "id": 124,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 125,
-    "topic": "State-Specific Laws",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only auctioneers"
-  },
-  {
-    "id": 126,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 127,
-    "topic": "Contract Law",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction contract between buyer and auctioneer"
-  },
-  {
-    "id": 128,
-    "topic": "Auction Basics",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
-  },
-  {
-    "id": 129,
-    "topic": "Auction Basics",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Puffery only"
-  },
-  {
-    "id": 130,
-    "topic": "Auction Basics",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
-  },
-  {
-    "id": 131,
-    "topic": "Auction Basics",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. It maximizes price in every case"
-  },
-  {
-    "id": 132,
-    "topic": "Auction Basics",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
-  },
-  {
-    "id": 133,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 134,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 135,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 136,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 137,
-    "topic": "Auction Basics",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Puffery only"
-  },
-  {
-    "id": 138,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 139,
-    "topic": "Auction Basics",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
-  },
-  {
-    "id": 140,
-    "topic": "Auction Basics",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
-  },
-  {
-    "id": 141,
-    "topic": "Contract Law",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction contract between buyer and auctioneer"
-  },
-  {
-    "id": 142,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 143,
-    "topic": "Auction Basics",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
-  },
-  {
-    "id": 144,
-    "topic": "Auction Basics",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
-  },
-  {
-    "id": 145,
-    "topic": "State-Specific Laws",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only auctioneers"
-  },
-  {
-    "id": 146,
-    "topic": "Auction Basics",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
-  },
-  {
-    "id": 147,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 148,
-    "topic": "Bidding Procedures",
-    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
-    "options": [
-      "Standard practice",
-      "Deceptive and unethical conduct",
-      "Required in reserve auctions",
-      "Buyer protection"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Standard practice"
-  },
-  {
-    "id": 149,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
-  },
-  {
-    "id": 150,
-    "topic": "Auction Basics",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. The subject of a separate sale"
   },
   {
     "id": 151,
@@ -5888,8 +5238,8 @@ export const questionBank = {
       "Auction license",
       "Sales tax"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Buyer premium"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Property subject to a security interest"
   },
   {
     "id": 152,
@@ -5901,8 +5251,8 @@ export const questionBank = {
       "Bidder registration form",
       "Tax exemption form"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction contract between buyer and auctioneer"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Agreement creating or providing for a security interest"
   },
   {
     "id": 153,
@@ -5914,8 +5264,8 @@ export const questionBank = {
       "Only court order sale",
       "Only online"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
   },
   {
     "id": 154,
@@ -5927,8 +5277,8 @@ export const questionBank = {
       "Always without reserve",
       "Tax free"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Secret"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Commercially reasonable"
   },
   {
     "id": 155,
@@ -5940,8 +5290,8 @@ export const questionBank = {
       "Only the buyer",
       "The governor"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only the auctioneer"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Debtor and certain secured parties"
   },
   {
     "id": 156,
@@ -5953,8 +5303,8 @@ export const questionBank = {
       "Allowed only if debtor objects",
       "Automatically void"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
   },
   {
     "id": 157,
@@ -5966,12 +5316,12 @@ export const questionBank = {
       "Only banks",
       "Only wholesalers"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only auctioneers"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Consumers from false, misleading, or deceptive acts"
   },
   {
     "id": 158,
-    "topic": "Consumer Protection",
+    "topic": "Auction Basics",
     "question": "A 'consumer' under DTPA generally is someone who:",
     "options": [
       "Buys or leases goods or services",
@@ -5992,8 +5342,8 @@ export const questionBank = {
       "No consequences",
       "Automatic license renewal"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only UCC remedies"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. DTPA liability"
   },
   {
     "id": 160,
@@ -6005,8 +5355,8 @@ export const questionBank = {
       "Required advertising",
       "Tax exemption"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Puffery only"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. False, misleading, or deceptive act"
   },
   {
     "id": 161,
@@ -6018,8 +5368,8 @@ export const questionBank = {
       "Required in reserve auctions",
       "Buyer protection"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Standard practice"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive and unethical conduct"
   },
   {
     "id": 162,
@@ -6031,8 +5381,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 163,
@@ -6044,8 +5394,8 @@ export const questionBank = {
       "Required by UCC",
       "A tax issue only"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Acceptable"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Potentially deceptive under DTPA"
   },
   {
     "id": 164,
@@ -6057,12 +5407,12 @@ export const questionBank = {
       "It happens quickly",
       "It is secret"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. It maximizes price in every case"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. It follows accepted market practices and is conducted fairly"
   },
   {
     "id": 165,
-    "topic": "Consumer Protection",
+    "topic": "UCC (Uniform Commercial Code)",
     "question": "A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
     "options": [
       "Subject to all unknown liens",
@@ -6070,8 +5420,8 @@ export const questionBank = {
       "Nothing",
       "Only partial title"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Subject to all unknown liens"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Free of the debtor\u2019s interest and subordinate security interests if disposition complies"
   },
   {
     "id": 166,
@@ -6083,8 +5433,8 @@ export const questionBank = {
       "It happens quickly",
       "It is secret"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. It maximizes price in every case"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. It follows accepted market practices and is conducted fairly"
   },
   {
     "id": 167,
@@ -6096,8 +5446,8 @@ export const questionBank = {
       "Bidder registration form",
       "Tax exemption form"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction contract between buyer and auctioneer"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Agreement creating or providing for a security interest"
   },
   {
     "id": 168,
@@ -6109,8 +5459,8 @@ export const questionBank = {
       "Only court order sale",
       "Only online"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
   },
   {
     "id": 169,
@@ -6122,8 +5472,8 @@ export const questionBank = {
       "Only court order sale",
       "Only online"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
   },
   {
     "id": 170,
@@ -6135,8 +5485,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 171,
@@ -6148,8 +5498,8 @@ export const questionBank = {
       "Allowed only if debtor objects",
       "Automatically void"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
   },
   {
     "id": 172,
@@ -6161,8 +5511,8 @@ export const questionBank = {
       "Required advertising",
       "Tax exemption"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Puffery only"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. False, misleading, or deceptive act"
   },
   {
     "id": 173,
@@ -6174,8 +5524,8 @@ export const questionBank = {
       "No consequences",
       "Automatic license renewal"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only UCC remedies"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. DTPA liability"
   },
   {
     "id": 174,
@@ -6187,8 +5537,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 175,
@@ -6200,8 +5550,8 @@ export const questionBank = {
       "Only banks",
       "Only wholesalers"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only auctioneers"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Consumers from false, misleading, or deceptive acts"
   },
   {
     "id": 176,
@@ -6213,8 +5563,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 177,
@@ -6226,8 +5576,8 @@ export const questionBank = {
       "Bidder registration form",
       "Tax exemption form"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction contract between buyer and auctioneer"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Agreement creating or providing for a security interest"
   },
   {
     "id": 178,
@@ -6239,8 +5589,8 @@ export const questionBank = {
       "Only court order sale",
       "Only online"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
   },
   {
     "id": 179,
@@ -6252,8 +5602,8 @@ export const questionBank = {
       "Required advertising",
       "Tax exemption"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Puffery only"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. False, misleading, or deceptive act"
   },
   {
     "id": 180,
@@ -6265,8 +5615,8 @@ export const questionBank = {
       "Allowed only if debtor objects",
       "Automatically void"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
   },
   {
     "id": 181,
@@ -6278,8 +5628,8 @@ export const questionBank = {
       "It happens quickly",
       "It is secret"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. It maximizes price in every case"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. It follows accepted market practices and is conducted fairly"
   },
   {
     "id": 182,
@@ -6291,8 +5641,8 @@ export const questionBank = {
       "Allowed only if debtor objects",
       "Automatically void"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
   },
   {
     "id": 183,
@@ -6304,8 +5654,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 184,
@@ -6317,8 +5667,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 185,
@@ -6330,8 +5680,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 186,
@@ -6343,8 +5693,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 187,
@@ -6356,8 +5706,8 @@ export const questionBank = {
       "Required advertising",
       "Tax exemption"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Puffery only"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. False, misleading, or deceptive act"
   },
   {
     "id": 188,
@@ -6369,8 +5719,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 189,
@@ -6382,8 +5732,8 @@ export const questionBank = {
       "Only court order sale",
       "Only online"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
   },
   {
     "id": 190,
@@ -6395,8 +5745,8 @@ export const questionBank = {
       "Only court order sale",
       "Only online"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
   },
   {
     "id": 191,
@@ -6408,8 +5758,8 @@ export const questionBank = {
       "Bidder registration form",
       "Tax exemption form"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction contract between buyer and auctioneer"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Agreement creating or providing for a security interest"
   },
   {
     "id": 192,
@@ -6421,8 +5771,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 193,
@@ -6434,8 +5784,8 @@ export const questionBank = {
       "Allowed only if debtor objects",
       "Automatically void"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
   },
   {
     "id": 194,
@@ -6447,8 +5797,8 @@ export const questionBank = {
       "Allowed only if debtor objects",
       "Automatically void"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Prohibited"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
   },
   {
     "id": 195,
@@ -6460,8 +5810,8 @@ export const questionBank = {
       "Only banks",
       "Only wholesalers"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only auctioneers"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Consumers from false, misleading, or deceptive acts"
   },
   {
     "id": 196,
@@ -6473,8 +5823,8 @@ export const questionBank = {
       "Only court order sale",
       "Only online"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only private sale"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
   },
   {
     "id": 197,
@@ -6486,8 +5836,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 198,
@@ -6499,8 +5849,8 @@ export const questionBank = {
       "Required in reserve auctions",
       "Buyer protection"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Standard practice"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive and unethical conduct"
   },
   {
     "id": 199,
@@ -6512,8 +5862,8 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 200,
@@ -6525,8 +5875,658 @@ export const questionBank = {
       "No rights after default",
       "Automatic forgiveness"
     ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 151,
+    "topic": "UCC (Uniform Commercial Code)",
+    "question": "Under UCC Article 9, collateral refers to:",
+    "options": [
+      "Buyer premium",
+      "Property subject to a security interest",
+      "Auction license",
+      "Sales tax"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Property subject to a security interest"
+  },
+  {
+    "id": 152,
+    "topic": "Contract Law",
+    "question": "A security agreement is:",
+    "options": [
+      "Auction contract between buyer and auctioneer",
+      "Agreement creating or providing for a security interest",
+      "Bidder registration form",
+      "Tax exemption form"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Agreement creating or providing for a security interest"
+  },
+  {
+    "id": 153,
+    "topic": "Auction Basics",
+    "question": "After default, a secured party may dispose of collateral by:",
+    "options": [
+      "Only private sale",
+      "Public or private sale, including auction",
+      "Only court order sale",
+      "Only online"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
+  },
+  {
+    "id": 154,
+    "topic": "Auction Basics",
+    "question": "A disposition of collateral must be:",
+    "options": [
+      "Secret",
+      "Commercially reasonable",
+      "Always without reserve",
+      "Tax free"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Commercially reasonable"
+  },
+  {
+    "id": 155,
+    "topic": "Auction Basics",
+    "question": "Reasonable notification of disposition generally must be sent to:",
+    "options": [
+      "Only the auctioneer",
+      "Debtor and certain secured parties",
+      "Only the buyer",
+      "The governor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Debtor and certain secured parties"
+  },
+  {
+    "id": 156,
+    "topic": "Auction Basics",
+    "question": "A secured party purchasing collateral at a public disposition is:",
+    "options": [
+      "Prohibited",
+      "Allowed",
+      "Allowed only if debtor objects",
+      "Automatically void"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
+  },
+  {
+    "id": 157,
+    "topic": "State-Specific Laws",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
+    "options": [
+      "Only auctioneers",
+      "Consumers from false, misleading, or deceptive acts",
+      "Only banks",
+      "Only wholesalers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Consumers from false, misleading, or deceptive acts"
+  },
+  {
+    "id": 158,
+    "topic": "Auction Basics",
+    "question": "A 'consumer' under DTPA generally is someone who:",
+    "options": [
+      "Buys or leases goods or services",
+      "Only sells goods",
+      "Only bids online",
+      "Holds an auction license"
+    ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is A. Proper compliance"
+    "explanation": "The correct answer is A. Buys or leases goods or services"
+  },
+  {
+    "id": 159,
+    "topic": "Auction Basics",
+    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
+    "options": [
+      "Only UCC remedies",
+      "DTPA liability",
+      "No consequences",
+      "Automatic license renewal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. DTPA liability"
+  },
+  {
+    "id": 160,
+    "topic": "Auction Basics",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
+    "options": [
+      "Puffery only",
+      "False, misleading, or deceptive act",
+      "Required advertising",
+      "Tax exemption"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. False, misleading, or deceptive act"
+  },
+  {
+    "id": 161,
+    "topic": "Bidding Procedures",
+    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
+    "options": [
+      "Standard practice",
+      "Deceptive and unethical conduct",
+      "Required in reserve auctions",
+      "Buyer protection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive and unethical conduct"
+  },
+  {
+    "id": 162,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 163,
+    "topic": "Auction Math",
+    "question": "An auction company advertises 'No buyer premium' but charges one at settlement. This is:",
+    "options": [
+      "Acceptable",
+      "Potentially deceptive under DTPA",
+      "Required by UCC",
+      "A tax issue only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Potentially deceptive under DTPA"
+  },
+  {
+    "id": 164,
+    "topic": "Auction Basics",
+    "question": "A disposition is commercially reasonable if:",
+    "options": [
+      "It maximizes price in every case",
+      "It follows accepted market practices and is conducted fairly",
+      "It happens quickly",
+      "It is secret"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. It follows accepted market practices and is conducted fairly"
+  },
+  {
+    "id": 165,
+    "topic": "UCC (Uniform Commercial Code)",
+    "question": "A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
+    "options": [
+      "Subject to all unknown liens",
+      "Free of the debtor\u2019s interest and subordinate security interests if disposition complies",
+      "Nothing",
+      "Only partial title"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Free of the debtor\u2019s interest and subordinate security interests if disposition complies"
+  },
+  {
+    "id": 166,
+    "topic": "Auction Basics",
+    "question": "A disposition is commercially reasonable if:",
+    "options": [
+      "It maximizes price in every case",
+      "It follows accepted market practices and is conducted fairly",
+      "It happens quickly",
+      "It is secret"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. It follows accepted market practices and is conducted fairly"
+  },
+  {
+    "id": 167,
+    "topic": "Contract Law",
+    "question": "A security agreement is:",
+    "options": [
+      "Auction contract between buyer and auctioneer",
+      "Agreement creating or providing for a security interest",
+      "Bidder registration form",
+      "Tax exemption form"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Agreement creating or providing for a security interest"
+  },
+  {
+    "id": 168,
+    "topic": "Auction Basics",
+    "question": "After default, a secured party may dispose of collateral by:",
+    "options": [
+      "Only private sale",
+      "Public or private sale, including auction",
+      "Only court order sale",
+      "Only online"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
+  },
+  {
+    "id": 169,
+    "topic": "Auction Basics",
+    "question": "After default, a secured party may dispose of collateral by:",
+    "options": [
+      "Only private sale",
+      "Public or private sale, including auction",
+      "Only court order sale",
+      "Only online"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
+  },
+  {
+    "id": 170,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 171,
+    "topic": "Auction Basics",
+    "question": "A secured party purchasing collateral at a public disposition is:",
+    "options": [
+      "Prohibited",
+      "Allowed",
+      "Allowed only if debtor objects",
+      "Automatically void"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
+  },
+  {
+    "id": 172,
+    "topic": "Auction Basics",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
+    "options": [
+      "Puffery only",
+      "False, misleading, or deceptive act",
+      "Required advertising",
+      "Tax exemption"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. False, misleading, or deceptive act"
+  },
+  {
+    "id": 173,
+    "topic": "Auction Basics",
+    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
+    "options": [
+      "Only UCC remedies",
+      "DTPA liability",
+      "No consequences",
+      "Automatic license renewal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. DTPA liability"
+  },
+  {
+    "id": 174,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 175,
+    "topic": "State-Specific Laws",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
+    "options": [
+      "Only auctioneers",
+      "Consumers from false, misleading, or deceptive acts",
+      "Only banks",
+      "Only wholesalers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Consumers from false, misleading, or deceptive acts"
+  },
+  {
+    "id": 176,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 177,
+    "topic": "Contract Law",
+    "question": "A security agreement is:",
+    "options": [
+      "Auction contract between buyer and auctioneer",
+      "Agreement creating or providing for a security interest",
+      "Bidder registration form",
+      "Tax exemption form"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Agreement creating or providing for a security interest"
+  },
+  {
+    "id": 178,
+    "topic": "Auction Basics",
+    "question": "After default, a secured party may dispose of collateral by:",
+    "options": [
+      "Only private sale",
+      "Public or private sale, including auction",
+      "Only court order sale",
+      "Only online"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
+  },
+  {
+    "id": 179,
+    "topic": "Auction Basics",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
+    "options": [
+      "Puffery only",
+      "False, misleading, or deceptive act",
+      "Required advertising",
+      "Tax exemption"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. False, misleading, or deceptive act"
+  },
+  {
+    "id": 180,
+    "topic": "Auction Basics",
+    "question": "A secured party purchasing collateral at a public disposition is:",
+    "options": [
+      "Prohibited",
+      "Allowed",
+      "Allowed only if debtor objects",
+      "Automatically void"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
+  },
+  {
+    "id": 181,
+    "topic": "Auction Basics",
+    "question": "A disposition is commercially reasonable if:",
+    "options": [
+      "It maximizes price in every case",
+      "It follows accepted market practices and is conducted fairly",
+      "It happens quickly",
+      "It is secret"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. It follows accepted market practices and is conducted fairly"
+  },
+  {
+    "id": 182,
+    "topic": "Auction Basics",
+    "question": "A secured party purchasing collateral at a public disposition is:",
+    "options": [
+      "Prohibited",
+      "Allowed",
+      "Allowed only if debtor objects",
+      "Automatically void"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
+  },
+  {
+    "id": 183,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 184,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 185,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 186,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 187,
+    "topic": "Auction Basics",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
+    "options": [
+      "Puffery only",
+      "False, misleading, or deceptive act",
+      "Required advertising",
+      "Tax exemption"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. False, misleading, or deceptive act"
+  },
+  {
+    "id": 188,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 189,
+    "topic": "Auction Basics",
+    "question": "After default, a secured party may dispose of collateral by:",
+    "options": [
+      "Only private sale",
+      "Public or private sale, including auction",
+      "Only court order sale",
+      "Only online"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
+  },
+  {
+    "id": 190,
+    "topic": "Auction Basics",
+    "question": "After default, a secured party may dispose of collateral by:",
+    "options": [
+      "Only private sale",
+      "Public or private sale, including auction",
+      "Only court order sale",
+      "Only online"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
+  },
+  {
+    "id": 191,
+    "topic": "Contract Law",
+    "question": "A security agreement is:",
+    "options": [
+      "Auction contract between buyer and auctioneer",
+      "Agreement creating or providing for a security interest",
+      "Bidder registration form",
+      "Tax exemption form"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Agreement creating or providing for a security interest"
+  },
+  {
+    "id": 192,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 193,
+    "topic": "Auction Basics",
+    "question": "A secured party purchasing collateral at a public disposition is:",
+    "options": [
+      "Prohibited",
+      "Allowed",
+      "Allowed only if debtor objects",
+      "Automatically void"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
+  },
+  {
+    "id": 194,
+    "topic": "Auction Basics",
+    "question": "A secured party purchasing collateral at a public disposition is:",
+    "options": [
+      "Prohibited",
+      "Allowed",
+      "Allowed only if debtor objects",
+      "Automatically void"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Allowed"
+  },
+  {
+    "id": 195,
+    "topic": "State-Specific Laws",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
+    "options": [
+      "Only auctioneers",
+      "Consumers from false, misleading, or deceptive acts",
+      "Only banks",
+      "Only wholesalers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Consumers from false, misleading, or deceptive acts"
+  },
+  {
+    "id": 196,
+    "topic": "Auction Basics",
+    "question": "After default, a secured party may dispose of collateral by:",
+    "options": [
+      "Only private sale",
+      "Public or private sale, including auction",
+      "Only court order sale",
+      "Only online"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Public or private sale, including auction"
+  },
+  {
+    "id": 197,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 198,
+    "topic": "Bidding Procedures",
+    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
+    "options": [
+      "Standard practice",
+      "Deceptive and unethical conduct",
+      "Required in reserve auctions",
+      "Buyer protection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive and unethical conduct"
+  },
+  {
+    "id": 199,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
+  },
+  {
+    "id": 200,
+    "topic": "Auction Basics",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "options": [
+      "Proper compliance",
+      "Failure of required notification under Article 9",
+      "No rights after default",
+      "Automatic forgiveness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Failure of required notification under Article 9"
   },
   {
     "id": 201,
@@ -6538,8 +6538,8 @@ export const questionBank = {
       "Wildlife regulations",
       "Alcohol permits"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Secured transactions"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Unauthorized use of identifying information and data breach notification"
   },
   {
     "id": 202,
@@ -6551,12 +6551,12 @@ export const questionBank = {
       "Hammer price only",
       "Auctioneer license number only"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only a name"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Information such as SSN, driver\u2019s license number, or financial account data"
   },
   {
     "id": 203,
-    "topic": "Auction Basics",
+    "topic": "Consumer Protection",
     "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
     "options": [
       "A civil tort only",
@@ -6564,8 +6564,8 @@ export const questionBank = {
       "No violation",
       "A surcharge violation"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. A civil tort only"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. An offense of fraudulent use or possession of identifying information"
   },
   {
     "id": 204,
@@ -6577,8 +6577,8 @@ export const questionBank = {
       "Only after 2 years",
       "Only if asked"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Never"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. As quickly as possible after discovering the breach"
   },
   {
     "id": 205,
@@ -6590,8 +6590,8 @@ export const questionBank = {
       "Buyer premium percentage",
       "Reserve price"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant training"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Description of breach and type of sensitive info involved"
   },
   {
     "id": 206,
@@ -6603,8 +6603,8 @@ export const questionBank = {
       "Buyer premiums",
       "Auction reserves"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Sales tax"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Certain surcharges for credit card use"
   },
   {
     "id": 207,
@@ -6616,8 +6616,8 @@ export const questionBank = {
       "Sales tax",
       "Deposit"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Buyer premium"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Extra fee imposed specifically for using a credit card instead of cash"
   },
   {
     "id": 208,
@@ -6629,8 +6629,8 @@ export const questionBank = {
       "Required",
       "Treated the same as fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Always illegal"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Generally permitted distinction from a surcharge"
   },
   {
     "id": 209,
@@ -6642,8 +6642,8 @@ export const questionBank = {
       "Wildlife licenses",
       "Bank repossessions"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Manufactured housing regulations"
   },
   {
     "id": 210,
@@ -6655,8 +6655,8 @@ export const questionBank = {
       "UCC 2.328 only",
       "No regulations"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only buyer registration"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Title and installation standards under TDHCA rules"
   },
   {
     "id": 211,
@@ -6681,8 +6681,8 @@ export const questionBank = {
       "License renewal",
       "No consequence"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Automatic exemption"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Regulatory violations and penalties"
   },
   {
     "id": 213,
@@ -6707,12 +6707,12 @@ export const questionBank = {
       "Pay tax only if asked",
       "Ignore online sales"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Keep no records"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Remit collected tax according to state requirements"
   },
   {
     "id": 215,
-    "topic": "Bidding Procedures",
+    "topic": "Ethics and Professional Conduct",
     "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
     "options": [
       "Raise buyer premiums",
@@ -6720,12 +6720,12 @@ export const questionBank = {
       "Cancel its license automatically",
       "Ignore unless police request"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Raise buyer premiums"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide breach notification as required under Chapter 521"
   },
   {
     "id": 216,
-    "topic": "Consumer Protection",
+    "topic": "Auction Basics",
     "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
     "options": [
       "UCC 2.328",
@@ -6733,12 +6733,12 @@ export const questionBank = {
       "Wildlife rules",
       "Manufactured housing rules"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. UCC 2.328"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Chapter 604A surcharge restrictions"
   },
   {
     "id": 217,
-    "topic": "Auction Basics",
+    "topic": "Real Estate Auctions",
     "question": "An auctioneer sells a manufactured home but fails to ensure proper title transfer. This is most connected to:",
     "options": [
       "DTPA only",
@@ -6746,8 +6746,8 @@ export const questionBank = {
       "UCC 9 collateral rules only",
       "Alcohol permits"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. DTPA only"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Manufactured housing administrative rules"
   },
   {
     "id": 218,
@@ -6759,8 +6759,8 @@ export const questionBank = {
       "Required",
       "Treated the same as fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Always illegal"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Generally permitted distinction from a surcharge"
   },
   {
     "id": 219,
@@ -6772,8 +6772,8 @@ export const questionBank = {
       "Required",
       "Treated the same as fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Always illegal"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Generally permitted distinction from a surcharge"
   },
   {
     "id": 220,
@@ -6785,8 +6785,8 @@ export const questionBank = {
       "Buyer premium percentage",
       "Reserve price"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant training"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Description of breach and type of sensitive info involved"
   },
   {
     "id": 221,
@@ -6798,8 +6798,8 @@ export const questionBank = {
       "License renewal",
       "No consequence"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Automatic exemption"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Regulatory violations and penalties"
   },
   {
     "id": 222,
@@ -6811,12 +6811,12 @@ export const questionBank = {
       "Buyer premium percentage",
       "Reserve price"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant training"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Description of breach and type of sensitive info involved"
   },
   {
     "id": 223,
-    "topic": "Consumer Protection",
+    "topic": "Auction Basics",
     "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
     "options": [
       "UCC 2.328",
@@ -6824,8 +6824,8 @@ export const questionBank = {
       "Wildlife rules",
       "Manufactured housing rules"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. UCC 2.328"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Chapter 604A surcharge restrictions"
   },
   {
     "id": 224,
@@ -6837,8 +6837,8 @@ export const questionBank = {
       "License renewal",
       "No consequence"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Automatic exemption"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Regulatory violations and penalties"
   },
   {
     "id": 225,
@@ -6850,12 +6850,12 @@ export const questionBank = {
       "Required",
       "Treated the same as fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Always illegal"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Generally permitted distinction from a surcharge"
   },
   {
     "id": 226,
-    "topic": "Auction Basics",
+    "topic": "Consumer Protection",
     "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
     "options": [
       "A civil tort only",
@@ -6863,8 +6863,8 @@ export const questionBank = {
       "No violation",
       "A surcharge violation"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. A civil tort only"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. An offense of fraudulent use or possession of identifying information"
   },
   {
     "id": 227,
@@ -6876,8 +6876,8 @@ export const questionBank = {
       "Buyer premium percentage",
       "Reserve price"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant training"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Description of breach and type of sensitive info involved"
   },
   {
     "id": 228,
@@ -6889,8 +6889,8 @@ export const questionBank = {
       "Wildlife regulations",
       "Alcohol permits"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Secured transactions"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Unauthorized use of identifying information and data breach notification"
   },
   {
     "id": 229,
@@ -6902,12 +6902,12 @@ export const questionBank = {
       "Buyer premium percentage",
       "Reserve price"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant training"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Description of breach and type of sensitive info involved"
   },
   {
     "id": 230,
-    "topic": "Consumer Protection",
+    "topic": "Auction Basics",
     "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
     "options": [
       "UCC 2.328",
@@ -6915,8 +6915,8 @@ export const questionBank = {
       "Wildlife rules",
       "Manufactured housing rules"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. UCC 2.328"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Chapter 604A surcharge restrictions"
   },
   {
     "id": 231,
@@ -6928,8 +6928,8 @@ export const questionBank = {
       "Wildlife licenses",
       "Bank repossessions"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Manufactured housing regulations"
   },
   {
     "id": 232,
@@ -6941,12 +6941,12 @@ export const questionBank = {
       "Required",
       "Treated the same as fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Always illegal"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Generally permitted distinction from a surcharge"
   },
   {
     "id": 233,
-    "topic": "Bidding Procedures",
+    "topic": "Ethics and Professional Conduct",
     "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
     "options": [
       "Raise buyer premiums",
@@ -6954,8 +6954,8 @@ export const questionBank = {
       "Cancel its license automatically",
       "Ignore unless police request"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Raise buyer premiums"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide breach notification as required under Chapter 521"
   },
   {
     "id": 234,
@@ -6980,8 +6980,8 @@ export const questionBank = {
       "Wildlife licenses",
       "Bank repossessions"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Manufactured housing regulations"
   },
   {
     "id": 236,
@@ -6993,8 +6993,8 @@ export const questionBank = {
       "Wildlife licenses",
       "Bank repossessions"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Manufactured housing regulations"
   },
   {
     "id": 237,
@@ -7006,8 +7006,8 @@ export const questionBank = {
       "Wildlife licenses",
       "Bank repossessions"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Manufactured housing regulations"
   },
   {
     "id": 238,
@@ -7019,12 +7019,12 @@ export const questionBank = {
       "Wildlife licenses",
       "Bank repossessions"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Manufactured housing regulations"
   },
   {
     "id": 239,
-    "topic": "Auction Basics",
+    "topic": "Consumer Protection",
     "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
     "options": [
       "A civil tort only",
@@ -7032,8 +7032,8 @@ export const questionBank = {
       "No violation",
       "A surcharge violation"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. A civil tort only"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. An offense of fraudulent use or possession of identifying information"
   },
   {
     "id": 240,
@@ -7045,12 +7045,12 @@ export const questionBank = {
       "UCC 2.328 only",
       "No regulations"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only buyer registration"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Title and installation standards under TDHCA rules"
   },
   {
     "id": 241,
-    "topic": "Bidding Procedures",
+    "topic": "Ethics and Professional Conduct",
     "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
     "options": [
       "Raise buyer premiums",
@@ -7058,12 +7058,12 @@ export const questionBank = {
       "Cancel its license automatically",
       "Ignore unless police request"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Raise buyer premiums"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide breach notification as required under Chapter 521"
   },
   {
     "id": 242,
-    "topic": "Bidding Procedures",
+    "topic": "Ethics and Professional Conduct",
     "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
     "options": [
       "Raise buyer premiums",
@@ -7071,8 +7071,8 @@ export const questionBank = {
       "Cancel its license automatically",
       "Ignore unless police request"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Raise buyer premiums"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide breach notification as required under Chapter 521"
   },
   {
     "id": 243,
@@ -7084,8 +7084,8 @@ export const questionBank = {
       "UCC 2.328 only",
       "No regulations"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only buyer registration"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Title and installation standards under TDHCA rules"
   },
   {
     "id": 244,
@@ -7110,8 +7110,8 @@ export const questionBank = {
       "Required",
       "Treated the same as fraud"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Always illegal"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Generally permitted distinction from a surcharge"
   },
   {
     "id": 246,
@@ -7123,8 +7123,8 @@ export const questionBank = {
       "Wildlife regulations",
       "Alcohol permits"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Secured transactions"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Unauthorized use of identifying information and data breach notification"
   },
   {
     "id": 247,
@@ -7136,8 +7136,8 @@ export const questionBank = {
       "UCC 2.328 only",
       "No regulations"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Only buyer registration"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Title and installation standards under TDHCA rules"
   },
   {
     "id": 248,
@@ -7149,8 +7149,8 @@ export const questionBank = {
       "Buyer premium percentage",
       "Reserve price"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Auction chant training"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Description of breach and type of sensitive info involved"
   },
   {
     "id": 249,
@@ -7188,8 +7188,8 @@ export const questionBank = {
       "Announce only after sale",
       "Disclose only to sellers"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Keep terms vague"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Clearly disclose premiums, reserves, and payment requirements before bidding"
   },
   {
     "id": 252,
@@ -7201,8 +7201,8 @@ export const questionBank = {
       "A cash discount",
       "Required in reserve auctions"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Encouraged"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Using fake bids to artificially raise price"
   },
   {
     "id": 253,
@@ -7214,8 +7214,8 @@ export const questionBank = {
       "Holding indefinitely",
       "Paying staff bonuses first"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Mixing with operating funds"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Separate accounting and prompt remittance"
   },
   {
     "id": 254,
@@ -7227,12 +7227,12 @@ export const questionBank = {
       "Let bidders decide",
       "Cancel auction immediately"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Ignore it"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Follow the published conditions of sale and document the resolution"
   },
   {
     "id": 255,
-    "topic": "Auction Basics",
+    "topic": "Ethics and Professional Conduct",
     "question": "If an auctioneer has a conflict of interest, they should:",
     "options": [
       "Hide it",
@@ -7240,8 +7240,8 @@ export const questionBank = {
       "Raise bids secretly",
       "Withdraw license"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Hide it"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Disclose it clearly"
   },
   {
     "id": 256,
@@ -7253,8 +7253,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 257,
@@ -7266,8 +7266,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 258,
@@ -7279,8 +7279,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 259,
@@ -7292,8 +7292,8 @@ export const questionBank = {
       "Increase chant speed",
       "Replace licensing"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Avoid paying taxes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide accountability and respond to disputes or audits"
   },
   {
     "id": 260,
@@ -7305,8 +7305,8 @@ export const questionBank = {
       "Increase chant speed",
       "Replace licensing"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Avoid paying taxes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide accountability and respond to disputes or audits"
   },
   {
     "id": 261,
@@ -7318,8 +7318,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 262,
@@ -7331,8 +7331,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 263,
@@ -7344,8 +7344,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 264,
@@ -7357,8 +7357,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 265,
@@ -7370,8 +7370,8 @@ export const questionBank = {
       "Increase chant speed",
       "Replace licensing"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Avoid paying taxes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide accountability and respond to disputes or audits"
   },
   {
     "id": 266,
@@ -7383,8 +7383,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 267,
@@ -7396,8 +7396,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 268,
@@ -7409,8 +7409,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 269,
@@ -7422,8 +7422,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 270,
@@ -7435,8 +7435,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 271,
@@ -7448,8 +7448,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 272,
@@ -7461,8 +7461,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 273,
@@ -7474,8 +7474,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 274,
@@ -7487,8 +7487,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 275,
@@ -7500,8 +7500,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 276,
@@ -7513,8 +7513,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 277,
@@ -7526,8 +7526,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 278,
@@ -7539,8 +7539,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 279,
@@ -7552,8 +7552,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 280,
@@ -7565,8 +7565,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 281,
@@ -7578,8 +7578,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 282,
@@ -7591,8 +7591,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 283,
@@ -7604,8 +7604,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 284,
@@ -7617,8 +7617,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 285,
@@ -7630,8 +7630,8 @@ export const questionBank = {
       "Increase chant speed",
       "Replace licensing"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Avoid paying taxes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide accountability and respond to disputes or audits"
   },
   {
     "id": 286,
@@ -7643,8 +7643,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 287,
@@ -7656,8 +7656,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 288,
@@ -7669,8 +7669,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 289,
@@ -7682,8 +7682,8 @@ export const questionBank = {
       "Increase chant speed",
       "Replace licensing"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Avoid paying taxes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide accountability and respond to disputes or audits"
   },
   {
     "id": 290,
@@ -7695,8 +7695,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 291,
@@ -7708,8 +7708,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 292,
@@ -7721,8 +7721,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 293,
@@ -7734,8 +7734,8 @@ export const questionBank = {
       "Automatic exemption",
       "Required conduct"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. No issue"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Deceptive trade practice liability"
   },
   {
     "id": 294,
@@ -7747,8 +7747,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 295,
@@ -7760,8 +7760,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 296,
@@ -7773,8 +7773,8 @@ export const questionBank = {
       "Post SSNs publicly",
       "Ignore privacy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Collect unnecessary sensitive data"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Collect only what is needed and protect it securely"
   },
   {
     "id": 297,
@@ -7786,8 +7786,8 @@ export const questionBank = {
       "Increase chant speed",
       "Replace licensing"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Avoid paying taxes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide accountability and respond to disputes or audits"
   },
   {
     "id": 298,
@@ -7799,8 +7799,8 @@ export const questionBank = {
       "Increase chant speed",
       "Replace licensing"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Avoid paying taxes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide accountability and respond to disputes or audits"
   },
   {
     "id": 299,
@@ -7812,8 +7812,8 @@ export const questionBank = {
       "Always illegal",
       "Required"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. The same as a surcharge"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. A permissible pricing structure distinct from a surcharge"
   },
   {
     "id": 300,
@@ -7825,8 +7825,8 @@ export const questionBank = {
       "Increase chant speed",
       "Replace licensing"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is A. Avoid paying taxes"
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Provide accountability and respond to disputes or audits"
   }
 ]
 };
