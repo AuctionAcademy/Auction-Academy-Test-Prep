@@ -2,6 +2,14 @@
 
 A comprehensive web application designed to help auctioneer students prepare for their state licensing exams. Built with React and modern web technologies.
 
+## ⚠️ Important: How to Run This App
+
+**This is a React web application that CANNOT be opened directly by double-clicking `index.html`.** 
+
+You must either:
+1. **Run the development server** (recommended for testing) - See [Quick Start](#-quick-start) below
+2. **Build and serve the production version** - See [Deployment Guide](#-deployment-guide) below
+
 ## 🎯 Features
 
 ### State-Specific Preparation
@@ -55,45 +63,69 @@ A comprehensive web application designed to help auctioneer students prepare for
 - **Results Review**: Comprehensive breakdown of performance
 - **Time Tracking**: Monitor how long you spend on tests
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+- **Node.js** (v16 or higher) - [Download here](https://nodejs.org/)
+- **npm** (comes with Node.js)
 
-### Installation
+### Option 1: Run Development Server (Recommended for Testing)
 
-1. Clone the repository:
+1. **Download or clone the repository:**
 ```bash
 git clone https://github.com/AuctionAcademy/Auction-Academy-Test-Prep.git
 cd Auction-Academy-Test-Prep
 ```
 
-2. Install dependencies:
+2. **Install dependencies:**
 ```bash
 npm install
 ```
 
-3. Start the development server:
+3. **Start the development server:**
 ```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+4. **Open your browser** and navigate to: `http://localhost:5173`
 
-### Building for Production
+The app will automatically reload when you make changes!
 
+### Option 2: Build and Deploy for Production
+
+1. **Install dependencies** (if you haven't already):
+```bash
+npm install
+```
+
+2. **Build the production version:**
 ```bash
 npm run build
 ```
 
-This will create an optimized production build in the `dist` folder.
+This creates an optimized build in the `dist/` folder.
 
-### Preview Production Build
+3. **Serve the built files:**
 
+You can use any static file server. Here are a few options:
+
+**Using Node.js `serve` package (easiest):**
 ```bash
-npm run preview
+npm install -g serve
+serve -s dist -p 3000
 ```
+Then open `http://localhost:3000`
+
+**Using Python (if you have Python installed):**
+```bash
+cd dist
+python -m http.server 8000
+```
+Then open `http://localhost:8000`
+
+**Using VS Code Live Server extension:**
+- Install the "Live Server" extension in VS Code
+- Right-click on `dist/index.html` and select "Open with Live Server"
 
 ## 📱 Usage
 
@@ -137,6 +169,79 @@ src/
 ├── main.jsx             # App entry point
 └── index.css            # Global styles
 ```
+
+## 🚨 Troubleshooting
+
+### "The app won't load when I open index.html"
+
+**Problem:** You're trying to open the file directly using `file://` protocol (e.g., `file:///Users/username/Downloads/...index.html`)
+
+**Why it doesn't work:**
+- This is a React application that uses JavaScript modules
+- Modern browsers block JavaScript modules loaded via `file://` for security reasons (CORS policy)
+- The app needs to be served through a web server (HTTP/HTTPS protocol)
+
+**Solution:** Follow the [Quick Start](#-quick-start) guide above to either:
+1. Run the development server (`npm run dev`)
+2. Build and serve the production version
+
+### "I don't have Node.js installed"
+
+**Solution:** 
+1. Download Node.js from [nodejs.org](https://nodejs.org/)
+2. Install it (this also installs npm)
+3. Restart your terminal/command prompt
+4. Verify installation: `node --version` and `npm --version`
+
+### "npm install fails"
+
+**Solutions:**
+- Make sure you're in the correct directory (where `package.json` is located)
+- Try deleting `node_modules` folder and `package-lock.json`, then run `npm install` again
+- Make sure you have a stable internet connection
+- Try running with admin/sudo privileges if permission errors occur
+
+### "Port 5173 is already in use"
+
+**Solution:**
+- Kill the process using that port, or
+- Vite will automatically try the next available port
+- Check the terminal output for the actual URL
+
+## 📤 Deployment Guide
+
+### Deploying to Web Servers
+
+After building (`npm run build`), upload the contents of the `dist/` folder to your web server.
+
+### Popular Hosting Options
+
+**Netlify (Free & Easy):**
+1. Sign up at [netlify.com](https://netlify.com)
+2. Drag and drop the `dist` folder
+3. Your app is live!
+
+**Vercel (Free & Easy):**
+1. Sign up at [vercel.com](https://vercel.com)
+2. Install Vercel CLI: `npm install -g vercel`
+3. Run: `vercel --prod`
+
+**GitHub Pages:**
+1. Build the project: `npm run build`
+2. Install gh-pages: `npm install -g gh-pages`
+3. Deploy: `gh-pages -d dist`
+
+**Traditional Web Hosting (cPanel, etc.):**
+1. Build the project: `npm run build`
+2. Upload everything in the `dist/` folder via FTP
+3. Configure your web server to serve `index.html` for all routes (SPA configuration)
+
+### Important Note for Production
+
+Make sure your web server is configured to:
+- Serve `index.html` for all routes (SPA configuration)
+- Enable gzip compression for faster loading
+- Set proper caching headers for static assets
 
 ## 🔧 Development
 
