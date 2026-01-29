@@ -3,7 +3,9 @@ import { getAvailableTopics } from '../data/questionBank';
 import './Dashboard.css';
 
 function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide }) {
-  const [selectedTopic, setSelectedTopic] = useState('');
+  const [quizTopic, setQuizTopic] = useState('');
+  const [flashcardTopic, setFlashcardTopic] = useState('');
+  const [gameTopic, setGameTopic] = useState('');
   const [quizSize, setQuizSize] = useState(10);
   
   // Get topics that actually have questions for the selected state
@@ -52,8 +54,8 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             
             <div className="quiz-options">
               <select 
-                value={selectedTopic} 
-                onChange={(e) => setSelectedTopic(e.target.value)}
+                value={quizTopic} 
+                onChange={(e) => setQuizTopic(e.target.value)}
                 className="topic-select"
               >
                 <option value="">All Topics</option>
@@ -75,7 +77,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             </div>
 
             <button 
-              onClick={() => onStartQuiz(selectedTopic, quizSize)} 
+              onClick={() => onStartQuiz(quizTopic, quizSize)} 
               className="btn-mode"
             >
               Start Quiz
@@ -90,8 +92,8 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             
             <div className="quiz-options">
               <select 
-                value={selectedTopic} 
-                onChange={(e) => setSelectedTopic(e.target.value)}
+                value={flashcardTopic} 
+                onChange={(e) => setFlashcardTopic(e.target.value)}
                 className="topic-select"
               >
                 <option value="">All Topics</option>
@@ -102,7 +104,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             </div>
 
             <button 
-              onClick={() => onStartFlashcards(selectedTopic)} 
+              onClick={() => onStartFlashcards(flashcardTopic)} 
               className="btn-mode"
             >
               Start Flashcards
@@ -117,8 +119,8 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             
             <div className="quiz-options">
               <select 
-                value={selectedTopic} 
-                onChange={(e) => setSelectedTopic(e.target.value)}
+                value={gameTopic} 
+                onChange={(e) => setGameTopic(e.target.value)}
                 className="topic-select"
               >
                 <option value="">All Topics</option>
@@ -129,7 +131,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             </div>
 
             <button 
-              onClick={() => onStartGame(selectedTopic)} 
+              onClick={() => onStartGame(gameTopic)} 
               className="btn-mode"
             >
               Play Game
