@@ -10,6 +10,8 @@ You must either:
 1. **Run the development server** (recommended for testing) - See [Quick Start](#-quick-start) below
 2. **Build and serve the production version** - See [Deployment Guide](#-deployment-guide) below
 
+📖 **[Click here for a simple 1-page guide](DEPLOYMENT.md)** if you're having trouble getting started.
+
 ## 🎯 Features
 
 ### State-Specific Preparation
