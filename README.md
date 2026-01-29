@@ -4,7 +4,36 @@ A comprehensive web application designed to help auctioneer students prepare for
 
 ## 🚀 Simplest Way to Open This Website
 
-**First, open Terminal (Mac) or Command Prompt (Windows)**
+### 🍎 Mac Users
+**Use our automated setup script:**
+```bash
+cd Auction-Academy-Test-Prep
+chmod +x setup-unix.sh
+./setup-unix.sh
+```
+📘 **[Mac Setup Guide](MAC-SETUP.md)** - Complete guide for macOS users
+
+### 🪟 Windows Users
+**Double-click:** `setup-windows.bat`
+
+Or in Command Prompt:
+```cmd
+cd Auction-Academy-Test-Prep
+setup-windows.bat
+```
+
+### 🐧 Linux Users
+```bash
+cd Auction-Academy-Test-Prep
+chmod +x setup-unix.sh
+./setup-unix.sh
+```
+
+---
+
+### Manual Setup (All Platforms)
+
+**First, open Terminal (Mac/Linux) or Command Prompt (Windows)**
 
 Then run these commands:
 
