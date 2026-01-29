@@ -9,7 +9,7 @@ function Flashcards({ state, topic, onExit }) {
   const [knownCards, setKnownCards] = useState([]);
 
   useEffect(() => {
-    const cards = getQuizQuestions(state, topic, 20);
+    const cards = getQuizQuestions(state, 20, topic);
     setQuestions(cards);
   }, [state, topic]);
 

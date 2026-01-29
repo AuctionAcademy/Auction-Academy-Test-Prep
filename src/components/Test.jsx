@@ -14,7 +14,7 @@ function Test({ state, questionCount, topic, onExit }) {
     if (questionCount === 75) {
       setQuestions(getRandomQuestions(state, 75));
     } else {
-      setQuestions(getQuizQuestions(state, topic, questionCount));
+      setQuestions(getQuizQuestions(state, questionCount, topic));
     }
   }, [state, questionCount, topic]);
 

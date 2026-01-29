@@ -14,7 +14,7 @@ function Game({ state, topic, onExit }) {
   const [bestStreak, setBestStreak] = useState(0);
 
   useEffect(() => {
-    const gameQuestions = getQuizQuestions(state, topic, 15);
+    const gameQuestions = getQuizQuestions(state, 15, topic);
     setQuestions(gameQuestions);
     if (gameQuestions.length > 0) {
       loadNextQuestion(gameQuestions, 0);

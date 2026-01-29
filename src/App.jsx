@@ -15,15 +15,15 @@ function App() {
   const handleSelectState = (state, mode = null) => {
     setSelectedState(state)
     if (mode === 'test') {
-      setTestConfig({ questionCount: 75, topic: null })
+      setTestConfig({ questionCount: 75, topic: 'All Topics' })
       setMode('test')
     } else if (mode === 'quiz') {
       setMode('dashboard') // Go to dashboard to select topic
     } else if (mode === 'flashcards') {
-      setTestConfig({ topic: null })
+      setTestConfig({ topic: 'All Topics' })
       setMode('flashcards')
     } else if (mode === 'game') {
-      setTestConfig({ topic: null })
+      setTestConfig({ topic: 'All Topics' })
       setMode('game')
     } else {
       setMode('dashboard')
@@ -36,22 +36,22 @@ function App() {
   }
 
   const handleStartTest = (questionCount) => {
-    setTestConfig({ questionCount, topic: null })
+    setTestConfig({ questionCount, topic: 'All Topics' })
     setMode('test')
   }
 
   const handleStartQuiz = (topic, questionCount) => {
-    setTestConfig({ questionCount, topic: topic || null })
+    setTestConfig({ questionCount, topic: topic || 'All Topics' })
     setMode('test')
   }
 
   const handleStartFlashcards = (topic) => {
-    setTestConfig({ topic: topic || null })
+    setTestConfig({ topic: topic || 'All Topics' })
     setMode('flashcards')
   }
 
   const handleStartGame = (topic) => {
-    setTestConfig({ topic: topic || null })
+    setTestConfig({ topic: topic || 'All Topics' })
     setMode('game')
   }
 
