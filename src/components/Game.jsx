@@ -1,135 +1,124 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import { getQuizQuestions } from '../data/questionBank';
 import './Game.css';
 
 function Game({ state, topic, onExit }) {
   const [gameState, setGameState] = useState('loading'); // loading, playing, paused, gameOver
   const [questions, setQuestions] = useState([]);
-  const [answers, setAnswers] = useState([]);
-  const [selectedQuestion, setSelectedQuestion] = useState(null);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [matchedPairs, setMatchedPairs] = useState([]);
-  const [incorrectPairs, setIncorrectPairs] = useState([]);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentAnswers, setCurrentAnswers] = useState([]);
   const [score, setScore] = useState(0);
-  const [timeRemaining, setTimeRemaining] = useState(60); // 60 seconds
-  const [combo, setCombo] = useState(0);
-  const [bestCombo, setBestCombo] = useState(0);
+  const [timeRemaining, setTimeRemaining] = useState(60); // 60 seconds per question
+  const [correctAnswers, setCorrectAnswers] = useState(0);
+  const [blastingBubble, setBlastingBubble] = useState(null);
+  const [showFeedback, setShowFeedback] = useState(null); // { correct: bool, message: string }
 
   // Initialize game
   useEffect(() => {
-    const gameQuestions = getQuizQuestions(state, 8, topic); // Use 8 questions for matching
+    const gameQuestions = getQuizQuestions(state, 10, topic);
     if (gameQuestions.length > 0) {
-      const questionsList = gameQuestions.map((q, idx) => ({
-        id: idx,
-        text: q.question,
-        topic: q.topic,
-        correctAnswerId: idx
-      }));
-      
-      const answersList = gameQuestions.map((q, idx) => ({
-        id: idx,
-        text: q.options[q.correctAnswer],
-        explanation: q.explanation
-      }));
-      
-      // Shuffle answers to make it challenging
-      const shuffledAnswers = [...answersList].sort(() => Math.random() - 0.5);
-      
-      setQuestions(questionsList);
-      setAnswers(shuffledAnswers);
+      setQuestions(gameQuestions);
       setGameState('playing');
     }
   }, [state, topic]);
 
-  // Timer countdown
+  // Load current question's answers when question changes
+  useEffect(() => {
+    if (questions.length > 0 && currentQuestionIndex < questions.length) {
+      const question = questions[currentQuestionIndex];
+      // Get 4-5 options (current question has 4, we'll use all of them)
+      const answerOptions = question.options.map((opt, idx) => ({
+        id: idx,
+        text: opt,
+        isCorrect: idx === question.correctAnswer,
+        position: generateRandomPosition(idx)
+      }));
+      setCurrentAnswers(answerOptions);
+      setTimeRemaining(60); // Reset timer for new question
+      setShowFeedback(null);
+    }
+  }, [currentQuestionIndex, questions]);
+
+  // Generate random positions for floating bubbles
+  const generateRandomPosition = (index) => {
+    const positions = [
+      { top: '15%', left: '15%' },
+      { top: '20%', right: '15%' },
+      { top: '45%', left: '10%' },
+      { top: '40%', right: '12%' },
+      { top: '65%', left: '20%' },
+    ];
+    return positions[index % positions.length];
+  };
+
+  // Timer countdown for current question
   useEffect(() => {
     if (gameState !== 'playing') return;
     
     const timer = setInterval(() => {
       setTimeRemaining(prev => {
         if (prev <= 1) {
-          setGameState('gameOver');
-          return 0;
+          // Time's up for this question, move to next
+          handleTimeUp();
+          return 60;
         }
         return prev - 1;
       });
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [gameState]);
+  }, [gameState, currentQuestionIndex]);
 
-  // Check if game is complete
-  useEffect(() => {
-    if (gameState === 'playing' && matchedPairs.length === questions.length && questions.length > 0) {
+  const handleTimeUp = () => {
+    // Move to next question or end game
+    if (currentQuestionIndex < questions.length - 1) {
+      setCurrentQuestionIndex(prev => prev + 1);
+    } else {
       setGameState('gameOver');
     }
-  }, [matchedPairs, questions, gameState]);
-
-  const handleQuestionClick = (questionId) => {
-    if (matchedPairs.includes(questionId)) return;
-    
-    if (selectedQuestion === questionId) {
-      setSelectedQuestion(null);
-    } else {
-      setSelectedQuestion(questionId);
-      
-      // If an answer is already selected, try to match
-      if (selectedAnswer !== null) {
-        checkMatch(questionId, selectedAnswer);
-      }
-    }
   };
 
-  const handleAnswerClick = (answerId) => {
-    if (matchedPairs.includes(answerId)) return;
-    
-    if (selectedAnswer === answerId) {
-      setSelectedAnswer(null);
-    } else {
-      setSelectedAnswer(answerId);
-      
-      // If a question is already selected, try to match
-      if (selectedQuestion !== null) {
-        checkMatch(selectedQuestion, answerId);
-      }
-    }
-  };
+  const handleBubbleClick = (answer) => {
+    if (showFeedback) return; // Prevent clicking while feedback is showing
 
-  const checkMatch = (questionId, answerId) => {
-    const question = questions.find(q => q.id === questionId);
-    
-    if (question && question.correctAnswerId === answerId) {
-      // Correct match!
-      setMatchedPairs([...matchedPairs, questionId]);
-      const newCombo = combo + 1;
-      setCombo(newCombo);
-      if (newCombo > bestCombo) {
-        setBestCombo(newCombo);
+    setBlastingBubble(answer.id);
+
+    setTimeout(() => {
+      setBlastingBubble(null);
+      
+      if (answer.isCorrect) {
+        // Correct answer!
+        const timeBonus = Math.floor(timeRemaining * 2); // Up to 120 bonus points
+        const totalPoints = 100 + timeBonus;
+        setScore(prev => prev + totalPoints);
+        setCorrectAnswers(prev => prev + 1);
+        
+        setShowFeedback({
+          correct: true,
+          message: `🚀 Direct Hit! +${totalPoints} points`
+        });
+
+        // Move to next question after showing feedback
+        setTimeout(() => {
+          if (currentQuestionIndex < questions.length - 1) {
+            setCurrentQuestionIndex(prev => prev + 1);
+          } else {
+            setGameState('gameOver');
+          }
+        }, 1500);
+      } else {
+        // Wrong answer
+        setShowFeedback({
+          correct: false,
+          message: '💥 Missed! Try again!'
+        });
+
+        // Clear feedback and allow another attempt
+        setTimeout(() => {
+          setShowFeedback(null);
+        }, 1000);
       }
-      
-      // Calculate points: base + time bonus + combo bonus
-      const basePoints = 100;
-      const timeBonus = Math.floor(timeRemaining / 2); // Up to 30 bonus points
-      const comboBonus = newCombo * 10;
-      const totalPoints = basePoints + timeBonus + comboBonus;
-      
-      setScore(score + totalPoints);
-      
-      // Clear selections
-      setSelectedQuestion(null);
-      setSelectedAnswer(null);
-    } else {
-      // Incorrect match
-      setIncorrectPairs([...incorrectPairs, { questionId, answerId }]);
-      setCombo(0);
-      
-      // Flash red and clear after delay
-      setTimeout(() => {
-        setIncorrectPairs([]);
-        setSelectedQuestion(null);
-        setSelectedAnswer(null);
-      }, 800);
-    }
+    }, 300);
   };
 
   const togglePause = () => {
@@ -138,41 +127,40 @@ function Game({ state, topic, onExit }) {
 
   if (gameState === 'loading' || questions.length === 0) {
     return (
-      <div className="game-container">
-        <div className="loading">Loading matching game...</div>
+      <div className="space-container">
+        <div className="loading">🚀 Loading Space Mission...</div>
       </div>
     );
   }
 
   if (gameState === 'gameOver') {
-    const totalPossibleScore = questions.length * 100 + 30 * questions.length; // Base + max time bonus
-    const percentage = questions.length > 0 ? Math.round((score / totalPossibleScore) * 100) : 0;
+    const accuracy = questions.length > 0 ? Math.round((correctAnswers / questions.length) * 100) : 0;
 
     return (
-      <div className="game-container">
+      <div className="space-container">
         <div className="game-over">
-          <h2>⏰ Time's Up!</h2>
+          <h2>🚀 Mission Complete!</h2>
           <div className="final-score">
             <div className="score-big">{score}</div>
             <div className="score-label">Final Score</div>
           </div>
           <div className="game-stats">
             <div className="stat">
-              <div className="stat-value">{matchedPairs.length}/{questions.length}</div>
-              <div className="stat-label">Matched</div>
+              <div className="stat-value">{correctAnswers}/{questions.length}</div>
+              <div className="stat-label">Targets Hit</div>
             </div>
             <div className="stat">
-              <div className="stat-value">{percentage}%</div>
-              <div className="stat-label">Efficiency</div>
+              <div className="stat-value">{accuracy}%</div>
+              <div className="stat-label">Accuracy</div>
             </div>
             <div className="stat">
-              <div className="stat-value">{bestCombo}</div>
-              <div className="stat-label">Best Combo</div>
+              <div className="stat-value">{Math.round(score / (correctAnswers || 1))}</div>
+              <div className="stat-label">Avg Points</div>
             </div>
           </div>
           <div className="game-actions">
             <button onClick={onExit} className="btn-primary">
-              Back to Dashboard
+              Return to Base
             </button>
           </div>
         </div>
@@ -180,6 +168,7 @@ function Game({ state, topic, onExit }) {
     );
   }
 
+  const currentQuestion = questions[currentQuestionIndex];
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
@@ -187,10 +176,10 @@ function Game({ state, topic, onExit }) {
   };
 
   return (
-    <div className="game-container">
+    <div className="space-container">
       <div className="game-header">
         <div className="game-info">
-          <h2>🎮 Matching Game</h2>
+          <h2>🚀 Space Shooter</h2>
           <p>{topic || 'All Topics'} - {state}</p>
         </div>
         <div className="header-controls">
@@ -213,73 +202,63 @@ function Game({ state, topic, onExit }) {
           <span>Score: {score}</span>
         </div>
         <div className="stat-item">
-          <span className="stat-icon">✓</span>
-          <span>{matchedPairs.length}/{questions.length} Matched</span>
+          <span className="stat-icon">📊</span>
+          <span>Question {currentQuestionIndex + 1}/{questions.length}</span>
         </div>
         <div className="stat-item">
-          <span className="stat-icon">🔥</span>
-          <span>Combo: {combo}</span>
+          <span className="stat-icon">✓</span>
+          <span>Hits: {correctAnswers}</span>
         </div>
       </div>
 
       {gameState === 'paused' && (
         <div className="pause-overlay" onClick={togglePause}>
           <div className="pause-message">
-            <h2>⏸️ Paused</h2>
+            <h2>⏸️ Mission Paused</h2>
             <p>Click anywhere to continue</p>
           </div>
         </div>
       )}
 
-      <div className="game-content">
-        <div className="instructions">
-          <p>💡 Click a question, then click its matching answer!</p>
+      <div className="space-game-area">
+        {/* Stars background effect */}
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
+
+        {/* Question display */}
+        <div className="question-display">
+          <div className="question-text">{currentQuestion.question}</div>
         </div>
 
-        <div className="matching-grid">
-          {/* Questions Column */}
-          <div className="questions-column">
-            <h3 className="column-header">Questions</h3>
-            {questions.map((question) => {
-              const isMatched = matchedPairs.includes(question.id);
-              const isSelected = selectedQuestion === question.id;
-              const isIncorrect = incorrectPairs.some(p => p.questionId === question.id);
-              
-              return (
-                <div
-                  key={question.id}
-                  className={`match-item question-item ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''} ${isIncorrect ? 'incorrect' : ''}`}
-                  onClick={() => !isMatched && handleQuestionClick(question.id)}
-                >
-                  <div className="match-number">{question.id + 1}</div>
-                  <div className="match-text">{question.text}</div>
-                  {isMatched && <div className="check-mark">✓</div>}
-                </div>
-              );
-            })}
-          </div>
-
-          {/* Answers Column */}
-          <div className="answers-column">
-            <h3 className="column-header">Answers</h3>
-            {answers.map((answer) => {
-              const isMatched = matchedPairs.includes(answer.id);
-              const isSelected = selectedAnswer === answer.id;
-              const isIncorrect = incorrectPairs.some(p => p.answerId === answer.id);
-              
-              return (
-                <div
-                  key={answer.id}
-                  className={`match-item answer-item ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''} ${isIncorrect ? 'incorrect' : ''}`}
-                  onClick={() => !isMatched && handleAnswerClick(answer.id)}
-                >
-                  <div className="match-text">{answer.text}</div>
-                  {isMatched && <div className="check-mark">✓</div>}
-                </div>
-              );
-            })}
-          </div>
+        {/* Answer bubbles floating in space */}
+        <div className="answer-bubbles">
+          {currentAnswers.map((answer) => (
+            <div
+              key={answer.id}
+              className={`bubble ${blastingBubble === answer.id ? 'blasting' : ''}`}
+              style={answer.position}
+              onClick={() => handleBubbleClick(answer)}
+            >
+              <div className="bubble-content">
+                {answer.text}
+              </div>
+            </div>
+          ))}
         </div>
+
+        {/* Rocket ship at bottom */}
+        <div className="rocket-ship">
+          <div className="rocket-body">🚀</div>
+          <div className="rocket-flame">🔥</div>
+        </div>
+
+        {/* Feedback message */}
+        {showFeedback && (
+          <div className={`feedback-message ${showFeedback.correct ? 'correct' : 'incorrect'}`}>
+            {showFeedback.message}
+          </div>
+        )}
       </div>
     </div>
   );
