@@ -37,6 +37,8 @@ You must either:
 
 📖 **[Click here for a simple 1-page guide](DEPLOYMENT.md)** if you're having trouble getting started.
 
+📘 **[Learn about Static vs Server Hosting](HOSTING-GUIDE.md)** - Understand hosting options for this app.
+
 ## 🎯 Features
 
 ### State-Specific Preparation
