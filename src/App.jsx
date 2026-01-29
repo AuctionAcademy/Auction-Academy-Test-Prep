@@ -11,9 +11,22 @@ function App() {
   const [mode, setMode] = useState('select') // select, dashboard, test, quiz, flashcards, game
   const [testConfig, setTestConfig] = useState({})
 
-  const handleSelectState = (state) => {
+  const handleSelectState = (state, mode = null) => {
     setSelectedState(state)
-    setMode('dashboard')
+    if (mode === 'test') {
+      setTestConfig({ questionCount: 75, topic: null })
+      setMode('test')
+    } else if (mode === 'quiz') {
+      setMode('dashboard') // Go to dashboard to select topic
+    } else if (mode === 'flashcards') {
+      setTestConfig({ topic: null })
+      setMode('flashcards')
+    } else if (mode === 'game') {
+      setTestConfig({ topic: null })
+      setMode('game')
+    } else {
+      setMode('dashboard')
+    }
   }
 
   const handleChangeState = () => {

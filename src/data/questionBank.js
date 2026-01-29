@@ -9,7 +9,7 @@ export const states = [
 
 export const topics = [
   'Auction Basics',
-  'Auction Calculations',
+  'Auction Math',
   'Contract Law',
   'Ethics and Professional Conduct',
   'Bidding Procedures',
@@ -28,8 +28,8 @@ export const questionBank = {
   'Tennessee': [
   {
     "id": 1,
-    "topic": "Auction Calculations",
-    "question": "Question 1. Hammer price is $1,000. Buyer\u2019s premium is 15%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,000. Buyer\u2019s premium is 15%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
     "options": [
       "$1,050",
       "$1,150",
@@ -41,8 +41,8 @@ export const questionBank = {
   },
   {
     "id": 2,
-    "topic": "Auction Calculations",
-    "question": "Question 2. Hammer price is $2,000. Buyer\u2019s premium is 10%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,000. Buyer\u2019s premium is 10%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
     "options": [
       "$2,100",
       "$2,200",
@@ -54,8 +54,8 @@ export const questionBank = {
   },
   {
     "id": 3,
-    "topic": "Auction Calculations",
-    "question": "Question 3. Hammer price is $3,000. Buyer\u2019s premium is 15%. Sales tax is 7% and is calculated on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,000. Buyer\u2019s premium is 15%. Sales tax is 7% and is calculated on the hammer price only. What is the total buyer cost?",
     "options": [
       "$3,210",
       "$3,450",
@@ -67,8 +67,8 @@ export const questionBank = {
   },
   {
     "id": 4,
-    "topic": "Auction Calculations",
-    "question": "Question 4. Hammer price is $4,000. Buyer\u2019s premium is 10%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $4,000. Buyer\u2019s premium is 10%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
     "options": [
       "$4,200",
       "$4,400",
@@ -80,8 +80,8 @@ export const questionBank = {
   },
   {
     "id": 5,
-    "topic": "Auction Calculations",
-    "question": "Question 5. Hammer price is $5,000. Buyer\u2019s premium is 15%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $5,000. Buyer\u2019s premium is 15%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
     "options": [
       "$5,250",
       "$5,750",
@@ -93,8 +93,8 @@ export const questionBank = {
   },
   {
     "id": 6,
-    "topic": "Auction Calculations",
-    "question": "Question 6. Hammer price is $6,000. Buyer\u2019s premium is 10%. Sales tax is 7% and is calculated on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $6,000. Buyer\u2019s premium is 10%. Sales tax is 7% and is calculated on the hammer price only. What is the total buyer cost?",
     "options": [
       "$6,420",
       "$6,600",
@@ -106,8 +106,8 @@ export const questionBank = {
   },
   {
     "id": 7,
-    "topic": "Auction Calculations",
-    "question": "Question 7. Hammer price is $7,000. Buyer\u2019s premium is 15%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $7,000. Buyer\u2019s premium is 15%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
     "options": [
       "$7,350",
       "$8,050",
@@ -119,8 +119,8 @@ export const questionBank = {
   },
   {
     "id": 8,
-    "topic": "Auction Calculations",
-    "question": "Question 8. Hammer price is $8,000. Buyer\u2019s premium is 10%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $8,000. Buyer\u2019s premium is 10%. Sales tax is 5% and is calculated on the hammer price only. What is the total buyer cost?",
     "options": [
       "$8,400",
       "$8,800",
@@ -132,8 +132,8 @@ export const questionBank = {
   },
   {
     "id": 9,
-    "topic": "Auction Calculations",
-    "question": "Question 9. Hammer price is $1,500. Buyer\u2019s premium is 20%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,500. Buyer\u2019s premium is 20%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
     "options": [
       "$1,890",
       "$1,800",
@@ -145,8 +145,8 @@ export const questionBank = {
   },
   {
     "id": 10,
-    "topic": "Auction Calculations",
-    "question": "Question 10. Hammer price is $2,000. Buyer\u2019s premium is 10%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,000. Buyer\u2019s premium is 10%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
     "options": [
       "$2,320",
       "$2,200",
@@ -158,8 +158,8 @@ export const questionBank = {
   },
   {
     "id": 11,
-    "topic": "Auction Calculations",
-    "question": "Question 11. Hammer price is $2,500. Buyer\u2019s premium is 20%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,500. Buyer\u2019s premium is 20%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
     "options": [
       "$3,150",
       "$3,000",
@@ -171,8 +171,8 @@ export const questionBank = {
   },
   {
     "id": 12,
-    "topic": "Auction Calculations",
-    "question": "Question 12. Hammer price is $3,000. Buyer\u2019s premium is 10%. Sales tax is 8% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,000. Buyer\u2019s premium is 10%. Sales tax is 8% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
     "options": [
       "$3,540",
       "$3,300",
@@ -184,8 +184,8 @@ export const questionBank = {
   },
   {
     "id": 13,
-    "topic": "Auction Calculations",
-    "question": "Question 13. Hammer price is $3,500. Buyer\u2019s premium is 20%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,500. Buyer\u2019s premium is 20%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
     "options": [
       "$4,410",
       "$4,200",
@@ -197,8 +197,8 @@ export const questionBank = {
   },
   {
     "id": 14,
-    "topic": "Auction Calculations",
-    "question": "Question 14. Hammer price is $4,000. Buyer\u2019s premium is 10%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $4,000. Buyer\u2019s premium is 10%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
     "options": [
       "$4,640",
       "$4,400",
@@ -210,8 +210,8 @@ export const questionBank = {
   },
   {
     "id": 15,
-    "topic": "Auction Calculations",
-    "question": "Question 15. Hammer price is $4,500. Buyer\u2019s premium is 20%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $4,500. Buyer\u2019s premium is 20%. Sales tax is 6% and is calculated on hammer price plus buyer\u2019s premium. What is the total buyer cost?",
     "options": [
       "$5,670",
       "$5,400",
@@ -223,8 +223,8 @@ export const questionBank = {
   },
   {
     "id": 16,
-    "topic": "Auction Calculations",
-    "question": "Question 16. A seller\u2019s item brings a hammer price of $2,000. The seller pays a 10% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
+    "topic": "Auction Math",
+    "question": "A seller\u2019s item brings a hammer price of $2,000. The seller pays a 10% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
     "options": [
       "$1,800",
       "$2,000",
@@ -236,8 +236,8 @@ export const questionBank = {
   },
   {
     "id": 17,
-    "topic": "Auction Calculations",
-    "question": "Question 17. A seller\u2019s item brings a hammer price of $2,500. The seller pays a 12% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
+    "topic": "Auction Math",
+    "question": "A seller\u2019s item brings a hammer price of $2,500. The seller pays a 12% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
     "options": [
       "$2,200",
       "$2,500",
@@ -249,8 +249,8 @@ export const questionBank = {
   },
   {
     "id": 18,
-    "topic": "Auction Calculations",
-    "question": "Question 18. A seller\u2019s item brings a hammer price of $3,000. The seller pays a 10% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
+    "topic": "Auction Math",
+    "question": "A seller\u2019s item brings a hammer price of $3,000. The seller pays a 10% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
     "options": [
       "$2,700",
       "$3,000",
@@ -262,8 +262,8 @@ export const questionBank = {
   },
   {
     "id": 19,
-    "topic": "Auction Calculations",
-    "question": "Question 19. A seller\u2019s item brings a hammer price of $3,500. The seller pays a 12% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
+    "topic": "Auction Math",
+    "question": "A seller\u2019s item brings a hammer price of $3,500. The seller pays a 12% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
     "options": [
       "$3,080",
       "$3,500",
@@ -275,8 +275,8 @@ export const questionBank = {
   },
   {
     "id": 20,
-    "topic": "Auction Calculations",
-    "question": "Question 20. A seller\u2019s item brings a hammer price of $4,000. The seller pays a 10% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
+    "topic": "Auction Math",
+    "question": "A seller\u2019s item brings a hammer price of $4,000. The seller pays a 10% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
     "options": [
       "$3,600",
       "$4,000",
@@ -288,8 +288,8 @@ export const questionBank = {
   },
   {
     "id": 21,
-    "topic": "Auction Calculations",
-    "question": "Question 21. A seller\u2019s item brings a hammer price of $4,500. The seller pays a 12% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
+    "topic": "Auction Math",
+    "question": "A seller\u2019s item brings a hammer price of $4,500. The seller pays a 12% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
     "options": [
       "$3,960",
       "$4,500",
@@ -301,8 +301,8 @@ export const questionBank = {
   },
   {
     "id": 22,
-    "topic": "Auction Calculations",
-    "question": "Question 22. A seller\u2019s item brings a hammer price of $5,000. The seller pays a 10% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
+    "topic": "Auction Math",
+    "question": "A seller\u2019s item brings a hammer price of $5,000. The seller pays a 10% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
     "options": [
       "$4,500",
       "$5,000",
@@ -314,8 +314,8 @@ export const questionBank = {
   },
   {
     "id": 23,
-    "topic": "Auction Calculations",
-    "question": "Question 23. A seller\u2019s item brings a hammer price of $5,500. The seller pays a 12% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
+    "topic": "Auction Math",
+    "question": "A seller\u2019s item brings a hammer price of $5,500. The seller pays a 12% commission. The buyer also pays a 10% buyer\u2019s premium (separate from the seller). What is the seller\u2019s net from the hammer price?",
     "options": [
       "$4,840",
       "$5,500",
@@ -327,8 +327,8 @@ export const questionBank = {
   },
   {
     "id": 24,
-    "topic": "Auction Calculations",
-    "question": "Question 24. A consignor\u2019s total hammer sales for the day are $10,000. The contract states a 15% commission plus a flat marketing fee of $250. What is the consignor\u2019s net?",
+    "topic": "Auction Math",
+    "question": "A consignor\u2019s total hammer sales for the day are $10,000. The contract states a 15% commission plus a flat marketing fee of $250. What is the consignor\u2019s net?",
     "options": [
       "$8,250",
       "$8,500",
@@ -340,8 +340,8 @@ export const questionBank = {
   },
   {
     "id": 25,
-    "topic": "Auction Calculations",
-    "question": "Question 25. A consignor\u2019s total hammer sales for the day are $12,000. The contract states a 15% commission plus a flat marketing fee of $300. What is the consignor\u2019s net?",
+    "topic": "Auction Math",
+    "question": "A consignor\u2019s total hammer sales for the day are $12,000. The contract states a 15% commission plus a flat marketing fee of $300. What is the consignor\u2019s net?",
     "options": [
       "$9,900",
       "$10,200",
@@ -353,8 +353,8 @@ export const questionBank = {
   },
   {
     "id": 26,
-    "topic": "Auction Calculations",
-    "question": "Question 26. A consignor\u2019s total hammer sales for the day are $14,000. The contract states a 15% commission plus a flat marketing fee of $250. What is the consignor\u2019s net?",
+    "topic": "Auction Math",
+    "question": "A consignor\u2019s total hammer sales for the day are $14,000. The contract states a 15% commission plus a flat marketing fee of $250. What is the consignor\u2019s net?",
     "options": [
       "$11,650",
       "$11,900",
@@ -366,8 +366,8 @@ export const questionBank = {
   },
   {
     "id": 27,
-    "topic": "Auction Calculations",
-    "question": "Question 27. A consignor\u2019s total hammer sales for the day are $16,000. The contract states a 15% commission plus a flat marketing fee of $300. What is the consignor\u2019s net?",
+    "topic": "Auction Math",
+    "question": "A consignor\u2019s total hammer sales for the day are $16,000. The contract states a 15% commission plus a flat marketing fee of $300. What is the consignor\u2019s net?",
     "options": [
       "$13,300",
       "$13,600",
@@ -379,8 +379,8 @@ export const questionBank = {
   },
   {
     "id": 28,
-    "topic": "Auction Calculations",
-    "question": "Question 28. A consignor\u2019s total hammer sales for the day are $18,000. The contract states a 15% commission plus a flat marketing fee of $250. What is the consignor\u2019s net?",
+    "topic": "Auction Math",
+    "question": "A consignor\u2019s total hammer sales for the day are $18,000. The contract states a 15% commission plus a flat marketing fee of $250. What is the consignor\u2019s net?",
     "options": [
       "$15,050",
       "$15,300",
@@ -392,8 +392,8 @@ export const questionBank = {
   },
   {
     "id": 29,
-    "topic": "Auction Calculations",
-    "question": "Question 29. A consignor\u2019s total hammer sales for the day are $20,000. The contract states a 15% commission plus a flat marketing fee of $300. What is the consignor\u2019s net?",
+    "topic": "Auction Math",
+    "question": "A consignor\u2019s total hammer sales for the day are $20,000. The contract states a 15% commission plus a flat marketing fee of $300. What is the consignor\u2019s net?",
     "options": [
       "$16,700",
       "$17,000",
@@ -405,8 +405,8 @@ export const questionBank = {
   },
   {
     "id": 30,
-    "topic": "Auction Calculations",
-    "question": "Question 30. A consignor\u2019s total hammer sales for the day are $22,000. The contract states a 15% commission plus a flat marketing fee of $250. What is the consignor\u2019s net?",
+    "topic": "Auction Math",
+    "question": "A consignor\u2019s total hammer sales for the day are $22,000. The contract states a 15% commission plus a flat marketing fee of $250. What is the consignor\u2019s net?",
     "options": [
       "$18,450",
       "$18,700",
@@ -418,8 +418,8 @@ export const questionBank = {
   },
   {
     "id": 31,
-    "topic": "Auction Calculations",
-    "question": "Question 31. A buyer wins three lots with hammer prices of $500, $1,000, and $1,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $500, $1,000, and $1,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$3,300",
       "$3,150",
@@ -431,8 +431,8 @@ export const questionBank = {
   },
   {
     "id": 32,
-    "topic": "Auction Calculations",
-    "question": "Question 32. A buyer wins three lots with hammer prices of $1,000, $1,500, and $2,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $1,000, $1,500, and $2,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$4,950",
       "$4,725",
@@ -444,8 +444,8 @@ export const questionBank = {
   },
   {
     "id": 33,
-    "topic": "Auction Calculations",
-    "question": "Question 33. A buyer wins three lots with hammer prices of $1,500, $2,000, and $2,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $1,500, $2,000, and $2,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$6,600",
       "$6,300",
@@ -457,8 +457,8 @@ export const questionBank = {
   },
   {
     "id": 34,
-    "topic": "Auction Calculations",
-    "question": "Question 34. A buyer wins three lots with hammer prices of $2,000, $2,500, and $3,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $2,000, $2,500, and $3,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$8,250",
       "$7,875",
@@ -470,8 +470,8 @@ export const questionBank = {
   },
   {
     "id": 35,
-    "topic": "Auction Calculations",
-    "question": "Question 35. A buyer wins three lots with hammer prices of $2,500, $3,000, and $3,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $2,500, $3,000, and $3,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$9,900",
       "$9,450",
@@ -483,8 +483,8 @@ export const questionBank = {
   },
   {
     "id": 36,
-    "topic": "Auction Calculations",
-    "question": "Question 36. A buyer wins three lots with hammer prices of $3,000, $3,500, and $4,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $3,000, $3,500, and $4,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$11,550",
       "$11,025",
@@ -496,8 +496,8 @@ export const questionBank = {
   },
   {
     "id": 37,
-    "topic": "Auction Calculations",
-    "question": "Question 37. A buyer wins three lots with hammer prices of $3,500, $4,000, and $4,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $3,500, $4,000, and $4,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$13,200",
       "$12,600",
@@ -509,8 +509,8 @@ export const questionBank = {
   },
   {
     "id": 38,
-    "topic": "Auction Calculations",
-    "question": "Question 38. A buyer wins three lots with hammer prices of $4,000, $4,500, and $5,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $4,000, $4,500, and $5,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$14,850",
       "$14,175",
@@ -522,8 +522,8 @@ export const questionBank = {
   },
   {
     "id": 39,
-    "topic": "Auction Calculations",
-    "question": "Question 39. A buyer wins three lots with hammer prices of $4,500, $5,000, and $5,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $4,500, $5,000, and $5,500. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$16,500",
       "$15,750",
@@ -535,8 +535,8 @@ export const questionBank = {
   },
   {
     "id": 40,
-    "topic": "Auction Calculations",
-    "question": "Question 40. A buyer wins three lots with hammer prices of $5,000, $5,500, and $6,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots with hammer prices of $5,000, $5,500, and $6,000. The auction charges a 10% buyer\u2019s premium and 5% sales tax on the hammer total only. What is the buyer\u2019s total amount due?",
     "options": [
       "$18,150",
       "$17,325",
@@ -548,8 +548,8 @@ export const questionBank = {
   },
   {
     "id": 41,
-    "topic": "Auction Calculations",
-    "question": "Question 41. A buyer purchases an item for $6,000 and puts down a 20% deposit today. How much balance remains to be paid?",
+    "topic": "Auction Math",
+    "question": "A buyer purchases an item for $6,000 and puts down a 20% deposit today. How much balance remains to be paid?",
     "options": [
       "$4,800",
       "$1,200",
@@ -561,8 +561,8 @@ export const questionBank = {
   },
   {
     "id": 42,
-    "topic": "Auction Calculations",
-    "question": "Question 42. A buyer purchases an item for $7,000 and puts down a 20% deposit today. How much balance remains to be paid?",
+    "topic": "Auction Math",
+    "question": "A buyer purchases an item for $7,000 and puts down a 20% deposit today. How much balance remains to be paid?",
     "options": [
       "$5,600",
       "$1,400",
@@ -574,8 +574,8 @@ export const questionBank = {
   },
   {
     "id": 43,
-    "topic": "Auction Calculations",
-    "question": "Question 43. A buyer purchases an item for $8,000 and puts down a 20% deposit today. How much balance remains to be paid?",
+    "topic": "Auction Math",
+    "question": "A buyer purchases an item for $8,000 and puts down a 20% deposit today. How much balance remains to be paid?",
     "options": [
       "$6,400",
       "$1,600",
@@ -587,8 +587,8 @@ export const questionBank = {
   },
   {
     "id": 44,
-    "topic": "Auction Calculations",
-    "question": "Question 44. A buyer purchases an item for $9,000 and puts down a 20% deposit today. How much balance remains to be paid?",
+    "topic": "Auction Math",
+    "question": "A buyer purchases an item for $9,000 and puts down a 20% deposit today. How much balance remains to be paid?",
     "options": [
       "$7,200",
       "$1,800",
@@ -600,8 +600,8 @@ export const questionBank = {
   },
   {
     "id": 45,
-    "topic": "Auction Calculations",
-    "question": "Question 45. A buyer purchases an item for $10,000 and puts down a 20% deposit today. How much balance remains to be paid?",
+    "topic": "Auction Math",
+    "question": "A buyer purchases an item for $10,000 and puts down a 20% deposit today. How much balance remains to be paid?",
     "options": [
       "$8,000",
       "$2,000",
@@ -613,8 +613,8 @@ export const questionBank = {
   },
   {
     "id": 46,
-    "topic": "Auction Calculations",
-    "question": "Question 46. An auction company collects $12,000 in commission revenue from an event. Direct expenses total $600. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
+    "topic": "Auction Math",
+    "question": "An auction company collects $12,000 in commission revenue from an event. Direct expenses total $600. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
     "options": [
       "$4,560",
       "$6,840",
@@ -626,8 +626,8 @@ export const questionBank = {
   },
   {
     "id": 47,
-    "topic": "Auction Calculations",
-    "question": "Question 47. An auction company collects $14,000 in commission revenue from an event. Direct expenses total $500. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
+    "topic": "Auction Math",
+    "question": "An auction company collects $14,000 in commission revenue from an event. Direct expenses total $500. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
     "options": [
       "$5,400",
       "$8,100",
@@ -639,8 +639,8 @@ export const questionBank = {
   },
   {
     "id": 48,
-    "topic": "Auction Calculations",
-    "question": "Question 48. An auction company collects $16,000 in commission revenue from an event. Direct expenses total $600. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
+    "topic": "Auction Math",
+    "question": "An auction company collects $16,000 in commission revenue from an event. Direct expenses total $600. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
     "options": [
       "$6,160",
       "$9,240",
@@ -652,8 +652,8 @@ export const questionBank = {
   },
   {
     "id": 49,
-    "topic": "Auction Calculations",
-    "question": "Question 49. An auction company collects $18,000 in commission revenue from an event. Direct expenses total $500. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
+    "topic": "Auction Math",
+    "question": "An auction company collects $18,000 in commission revenue from an event. Direct expenses total $500. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
     "options": [
       "$7,000",
       "$10,500",
@@ -665,8 +665,8 @@ export const questionBank = {
   },
   {
     "id": 50,
-    "topic": "Auction Calculations",
-    "question": "Question 50. An auction company collects $20,000 in commission revenue from an event. Direct expenses total $600. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
+    "topic": "Auction Math",
+    "question": "An auction company collects $20,000 in commission revenue from an event. Direct expenses total $600. The remaining net is split 40% to a partner and 60% to the company. How much does the partner receive?",
     "options": [
       "$7,760",
       "$11,640",
@@ -678,8 +678,8 @@ export const questionBank = {
   },
   {
     "id": 51,
-    "topic": "Auction Calculations",
-    "question": "Question 51. Hammer price is $3,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
     "options": [
       "$3,180",
       "$3,300",
@@ -691,8 +691,8 @@ export const questionBank = {
   },
   {
     "id": 52,
-    "topic": "Auction Calculations",
-    "question": "Question 52. Hammer price is $4,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $4,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
     "options": [
       "$4,240",
       "$4,400",
@@ -704,8 +704,8 @@ export const questionBank = {
   },
   {
     "id": 53,
-    "topic": "Auction Calculations",
-    "question": "Question 53. Hammer price is $5,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $5,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
     "options": [
       "$5,300",
       "$5,500",
@@ -717,8 +717,8 @@ export const questionBank = {
   },
   {
     "id": 54,
-    "topic": "Auction Calculations",
-    "question": "Question 54. Hammer price is $6,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $6,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
     "options": [
       "$6,360",
       "$6,600",
@@ -730,8 +730,8 @@ export const questionBank = {
   },
   {
     "id": 55,
-    "topic": "Auction Calculations",
-    "question": "Question 55. Hammer price is $7,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $7,000. Buyer premium is 10%. Sales tax is 6% on the hammer price only. What is the total buyer cost?",
     "options": [
       "$7,420",
       "$7,700",
@@ -743,8 +743,8 @@ export const questionBank = {
   },
   {
     "id": 56,
-    "topic": "Auction Calculations",
-    "question": "Question 56. Hammer price is $2,500. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,500. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
     "options": [
       "$3,000",
       "$2,875",
@@ -756,8 +756,8 @@ export const questionBank = {
   },
   {
     "id": 57,
-    "topic": "Auction Calculations",
-    "question": "Question 57. Hammer price is $3,000. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,000. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
     "options": [
       "$3,600",
       "$3,450",
@@ -769,8 +769,8 @@ export const questionBank = {
   },
   {
     "id": 58,
-    "topic": "Auction Calculations",
-    "question": "Question 58. Hammer price is $3,500. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,500. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
     "options": [
       "$4,200",
       "$4,025",
@@ -782,8 +782,8 @@ export const questionBank = {
   },
   {
     "id": 59,
-    "topic": "Auction Calculations",
-    "question": "Question 59. Hammer price is $4,000. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $4,000. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
     "options": [
       "$4,800",
       "$4,600",
@@ -795,8 +795,8 @@ export const questionBank = {
   },
   {
     "id": 60,
-    "topic": "Auction Calculations",
-    "question": "Question 60. Hammer price is $4,500. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $4,500. Buyer premium is 15%. Sales tax is 5% on hammer plus buyer premium. What is the total buyer cost?",
     "options": [
       "$5,400",
       "$5,175",
@@ -808,8 +808,8 @@ export const questionBank = {
   },
   {
     "id": 61,
-    "topic": "Auction Calculations",
-    "question": "Question 61. A consignor's total hammer sales are $12,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
+    "topic": "Auction Math",
+    "question": "A consignor's total hammer sales are $12,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
     "options": [
       "$10,650",
       "$10,200",
@@ -821,8 +821,8 @@ export const questionBank = {
   },
   {
     "id": 62,
-    "topic": "Auction Calculations",
-    "question": "Question 62. A consignor's total hammer sales are $14,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
+    "topic": "Auction Math",
+    "question": "A consignor's total hammer sales are $14,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
     "options": [
       "$12,550",
       "$11,900",
@@ -834,8 +834,8 @@ export const questionBank = {
   },
   {
     "id": 63,
-    "topic": "Auction Calculations",
-    "question": "Question 63. A consignor's total hammer sales are $16,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
+    "topic": "Auction Math",
+    "question": "A consignor's total hammer sales are $16,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
     "options": [
       "$14,450",
       "$13,600",
@@ -847,8 +847,8 @@ export const questionBank = {
   },
   {
     "id": 64,
-    "topic": "Auction Calculations",
-    "question": "Question 64. A consignor's total hammer sales are $18,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
+    "topic": "Auction Math",
+    "question": "A consignor's total hammer sales are $18,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
     "options": [
       "$16,350",
       "$15,300",
@@ -860,8 +860,8 @@ export const questionBank = {
   },
   {
     "id": 65,
-    "topic": "Auction Calculations",
-    "question": "Question 65. A consignor's total hammer sales are $20,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
+    "topic": "Auction Math",
+    "question": "A consignor's total hammer sales are $20,000. The seller commission is tiered: 15% on the first $5,000, 10% on the next $5,000, and 5% on any amount over $10,000. What is the seller's net after commission?",
     "options": [
       "$18,250",
       "$17,000",
@@ -873,8 +873,8 @@ export const questionBank = {
   },
   {
     "id": 66,
-    "topic": "Auction Calculations",
-    "question": "Question 66. A consignor has $8,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
+    "topic": "Auction Math",
+    "question": "A consignor has $8,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
     "options": [
       "$7,180",
       "$7,040",
@@ -886,8 +886,8 @@ export const questionBank = {
   },
   {
     "id": 67,
-    "topic": "Auction Calculations",
-    "question": "Question 67. A consignor has $9,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
+    "topic": "Auction Math",
+    "question": "A consignor has $9,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
     "options": [
       "$8,060",
       "$7,920",
@@ -899,8 +899,8 @@ export const questionBank = {
   },
   {
     "id": 68,
-    "topic": "Auction Calculations",
-    "question": "Question 68. A consignor has $10,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
+    "topic": "Auction Math",
+    "question": "A consignor has $10,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
     "options": [
       "$8,940",
       "$8,800",
@@ -912,8 +912,8 @@ export const questionBank = {
   },
   {
     "id": 69,
-    "topic": "Auction Calculations",
-    "question": "Question 69. A consignor has $11,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
+    "topic": "Auction Math",
+    "question": "A consignor has $11,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
     "options": [
       "$9,820",
       "$9,680",
@@ -925,8 +925,8 @@ export const questionBank = {
   },
   {
     "id": 70,
-    "topic": "Auction Calculations",
-    "question": "Question 70. A consignor has $12,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
+    "topic": "Auction Math",
+    "question": "A consignor has $12,000 in total hammer sales for the day, but $2,000 of that total is from a passed (no-sale) lot that is charged only a 5% no-sale fee. All sold lots are charged a 12% commission. What is the consignor's net after these charges?",
     "options": [
       "$10,700",
       "$10,560",
@@ -938,8 +938,8 @@ export const questionBank = {
   },
   {
     "id": 71,
-    "topic": "Auction Calculations",
-    "question": "Question 71. A buyer wins three lots at $1,000, $1,500, and $2,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots at $1,000, $1,500, and $2,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
     "options": [
       "$4,950",
       "$4,725",
@@ -951,8 +951,8 @@ export const questionBank = {
   },
   {
     "id": 72,
-    "topic": "Auction Calculations",
-    "question": "Question 72. A buyer wins three lots at $2,000, $2,500, and $3,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots at $2,000, $2,500, and $3,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
     "options": [
       "$8,250",
       "$7,875",
@@ -964,8 +964,8 @@ export const questionBank = {
   },
   {
     "id": 73,
-    "topic": "Auction Calculations",
-    "question": "Question 73. A buyer wins three lots at $3,000, $3,500, and $4,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots at $3,000, $3,500, and $4,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
     "options": [
       "$11,550",
       "$11,025",
@@ -977,8 +977,8 @@ export const questionBank = {
   },
   {
     "id": 74,
-    "topic": "Auction Calculations",
-    "question": "Question 74. A buyer wins three lots at $4,000, $4,500, and $5,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots at $4,000, $4,500, and $5,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
     "options": [
       "$14,850",
       "$14,175",
@@ -990,8 +990,8 @@ export const questionBank = {
   },
   {
     "id": 75,
-    "topic": "Auction Calculations",
-    "question": "Question 75. A buyer wins three lots at $5,000, $5,500, and $6,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
+    "topic": "Auction Math",
+    "question": "A buyer wins three lots at $5,000, $5,500, and $6,000. Buyer premium is 10% and sales tax is 5% on the hammer total only. What is the total amount due?",
     "options": [
       "$18,150",
       "$17,325",
@@ -1003,8 +1003,8 @@ export const questionBank = {
   },
   {
     "id": 76,
-    "topic": "Auction Calculations",
-    "question": "Question 76. A consignor's gross hammer sales are $15,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
+    "topic": "Auction Math",
+    "question": "A consignor's gross hammer sales are $15,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
     "options": [
       "$12,100",
       "$12,550",
@@ -1016,8 +1016,8 @@ export const questionBank = {
   },
   {
     "id": 77,
-    "topic": "Auction Calculations",
-    "question": "Question 77. A consignor's gross hammer sales are $16,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
+    "topic": "Auction Math",
+    "question": "A consignor's gross hammer sales are $16,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
     "options": [
       "$12,920",
       "$13,400",
@@ -1029,8 +1029,8 @@ export const questionBank = {
   },
   {
     "id": 78,
-    "topic": "Auction Calculations",
-    "question": "Question 78. A consignor's gross hammer sales are $17,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
+    "topic": "Auction Math",
+    "question": "A consignor's gross hammer sales are $17,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
     "options": [
       "$13,740",
       "$14,250",
@@ -1042,8 +1042,8 @@ export const questionBank = {
   },
   {
     "id": 79,
-    "topic": "Auction Calculations",
-    "question": "Question 79. A consignor's gross hammer sales are $18,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
+    "topic": "Auction Math",
+    "question": "A consignor's gross hammer sales are $18,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
     "options": [
       "$14,560",
       "$15,100",
@@ -1055,8 +1055,8 @@ export const questionBank = {
   },
   {
     "id": 80,
-    "topic": "Auction Calculations",
-    "question": "Question 80. A consignor's gross hammer sales are $19,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
+    "topic": "Auction Math",
+    "question": "A consignor's gross hammer sales are $19,000. Charges are 15% commission, a 3% credit card fee on gross sales, and a $200 cleanup fee. What is the consignor's net?",
     "options": [
       "$15,380",
       "$15,950",
@@ -1068,8 +1068,8 @@ export const questionBank = {
   },
   {
     "id": 81,
-    "topic": "Auction Calculations",
-    "question": "Question 81. A lot has a reserve of $5,000. The current high bid is $4,750 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
+    "topic": "Auction Math",
+    "question": "A lot has a reserve of $5,000. The current high bid is $4,750 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
     "options": [
       "$5,000",
       "$5,000",
@@ -1081,8 +1081,8 @@ export const questionBank = {
   },
   {
     "id": 82,
-    "topic": "Auction Calculations",
-    "question": "Question 82. A lot has a reserve of $5,500. The current high bid is $5,250 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
+    "topic": "Auction Math",
+    "question": "A lot has a reserve of $5,500. The current high bid is $5,250 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
     "options": [
       "$5,500",
       "$5,500",
@@ -1094,8 +1094,8 @@ export const questionBank = {
   },
   {
     "id": 83,
-    "topic": "Auction Calculations",
-    "question": "Question 83. A lot has a reserve of $6,000. The current high bid is $5,750 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
+    "topic": "Auction Math",
+    "question": "A lot has a reserve of $6,000. The current high bid is $5,750 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
     "options": [
       "$6,000",
       "$6,000",
@@ -1107,8 +1107,8 @@ export const questionBank = {
   },
   {
     "id": 84,
-    "topic": "Auction Calculations",
-    "question": "Question 84. A lot has a reserve of $6,500. The current high bid is $6,250 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
+    "topic": "Auction Math",
+    "question": "A lot has a reserve of $6,500. The current high bid is $6,250 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
     "options": [
       "$6,500",
       "$6,500",
@@ -1120,8 +1120,8 @@ export const questionBank = {
   },
   {
     "id": 85,
-    "topic": "Auction Calculations",
-    "question": "Question 85. A lot has a reserve of $7,000. The current high bid is $6,750 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
+    "topic": "Auction Math",
+    "question": "A lot has a reserve of $7,000. The current high bid is $6,750 and the bid increment is $250. What is the next bid amount needed to meet or exceed the reserve?",
     "options": [
       "$7,000",
       "$7,000",
@@ -1133,8 +1133,8 @@ export const questionBank = {
   },
   {
     "id": 86,
-    "topic": "Auction Calculations",
-    "question": "Question 86. Bidding starts at $1,000 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
+    "topic": "Auction Math",
+    "question": "Bidding starts at $1,000 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
     "options": [
       "$2,200",
       "$2,100",
@@ -1146,8 +1146,8 @@ export const questionBank = {
   },
   {
     "id": 87,
-    "topic": "Auction Calculations",
-    "question": "Question 87. Bidding starts at $1,500 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
+    "topic": "Auction Math",
+    "question": "Bidding starts at $1,500 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
     "options": [
       "$2,700",
       "$2,600",
@@ -1159,8 +1159,8 @@ export const questionBank = {
   },
   {
     "id": 88,
-    "topic": "Auction Calculations",
-    "question": "Question 88. Bidding starts at $2,000 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
+    "topic": "Auction Math",
+    "question": "Bidding starts at $2,000 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
     "options": [
       "$3,200",
       "$3,100",
@@ -1172,8 +1172,8 @@ export const questionBank = {
   },
   {
     "id": 89,
-    "topic": "Auction Calculations",
-    "question": "Question 89. Bidding starts at $2,500 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
+    "topic": "Auction Math",
+    "question": "Bidding starts at $2,500 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
     "options": [
       "$3,700",
       "$3,600",
@@ -1185,8 +1185,8 @@ export const questionBank = {
   },
   {
     "id": 90,
-    "topic": "Auction Calculations",
-    "question": "Question 90. Bidding starts at $3,000 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
+    "topic": "Auction Math",
+    "question": "Bidding starts at $3,000 and increases by $100 each bid. If there are 12 bid increases after the start, what is the final bid amount?",
     "options": [
       "$4,200",
       "$4,100",
@@ -1198,8 +1198,8 @@ export const questionBank = {
   },
   {
     "id": 91,
-    "topic": "Auction Calculations",
-    "question": "Question 91. An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $8,000 (assume no other fees). How much is paid to the seller immediately?",
+    "topic": "Auction Math",
+    "question": "An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $8,000 (assume no other fees). How much is paid to the seller immediately?",
     "options": [
       "$7,200",
       "$800",
@@ -1211,8 +1211,8 @@ export const questionBank = {
   },
   {
     "id": 92,
-    "topic": "Auction Calculations",
-    "question": "Question 92. An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $9,000 (assume no other fees). How much is paid to the seller immediately?",
+    "topic": "Auction Math",
+    "question": "An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $9,000 (assume no other fees). How much is paid to the seller immediately?",
     "options": [
       "$8,100",
       "$900",
@@ -1224,8 +1224,8 @@ export const questionBank = {
   },
   {
     "id": 93,
-    "topic": "Auction Calculations",
-    "question": "Question 93. An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $10,000 (assume no other fees). How much is paid to the seller immediately?",
+    "topic": "Auction Math",
+    "question": "An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $10,000 (assume no other fees). How much is paid to the seller immediately?",
     "options": [
       "$9,000",
       "$1,000",
@@ -1237,8 +1237,8 @@ export const questionBank = {
   },
   {
     "id": 94,
-    "topic": "Auction Calculations",
-    "question": "Question 94. An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $11,000 (assume no other fees). How much is paid to the seller immediately?",
+    "topic": "Auction Math",
+    "question": "An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $11,000 (assume no other fees). How much is paid to the seller immediately?",
     "options": [
       "$9,900",
       "$1,100",
@@ -1250,8 +1250,8 @@ export const questionBank = {
   },
   {
     "id": 95,
-    "topic": "Auction Calculations",
-    "question": "Question 95. An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $12,000 (assume no other fees). How much is paid to the seller immediately?",
+    "topic": "Auction Math",
+    "question": "An auction company holds back 10% of the seller proceeds for 30 days. The item sells for $12,000 (assume no other fees). How much is paid to the seller immediately?",
     "options": [
       "$10,800",
       "$1,200",
@@ -1263,8 +1263,8 @@ export const questionBank = {
   },
   {
     "id": 96,
-    "topic": "Auction Calculations",
-    "question": "Question 96. A buyer wins an item for $4,000 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
+    "topic": "Auction Math",
+    "question": "A buyer wins an item for $4,000 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
     "options": [
       "$3,400",
       "$4,400",
@@ -1276,8 +1276,8 @@ export const questionBank = {
   },
   {
     "id": 97,
-    "topic": "Auction Calculations",
-    "question": "Question 97. A buyer wins an item for $4,500 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
+    "topic": "Auction Math",
+    "question": "A buyer wins an item for $4,500 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
     "options": [
       "$3,950",
       "$4,950",
@@ -1289,8 +1289,8 @@ export const questionBank = {
   },
   {
     "id": 98,
-    "topic": "Auction Calculations",
-    "question": "Question 98. A buyer wins an item for $5,000 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
+    "topic": "Auction Math",
+    "question": "A buyer wins an item for $5,000 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
     "options": [
       "$4,500",
       "$5,500",
@@ -1302,8 +1302,8 @@ export const questionBank = {
   },
   {
     "id": 99,
-    "topic": "Auction Calculations",
-    "question": "Question 99. A buyer wins an item for $5,500 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
+    "topic": "Auction Math",
+    "question": "A buyer wins an item for $5,500 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
     "options": [
       "$5,050",
       "$6,050",
@@ -1315,8 +1315,8 @@ export const questionBank = {
   },
   {
     "id": 100,
-    "topic": "Auction Calculations",
-    "question": "Question 100. A buyer wins an item for $6,000 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
+    "topic": "Auction Math",
+    "question": "A buyer wins an item for $6,000 with a 10% buyer premium. The buyer pays a $1,000 deposit today. (Ignore sales tax.) What balance remains?",
     "options": [
       "$5,600",
       "$6,600",
@@ -1329,7 +1329,7 @@ export const questionBank = {
   {
     "id": 101,
     "topic": "State-Specific Laws",
-    "question": "Question 101. Which definition best matches the term 'Affiliate auctioneer' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Affiliate auctioneer' as used in Tennessee law?",
     "options": [
       "Offering goods for sale with a fixed ending time and date that does not extend based on bidding activity.",
       "A sales transaction conducted by oral, written, or electronic exchange between an auctioneer and members of the audience, culminating in acceptance of the highest or most favorable offer.",
@@ -1342,7 +1342,7 @@ export const questionBank = {
   {
     "id": 102,
     "topic": "State-Specific Laws",
-    "question": "Question 102. Which definition best matches the term 'Auction' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Auction' as used in Tennessee law?",
     "options": [
       "A person offering motor vehicles for sale to the highest bidder to members of the public, by a licensed motor vehicle dealer holding a public auto auction license and using a licensed public automobile auctioneer.",
       "An individual hired by a principal auctioneer or public automobile auction to solicit bids for the purchase of goods at an auction.",
@@ -1355,7 +1355,7 @@ export const questionBank = {
   {
     "id": 103,
     "topic": "State-Specific Laws",
-    "question": "Question 103. Which definition best matches the term 'Auctioneer' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Auctioneer' as used in Tennessee law?",
     "options": [
       "A sales transaction conducted by oral, written, or electronic exchange between an auctioneer and members of the audience, culminating in acceptance of the highest or most favorable offer.",
       "Offering goods for sale with a fixed ending time and date that does not extend based on bidding activity.",
@@ -1368,7 +1368,7 @@ export const questionBank = {
   {
     "id": 104,
     "topic": "Bidding Procedures",
-    "question": "Question 104. Which definition best matches the term 'Bid caller auctioneer' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Bid caller auctioneer' as used in Tennessee law?",
     "options": [
       "The Tennessee auctioneer commission.",
       "A person offering motor vehicles for sale to the highest bidder to members of the public, by a licensed motor vehicle dealer holding a public auto auction license and using a licensed public automobile auctioneer.",
@@ -1380,8 +1380,8 @@ export const questionBank = {
   },
   {
     "id": 105,
-    "topic": "Auction Calculations",
-    "question": "Question 105. Which definition best matches the term 'Commission' as used in Tennessee law?",
+    "topic": "Auction Math",
+    "question": "Which definition best matches the term 'Commission' as used in Tennessee law?",
     "options": [
       "The Tennessee auctioneer commission.",
       "An individual who, for compensation or valuable consideration, or otherwise, is employed, directly or indirectly, by a principal auctioneer to engage in auction activities.",
@@ -1394,7 +1394,7 @@ export const questionBank = {
   {
     "id": 106,
     "topic": "State-Specific Laws",
-    "question": "Question 106. Which definition best matches the term 'Continuing education' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Continuing education' as used in Tennessee law?",
     "options": [
       "The Tennessee auctioneer commission.",
       "Six (6) hours each renewal period.",
@@ -1407,7 +1407,7 @@ export const questionBank = {
   {
     "id": 107,
     "topic": "State-Specific Laws",
-    "question": "Question 107. Which definition best matches the term 'Goods' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Goods' as used in Tennessee law?",
     "options": [
       "Chattels, merchandise, real or personal property, or commodities of any form or type that may lawfully be offered for sale.",
       "Offering goods for sale with a fixed ending time and date that does not extend based on bidding activity.",
@@ -1420,7 +1420,7 @@ export const questionBank = {
   {
     "id": 108,
     "topic": "State-Specific Laws",
-    "question": "Question 108. Which definition best matches the term 'Person' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Person' as used in Tennessee law?",
     "options": [
       "An individual responsible for the management and supervision of an auction company and who offers and executes listing contracts and auction sales for valuable consideration.",
       "A person offering motor vehicles for sale to the highest bidder to members of the public, by a licensed motor vehicle dealer holding a public auto auction license and using a licensed public automobile auctioneer.",
@@ -1433,7 +1433,7 @@ export const questionBank = {
   {
     "id": 109,
     "topic": "State-Specific Laws",
-    "question": "Question 109. Which definition best matches the term 'Principal auctioneer' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Principal auctioneer' as used in Tennessee law?",
     "options": [
       "Six (6) hours each renewal period.",
       "An individual responsible for the management and supervision of an auction company and who offers and executes listing contracts and auction sales for valuable consideration.",
@@ -1446,7 +1446,7 @@ export const questionBank = {
   {
     "id": 110,
     "topic": "State-Specific Laws",
-    "question": "Question 110. Which definition best matches the term 'Public automobile auction' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Public automobile auction' as used in Tennessee law?",
     "options": [
       "An individual who, for compensation or valuable consideration, or otherwise, is employed, directly or indirectly, by a principal auctioneer to engage in auction activities.",
       "An individual hired by a principal auctioneer or public automobile auction to solicit bids for the purchase of goods at an auction.",
@@ -1459,7 +1459,7 @@ export const questionBank = {
   {
     "id": 111,
     "topic": "State-Specific Laws",
-    "question": "Question 111. Which definition best matches the term 'Public automobile auctioneer' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Public automobile auctioneer' as used in Tennessee law?",
     "options": [
       "Includes an individual, association, partnership, corporation, and the officers, directors, and employees of a corporation.",
       "Chattels, merchandise, real or personal property, or commodities of any form or type that may lawfully be offered for sale.",
@@ -1472,7 +1472,7 @@ export const questionBank = {
   {
     "id": 112,
     "topic": "State-Specific Laws",
-    "question": "Question 112. Which definition best matches the term 'Timed listing' as used in Tennessee law?",
+    "question": "Which definition best matches the term 'Timed listing' as used in Tennessee law?",
     "options": [
       "Six (6) hours each renewal period.",
       "The Tennessee auctioneer commission.",
@@ -1485,7 +1485,7 @@ export const questionBank = {
   {
     "id": 113,
     "topic": "Bidding Procedures",
-    "question": "Question 113. A fixed end-time online sale that does not extend when bids come in is called a:",
+    "question": "A fixed end-time online sale that does not extend when bids come in is called a:",
     "options": [
       "Timed listing",
       "Public automobile auctioneer",
@@ -1498,7 +1498,7 @@ export const questionBank = {
   {
     "id": 114,
     "topic": "Bidding Procedures",
-    "question": "Question 114. A person hired to solicit bids on behalf of the auction company is a:",
+    "question": "A person hired to solicit bids on behalf of the auction company is a:",
     "options": [
       "Bid caller auctioneer",
       "Goods",
@@ -1511,7 +1511,7 @@ export const questionBank = {
   {
     "id": 115,
     "topic": "Licensing Requirements",
-    "question": "Question 115. The entity that issues auctioneer and affiliate auctioneer licenses in Tennessee is the:",
+    "question": "The entity that issues auctioneer and affiliate auctioneer licenses in Tennessee is the:",
     "options": [
       "Person",
       "Auctioneer",
@@ -1524,7 +1524,7 @@ export const questionBank = {
   {
     "id": 116,
     "topic": "Bidding Procedures",
-    "question": "Question 116. An auction where bids are invited and the highest offer is accepted is an example of an:",
+    "question": "An auction where bids are invited and the highest offer is accepted is an example of an:",
     "options": [
       "Auction",
       "Public automobile auction",
@@ -1537,7 +1537,7 @@ export const questionBank = {
   {
     "id": 117,
     "topic": "Auction Basics",
-    "question": "Question 117. The individual responsible for managing and supervising an auction company is the:",
+    "question": "The individual responsible for managing and supervising an auction company is the:",
     "options": [
       "Continuing education",
       "Bid caller auctioneer",
@@ -1550,7 +1550,7 @@ export const questionBank = {
   {
     "id": 118,
     "topic": "Auction Basics",
-    "question": "Question 118. An individual employed by a principal auctioneer to engage in auction activity is an:",
+    "question": "An individual employed by a principal auctioneer to engage in auction activity is an:",
     "options": [
       "Auctioneer",
       "Affiliate auctioneer",
@@ -1563,7 +1563,7 @@ export const questionBank = {
   {
     "id": 119,
     "topic": "Auction Basics",
-    "question": "Question 119. Which term includes officers, directors, and employees of a corporation?",
+    "question": "Which term includes officers, directors, and employees of a corporation?",
     "options": [
       "Goods",
       "Person",
@@ -1576,7 +1576,7 @@ export const questionBank = {
   {
     "id": 120,
     "topic": "State-Specific Laws",
-    "question": "Question 120. The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
+    "question": "The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
     "options": [
       "Goods",
       "Timed listing",
@@ -1589,7 +1589,7 @@ export const questionBank = {
   {
     "id": 121,
     "topic": "Bidding Procedures",
-    "question": "Question 121. An auction where bids are invited and the highest offer is accepted is an example of an:",
+    "question": "An auction where bids are invited and the highest offer is accepted is an example of an:",
     "options": [
       "Continuing education",
       "Auction",
@@ -1602,7 +1602,7 @@ export const questionBank = {
   {
     "id": 122,
     "topic": "Licensing Requirements",
-    "question": "Question 122. The entity that issues auctioneer and affiliate auctioneer licenses in Tennessee is the:",
+    "question": "The entity that issues auctioneer and affiliate auctioneer licenses in Tennessee is the:",
     "options": [
       "Auctioneer",
       "Continuing education",
@@ -1615,7 +1615,7 @@ export const questionBank = {
   {
     "id": 123,
     "topic": "State-Specific Laws",
-    "question": "Question 123. The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
+    "question": "The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
     "options": [
       "Public automobile auction",
       "Goods",
@@ -1628,7 +1628,7 @@ export const questionBank = {
   {
     "id": 124,
     "topic": "Auction Basics",
-    "question": "Question 124. Which term includes officers, directors, and employees of a corporation?",
+    "question": "Which term includes officers, directors, and employees of a corporation?",
     "options": [
       "Affiliate auctioneer",
       "Person",
@@ -1641,7 +1641,7 @@ export const questionBank = {
   {
     "id": 125,
     "topic": "Auction Basics",
-    "question": "Question 125. The individual responsible for managing and supervising an auction company is the:",
+    "question": "The individual responsible for managing and supervising an auction company is the:",
     "options": [
       "Commission",
       "Continuing education",
@@ -1654,7 +1654,7 @@ export const questionBank = {
   {
     "id": 126,
     "topic": "State-Specific Laws",
-    "question": "Question 126. The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
+    "question": "The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
     "options": [
       "Public automobile auctioneer",
       "Auction",
@@ -1667,7 +1667,7 @@ export const questionBank = {
   {
     "id": 127,
     "topic": "Auction Basics",
-    "question": "Question 127. Which term includes officers, directors, and employees of a corporation?",
+    "question": "Which term includes officers, directors, and employees of a corporation?",
     "options": [
       "Person",
       "Principal auctioneer",
@@ -1680,7 +1680,7 @@ export const questionBank = {
   {
     "id": 128,
     "topic": "Bidding Procedures",
-    "question": "Question 128. An auction where bids are invited and the highest offer is accepted is an example of an:",
+    "question": "An auction where bids are invited and the highest offer is accepted is an example of an:",
     "options": [
       "Auction",
       "Timed listing",
@@ -1693,7 +1693,7 @@ export const questionBank = {
   {
     "id": 129,
     "topic": "State-Specific Laws",
-    "question": "Question 129. The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
+    "question": "The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
     "options": [
       "Principal auctioneer",
       "Public automobile auction",
@@ -1706,7 +1706,7 @@ export const questionBank = {
   {
     "id": 130,
     "topic": "State-Specific Laws",
-    "question": "Question 130. The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
+    "question": "The term for items that may lawfully be offered for sale at auction includes chattels and commodities. This term is:",
     "options": [
       "Affiliate auctioneer",
       "Goods",
@@ -1719,7 +1719,7 @@ export const questionBank = {
   {
     "id": 131,
     "topic": "Advertising and Marketing",
-    "question": "Question 131. It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
+    "question": "It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
     "options": [
       "A broker license only",
       "A valid license issued by the commission",
@@ -1732,7 +1732,7 @@ export const questionBank = {
   {
     "id": 132,
     "topic": "Licensing Requirements",
-    "question": "Question 132. To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
+    "question": "To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
     "options": [
       "Mortgage lender",
       "Real estate broker or affiliate broker",
@@ -1745,7 +1745,7 @@ export const questionBank = {
   {
     "id": 133,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 133. For an affiliate auctioneer to conduct an auction of real property, the auctioneer employer must be:",
+    "question": "For an affiliate auctioneer to conduct an auction of real property, the auctioneer employer must be:",
     "options": [
       "Available by phone",
       "On the premises of the property during the auction",
@@ -1758,7 +1758,7 @@ export const questionBank = {
   {
     "id": 134,
     "topic": "Licensing Requirements",
-    "question": "Question 134. It is unlawful to act as a public automobile auctioneer unless the person is licensed as a public automobile auctioneer and as a:",
+    "question": "It is unlawful to act as a public automobile auctioneer unless the person is licensed as a public automobile auctioneer and as a:",
     "options": [
       "Broker under Title 62, Chapter 13",
       "Motor vehicle dealer under Title 55, Chapter 17, Part 1",
@@ -1771,7 +1771,7 @@ export const questionBank = {
   {
     "id": 135,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 135. All auctions arranged by or through a principal auctioneer must be conducted exclusively by:",
+    "question": "All auctions arranged by or through a principal auctioneer must be conducted exclusively by:",
     "options": [
       "Any adult with experience",
       "Individuals licensed under this chapter",
@@ -1784,7 +1784,7 @@ export const questionBank = {
   {
     "id": 136,
     "topic": "Licensing Requirements",
-    "question": "Question 136. Which activity is specifically prohibited without the proper Tennessee license?",
+    "question": "Which activity is specifically prohibited without the proper Tennessee license?",
     "options": [
       "Writing item descriptions for a catalog",
       "Advertising as an auctioneer",
@@ -1797,7 +1797,7 @@ export const questionBank = {
   {
     "id": 137,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 137. Under Tennessee law, ringpersons who do not vocally conduct an auction generally:",
+    "question": "Under Tennessee law, ringpersons who do not vocally conduct an auction generally:",
     "options": [
       "Must be licensed as auctioneers",
       "Do not have to be licensed as auctioneers unless they act as broker or affiliate broker",
@@ -1810,7 +1810,7 @@ export const questionBank = {
   {
     "id": 138,
     "topic": "Advertising and Marketing",
-    "question": "Question 138. It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
+    "question": "It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
     "options": [
       "A broker license only",
       "A valid license issued by the commission",
@@ -1823,7 +1823,7 @@ export const questionBank = {
   {
     "id": 139,
     "topic": "Licensing Requirements",
-    "question": "Question 139. To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
+    "question": "To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
     "options": [
       "Mortgage lender",
       "Real estate broker or affiliate broker",
@@ -1836,7 +1836,7 @@ export const questionBank = {
   {
     "id": 140,
     "topic": "Advertising and Marketing",
-    "question": "Question 140. It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
+    "question": "It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
     "options": [
       "A broker license only",
       "A valid license issued by the commission",
@@ -1849,7 +1849,7 @@ export const questionBank = {
   {
     "id": 141,
     "topic": "Licensing Requirements",
-    "question": "Question 141. It is unlawful to act as a public automobile auctioneer unless the person is licensed as a public automobile auctioneer and as a:",
+    "question": "It is unlawful to act as a public automobile auctioneer unless the person is licensed as a public automobile auctioneer and as a:",
     "options": [
       "Broker under Title 62, Chapter 13",
       "Motor vehicle dealer under Title 55, Chapter 17, Part 1",
@@ -1862,7 +1862,7 @@ export const questionBank = {
   {
     "id": 142,
     "topic": "Licensing Requirements",
-    "question": "Question 142. To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
+    "question": "To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
     "options": [
       "Mortgage lender",
       "Real estate broker or affiliate broker",
@@ -1875,7 +1875,7 @@ export const questionBank = {
   {
     "id": 143,
     "topic": "Advertising and Marketing",
-    "question": "Question 143. It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
+    "question": "It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
     "options": [
       "A broker license only",
       "A valid license issued by the commission",
@@ -1888,7 +1888,7 @@ export const questionBank = {
   {
     "id": 144,
     "topic": "Licensing Requirements",
-    "question": "Question 144. Which activity is specifically prohibited without the proper Tennessee license?",
+    "question": "Which activity is specifically prohibited without the proper Tennessee license?",
     "options": [
       "Writing item descriptions for a catalog",
       "Advertising as an auctioneer",
@@ -1901,7 +1901,7 @@ export const questionBank = {
   {
     "id": 145,
     "topic": "Licensing Requirements",
-    "question": "Question 145. To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
+    "question": "To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
     "options": [
       "Mortgage lender",
       "Real estate broker or affiliate broker",
@@ -1914,7 +1914,7 @@ export const questionBank = {
   {
     "id": 146,
     "topic": "Licensing Requirements",
-    "question": "Question 146. To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
+    "question": "To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
     "options": [
       "Mortgage lender",
       "Real estate broker or affiliate broker",
@@ -1927,7 +1927,7 @@ export const questionBank = {
   {
     "id": 147,
     "topic": "Advertising and Marketing",
-    "question": "Question 147. It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
+    "question": "It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
     "options": [
       "A broker license only",
       "A valid license issued by the commission",
@@ -1940,7 +1940,7 @@ export const questionBank = {
   {
     "id": 148,
     "topic": "Licensing Requirements",
-    "question": "Question 148. To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
+    "question": "To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
     "options": [
       "Mortgage lender",
       "Real estate broker or affiliate broker",
@@ -1953,7 +1953,7 @@ export const questionBank = {
   {
     "id": 149,
     "topic": "Licensing Requirements",
-    "question": "Question 149. To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
+    "question": "To conduct an auction of real property, a person generally must be licensed as an auctioneer or affiliate auctioneer and also licensed as a:",
     "options": [
       "Mortgage lender",
       "Real estate broker or affiliate broker",
@@ -1966,7 +1966,7 @@ export const questionBank = {
   {
     "id": 150,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 150. Under Tennessee law, ringpersons who do not vocally conduct an auction generally:",
+    "question": "Under Tennessee law, ringpersons who do not vocally conduct an auction generally:",
     "options": [
       "Must be licensed as auctioneers",
       "Do not have to be licensed as auctioneers unless they act as broker or affiliate broker",
@@ -1979,7 +1979,7 @@ export const questionBank = {
   {
     "id": 151,
     "topic": "Auction Basics",
-    "question": "Question 151. A person acting as a receiver, trustee in bankruptcy, guardian, administrator, executor, or other person acting under court order is:",
+    "question": "A person acting as a receiver, trustee in bankruptcy, guardian, administrator, executor, or other person acting under court order is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -1992,7 +1992,7 @@ export const questionBank = {
   {
     "id": 152,
     "topic": "Contract Law",
-    "question": "Question 152. A trustee acting under a trust agreement, deed of trust, or will is:",
+    "question": "A trustee acting under a trust agreement, deed of trust, or will is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2005,7 +2005,7 @@ export const questionBank = {
   {
     "id": 153,
     "topic": "Auction Basics",
-    "question": "Question 153. A secured party selling collateral after default under Title 47, Chapter 9 is:",
+    "question": "A secured party selling collateral after default under Title 47, Chapter 9 is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2018,7 +2018,7 @@ export const questionBank = {
   {
     "id": 154,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 154. An auction conducted by or under the direction of a governmental entity is:",
+    "question": "An auction conducted by or under the direction of a governmental entity is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2031,7 +2031,7 @@ export const questionBank = {
   {
     "id": 155,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 155. An auction conducted pursuant to a judicial order or decree is:",
+    "question": "An auction conducted pursuant to a judicial order or decree is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2044,7 +2044,7 @@ export const questionBank = {
   {
     "id": 156,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 156. A charity auction where the individual conducting the sale receives no compensation and does not hold out as available for auction services is:",
+    "question": "A charity auction where the individual conducting the sale receives no compensation and does not hold out as available for auction services is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2057,7 +2057,7 @@ export const questionBank = {
   {
     "id": 157,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 157. An auction conducted for sale of livestock sponsored through or in cooperation with the state department of agriculture or UT extension is:",
+    "question": "An auction conducted for sale of livestock sponsored through or in cooperation with the state department of agriculture or UT extension is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2070,7 +2070,7 @@ export const questionBank = {
   {
     "id": 158,
     "topic": "Auction Basics",
-    "question": "Question 158. An auction sale of tobacco at or for a warehouse operated under Title 43, Chapter 19 is:",
+    "question": "An auction sale of tobacco at or for a warehouse operated under Title 43, Chapter 19 is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2083,7 +2083,7 @@ export const questionBank = {
   {
     "id": 159,
     "topic": "Licensing Requirements",
-    "question": "Question 159. A livestock auction regulated by USDA Packers and Stockyards Administration that uses the shipper's proceeds account and a licensed auctioneer is:",
+    "question": "A livestock auction regulated by USDA Packers and Stockyards Administration that uses the shipper's proceeds account and a licensed auctioneer is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2095,8 +2095,8 @@ export const questionBank = {
   },
   {
     "id": 160,
-    "topic": "Auction Calculations",
-    "question": "Question 160. Fixed price or timed listings allowing internet bidding that are not a simulcast of a live auction are:",
+    "topic": "Auction Math",
+    "question": "Fixed price or timed listings allowing internet bidding that are not a simulcast of a live auction are:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2108,8 +2108,8 @@ export const questionBank = {
   },
   {
     "id": 161,
-    "topic": "Auction Calculations",
-    "question": "Question 161. An exclusive online auction primarily selling nonrepairable or salvage vehicles with the appropriate Tennessee motor vehicle commission license is:",
+    "topic": "Auction Math",
+    "question": "An exclusive online auction primarily selling nonrepairable or salvage vehicles with the appropriate Tennessee motor vehicle commission license is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2121,8 +2121,8 @@ export const questionBank = {
   },
   {
     "id": 162,
-    "topic": "Auction Calculations",
-    "question": "Question 162. An in-person or simulcast auction primarily selling nonrepairable or salvage vehicles with the appropriate Tennessee motor vehicle commission license that uses a licensed auctioneer is:",
+    "topic": "Auction Math",
+    "question": "An in-person or simulcast auction primarily selling nonrepairable or salvage vehicles with the appropriate Tennessee motor vehicle commission license that uses a licensed auctioneer is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2134,8 +2134,8 @@ export const questionBank = {
   },
   {
     "id": 163,
-    "topic": "Auction Calculations",
-    "question": "Question 163. An individual generating less than $25,000 in revenue per calendar year from online auctions is:",
+    "topic": "Auction Math",
+    "question": "An individual generating less than $25,000 in revenue per calendar year from online auctions is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2148,7 +2148,7 @@ export const questionBank = {
   {
     "id": 164,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 164. A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
+    "question": "A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2161,7 +2161,7 @@ export const questionBank = {
   {
     "id": 165,
     "topic": "Licensing Requirements",
-    "question": "Question 165. A livestock auction regulated by USDA Packers and Stockyards Administration that uses the shipper's proceeds account and a licensed auctioneer is:",
+    "question": "A livestock auction regulated by USDA Packers and Stockyards Administration that uses the shipper's proceeds account and a licensed auctioneer is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2174,7 +2174,7 @@ export const questionBank = {
   {
     "id": 166,
     "topic": "Auction Basics",
-    "question": "Question 166. A secured party selling collateral after default under Title 47, Chapter 9 is:",
+    "question": "A secured party selling collateral after default under Title 47, Chapter 9 is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2187,7 +2187,7 @@ export const questionBank = {
   {
     "id": 167,
     "topic": "Auction Basics",
-    "question": "Question 167. A secured party selling collateral after default under Title 47, Chapter 9 is:",
+    "question": "A secured party selling collateral after default under Title 47, Chapter 9 is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2200,7 +2200,7 @@ export const questionBank = {
   {
     "id": 168,
     "topic": "Auction Basics",
-    "question": "Question 168. An auction sale of tobacco at or for a warehouse operated under Title 43, Chapter 19 is:",
+    "question": "An auction sale of tobacco at or for a warehouse operated under Title 43, Chapter 19 is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2213,7 +2213,7 @@ export const questionBank = {
   {
     "id": 169,
     "topic": "Auction Basics",
-    "question": "Question 169. A secured party selling collateral after default under Title 47, Chapter 9 is:",
+    "question": "A secured party selling collateral after default under Title 47, Chapter 9 is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2226,7 +2226,7 @@ export const questionBank = {
   {
     "id": 170,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 170. A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
+    "question": "A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2239,7 +2239,7 @@ export const questionBank = {
   {
     "id": 171,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 171. An auction conducted for sale of livestock sponsored through or in cooperation with the state department of agriculture or UT extension is:",
+    "question": "An auction conducted for sale of livestock sponsored through or in cooperation with the state department of agriculture or UT extension is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2252,7 +2252,7 @@ export const questionBank = {
   {
     "id": 172,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 172. An auction conducted by or under the direction of a governmental entity is:",
+    "question": "An auction conducted by or under the direction of a governmental entity is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2265,7 +2265,7 @@ export const questionBank = {
   {
     "id": 173,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 173. An auction conducted by or under the direction of a governmental entity is:",
+    "question": "An auction conducted by or under the direction of a governmental entity is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2278,7 +2278,7 @@ export const questionBank = {
   {
     "id": 174,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 174. An auction conducted by or under the direction of a governmental entity is:",
+    "question": "An auction conducted by or under the direction of a governmental entity is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2291,7 +2291,7 @@ export const questionBank = {
   {
     "id": 175,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 175. A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
+    "question": "A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2303,8 +2303,8 @@ export const questionBank = {
   },
   {
     "id": 176,
-    "topic": "Auction Calculations",
-    "question": "Question 176. An in-person or simulcast auction primarily selling nonrepairable or salvage vehicles with the appropriate Tennessee motor vehicle commission license that uses a licensed auctioneer is:",
+    "topic": "Auction Math",
+    "question": "An in-person or simulcast auction primarily selling nonrepairable or salvage vehicles with the appropriate Tennessee motor vehicle commission license that uses a licensed auctioneer is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2317,7 +2317,7 @@ export const questionBank = {
   {
     "id": 177,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 177. A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
+    "question": "A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2330,7 +2330,7 @@ export const questionBank = {
   {
     "id": 178,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 178. A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
+    "question": "A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2343,7 +2343,7 @@ export const questionBank = {
   {
     "id": 179,
     "topic": "Licensing Requirements",
-    "question": "Question 179. A livestock auction regulated by USDA Packers and Stockyards Administration that uses the shipper's proceeds account and a licensed auctioneer is:",
+    "question": "A livestock auction regulated by USDA Packers and Stockyards Administration that uses the shipper's proceeds account and a licensed auctioneer is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2356,7 +2356,7 @@ export const questionBank = {
   {
     "id": 180,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 180. A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
+    "question": "A compensated individual conducting a charity auction while advertising themselves as available to provide auction services is:",
     "options": [
       "Exempt from this chapter",
       "Not exempt (chapter applies)",
@@ -2368,8 +2368,8 @@ export const questionBank = {
   },
   {
     "id": 181,
-    "topic": "Auction Calculations",
-    "question": "Question 181. The Tennessee auctioneer commission is composed of how many members?",
+    "topic": "Auction Math",
+    "question": "The Tennessee auctioneer commission is composed of how many members?",
     "options": [
       "3",
       "5",
@@ -2381,8 +2381,8 @@ export const questionBank = {
   },
   {
     "id": 182,
-    "topic": "Auction Calculations",
-    "question": "Question 182. How many commission members must be auctioneers?",
+    "topic": "Auction Math",
+    "question": "How many commission members must be auctioneers?",
     "options": [
       "1",
       "2",
@@ -2394,8 +2394,8 @@ export const questionBank = {
   },
   {
     "id": 183,
-    "topic": "Auction Calculations",
-    "question": "Question 183. Commission member terms are how long?",
+    "topic": "Auction Math",
+    "question": "Commission member terms are how long?",
     "options": [
       "1 year",
       "2 years",
@@ -2407,8 +2407,8 @@ export const questionBank = {
   },
   {
     "id": 184,
-    "topic": "Auction Calculations",
-    "question": "Question 184. Regular meetings of the commission are held:",
+    "topic": "Auction Math",
+    "question": "Regular meetings of the commission are held:",
     "options": [
       "Only when requested by the governor",
       "At least twice each year",
@@ -2420,8 +2420,8 @@ export const questionBank = {
   },
   {
     "id": 185,
-    "topic": "Auction Calculations",
-    "question": "Question 185. The governor may remove any commission member for:",
+    "topic": "Auction Math",
+    "question": "The governor may remove any commission member for:",
     "options": [
       "Any reason",
       "Misconduct, incompetency, or willful neglect of duty",
@@ -2433,8 +2433,8 @@ export const questionBank = {
   },
   {
     "id": 186,
-    "topic": "Auction Calculations",
-    "question": "Question 186. The Tennessee auctioneer commission is composed of how many members?",
+    "topic": "Auction Math",
+    "question": "The Tennessee auctioneer commission is composed of how many members?",
     "options": [
       "3",
       "5",
@@ -2446,8 +2446,8 @@ export const questionBank = {
   },
   {
     "id": 187,
-    "topic": "Auction Calculations",
-    "question": "Question 187. The Tennessee auctioneer commission is composed of how many members?",
+    "topic": "Auction Math",
+    "question": "The Tennessee auctioneer commission is composed of how many members?",
     "options": [
       "3",
       "5",
@@ -2459,8 +2459,8 @@ export const questionBank = {
   },
   {
     "id": 188,
-    "topic": "Auction Calculations",
-    "question": "Question 188. The Tennessee auctioneer commission is composed of how many members?",
+    "topic": "Auction Math",
+    "question": "The Tennessee auctioneer commission is composed of how many members?",
     "options": [
       "3",
       "5",
@@ -2472,8 +2472,8 @@ export const questionBank = {
   },
   {
     "id": 189,
-    "topic": "Auction Calculations",
-    "question": "Question 189. How many commission members must be auctioneers?",
+    "topic": "Auction Math",
+    "question": "How many commission members must be auctioneers?",
     "options": [
       "1",
       "2",
@@ -2485,8 +2485,8 @@ export const questionBank = {
   },
   {
     "id": 190,
-    "topic": "Auction Calculations",
-    "question": "Question 190. The Tennessee auctioneer commission is composed of how many members?",
+    "topic": "Auction Math",
+    "question": "The Tennessee auctioneer commission is composed of how many members?",
     "options": [
       "3",
       "5",
@@ -2498,8 +2498,8 @@ export const questionBank = {
   },
   {
     "id": 191,
-    "topic": "Auction Calculations",
-    "question": "Question 191. The Tennessee auctioneer commission is composed of how many members?",
+    "topic": "Auction Math",
+    "question": "The Tennessee auctioneer commission is composed of how many members?",
     "options": [
       "3",
       "5",
@@ -2511,8 +2511,8 @@ export const questionBank = {
   },
   {
     "id": 192,
-    "topic": "Auction Calculations",
-    "question": "Question 192. The Tennessee auctioneer commission is composed of how many members?",
+    "topic": "Auction Math",
+    "question": "The Tennessee auctioneer commission is composed of how many members?",
     "options": [
       "3",
       "5",
@@ -2524,8 +2524,8 @@ export const questionBank = {
   },
   {
     "id": 193,
-    "topic": "Auction Calculations",
-    "question": "Question 193. How many commission members must be auctioneers?",
+    "topic": "Auction Math",
+    "question": "How many commission members must be auctioneers?",
     "options": [
       "1",
       "2",
@@ -2537,8 +2537,8 @@ export const questionBank = {
   },
   {
     "id": 194,
-    "topic": "Auction Calculations",
-    "question": "Question 194. Regular meetings of the commission are held:",
+    "topic": "Auction Math",
+    "question": "Regular meetings of the commission are held:",
     "options": [
       "Only when requested by the governor",
       "At least twice each year",
@@ -2550,8 +2550,8 @@ export const questionBank = {
   },
   {
     "id": 195,
-    "topic": "Auction Calculations",
-    "question": "Question 195. Regular meetings of the commission are held:",
+    "topic": "Auction Math",
+    "question": "Regular meetings of the commission are held:",
     "options": [
       "Only when requested by the governor",
       "At least twice each year",
@@ -2564,7 +2564,7 @@ export const questionBank = {
   {
     "id": 196,
     "topic": "Bidding Procedures",
-    "question": "Question 196. Minimum age to apply for bid caller, affiliate, or principal auctioneer licensure in Tennessee is:",
+    "question": "Minimum age to apply for bid caller, affiliate, or principal auctioneer licensure in Tennessee is:",
     "options": [
       "16",
       "18",
@@ -2577,7 +2577,7 @@ export const questionBank = {
   {
     "id": 197,
     "topic": "Bidding Procedures",
-    "question": "Question 197. A bid caller auctioneer applicant must complete at least how many hours of instruction on basic fundamentals of auctioneering at an accredited auction school?",
+    "question": "A bid caller auctioneer applicant must complete at least how many hours of instruction on basic fundamentals of auctioneering at an accredited auction school?",
     "options": [
       "8",
       "12",
@@ -2590,7 +2590,7 @@ export const questionBank = {
   {
     "id": 198,
     "topic": "Licensing Requirements",
-    "question": "Question 198. Auction chant instruction for the basic fundamentals requirement is:",
+    "question": "Auction chant instruction for the basic fundamentals requirement is:",
     "options": [
       "Required and may be completed online",
       "Optional and may not be completed online",
@@ -2603,7 +2603,7 @@ export const questionBank = {
   {
     "id": 199,
     "topic": "Auction Basics",
-    "question": "Question 199. An affiliate auctioneer applicant must complete, in addition to the basic fundamentals, how many additional hours in fundamentals of auctioneering?",
+    "question": "An affiliate auctioneer applicant must complete, in addition to the basic fundamentals, how many additional hours in fundamentals of auctioneering?",
     "options": [
       "10",
       "20",
@@ -2616,7 +2616,7 @@ export const questionBank = {
   {
     "id": 200,
     "topic": "Auction Basics",
-    "question": "Question 200. A principal auctioneer applicant must have served as an affiliate auctioneer under supervision for at least:",
+    "question": "A principal auctioneer applicant must have served as an affiliate auctioneer under supervision for at least:",
     "options": [
       "3 months",
       "6 months",
@@ -2628,8 +2628,8 @@ export const questionBank = {
   },
   {
     "id": 201,
-    "topic": "Auction Calculations",
-    "question": "Question 201. All licenses issued by the commission expire:",
+    "topic": "Auction Math",
+    "question": "All licenses issued by the commission expire:",
     "options": [
       "1 year from issue",
       "2 years from original issue date",
@@ -2641,8 +2641,8 @@ export const questionBank = {
   },
   {
     "id": 202,
-    "topic": "Auction Calculations",
-    "question": "Question 202. If a license is not renewed by its expiration date, the commission may renew it within:",
+    "topic": "Auction Math",
+    "question": "If a license is not renewed by its expiration date, the commission may renew it within:",
     "options": [
       "2 weeks",
       "2 months",
@@ -2655,7 +2655,7 @@ export const questionBank = {
   {
     "id": 203,
     "topic": "Auction Basics",
-    "question": "Question 203. When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
+    "question": "When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
     "options": [
       "Destroy the license",
       "Immediately return the affiliate license to the commission",
@@ -2668,7 +2668,7 @@ export const questionBank = {
   {
     "id": 204,
     "topic": "Licensing Requirements",
-    "question": "Question 204. How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
+    "question": "How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
     "options": [
       "One",
       "Two",
@@ -2680,8 +2680,8 @@ export const questionBank = {
   },
   {
     "id": 205,
-    "topic": "Auction Calculations",
-    "question": "Question 205. When fees are remitted by mail to the commission, the payment date is determined by:",
+    "topic": "Auction Math",
+    "question": "When fees are remitted by mail to the commission, the payment date is determined by:",
     "options": [
       "The date received",
       "The official postmark",
@@ -2694,7 +2694,7 @@ export const questionBank = {
   {
     "id": 206,
     "topic": "Auction Basics",
-    "question": "Question 206. A principal auctioneer examination must be:",
+    "question": "A principal auctioneer examination must be:",
     "options": [
       "The same as an affiliate exam",
       "More specific in nature and scope than the affiliate exam",
@@ -2706,8 +2706,8 @@ export const questionBank = {
   },
   {
     "id": 207,
-    "topic": "Auction Calculations",
-    "question": "Question 207. The commission may deny an applicant the right to take an exam for up to two years if the applicant:",
+    "topic": "Auction Math",
+    "question": "The commission may deny an applicant the right to take an exam for up to two years if the applicant:",
     "options": [
       "Is late to the exam",
       "Conducted business in Tennessee as an auctioneer without being licensed",
@@ -2720,7 +2720,7 @@ export const questionBank = {
   {
     "id": 208,
     "topic": "Auction Basics",
-    "question": "Question 208. An affiliate auctioneer applicant must complete, in addition to the basic fundamentals, how many additional hours in fundamentals of auctioneering?",
+    "question": "An affiliate auctioneer applicant must complete, in addition to the basic fundamentals, how many additional hours in fundamentals of auctioneering?",
     "options": [
       "10",
       "20",
@@ -2733,7 +2733,7 @@ export const questionBank = {
   {
     "id": 209,
     "topic": "Licensing Requirements",
-    "question": "Question 209. How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
+    "question": "How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
     "options": [
       "One",
       "Two",
@@ -2746,7 +2746,7 @@ export const questionBank = {
   {
     "id": 210,
     "topic": "Auction Basics",
-    "question": "Question 210. When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
+    "question": "When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
     "options": [
       "Destroy the license",
       "Immediately return the affiliate license to the commission",
@@ -2759,7 +2759,7 @@ export const questionBank = {
   {
     "id": 211,
     "topic": "Licensing Requirements",
-    "question": "Question 211. Auction chant instruction for the basic fundamentals requirement is:",
+    "question": "Auction chant instruction for the basic fundamentals requirement is:",
     "options": [
       "Required and may be completed online",
       "Optional and may not be completed online",
@@ -2772,7 +2772,7 @@ export const questionBank = {
   {
     "id": 212,
     "topic": "Licensing Requirements",
-    "question": "Question 212. How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
+    "question": "How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
     "options": [
       "One",
       "Two",
@@ -2784,8 +2784,8 @@ export const questionBank = {
   },
   {
     "id": 213,
-    "topic": "Auction Calculations",
-    "question": "Question 213. All licenses issued by the commission expire:",
+    "topic": "Auction Math",
+    "question": "All licenses issued by the commission expire:",
     "options": [
       "1 year from issue",
       "2 years from original issue date",
@@ -2798,7 +2798,7 @@ export const questionBank = {
   {
     "id": 214,
     "topic": "Licensing Requirements",
-    "question": "Question 214. How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
+    "question": "How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
     "options": [
       "One",
       "Two",
@@ -2811,7 +2811,7 @@ export const questionBank = {
   {
     "id": 215,
     "topic": "Auction Basics",
-    "question": "Question 215. When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
+    "question": "When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
     "options": [
       "Destroy the license",
       "Immediately return the affiliate license to the commission",
@@ -2824,7 +2824,7 @@ export const questionBank = {
   {
     "id": 216,
     "topic": "Auction Basics",
-    "question": "Question 216. When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
+    "question": "When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
     "options": [
       "Destroy the license",
       "Immediately return the affiliate license to the commission",
@@ -2837,7 +2837,7 @@ export const questionBank = {
   {
     "id": 217,
     "topic": "Licensing Requirements",
-    "question": "Question 217. Auction chant instruction for the basic fundamentals requirement is:",
+    "question": "Auction chant instruction for the basic fundamentals requirement is:",
     "options": [
       "Required and may be completed online",
       "Optional and may not be completed online",
@@ -2850,7 +2850,7 @@ export const questionBank = {
   {
     "id": 218,
     "topic": "Auction Basics",
-    "question": "Question 218. When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
+    "question": "When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
     "options": [
       "Destroy the license",
       "Immediately return the affiliate license to the commission",
@@ -2862,8 +2862,8 @@ export const questionBank = {
   },
   {
     "id": 219,
-    "topic": "Auction Calculations",
-    "question": "Question 219. All licenses issued by the commission expire:",
+    "topic": "Auction Math",
+    "question": "All licenses issued by the commission expire:",
     "options": [
       "1 year from issue",
       "2 years from original issue date",
@@ -2876,7 +2876,7 @@ export const questionBank = {
   {
     "id": 220,
     "topic": "Auction Basics",
-    "question": "Question 220. An affiliate auctioneer applicant must complete, in addition to the basic fundamentals, how many additional hours in fundamentals of auctioneering?",
+    "question": "An affiliate auctioneer applicant must complete, in addition to the basic fundamentals, how many additional hours in fundamentals of auctioneering?",
     "options": [
       "10",
       "20",
@@ -2889,7 +2889,7 @@ export const questionBank = {
   {
     "id": 221,
     "topic": "Bidding Procedures",
-    "question": "Question 221. A bid caller auctioneer applicant must complete at least how many hours of instruction on basic fundamentals of auctioneering at an accredited auction school?",
+    "question": "A bid caller auctioneer applicant must complete at least how many hours of instruction on basic fundamentals of auctioneering at an accredited auction school?",
     "options": [
       "8",
       "12",
@@ -2902,7 +2902,7 @@ export const questionBank = {
   {
     "id": 222,
     "topic": "Auction Basics",
-    "question": "Question 222. When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
+    "question": "When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
     "options": [
       "Destroy the license",
       "Immediately return the affiliate license to the commission",
@@ -2914,8 +2914,8 @@ export const questionBank = {
   },
   {
     "id": 223,
-    "topic": "Auction Calculations",
-    "question": "Question 223. All licenses issued by the commission expire:",
+    "topic": "Auction Math",
+    "question": "All licenses issued by the commission expire:",
     "options": [
       "1 year from issue",
       "2 years from original issue date",
@@ -2928,7 +2928,7 @@ export const questionBank = {
   {
     "id": 224,
     "topic": "Auction Basics",
-    "question": "Question 224. When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
+    "question": "When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
     "options": [
       "Destroy the license",
       "Immediately return the affiliate license to the commission",
@@ -2941,7 +2941,7 @@ export const questionBank = {
   {
     "id": 225,
     "topic": "Bidding Procedures",
-    "question": "Question 225. Minimum age to apply for bid caller, affiliate, or principal auctioneer licensure in Tennessee is:",
+    "question": "Minimum age to apply for bid caller, affiliate, or principal auctioneer licensure in Tennessee is:",
     "options": [
       "16",
       "18",
@@ -2954,7 +2954,7 @@ export const questionBank = {
   {
     "id": 226,
     "topic": "Licensing Requirements",
-    "question": "Question 226. Auction chant instruction for the basic fundamentals requirement is:",
+    "question": "Auction chant instruction for the basic fundamentals requirement is:",
     "options": [
       "Required and may be completed online",
       "Optional and may not be completed online",
@@ -2967,7 +2967,7 @@ export const questionBank = {
   {
     "id": 227,
     "topic": "Bidding Procedures",
-    "question": "Question 227. Minimum age to apply for bid caller, affiliate, or principal auctioneer licensure in Tennessee is:",
+    "question": "Minimum age to apply for bid caller, affiliate, or principal auctioneer licensure in Tennessee is:",
     "options": [
       "16",
       "18",
@@ -2980,7 +2980,7 @@ export const questionBank = {
   {
     "id": 228,
     "topic": "Licensing Requirements",
-    "question": "Question 228. Auction chant instruction for the basic fundamentals requirement is:",
+    "question": "Auction chant instruction for the basic fundamentals requirement is:",
     "options": [
       "Required and may be completed online",
       "Optional and may not be completed online",
@@ -2993,7 +2993,7 @@ export const questionBank = {
   {
     "id": 229,
     "topic": "Auction Basics",
-    "question": "Question 229. A principal auctioneer examination must be:",
+    "question": "A principal auctioneer examination must be:",
     "options": [
       "The same as an affiliate exam",
       "More specific in nature and scope than the affiliate exam",
@@ -3006,7 +3006,7 @@ export const questionBank = {
   {
     "id": 230,
     "topic": "Auction Basics",
-    "question": "Question 230. When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
+    "question": "When an affiliate auctioneer's employment is terminated, the employer auctioneer must:",
     "options": [
       "Destroy the license",
       "Immediately return the affiliate license to the commission",
@@ -3019,7 +3019,7 @@ export const questionBank = {
   {
     "id": 231,
     "topic": "Bidding Procedures",
-    "question": "Question 231. Minimum age to apply for bid caller, affiliate, or principal auctioneer licensure in Tennessee is:",
+    "question": "Minimum age to apply for bid caller, affiliate, or principal auctioneer licensure in Tennessee is:",
     "options": [
       "16",
       "18",
@@ -3032,7 +3032,7 @@ export const questionBank = {
   {
     "id": 232,
     "topic": "Licensing Requirements",
-    "question": "Question 232. Auction chant instruction for the basic fundamentals requirement is:",
+    "question": "Auction chant instruction for the basic fundamentals requirement is:",
     "options": [
       "Required and may be completed online",
       "Optional and may not be completed online",
@@ -3045,7 +3045,7 @@ export const questionBank = {
   {
     "id": 233,
     "topic": "Licensing Requirements",
-    "question": "Question 233. How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
+    "question": "How many affiliate auctioneer licenses may be in effect at any one time for the same individual?",
     "options": [
       "One",
       "Two",
@@ -3058,7 +3058,7 @@ export const questionBank = {
   {
     "id": 234,
     "topic": "Bidding Procedures",
-    "question": "Question 234. A bid caller auctioneer applicant must complete at least how many hours of instruction on basic fundamentals of auctioneering at an accredited auction school?",
+    "question": "A bid caller auctioneer applicant must complete at least how many hours of instruction on basic fundamentals of auctioneering at an accredited auction school?",
     "options": [
       "8",
       "12",
@@ -3071,7 +3071,7 @@ export const questionBank = {
   {
     "id": 235,
     "topic": "Auction Basics",
-    "question": "Question 235. An affiliate auctioneer applicant must complete, in addition to the basic fundamentals, how many additional hours in fundamentals of auctioneering?",
+    "question": "An affiliate auctioneer applicant must complete, in addition to the basic fundamentals, how many additional hours in fundamentals of auctioneering?",
     "options": [
       "10",
       "20",
@@ -3083,8 +3083,8 @@ export const questionBank = {
   },
   {
     "id": 236,
-    "topic": "Auction Calculations",
-    "question": "Question 236. The commission must hold a hearing on a verified written complaint only if the complaint and evidence make out a:",
+    "topic": "Auction Math",
+    "question": "The commission must hold a hearing on a verified written complaint only if the complaint and evidence make out a:",
     "options": [
       "Probable cause finding",
       "Prima facie case",
@@ -3097,7 +3097,7 @@ export const questionBank = {
   {
     "id": 237,
     "topic": "Licensing Requirements",
-    "question": "Question 237. A license may be suspended, revoked, or refused renewal if it was obtained by:",
+    "question": "A license may be suspended, revoked, or refused renewal if it was obtained by:",
     "options": [
       "Late payment",
       "False or fraudulent representations",
@@ -3110,7 +3110,7 @@ export const questionBank = {
   {
     "id": 238,
     "topic": "Bidding Procedures",
-    "question": "Question 238. Which is listed as grounds for discipline: a bid caller auctioneer holding themselves out as a principal auctioneer?",
+    "question": "Which is listed as grounds for discipline: a bid caller auctioneer holding themselves out as a principal auctioneer?",
     "options": [
       "Yes",
       "No",
@@ -3123,7 +3123,7 @@ export const questionBank = {
   {
     "id": 239,
     "topic": "Auction Basics",
-    "question": "Question 239. An affiliate auctioneer may accept valuable consideration for covered auction acts from:",
+    "question": "An affiliate auctioneer may accept valuable consideration for covered auction acts from:",
     "options": [
       "Any buyer",
       "Any seller",
@@ -3136,7 +3136,7 @@ export const questionBank = {
   {
     "id": 240,
     "topic": "Licensing Requirements",
-    "question": "Question 240. Every person licensed under this chapter must maintain a definite place of business in Tennessee (except nonresidents) and must:",
+    "question": "Every person licensed under this chapter must maintain a definite place of business in Tennessee (except nonresidents) and must:",
     "options": [
       "Keep no sign",
       "Erect and maintain a sign in a conspicuous place at the office entrance",
@@ -3149,7 +3149,7 @@ export const questionBank = {
   {
     "id": 241,
     "topic": "Auction Basics",
-    "question": "Question 241. The required business sign must have letters at least:",
+    "question": "The required business sign must have letters at least:",
     "options": [
       "1 inch high",
       "2 inches high",
@@ -3162,7 +3162,7 @@ export const questionBank = {
   {
     "id": 242,
     "topic": "Licensing Requirements",
-    "question": "Question 242. Licensees in multistory office buildings are deemed compliant with the sign requirement if:",
+    "question": "Licensees in multistory office buildings are deemed compliant with the sign requirement if:",
     "options": [
       "They have a banner outside",
       "Their name and profession are displayed on the building directory",
@@ -3175,7 +3175,7 @@ export const questionBank = {
   {
     "id": 243,
     "topic": "Licensing Requirements",
-    "question": "Question 243. Who is authorized to issue citations for persons engaging in the auction business without a license?",
+    "question": "Who is authorized to issue citations for persons engaging in the auction business without a license?",
     "options": [
       "Any commissioner",
       "The administrative director and the investigator",
@@ -3187,8 +3187,8 @@ export const questionBank = {
   },
   {
     "id": 244,
-    "topic": "Auction Calculations",
-    "question": "Question 244. A citation must include an order to cease violations and a civil penalty of not less than $50 and not more than:",
+    "topic": "Auction Math",
+    "question": "A citation must include an order to cease violations and a civil penalty of not less than $50 and not more than:",
     "options": [
       "$500",
       "$1,000",
@@ -3201,7 +3201,7 @@ export const questionBank = {
   {
     "id": 245,
     "topic": "Auction Basics",
-    "question": "Question 245. A citation must be issued within how long after the act or omission that is the basis for the citation?",
+    "question": "A citation must be issued within how long after the act or omission that is the basis for the citation?",
     "options": [
       "90 days",
       "6 months",
@@ -3214,7 +3214,7 @@ export const questionBank = {
   {
     "id": 246,
     "topic": "Auction Basics",
-    "question": "Question 246. A person served with a citation may appeal by written notice postmarked within:",
+    "question": "A person served with a citation may appeal by written notice postmarked within:",
     "options": [
       "5 working days",
       "10 working days",
@@ -3226,8 +3226,8 @@ export const questionBank = {
   },
   {
     "id": 247,
-    "topic": "Auction Calculations",
-    "question": "Question 247. The minimum balance the commission must maintain in the auctioneer education and recovery account is:",
+    "topic": "Auction Math",
+    "question": "The minimum balance the commission must maintain in the auctioneer education and recovery account is:",
     "options": [
       "$50,000",
       "$100,000",
@@ -3240,7 +3240,7 @@ export const questionBank = {
   {
     "id": 248,
     "topic": "Auction Basics",
-    "question": "Question 248. The maximum recovery from the auctioneer education and recovery account per transaction is:",
+    "question": "The maximum recovery from the auctioneer education and recovery account per transaction is:",
     "options": [
       "$5,000",
       "$10,000",
@@ -3253,7 +3253,7 @@ export const questionBank = {
   {
     "id": 249,
     "topic": "Auction Basics",
-    "question": "Question 249. Violations of this chapter are classified as a:",
+    "question": "Violations of this chapter are classified as a:",
     "options": [
       "Civil infraction",
       "Class C misdemeanor",
@@ -3266,7 +3266,7 @@ export const questionBank = {
   {
     "id": 250,
     "topic": "Auction Basics",
-    "question": "Question 250. Service of a citation may be made:",
+    "question": "Service of a citation may be made:",
     "options": [
       "Only in person",
       "In person or by certified mail at the last known business or residence address",
@@ -3279,7 +3279,7 @@ export const questionBank = {
   {
     "id": 251,
     "topic": "Auction Basics",
-    "question": "Question 251. An auctioneer's primary fiduciary duty is owed to the:",
+    "question": "An auctioneer's primary fiduciary duty is owed to the:",
     "options": [
       "Highest bidder",
       "Seller/client",
@@ -3292,7 +3292,7 @@ export const questionBank = {
   {
     "id": 252,
     "topic": "Ethics and Professional Conduct",
-    "question": "Question 252. Which practice is generally considered unethical and may violate auction law?",
+    "question": "Which practice is generally considered unethical and may violate auction law?",
     "options": [
       "Clear advertising of terms",
       "Shill bidding (using fake bidders to raise price)",
@@ -3304,8 +3304,8 @@ export const questionBank = {
   },
   {
     "id": 253,
-    "topic": "Auction Calculations",
-    "question": "Question 253. An auctioneer should disclose a buyer's premium:",
+    "topic": "Auction Math",
+    "question": "An auctioneer should disclose a buyer's premium:",
     "options": [
       "Only after the sale",
       "Clearly before bidding begins",
@@ -3318,7 +3318,7 @@ export const questionBank = {
   {
     "id": 254,
     "topic": "Auction Basics",
-    "question": "Question 254. Commingling client funds with personal or operating funds is:",
+    "question": "Commingling client funds with personal or operating funds is:",
     "options": [
       "Recommended",
       "Prohibited",
@@ -3331,7 +3331,7 @@ export const questionBank = {
   {
     "id": 255,
     "topic": "Bidding Procedures",
-    "question": "Question 255. The best way to handle a bidder dispute is to:",
+    "question": "The best way to handle a bidder dispute is to:",
     "options": [
       "Ignore it",
       "Follow published auction terms and document the decision",
@@ -3344,7 +3344,7 @@ export const questionBank = {
   {
     "id": 256,
     "topic": "Advertising and Marketing",
-    "question": "Question 256. Advertising an auction with misleading descriptions is:",
+    "question": "Advertising an auction with misleading descriptions is:",
     "options": [
       "Acceptable marketing",
       "Potentially deceptive and unethical",
@@ -3357,7 +3357,7 @@ export const questionBank = {
   {
     "id": 257,
     "topic": "Contract Law",
-    "question": "Question 257. A written contract with the seller is important because it:",
+    "question": "A written contract with the seller is important because it:",
     "options": [
       "Is optional",
       "Defines terms, commissions, and responsibilities",
@@ -3370,7 +3370,7 @@ export const questionBank = {
   {
     "id": 258,
     "topic": "Auction Basics",
-    "question": "Question 258. The auctioneer should announce whether items are sold:",
+    "question": "The auctioneer should announce whether items are sold:",
     "options": [
       "Only after bidding ends",
       "With reserve or without reserve before the auction",
@@ -3383,7 +3383,7 @@ export const questionBank = {
   {
     "id": 259,
     "topic": "Auction Basics",
-    "question": "Question 259. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3396,7 +3396,7 @@ export const questionBank = {
   {
     "id": 260,
     "topic": "Auction Basics",
-    "question": "Question 260. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3409,7 +3409,7 @@ export const questionBank = {
   {
     "id": 261,
     "topic": "Auction Basics",
-    "question": "Question 261. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3422,7 +3422,7 @@ export const questionBank = {
   {
     "id": 262,
     "topic": "Auction Basics",
-    "question": "Question 262. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3435,7 +3435,7 @@ export const questionBank = {
   {
     "id": 263,
     "topic": "Advertising and Marketing",
-    "question": "Question 263. Advertising an auction with misleading descriptions is:",
+    "question": "Advertising an auction with misleading descriptions is:",
     "options": [
       "Acceptable marketing",
       "Potentially deceptive and unethical",
@@ -3448,7 +3448,7 @@ export const questionBank = {
   {
     "id": 264,
     "topic": "Auction Basics",
-    "question": "Question 264. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3461,7 +3461,7 @@ export const questionBank = {
   {
     "id": 265,
     "topic": "Auction Basics",
-    "question": "Question 265. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3474,7 +3474,7 @@ export const questionBank = {
   {
     "id": 266,
     "topic": "Auction Basics",
-    "question": "Question 266. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3487,7 +3487,7 @@ export const questionBank = {
   {
     "id": 267,
     "topic": "Contract Law",
-    "question": "Question 267. A written contract with the seller is important because it:",
+    "question": "A written contract with the seller is important because it:",
     "options": [
       "Is optional",
       "Defines terms, commissions, and responsibilities",
@@ -3500,7 +3500,7 @@ export const questionBank = {
   {
     "id": 268,
     "topic": "Auction Basics",
-    "question": "Question 268. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3513,7 +3513,7 @@ export const questionBank = {
   {
     "id": 269,
     "topic": "Auction Basics",
-    "question": "Question 269. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3526,7 +3526,7 @@ export const questionBank = {
   {
     "id": 270,
     "topic": "Auction Basics",
-    "question": "Question 270. The auctioneer should announce whether items are sold:",
+    "question": "The auctioneer should announce whether items are sold:",
     "options": [
       "Only after bidding ends",
       "With reserve or without reserve before the auction",
@@ -3539,7 +3539,7 @@ export const questionBank = {
   {
     "id": 271,
     "topic": "Auction Basics",
-    "question": "Question 271. The auctioneer should announce whether items are sold:",
+    "question": "The auctioneer should announce whether items are sold:",
     "options": [
       "Only after bidding ends",
       "With reserve or without reserve before the auction",
@@ -3552,7 +3552,7 @@ export const questionBank = {
   {
     "id": 272,
     "topic": "Auction Basics",
-    "question": "Question 272. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3565,7 +3565,7 @@ export const questionBank = {
   {
     "id": 273,
     "topic": "Contract Law",
-    "question": "Question 273. A written contract with the seller is important because it:",
+    "question": "A written contract with the seller is important because it:",
     "options": [
       "Is optional",
       "Defines terms, commissions, and responsibilities",
@@ -3578,7 +3578,7 @@ export const questionBank = {
   {
     "id": 274,
     "topic": "Auction Basics",
-    "question": "Question 274. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3591,7 +3591,7 @@ export const questionBank = {
   {
     "id": 275,
     "topic": "Auction Basics",
-    "question": "Question 275. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3604,7 +3604,7 @@ export const questionBank = {
   {
     "id": 276,
     "topic": "Auction Basics",
-    "question": "Question 276. The auctioneer should announce whether items are sold:",
+    "question": "The auctioneer should announce whether items are sold:",
     "options": [
       "Only after bidding ends",
       "With reserve or without reserve before the auction",
@@ -3617,7 +3617,7 @@ export const questionBank = {
   {
     "id": 277,
     "topic": "Auction Basics",
-    "question": "Question 277. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3630,7 +3630,7 @@ export const questionBank = {
   {
     "id": 278,
     "topic": "Auction Basics",
-    "question": "Question 278. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3643,7 +3643,7 @@ export const questionBank = {
   {
     "id": 279,
     "topic": "Auction Basics",
-    "question": "Question 279. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3656,7 +3656,7 @@ export const questionBank = {
   {
     "id": 280,
     "topic": "Contract Law",
-    "question": "Question 280. A written contract with the seller is important because it:",
+    "question": "A written contract with the seller is important because it:",
     "options": [
       "Is optional",
       "Defines terms, commissions, and responsibilities",
@@ -3669,7 +3669,7 @@ export const questionBank = {
   {
     "id": 281,
     "topic": "Auction Basics",
-    "question": "Question 281. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3682,7 +3682,7 @@ export const questionBank = {
   {
     "id": 282,
     "topic": "Auction Basics",
-    "question": "Question 282. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3695,7 +3695,7 @@ export const questionBank = {
   {
     "id": 283,
     "topic": "Auction Basics",
-    "question": "Question 283. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3708,7 +3708,7 @@ export const questionBank = {
   {
     "id": 284,
     "topic": "Auction Basics",
-    "question": "Question 284. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3721,7 +3721,7 @@ export const questionBank = {
   {
     "id": 285,
     "topic": "Auction Basics",
-    "question": "Question 285. The auctioneer should announce whether items are sold:",
+    "question": "The auctioneer should announce whether items are sold:",
     "options": [
       "Only after bidding ends",
       "With reserve or without reserve before the auction",
@@ -3734,7 +3734,7 @@ export const questionBank = {
   {
     "id": 286,
     "topic": "Auction Basics",
-    "question": "Question 286. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3747,7 +3747,7 @@ export const questionBank = {
   {
     "id": 287,
     "topic": "Contract Law",
-    "question": "Question 287. A written contract with the seller is important because it:",
+    "question": "A written contract with the seller is important because it:",
     "options": [
       "Is optional",
       "Defines terms, commissions, and responsibilities",
@@ -3760,7 +3760,7 @@ export const questionBank = {
   {
     "id": 288,
     "topic": "Auction Basics",
-    "question": "Question 288. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3773,7 +3773,7 @@ export const questionBank = {
   {
     "id": 289,
     "topic": "Auction Basics",
-    "question": "Question 289. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3786,7 +3786,7 @@ export const questionBank = {
   {
     "id": 290,
     "topic": "Contract Law",
-    "question": "Question 290. A written contract with the seller is important because it:",
+    "question": "A written contract with the seller is important because it:",
     "options": [
       "Is optional",
       "Defines terms, commissions, and responsibilities",
@@ -3799,7 +3799,7 @@ export const questionBank = {
   {
     "id": 291,
     "topic": "Advertising and Marketing",
-    "question": "Question 291. Advertising an auction with misleading descriptions is:",
+    "question": "Advertising an auction with misleading descriptions is:",
     "options": [
       "Acceptable marketing",
       "Potentially deceptive and unethical",
@@ -3812,7 +3812,7 @@ export const questionBank = {
   {
     "id": 292,
     "topic": "Auction Basics",
-    "question": "Question 292. The auctioneer should announce whether items are sold:",
+    "question": "The auctioneer should announce whether items are sold:",
     "options": [
       "Only after bidding ends",
       "With reserve or without reserve before the auction",
@@ -3825,7 +3825,7 @@ export const questionBank = {
   {
     "id": 293,
     "topic": "Contract Law",
-    "question": "Question 293. A written contract with the seller is important because it:",
+    "question": "A written contract with the seller is important because it:",
     "options": [
       "Is optional",
       "Defines terms, commissions, and responsibilities",
@@ -3838,7 +3838,7 @@ export const questionBank = {
   {
     "id": 294,
     "topic": "Auction Basics",
-    "question": "Question 294. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3851,7 +3851,7 @@ export const questionBank = {
   {
     "id": 295,
     "topic": "Auction Basics",
-    "question": "Question 295. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3864,7 +3864,7 @@ export const questionBank = {
   {
     "id": 296,
     "topic": "Auction Basics",
-    "question": "Question 296. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3877,7 +3877,7 @@ export const questionBank = {
   {
     "id": 297,
     "topic": "Advertising and Marketing",
-    "question": "Question 297. Advertising an auction with misleading descriptions is:",
+    "question": "Advertising an auction with misleading descriptions is:",
     "options": [
       "Acceptable marketing",
       "Potentially deceptive and unethical",
@@ -3890,7 +3890,7 @@ export const questionBank = {
   {
     "id": 298,
     "topic": "Auction Basics",
-    "question": "Question 298. Failing to remit seller proceeds on time is:",
+    "question": "Failing to remit seller proceeds on time is:",
     "options": [
       "A best practice",
       "A serious violation of professional responsibility",
@@ -3903,7 +3903,7 @@ export const questionBank = {
   {
     "id": 299,
     "topic": "Contract Law",
-    "question": "Question 299. A written contract with the seller is important because it:",
+    "question": "A written contract with the seller is important because it:",
     "options": [
       "Is optional",
       "Defines terms, commissions, and responsibilities",
@@ -3916,7 +3916,7 @@ export const questionBank = {
   {
     "id": 300,
     "topic": "Auction Basics",
-    "question": "Question 300. If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
+    "question": "If an auctioneer has a personal financial interest in an item being sold, the auctioneer should:",
     "options": [
       "Hide it",
       "Disclose the interest to all parties",
@@ -3930,8 +3930,8 @@ export const questionBank = {
   'Texas': [
   {
     "id": 1,
-    "topic": "Auction Calculations",
-    "question": "Question 1. Hammer price is $1,050 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,050 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,050",
       "$1,155",
@@ -3943,8 +3943,8 @@ export const questionBank = {
   },
   {
     "id": 2,
-    "topic": "Auction Calculations",
-    "question": "Question 2. Hammer price is $1,100 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,100 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,100",
       "$1,210",
@@ -3956,8 +3956,8 @@ export const questionBank = {
   },
   {
     "id": 3,
-    "topic": "Auction Calculations",
-    "question": "Question 3. Hammer price is $1,150 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,150 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,150",
       "$1,265",
@@ -3969,8 +3969,8 @@ export const questionBank = {
   },
   {
     "id": 4,
-    "topic": "Auction Calculations",
-    "question": "Question 4. Hammer price is $1,200 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,200 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,200",
       "$1,320",
@@ -3982,8 +3982,8 @@ export const questionBank = {
   },
   {
     "id": 5,
-    "topic": "Auction Calculations",
-    "question": "Question 5. Hammer price is $1,250 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,250 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,250",
       "$1,375",
@@ -3995,8 +3995,8 @@ export const questionBank = {
   },
   {
     "id": 6,
-    "topic": "Auction Calculations",
-    "question": "Question 6. Hammer price is $1,300 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,300 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,300",
       "$1,430",
@@ -4008,8 +4008,8 @@ export const questionBank = {
   },
   {
     "id": 7,
-    "topic": "Auction Calculations",
-    "question": "Question 7. Hammer price is $1,350 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,350 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,350",
       "$1,485",
@@ -4021,8 +4021,8 @@ export const questionBank = {
   },
   {
     "id": 8,
-    "topic": "Auction Calculations",
-    "question": "Question 8. Hammer price is $1,400 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,400 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,400",
       "$1,540",
@@ -4034,8 +4034,8 @@ export const questionBank = {
   },
   {
     "id": 9,
-    "topic": "Auction Calculations",
-    "question": "Question 9. Hammer price is $1,450 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,450 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,450",
       "$1,595",
@@ -4047,8 +4047,8 @@ export const questionBank = {
   },
   {
     "id": 10,
-    "topic": "Auction Calculations",
-    "question": "Question 10. Hammer price is $1,500 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,500 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,500",
       "$1,650",
@@ -4060,8 +4060,8 @@ export const questionBank = {
   },
   {
     "id": 11,
-    "topic": "Auction Calculations",
-    "question": "Question 11. Hammer price is $1,550 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,550 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,550",
       "$1,705",
@@ -4073,8 +4073,8 @@ export const questionBank = {
   },
   {
     "id": 12,
-    "topic": "Auction Calculations",
-    "question": "Question 12. Hammer price is $1,600 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,600 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,600",
       "$1,760",
@@ -4086,8 +4086,8 @@ export const questionBank = {
   },
   {
     "id": 13,
-    "topic": "Auction Calculations",
-    "question": "Question 13. Hammer price is $1,650 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,650 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,650",
       "$1,815",
@@ -4099,8 +4099,8 @@ export const questionBank = {
   },
   {
     "id": 14,
-    "topic": "Auction Calculations",
-    "question": "Question 14. Hammer price is $1,700 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,700 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,700",
       "$1,870",
@@ -4112,8 +4112,8 @@ export const questionBank = {
   },
   {
     "id": 15,
-    "topic": "Auction Calculations",
-    "question": "Question 15. Hammer price is $1,750 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,750 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,750",
       "$1,925",
@@ -4125,8 +4125,8 @@ export const questionBank = {
   },
   {
     "id": 16,
-    "topic": "Auction Calculations",
-    "question": "Question 16. Hammer price is $1,800 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,800 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,800",
       "$1,980",
@@ -4138,8 +4138,8 @@ export const questionBank = {
   },
   {
     "id": 17,
-    "topic": "Auction Calculations",
-    "question": "Question 17. Hammer price is $1,850 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,850 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,850",
       "$2,035",
@@ -4151,8 +4151,8 @@ export const questionBank = {
   },
   {
     "id": 18,
-    "topic": "Auction Calculations",
-    "question": "Question 18. Hammer price is $1,900 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,900 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,900",
       "$2,090",
@@ -4164,8 +4164,8 @@ export const questionBank = {
   },
   {
     "id": 19,
-    "topic": "Auction Calculations",
-    "question": "Question 19. Hammer price is $1,950 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $1,950 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$1,950",
       "$2,145",
@@ -4177,8 +4177,8 @@ export const questionBank = {
   },
   {
     "id": 20,
-    "topic": "Auction Calculations",
-    "question": "Question 20. Hammer price is $2,000 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,000 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,000",
       "$2,200",
@@ -4190,8 +4190,8 @@ export const questionBank = {
   },
   {
     "id": 21,
-    "topic": "Auction Calculations",
-    "question": "Question 21. Hammer price is $2,050 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,050 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,050",
       "$2,255",
@@ -4203,8 +4203,8 @@ export const questionBank = {
   },
   {
     "id": 22,
-    "topic": "Auction Calculations",
-    "question": "Question 22. Hammer price is $2,100 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,100 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,100",
       "$2,310",
@@ -4216,8 +4216,8 @@ export const questionBank = {
   },
   {
     "id": 23,
-    "topic": "Auction Calculations",
-    "question": "Question 23. Hammer price is $2,150 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,150 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,150",
       "$2,365",
@@ -4229,8 +4229,8 @@ export const questionBank = {
   },
   {
     "id": 24,
-    "topic": "Auction Calculations",
-    "question": "Question 24. Hammer price is $2,200 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,200 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,200",
       "$2,420",
@@ -4242,8 +4242,8 @@ export const questionBank = {
   },
   {
     "id": 25,
-    "topic": "Auction Calculations",
-    "question": "Question 25. Hammer price is $2,250 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,250 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,250",
       "$2,475",
@@ -4255,8 +4255,8 @@ export const questionBank = {
   },
   {
     "id": 26,
-    "topic": "Auction Calculations",
-    "question": "Question 26. Hammer price is $2,300 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,300 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,300",
       "$2,530",
@@ -4268,8 +4268,8 @@ export const questionBank = {
   },
   {
     "id": 27,
-    "topic": "Auction Calculations",
-    "question": "Question 27. Hammer price is $2,350 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,350 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,350",
       "$2,585",
@@ -4281,8 +4281,8 @@ export const questionBank = {
   },
   {
     "id": 28,
-    "topic": "Auction Calculations",
-    "question": "Question 28. Hammer price is $2,400 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,400 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,400",
       "$2,640",
@@ -4294,8 +4294,8 @@ export const questionBank = {
   },
   {
     "id": 29,
-    "topic": "Auction Calculations",
-    "question": "Question 29. Hammer price is $2,450 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,450 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,450",
       "$2,695",
@@ -4307,8 +4307,8 @@ export const questionBank = {
   },
   {
     "id": 30,
-    "topic": "Auction Calculations",
-    "question": "Question 30. Hammer price is $2,500 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,500 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,500",
       "$2,750",
@@ -4320,8 +4320,8 @@ export const questionBank = {
   },
   {
     "id": 31,
-    "topic": "Auction Calculations",
-    "question": "Question 31. Hammer price is $2,550 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,550 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,550",
       "$2,805",
@@ -4333,8 +4333,8 @@ export const questionBank = {
   },
   {
     "id": 32,
-    "topic": "Auction Calculations",
-    "question": "Question 32. Hammer price is $2,600 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,600 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,600",
       "$2,860",
@@ -4346,8 +4346,8 @@ export const questionBank = {
   },
   {
     "id": 33,
-    "topic": "Auction Calculations",
-    "question": "Question 33. Hammer price is $2,650 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,650 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,650",
       "$2,915",
@@ -4359,8 +4359,8 @@ export const questionBank = {
   },
   {
     "id": 34,
-    "topic": "Auction Calculations",
-    "question": "Question 34. Hammer price is $2,700 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,700 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,700",
       "$2,970",
@@ -4372,8 +4372,8 @@ export const questionBank = {
   },
   {
     "id": 35,
-    "topic": "Auction Calculations",
-    "question": "Question 35. Hammer price is $2,750 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,750 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,750",
       "$3,025",
@@ -4385,8 +4385,8 @@ export const questionBank = {
   },
   {
     "id": 36,
-    "topic": "Auction Calculations",
-    "question": "Question 36. Hammer price is $2,800 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,800 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,800",
       "$3,080",
@@ -4398,8 +4398,8 @@ export const questionBank = {
   },
   {
     "id": 37,
-    "topic": "Auction Calculations",
-    "question": "Question 37. Hammer price is $2,850 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,850 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,850",
       "$3,135",
@@ -4411,8 +4411,8 @@ export const questionBank = {
   },
   {
     "id": 38,
-    "topic": "Auction Calculations",
-    "question": "Question 38. Hammer price is $2,900 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,900 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,900",
       "$3,190",
@@ -4424,8 +4424,8 @@ export const questionBank = {
   },
   {
     "id": 39,
-    "topic": "Auction Calculations",
-    "question": "Question 39. Hammer price is $2,950 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $2,950 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$2,950",
       "$3,245",
@@ -4437,8 +4437,8 @@ export const questionBank = {
   },
   {
     "id": 40,
-    "topic": "Auction Calculations",
-    "question": "Question 40. Hammer price is $3,000 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,000 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,000",
       "$3,300",
@@ -4450,8 +4450,8 @@ export const questionBank = {
   },
   {
     "id": 41,
-    "topic": "Auction Calculations",
-    "question": "Question 41. Hammer price is $3,050 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,050 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,050",
       "$3,355",
@@ -4463,8 +4463,8 @@ export const questionBank = {
   },
   {
     "id": 42,
-    "topic": "Auction Calculations",
-    "question": "Question 42. Hammer price is $3,100 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,100 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,100",
       "$3,410",
@@ -4476,8 +4476,8 @@ export const questionBank = {
   },
   {
     "id": 43,
-    "topic": "Auction Calculations",
-    "question": "Question 43. Hammer price is $3,150 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,150 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,150",
       "$3,465",
@@ -4489,8 +4489,8 @@ export const questionBank = {
   },
   {
     "id": 44,
-    "topic": "Auction Calculations",
-    "question": "Question 44. Hammer price is $3,200 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,200 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,200",
       "$3,520",
@@ -4502,8 +4502,8 @@ export const questionBank = {
   },
   {
     "id": 45,
-    "topic": "Auction Calculations",
-    "question": "Question 45. Hammer price is $3,250 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,250 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,250",
       "$3,575",
@@ -4515,8 +4515,8 @@ export const questionBank = {
   },
   {
     "id": 46,
-    "topic": "Auction Calculations",
-    "question": "Question 46. Hammer price is $3,300 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,300 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,300",
       "$3,630",
@@ -4528,8 +4528,8 @@ export const questionBank = {
   },
   {
     "id": 47,
-    "topic": "Auction Calculations",
-    "question": "Question 47. Hammer price is $3,350 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,350 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,350",
       "$3,685",
@@ -4541,8 +4541,8 @@ export const questionBank = {
   },
   {
     "id": 48,
-    "topic": "Auction Calculations",
-    "question": "Question 48. Hammer price is $3,400 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,400 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,400",
       "$3,740",
@@ -4554,8 +4554,8 @@ export const questionBank = {
   },
   {
     "id": 49,
-    "topic": "Auction Calculations",
-    "question": "Question 49. Hammer price is $3,450 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,450 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,450",
       "$3,795",
@@ -4567,8 +4567,8 @@ export const questionBank = {
   },
   {
     "id": 50,
-    "topic": "Auction Calculations",
-    "question": "Question 50. Hammer price is $3,500 with a 10% buyer premium. What is total due (ignore tax)?",
+    "topic": "Auction Math",
+    "question": "Hammer price is $3,500 with a 10% buyer premium. What is total due (ignore tax)?",
     "options": [
       "$3,500",
       "$3,850",
@@ -4581,7 +4581,7 @@ export const questionBank = {
   {
     "id": 51,
     "topic": "Auction Basics",
-    "question": "Question 101. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -4594,7 +4594,7 @@ export const questionBank = {
   {
     "id": 52,
     "topic": "Auction Basics",
-    "question": "Question 102. A sale by auction is complete when:",
+    "question": "A sale by auction is complete when:",
     "options": [
       "The first bid is made",
       "The auctioneer announces completion by fall of the hammer or customary manner",
@@ -4607,7 +4607,7 @@ export const questionBank = {
   {
     "id": 53,
     "topic": "Bidding Procedures",
-    "question": "Question 103. In an auction with reserve, the auctioneer may withdraw the goods:",
+    "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
     "options": [
       "Only before bidding begins",
       "Any time until completion is announced",
@@ -4620,7 +4620,7 @@ export const questionBank = {
   {
     "id": 54,
     "topic": "Bidding Procedures",
-    "question": "Question 104. In an auction without reserve, once bids are called for, the lot:",
+    "question": "In an auction without reserve, once bids are called for, the lot:",
     "options": [
       "Can always be withdrawn",
       "Cannot be withdrawn unless no bid is made within a reasonable time",
@@ -4633,7 +4633,7 @@ export const questionBank = {
   {
     "id": 55,
     "topic": "Bidding Procedures",
-    "question": "Question 105. A bidder may retract a bid:",
+    "question": "A bidder may retract a bid:",
     "options": [
       "At any time, even after the hammer falls",
       "Until the auctioneer announces completion",
@@ -4646,7 +4646,7 @@ export const questionBank = {
   {
     "id": 56,
     "topic": "Bidding Procedures",
-    "question": "Question 106. If a bid is retracted, it does NOT revive:",
+    "question": "If a bid is retracted, it does NOT revive:",
     "options": [
       "The seller\u2019s reserve",
       "Any previous bid",
@@ -4659,7 +4659,7 @@ export const questionBank = {
   {
     "id": 57,
     "topic": "Bidding Procedures",
-    "question": "Question 107. If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
+    "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
     "options": [
       "Be forced to complete purchase",
       "Avoid the sale or take goods at last good faith bid",
@@ -4672,7 +4672,7 @@ export const questionBank = {
   {
     "id": 58,
     "topic": "Bidding Procedures",
-    "question": "Question 108. Seller bidding rules do NOT apply to:",
+    "question": "Seller bidding rules do NOT apply to:",
     "options": [
       "Online auctions",
       "Forced sales",
@@ -4684,8 +4684,8 @@ export const questionBank = {
   },
   {
     "id": 59,
-    "topic": "Auction Calculations",
-    "question": "Question 109. Buyer\u2019s premium is best defined as:",
+    "topic": "Auction Math",
+    "question": "Buyer\u2019s premium is best defined as:",
     "options": [
       "Auctioneer fee paid by seller",
       "Percentage added to hammer price paid by buyer",
@@ -4698,7 +4698,7 @@ export const questionBank = {
   {
     "id": 60,
     "topic": "Auction Basics",
-    "question": "Question 110. Conditions of sale are:",
+    "question": "Conditions of sale are:",
     "options": [
       "Optional marketing notes",
       "Legal terms governing the auction (payment, premiums, removal, reserve)",
@@ -4711,7 +4711,7 @@ export const questionBank = {
   {
     "id": 61,
     "topic": "Auction Basics",
-    "question": "Question 111. An 'as is' sale means:",
+    "question": "An 'as is' sale means:",
     "options": [
       "Seller guarantees condition",
       "No warranty; buyer must inspect",
@@ -4724,7 +4724,7 @@ export const questionBank = {
   {
     "id": 62,
     "topic": "Advertising and Marketing",
-    "question": "Question 112. Advertising an auction with intentionally false descriptions could violate:",
+    "question": "Advertising an auction with intentionally false descriptions could violate:",
     "options": [
       "Only UCC rules",
       "Deceptive Trade Practices protections",
@@ -4736,8 +4736,8 @@ export const questionBank = {
   },
   {
     "id": 63,
-    "topic": "Auction Calculations",
-    "question": "Question 113. A bidder makes a bid while the hammer is falling. The auctioneer may:",
+    "topic": "Auction Math",
+    "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
     "options": [
       "Ignore it automatically",
       "Reopen bidding or declare goods sold under the bid being accepted",
@@ -4750,7 +4750,7 @@ export const questionBank = {
   {
     "id": 64,
     "topic": "Auction Basics",
-    "question": "Question 114. Before an auction under a temporary charitable alcohol permit, notice must include:",
+    "question": "Before an auction under a temporary charitable alcohol permit, notice must include:",
     "options": [
       "Only seller name",
       "Date, time, place, and inventory of beverages",
@@ -4763,7 +4763,7 @@ export const questionBank = {
   {
     "id": 65,
     "topic": "Auction Basics",
-    "question": "Question 115. A temporary charitable auction permit holder may NOT:",
+    "question": "A temporary charitable auction permit holder may NOT:",
     "options": [
       "Deposit proceeds into its account",
       "Pay commission to arrange or conduct the auction",
@@ -4776,7 +4776,7 @@ export const questionBank = {
   {
     "id": 66,
     "topic": "State-Specific Laws",
-    "question": "Question 116. When selling cattle or horses in Texas, delivery must be accompanied by:",
+    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
       "Only a handshake",
       "A written transfer describing marks/brands",
@@ -4789,7 +4789,7 @@ export const questionBank = {
   {
     "id": 67,
     "topic": "Bidding Procedures",
-    "question": "Question 117. A bidder may retract a bid:",
+    "question": "A bidder may retract a bid:",
     "options": [
       "At any time, even after the hammer falls",
       "Until the auctioneer announces completion",
@@ -4802,7 +4802,7 @@ export const questionBank = {
   {
     "id": 68,
     "topic": "Bidding Procedures",
-    "question": "Question 118. In an auction with reserve, the auctioneer may withdraw the goods:",
+    "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
     "options": [
       "Only before bidding begins",
       "Any time until completion is announced",
@@ -4814,8 +4814,8 @@ export const questionBank = {
   },
   {
     "id": 69,
-    "topic": "Auction Calculations",
-    "question": "Question 119. Buyer\u2019s premium is best defined as:",
+    "topic": "Auction Math",
+    "question": "Buyer\u2019s premium is best defined as:",
     "options": [
       "Auctioneer fee paid by seller",
       "Percentage added to hammer price paid by buyer",
@@ -4828,7 +4828,7 @@ export const questionBank = {
   {
     "id": 70,
     "topic": "Bidding Procedures",
-    "question": "Question 120. In an auction without reserve, once bids are called for, the lot:",
+    "question": "In an auction without reserve, once bids are called for, the lot:",
     "options": [
       "Can always be withdrawn",
       "Cannot be withdrawn unless no bid is made within a reasonable time",
@@ -4841,7 +4841,7 @@ export const questionBank = {
   {
     "id": 71,
     "topic": "State-Specific Laws",
-    "question": "Question 121. When selling cattle or horses in Texas, delivery must be accompanied by:",
+    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
       "Only a handshake",
       "A written transfer describing marks/brands",
@@ -4854,7 +4854,7 @@ export const questionBank = {
   {
     "id": 72,
     "topic": "Auction Basics",
-    "question": "Question 122. A temporary charitable auction permit holder may NOT:",
+    "question": "A temporary charitable auction permit holder may NOT:",
     "options": [
       "Deposit proceeds into its account",
       "Pay commission to arrange or conduct the auction",
@@ -4867,7 +4867,7 @@ export const questionBank = {
   {
     "id": 73,
     "topic": "State-Specific Laws",
-    "question": "Question 123. When selling cattle or horses in Texas, delivery must be accompanied by:",
+    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
       "Only a handshake",
       "A written transfer describing marks/brands",
@@ -4880,7 +4880,7 @@ export const questionBank = {
   {
     "id": 74,
     "topic": "State-Specific Laws",
-    "question": "Question 124. When selling cattle or horses in Texas, delivery must be accompanied by:",
+    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
       "Only a handshake",
       "A written transfer describing marks/brands",
@@ -4892,8 +4892,8 @@ export const questionBank = {
   },
   {
     "id": 75,
-    "topic": "Auction Calculations",
-    "question": "Question 125. A bidder makes a bid while the hammer is falling. The auctioneer may:",
+    "topic": "Auction Math",
+    "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
     "options": [
       "Ignore it automatically",
       "Reopen bidding or declare goods sold under the bid being accepted",
@@ -4906,7 +4906,7 @@ export const questionBank = {
   {
     "id": 76,
     "topic": "Bidding Procedures",
-    "question": "Question 126. If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
+    "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
     "options": [
       "Be forced to complete purchase",
       "Avoid the sale or take goods at last good faith bid",
@@ -4919,7 +4919,7 @@ export const questionBank = {
   {
     "id": 77,
     "topic": "Bidding Procedures",
-    "question": "Question 127. In an auction without reserve, once bids are called for, the lot:",
+    "question": "In an auction without reserve, once bids are called for, the lot:",
     "options": [
       "Can always be withdrawn",
       "Cannot be withdrawn unless no bid is made within a reasonable time",
@@ -4932,7 +4932,7 @@ export const questionBank = {
   {
     "id": 78,
     "topic": "State-Specific Laws",
-    "question": "Question 128. When selling cattle or horses in Texas, delivery must be accompanied by:",
+    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
       "Only a handshake",
       "A written transfer describing marks/brands",
@@ -4945,7 +4945,7 @@ export const questionBank = {
   {
     "id": 79,
     "topic": "Auction Basics",
-    "question": "Question 129. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -4958,7 +4958,7 @@ export const questionBank = {
   {
     "id": 80,
     "topic": "Auction Basics",
-    "question": "Question 130. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -4971,7 +4971,7 @@ export const questionBank = {
   {
     "id": 81,
     "topic": "Bidding Procedures",
-    "question": "Question 131. In an auction without reserve, once bids are called for, the lot:",
+    "question": "In an auction without reserve, once bids are called for, the lot:",
     "options": [
       "Can always be withdrawn",
       "Cannot be withdrawn unless no bid is made within a reasonable time",
@@ -4983,8 +4983,8 @@ export const questionBank = {
   },
   {
     "id": 82,
-    "topic": "Auction Calculations",
-    "question": "Question 132. A bidder makes a bid while the hammer is falling. The auctioneer may:",
+    "topic": "Auction Math",
+    "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
     "options": [
       "Ignore it automatically",
       "Reopen bidding or declare goods sold under the bid being accepted",
@@ -4997,7 +4997,7 @@ export const questionBank = {
   {
     "id": 83,
     "topic": "State-Specific Laws",
-    "question": "Question 133. When selling cattle or horses in Texas, delivery must be accompanied by:",
+    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
       "Only a handshake",
       "A written transfer describing marks/brands",
@@ -5010,7 +5010,7 @@ export const questionBank = {
   {
     "id": 84,
     "topic": "Auction Basics",
-    "question": "Question 134. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -5023,7 +5023,7 @@ export const questionBank = {
   {
     "id": 85,
     "topic": "Auction Basics",
-    "question": "Question 135. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -5036,7 +5036,7 @@ export const questionBank = {
   {
     "id": 86,
     "topic": "Bidding Procedures",
-    "question": "Question 136. In an auction with reserve, the auctioneer may withdraw the goods:",
+    "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
     "options": [
       "Only before bidding begins",
       "Any time until completion is announced",
@@ -5049,7 +5049,7 @@ export const questionBank = {
   {
     "id": 87,
     "topic": "Auction Basics",
-    "question": "Question 137. A temporary charitable auction permit holder may NOT:",
+    "question": "A temporary charitable auction permit holder may NOT:",
     "options": [
       "Deposit proceeds into its account",
       "Pay commission to arrange or conduct the auction",
@@ -5062,7 +5062,7 @@ export const questionBank = {
   {
     "id": 88,
     "topic": "Bidding Procedures",
-    "question": "Question 138. If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
+    "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
     "options": [
       "Be forced to complete purchase",
       "Avoid the sale or take goods at last good faith bid",
@@ -5075,7 +5075,7 @@ export const questionBank = {
   {
     "id": 89,
     "topic": "State-Specific Laws",
-    "question": "Question 139. When selling cattle or horses in Texas, delivery must be accompanied by:",
+    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
       "Only a handshake",
       "A written transfer describing marks/brands",
@@ -5088,7 +5088,7 @@ export const questionBank = {
   {
     "id": 90,
     "topic": "Auction Basics",
-    "question": "Question 140. A sale by auction is complete when:",
+    "question": "A sale by auction is complete when:",
     "options": [
       "The first bid is made",
       "The auctioneer announces completion by fall of the hammer or customary manner",
@@ -5101,7 +5101,7 @@ export const questionBank = {
   {
     "id": 91,
     "topic": "Auction Basics",
-    "question": "Question 141. A sale by auction is complete when:",
+    "question": "A sale by auction is complete when:",
     "options": [
       "The first bid is made",
       "The auctioneer announces completion by fall of the hammer or customary manner",
@@ -5114,7 +5114,7 @@ export const questionBank = {
   {
     "id": 92,
     "topic": "Auction Basics",
-    "question": "Question 142. A sale by auction is complete when:",
+    "question": "A sale by auction is complete when:",
     "options": [
       "The first bid is made",
       "The auctioneer announces completion by fall of the hammer or customary manner",
@@ -5127,7 +5127,7 @@ export const questionBank = {
   {
     "id": 93,
     "topic": "Auction Basics",
-    "question": "Question 143. A sale by auction is complete when:",
+    "question": "A sale by auction is complete when:",
     "options": [
       "The first bid is made",
       "The auctioneer announces completion by fall of the hammer or customary manner",
@@ -5140,7 +5140,7 @@ export const questionBank = {
   {
     "id": 94,
     "topic": "Auction Basics",
-    "question": "Question 144. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -5153,7 +5153,7 @@ export const questionBank = {
   {
     "id": 95,
     "topic": "Auction Basics",
-    "question": "Question 145. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -5165,8 +5165,8 @@ export const questionBank = {
   },
   {
     "id": 96,
-    "topic": "Auction Calculations",
-    "question": "Question 146. A bidder makes a bid while the hammer is falling. The auctioneer may:",
+    "topic": "Auction Math",
+    "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
     "options": [
       "Ignore it automatically",
       "Reopen bidding or declare goods sold under the bid being accepted",
@@ -5179,7 +5179,7 @@ export const questionBank = {
   {
     "id": 97,
     "topic": "Auction Basics",
-    "question": "Question 147. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -5192,7 +5192,7 @@ export const questionBank = {
   {
     "id": 98,
     "topic": "Auction Basics",
-    "question": "Question 148. Before an auction under a temporary charitable alcohol permit, notice must include:",
+    "question": "Before an auction under a temporary charitable alcohol permit, notice must include:",
     "options": [
       "Only seller name",
       "Date, time, place, and inventory of beverages",
@@ -5205,7 +5205,7 @@ export const questionBank = {
   {
     "id": 99,
     "topic": "State-Specific Laws",
-    "question": "Question 149. When selling cattle or horses in Texas, delivery must be accompanied by:",
+    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
     "options": [
       "Only a handshake",
       "A written transfer describing marks/brands",
@@ -5218,7 +5218,7 @@ export const questionBank = {
   {
     "id": 100,
     "topic": "Auction Basics",
-    "question": "Question 150. If goods are put up in lots at an auction, each lot is:",
+    "question": "If goods are put up in lots at an auction, each lot is:",
     "options": [
       "Part of one single sale",
       "The subject of a separate sale",
@@ -5231,7 +5231,7 @@ export const questionBank = {
   {
     "id": 101,
     "topic": "UCC (Uniform Commercial Code)",
-    "question": "Question 151. Under UCC Article 9, collateral refers to:",
+    "question": "Under UCC Article 9, collateral refers to:",
     "options": [
       "Buyer premium",
       "Property subject to a security interest",
@@ -5244,7 +5244,7 @@ export const questionBank = {
   {
     "id": 102,
     "topic": "Contract Law",
-    "question": "Question 152. A security agreement is:",
+    "question": "A security agreement is:",
     "options": [
       "Auction contract between buyer and auctioneer",
       "Agreement creating or providing for a security interest",
@@ -5257,7 +5257,7 @@ export const questionBank = {
   {
     "id": 103,
     "topic": "Auction Basics",
-    "question": "Question 153. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -5270,7 +5270,7 @@ export const questionBank = {
   {
     "id": 104,
     "topic": "Auction Basics",
-    "question": "Question 154. A disposition of collateral must be:",
+    "question": "A disposition of collateral must be:",
     "options": [
       "Secret",
       "Commercially reasonable",
@@ -5283,7 +5283,7 @@ export const questionBank = {
   {
     "id": 105,
     "topic": "Auction Basics",
-    "question": "Question 155. Reasonable notification of disposition generally must be sent to:",
+    "question": "Reasonable notification of disposition generally must be sent to:",
     "options": [
       "Only the auctioneer",
       "Debtor and certain secured parties",
@@ -5296,7 +5296,7 @@ export const questionBank = {
   {
     "id": 106,
     "topic": "Auction Basics",
-    "question": "Question 156. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -5309,7 +5309,7 @@ export const questionBank = {
   {
     "id": 107,
     "topic": "State-Specific Laws",
-    "question": "Question 157. The Texas Deceptive Trade Practices Act is designed to protect:",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
     "options": [
       "Only auctioneers",
       "Consumers from false, misleading, or deceptive acts",
@@ -5322,7 +5322,7 @@ export const questionBank = {
   {
     "id": 108,
     "topic": "Consumer Protection",
-    "question": "Question 158. A 'consumer' under DTPA generally is someone who:",
+    "question": "A 'consumer' under DTPA generally is someone who:",
     "options": [
       "Buys or leases goods or services",
       "Only sells goods",
@@ -5335,7 +5335,7 @@ export const questionBank = {
   {
     "id": 109,
     "topic": "Auction Basics",
-    "question": "Question 159. Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
+    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
     "options": [
       "Only UCC remedies",
       "DTPA liability",
@@ -5348,7 +5348,7 @@ export const questionBank = {
   {
     "id": 110,
     "topic": "Auction Basics",
-    "question": "Question 160. An auctioneer stating 'authentic gold' when it is not could be a:",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
     "options": [
       "Puffery only",
       "False, misleading, or deceptive act",
@@ -5361,7 +5361,7 @@ export const questionBank = {
   {
     "id": 111,
     "topic": "Bidding Procedures",
-    "question": "Question 161. Producing fake bids (shill bidding) would most likely be viewed as:",
+    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
     "options": [
       "Standard practice",
       "Deceptive and unethical conduct",
@@ -5374,7 +5374,7 @@ export const questionBank = {
   {
     "id": 112,
     "topic": "Auction Basics",
-    "question": "Question 162. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5386,8 +5386,8 @@ export const questionBank = {
   },
   {
     "id": 113,
-    "topic": "Auction Calculations",
-    "question": "Question 163. An auction company advertises 'No buyer premium' but charges one at settlement. This is:",
+    "topic": "Auction Math",
+    "question": "An auction company advertises 'No buyer premium' but charges one at settlement. This is:",
     "options": [
       "Acceptable",
       "Potentially deceptive under DTPA",
@@ -5400,7 +5400,7 @@ export const questionBank = {
   {
     "id": 114,
     "topic": "Auction Basics",
-    "question": "Question 164. A disposition is commercially reasonable if:",
+    "question": "A disposition is commercially reasonable if:",
     "options": [
       "It maximizes price in every case",
       "It follows accepted market practices and is conducted fairly",
@@ -5413,7 +5413,7 @@ export const questionBank = {
   {
     "id": 115,
     "topic": "Consumer Protection",
-    "question": "Question 165. A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
+    "question": "A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
     "options": [
       "Subject to all unknown liens",
       "Free of the debtor\u2019s interest and subordinate security interests if disposition complies",
@@ -5426,7 +5426,7 @@ export const questionBank = {
   {
     "id": 116,
     "topic": "Auction Basics",
-    "question": "Question 166. A disposition is commercially reasonable if:",
+    "question": "A disposition is commercially reasonable if:",
     "options": [
       "It maximizes price in every case",
       "It follows accepted market practices and is conducted fairly",
@@ -5439,7 +5439,7 @@ export const questionBank = {
   {
     "id": 117,
     "topic": "Contract Law",
-    "question": "Question 167. A security agreement is:",
+    "question": "A security agreement is:",
     "options": [
       "Auction contract between buyer and auctioneer",
       "Agreement creating or providing for a security interest",
@@ -5452,7 +5452,7 @@ export const questionBank = {
   {
     "id": 118,
     "topic": "Auction Basics",
-    "question": "Question 168. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -5465,7 +5465,7 @@ export const questionBank = {
   {
     "id": 119,
     "topic": "Auction Basics",
-    "question": "Question 169. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -5478,7 +5478,7 @@ export const questionBank = {
   {
     "id": 120,
     "topic": "Auction Basics",
-    "question": "Question 170. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5491,7 +5491,7 @@ export const questionBank = {
   {
     "id": 121,
     "topic": "Auction Basics",
-    "question": "Question 171. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -5504,7 +5504,7 @@ export const questionBank = {
   {
     "id": 122,
     "topic": "Auction Basics",
-    "question": "Question 172. An auctioneer stating 'authentic gold' when it is not could be a:",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
     "options": [
       "Puffery only",
       "False, misleading, or deceptive act",
@@ -5517,7 +5517,7 @@ export const questionBank = {
   {
     "id": 123,
     "topic": "Auction Basics",
-    "question": "Question 173. Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
+    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
     "options": [
       "Only UCC remedies",
       "DTPA liability",
@@ -5530,7 +5530,7 @@ export const questionBank = {
   {
     "id": 124,
     "topic": "Auction Basics",
-    "question": "Question 174. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5543,7 +5543,7 @@ export const questionBank = {
   {
     "id": 125,
     "topic": "State-Specific Laws",
-    "question": "Question 175. The Texas Deceptive Trade Practices Act is designed to protect:",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
     "options": [
       "Only auctioneers",
       "Consumers from false, misleading, or deceptive acts",
@@ -5556,7 +5556,7 @@ export const questionBank = {
   {
     "id": 126,
     "topic": "Auction Basics",
-    "question": "Question 176. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5569,7 +5569,7 @@ export const questionBank = {
   {
     "id": 127,
     "topic": "Contract Law",
-    "question": "Question 177. A security agreement is:",
+    "question": "A security agreement is:",
     "options": [
       "Auction contract between buyer and auctioneer",
       "Agreement creating or providing for a security interest",
@@ -5582,7 +5582,7 @@ export const questionBank = {
   {
     "id": 128,
     "topic": "Auction Basics",
-    "question": "Question 178. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -5595,7 +5595,7 @@ export const questionBank = {
   {
     "id": 129,
     "topic": "Auction Basics",
-    "question": "Question 179. An auctioneer stating 'authentic gold' when it is not could be a:",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
     "options": [
       "Puffery only",
       "False, misleading, or deceptive act",
@@ -5608,7 +5608,7 @@ export const questionBank = {
   {
     "id": 130,
     "topic": "Auction Basics",
-    "question": "Question 180. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -5621,7 +5621,7 @@ export const questionBank = {
   {
     "id": 131,
     "topic": "Auction Basics",
-    "question": "Question 181. A disposition is commercially reasonable if:",
+    "question": "A disposition is commercially reasonable if:",
     "options": [
       "It maximizes price in every case",
       "It follows accepted market practices and is conducted fairly",
@@ -5634,7 +5634,7 @@ export const questionBank = {
   {
     "id": 132,
     "topic": "Auction Basics",
-    "question": "Question 182. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -5647,7 +5647,7 @@ export const questionBank = {
   {
     "id": 133,
     "topic": "Auction Basics",
-    "question": "Question 183. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5660,7 +5660,7 @@ export const questionBank = {
   {
     "id": 134,
     "topic": "Auction Basics",
-    "question": "Question 184. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5673,7 +5673,7 @@ export const questionBank = {
   {
     "id": 135,
     "topic": "Auction Basics",
-    "question": "Question 185. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5686,7 +5686,7 @@ export const questionBank = {
   {
     "id": 136,
     "topic": "Auction Basics",
-    "question": "Question 186. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5699,7 +5699,7 @@ export const questionBank = {
   {
     "id": 137,
     "topic": "Auction Basics",
-    "question": "Question 187. An auctioneer stating 'authentic gold' when it is not could be a:",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
     "options": [
       "Puffery only",
       "False, misleading, or deceptive act",
@@ -5712,7 +5712,7 @@ export const questionBank = {
   {
     "id": 138,
     "topic": "Auction Basics",
-    "question": "Question 188. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5725,7 +5725,7 @@ export const questionBank = {
   {
     "id": 139,
     "topic": "Auction Basics",
-    "question": "Question 189. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -5738,7 +5738,7 @@ export const questionBank = {
   {
     "id": 140,
     "topic": "Auction Basics",
-    "question": "Question 190. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -5751,7 +5751,7 @@ export const questionBank = {
   {
     "id": 141,
     "topic": "Contract Law",
-    "question": "Question 191. A security agreement is:",
+    "question": "A security agreement is:",
     "options": [
       "Auction contract between buyer and auctioneer",
       "Agreement creating or providing for a security interest",
@@ -5764,7 +5764,7 @@ export const questionBank = {
   {
     "id": 142,
     "topic": "Auction Basics",
-    "question": "Question 192. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5777,7 +5777,7 @@ export const questionBank = {
   {
     "id": 143,
     "topic": "Auction Basics",
-    "question": "Question 193. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -5790,7 +5790,7 @@ export const questionBank = {
   {
     "id": 144,
     "topic": "Auction Basics",
-    "question": "Question 194. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -5803,7 +5803,7 @@ export const questionBank = {
   {
     "id": 145,
     "topic": "State-Specific Laws",
-    "question": "Question 195. The Texas Deceptive Trade Practices Act is designed to protect:",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
     "options": [
       "Only auctioneers",
       "Consumers from false, misleading, or deceptive acts",
@@ -5816,7 +5816,7 @@ export const questionBank = {
   {
     "id": 146,
     "topic": "Auction Basics",
-    "question": "Question 196. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -5829,7 +5829,7 @@ export const questionBank = {
   {
     "id": 147,
     "topic": "Auction Basics",
-    "question": "Question 197. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5842,7 +5842,7 @@ export const questionBank = {
   {
     "id": 148,
     "topic": "Bidding Procedures",
-    "question": "Question 198. Producing fake bids (shill bidding) would most likely be viewed as:",
+    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
     "options": [
       "Standard practice",
       "Deceptive and unethical conduct",
@@ -5855,7 +5855,7 @@ export const questionBank = {
   {
     "id": 149,
     "topic": "Auction Basics",
-    "question": "Question 199. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5868,7 +5868,7 @@ export const questionBank = {
   {
     "id": 150,
     "topic": "Auction Basics",
-    "question": "Question 200. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -5881,7 +5881,7 @@ export const questionBank = {
   {
     "id": 151,
     "topic": "UCC (Uniform Commercial Code)",
-    "question": "Question 151. Under UCC Article 9, collateral refers to:",
+    "question": "Under UCC Article 9, collateral refers to:",
     "options": [
       "Buyer premium",
       "Property subject to a security interest",
@@ -5894,7 +5894,7 @@ export const questionBank = {
   {
     "id": 152,
     "topic": "Contract Law",
-    "question": "Question 152. A security agreement is:",
+    "question": "A security agreement is:",
     "options": [
       "Auction contract between buyer and auctioneer",
       "Agreement creating or providing for a security interest",
@@ -5907,7 +5907,7 @@ export const questionBank = {
   {
     "id": 153,
     "topic": "Auction Basics",
-    "question": "Question 153. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -5920,7 +5920,7 @@ export const questionBank = {
   {
     "id": 154,
     "topic": "Auction Basics",
-    "question": "Question 154. A disposition of collateral must be:",
+    "question": "A disposition of collateral must be:",
     "options": [
       "Secret",
       "Commercially reasonable",
@@ -5933,7 +5933,7 @@ export const questionBank = {
   {
     "id": 155,
     "topic": "Auction Basics",
-    "question": "Question 155. Reasonable notification of disposition generally must be sent to:",
+    "question": "Reasonable notification of disposition generally must be sent to:",
     "options": [
       "Only the auctioneer",
       "Debtor and certain secured parties",
@@ -5946,7 +5946,7 @@ export const questionBank = {
   {
     "id": 156,
     "topic": "Auction Basics",
-    "question": "Question 156. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -5959,7 +5959,7 @@ export const questionBank = {
   {
     "id": 157,
     "topic": "State-Specific Laws",
-    "question": "Question 157. The Texas Deceptive Trade Practices Act is designed to protect:",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
     "options": [
       "Only auctioneers",
       "Consumers from false, misleading, or deceptive acts",
@@ -5972,7 +5972,7 @@ export const questionBank = {
   {
     "id": 158,
     "topic": "Consumer Protection",
-    "question": "Question 158. A 'consumer' under DTPA generally is someone who:",
+    "question": "A 'consumer' under DTPA generally is someone who:",
     "options": [
       "Buys or leases goods or services",
       "Only sells goods",
@@ -5985,7 +5985,7 @@ export const questionBank = {
   {
     "id": 159,
     "topic": "Auction Basics",
-    "question": "Question 159. Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
+    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
     "options": [
       "Only UCC remedies",
       "DTPA liability",
@@ -5998,7 +5998,7 @@ export const questionBank = {
   {
     "id": 160,
     "topic": "Auction Basics",
-    "question": "Question 160. An auctioneer stating 'authentic gold' when it is not could be a:",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
     "options": [
       "Puffery only",
       "False, misleading, or deceptive act",
@@ -6011,7 +6011,7 @@ export const questionBank = {
   {
     "id": 161,
     "topic": "Bidding Procedures",
-    "question": "Question 161. Producing fake bids (shill bidding) would most likely be viewed as:",
+    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
     "options": [
       "Standard practice",
       "Deceptive and unethical conduct",
@@ -6024,7 +6024,7 @@ export const questionBank = {
   {
     "id": 162,
     "topic": "Auction Basics",
-    "question": "Question 162. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6036,8 +6036,8 @@ export const questionBank = {
   },
   {
     "id": 163,
-    "topic": "Auction Calculations",
-    "question": "Question 163. An auction company advertises 'No buyer premium' but charges one at settlement. This is:",
+    "topic": "Auction Math",
+    "question": "An auction company advertises 'No buyer premium' but charges one at settlement. This is:",
     "options": [
       "Acceptable",
       "Potentially deceptive under DTPA",
@@ -6050,7 +6050,7 @@ export const questionBank = {
   {
     "id": 164,
     "topic": "Auction Basics",
-    "question": "Question 164. A disposition is commercially reasonable if:",
+    "question": "A disposition is commercially reasonable if:",
     "options": [
       "It maximizes price in every case",
       "It follows accepted market practices and is conducted fairly",
@@ -6063,7 +6063,7 @@ export const questionBank = {
   {
     "id": 165,
     "topic": "Consumer Protection",
-    "question": "Question 165. A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
+    "question": "A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
     "options": [
       "Subject to all unknown liens",
       "Free of the debtor\u2019s interest and subordinate security interests if disposition complies",
@@ -6076,7 +6076,7 @@ export const questionBank = {
   {
     "id": 166,
     "topic": "Auction Basics",
-    "question": "Question 166. A disposition is commercially reasonable if:",
+    "question": "A disposition is commercially reasonable if:",
     "options": [
       "It maximizes price in every case",
       "It follows accepted market practices and is conducted fairly",
@@ -6089,7 +6089,7 @@ export const questionBank = {
   {
     "id": 167,
     "topic": "Contract Law",
-    "question": "Question 167. A security agreement is:",
+    "question": "A security agreement is:",
     "options": [
       "Auction contract between buyer and auctioneer",
       "Agreement creating or providing for a security interest",
@@ -6102,7 +6102,7 @@ export const questionBank = {
   {
     "id": 168,
     "topic": "Auction Basics",
-    "question": "Question 168. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -6115,7 +6115,7 @@ export const questionBank = {
   {
     "id": 169,
     "topic": "Auction Basics",
-    "question": "Question 169. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -6128,7 +6128,7 @@ export const questionBank = {
   {
     "id": 170,
     "topic": "Auction Basics",
-    "question": "Question 170. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6141,7 +6141,7 @@ export const questionBank = {
   {
     "id": 171,
     "topic": "Auction Basics",
-    "question": "Question 171. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -6154,7 +6154,7 @@ export const questionBank = {
   {
     "id": 172,
     "topic": "Auction Basics",
-    "question": "Question 172. An auctioneer stating 'authentic gold' when it is not could be a:",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
     "options": [
       "Puffery only",
       "False, misleading, or deceptive act",
@@ -6167,7 +6167,7 @@ export const questionBank = {
   {
     "id": 173,
     "topic": "Auction Basics",
-    "question": "Question 173. Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
+    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
     "options": [
       "Only UCC remedies",
       "DTPA liability",
@@ -6180,7 +6180,7 @@ export const questionBank = {
   {
     "id": 174,
     "topic": "Auction Basics",
-    "question": "Question 174. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6193,7 +6193,7 @@ export const questionBank = {
   {
     "id": 175,
     "topic": "State-Specific Laws",
-    "question": "Question 175. The Texas Deceptive Trade Practices Act is designed to protect:",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
     "options": [
       "Only auctioneers",
       "Consumers from false, misleading, or deceptive acts",
@@ -6206,7 +6206,7 @@ export const questionBank = {
   {
     "id": 176,
     "topic": "Auction Basics",
-    "question": "Question 176. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6219,7 +6219,7 @@ export const questionBank = {
   {
     "id": 177,
     "topic": "Contract Law",
-    "question": "Question 177. A security agreement is:",
+    "question": "A security agreement is:",
     "options": [
       "Auction contract between buyer and auctioneer",
       "Agreement creating or providing for a security interest",
@@ -6232,7 +6232,7 @@ export const questionBank = {
   {
     "id": 178,
     "topic": "Auction Basics",
-    "question": "Question 178. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -6245,7 +6245,7 @@ export const questionBank = {
   {
     "id": 179,
     "topic": "Auction Basics",
-    "question": "Question 179. An auctioneer stating 'authentic gold' when it is not could be a:",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
     "options": [
       "Puffery only",
       "False, misleading, or deceptive act",
@@ -6258,7 +6258,7 @@ export const questionBank = {
   {
     "id": 180,
     "topic": "Auction Basics",
-    "question": "Question 180. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -6271,7 +6271,7 @@ export const questionBank = {
   {
     "id": 181,
     "topic": "Auction Basics",
-    "question": "Question 181. A disposition is commercially reasonable if:",
+    "question": "A disposition is commercially reasonable if:",
     "options": [
       "It maximizes price in every case",
       "It follows accepted market practices and is conducted fairly",
@@ -6284,7 +6284,7 @@ export const questionBank = {
   {
     "id": 182,
     "topic": "Auction Basics",
-    "question": "Question 182. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -6297,7 +6297,7 @@ export const questionBank = {
   {
     "id": 183,
     "topic": "Auction Basics",
-    "question": "Question 183. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6310,7 +6310,7 @@ export const questionBank = {
   {
     "id": 184,
     "topic": "Auction Basics",
-    "question": "Question 184. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6323,7 +6323,7 @@ export const questionBank = {
   {
     "id": 185,
     "topic": "Auction Basics",
-    "question": "Question 185. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6336,7 +6336,7 @@ export const questionBank = {
   {
     "id": 186,
     "topic": "Auction Basics",
-    "question": "Question 186. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6349,7 +6349,7 @@ export const questionBank = {
   {
     "id": 187,
     "topic": "Auction Basics",
-    "question": "Question 187. An auctioneer stating 'authentic gold' when it is not could be a:",
+    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
     "options": [
       "Puffery only",
       "False, misleading, or deceptive act",
@@ -6362,7 +6362,7 @@ export const questionBank = {
   {
     "id": 188,
     "topic": "Auction Basics",
-    "question": "Question 188. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6375,7 +6375,7 @@ export const questionBank = {
   {
     "id": 189,
     "topic": "Auction Basics",
-    "question": "Question 189. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -6388,7 +6388,7 @@ export const questionBank = {
   {
     "id": 190,
     "topic": "Auction Basics",
-    "question": "Question 190. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -6401,7 +6401,7 @@ export const questionBank = {
   {
     "id": 191,
     "topic": "Contract Law",
-    "question": "Question 191. A security agreement is:",
+    "question": "A security agreement is:",
     "options": [
       "Auction contract between buyer and auctioneer",
       "Agreement creating or providing for a security interest",
@@ -6414,7 +6414,7 @@ export const questionBank = {
   {
     "id": 192,
     "topic": "Auction Basics",
-    "question": "Question 192. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6427,7 +6427,7 @@ export const questionBank = {
   {
     "id": 193,
     "topic": "Auction Basics",
-    "question": "Question 193. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -6440,7 +6440,7 @@ export const questionBank = {
   {
     "id": 194,
     "topic": "Auction Basics",
-    "question": "Question 194. A secured party purchasing collateral at a public disposition is:",
+    "question": "A secured party purchasing collateral at a public disposition is:",
     "options": [
       "Prohibited",
       "Allowed",
@@ -6453,7 +6453,7 @@ export const questionBank = {
   {
     "id": 195,
     "topic": "State-Specific Laws",
-    "question": "Question 195. The Texas Deceptive Trade Practices Act is designed to protect:",
+    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
     "options": [
       "Only auctioneers",
       "Consumers from false, misleading, or deceptive acts",
@@ -6466,7 +6466,7 @@ export const questionBank = {
   {
     "id": 196,
     "topic": "Auction Basics",
-    "question": "Question 196. After default, a secured party may dispose of collateral by:",
+    "question": "After default, a secured party may dispose of collateral by:",
     "options": [
       "Only private sale",
       "Public or private sale, including auction",
@@ -6479,7 +6479,7 @@ export const questionBank = {
   {
     "id": 197,
     "topic": "Auction Basics",
-    "question": "Question 197. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6492,7 +6492,7 @@ export const questionBank = {
   {
     "id": 198,
     "topic": "Bidding Procedures",
-    "question": "Question 198. Producing fake bids (shill bidding) would most likely be viewed as:",
+    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
     "options": [
       "Standard practice",
       "Deceptive and unethical conduct",
@@ -6505,7 +6505,7 @@ export const questionBank = {
   {
     "id": 199,
     "topic": "Auction Basics",
-    "question": "Question 199. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6518,7 +6518,7 @@ export const questionBank = {
   {
     "id": 200,
     "topic": "Auction Basics",
-    "question": "Question 200. A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
+    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
     "options": [
       "Proper compliance",
       "Failure of required notification under Article 9",
@@ -6531,7 +6531,7 @@ export const questionBank = {
   {
     "id": 201,
     "topic": "State-Specific Laws",
-    "question": "Question 201. Texas Business & Commerce Code Chapter 521 primarily addresses:",
+    "question": "Texas Business & Commerce Code Chapter 521 primarily addresses:",
     "options": [
       "Secured transactions",
       "Unauthorized use of identifying information and data breach notification",
@@ -6544,7 +6544,7 @@ export const questionBank = {
   {
     "id": 202,
     "topic": "Auction Basics",
-    "question": "Question 202. Personal identifying information includes:",
+    "question": "Personal identifying information includes:",
     "options": [
       "Only a name",
       "Information such as SSN, driver\u2019s license number, or financial account data",
@@ -6557,7 +6557,7 @@ export const questionBank = {
   {
     "id": 203,
     "topic": "Auction Basics",
-    "question": "Question 203. A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
+    "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
     "options": [
       "A civil tort only",
       "An offense of fraudulent use or possession of identifying information",
@@ -6570,7 +6570,7 @@ export const questionBank = {
   {
     "id": 204,
     "topic": "Contract Law",
-    "question": "Question 204. A business experiencing a data breach must notify affected individuals:",
+    "question": "A business experiencing a data breach must notify affected individuals:",
     "options": [
       "Never",
       "As quickly as possible after discovering the breach",
@@ -6583,7 +6583,7 @@ export const questionBank = {
   {
     "id": 205,
     "topic": "Contract Law",
-    "question": "Question 205. Breach notification must generally include:",
+    "question": "Breach notification must generally include:",
     "options": [
       "Auction chant training",
       "Description of breach and type of sensitive info involved",
@@ -6596,7 +6596,7 @@ export const questionBank = {
   {
     "id": 206,
     "topic": "State-Specific Laws",
-    "question": "Question 206. Texas Business & Commerce Code Chapter 604A prohibits:",
+    "question": "Texas Business & Commerce Code Chapter 604A prohibits:",
     "options": [
       "Sales tax",
       "Certain surcharges for credit card use",
@@ -6609,7 +6609,7 @@ export const questionBank = {
   {
     "id": 207,
     "topic": "Auction Basics",
-    "question": "Question 207. A 'surcharge' in this context is:",
+    "question": "A 'surcharge' in this context is:",
     "options": [
       "Buyer premium",
       "Extra fee imposed specifically for using a credit card instead of cash",
@@ -6622,7 +6622,7 @@ export const questionBank = {
   {
     "id": 208,
     "topic": "Auction Basics",
-    "question": "Question 208. Offering a discount for cash instead of charging a credit card surcharge is:",
+    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
     "options": [
       "Always illegal",
       "Generally permitted distinction from a surcharge",
@@ -6635,7 +6635,7 @@ export const questionBank = {
   {
     "id": 209,
     "topic": "State-Specific Laws",
-    "question": "Question 209. Texas Administrative Code Title 10, Chapter 80 relates to:",
+    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
     "options": [
       "Auction chant",
       "Manufactured housing regulations",
@@ -6648,7 +6648,7 @@ export const questionBank = {
   {
     "id": 210,
     "topic": "Auction Basics",
-    "question": "Question 210. A manufactured home offered at auction may require compliance with:",
+    "question": "A manufactured home offered at auction may require compliance with:",
     "options": [
       "Only buyer registration",
       "Title and installation standards under TDHCA rules",
@@ -6661,7 +6661,7 @@ export const questionBank = {
   {
     "id": 211,
     "topic": "State-Specific Laws",
-    "question": "Question 211. Texas Administrative Code Title 31, Chapter 65 involves:",
+    "question": "Texas Administrative Code Title 31, Chapter 65 involves:",
     "options": [
       "Wildlife and conservation rules",
       "Credit card surcharges",
@@ -6674,7 +6674,7 @@ export const questionBank = {
   {
     "id": 212,
     "topic": "Auction Basics",
-    "question": "Question 212. Selling protected wildlife at auction without proper authority could result in:",
+    "question": "Selling protected wildlife at auction without proper authority could result in:",
     "options": [
       "Automatic exemption",
       "Regulatory violations and penalties",
@@ -6687,7 +6687,7 @@ export const questionBank = {
   {
     "id": 213,
     "topic": "State-Specific Laws",
-    "question": "Question 213. Texas Administrative Code Title 34 Chapter 3 relates to:",
+    "question": "Texas Administrative Code Title 34 Chapter 3 relates to:",
     "options": [
       "Tax administration",
       "Auction bid calling",
@@ -6699,8 +6699,8 @@ export const questionBank = {
   },
   {
     "id": 214,
-    "topic": "Auction Calculations",
-    "question": "Question 214. Auctioneers collecting sales tax must:",
+    "topic": "Auction Math",
+    "question": "Auctioneers collecting sales tax must:",
     "options": [
       "Keep no records",
       "Remit collected tax according to state requirements",
@@ -6713,7 +6713,7 @@ export const questionBank = {
   {
     "id": 215,
     "topic": "Bidding Procedures",
-    "question": "Question 215. An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
+    "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
     "options": [
       "Raise buyer premiums",
       "Provide breach notification as required under Chapter 521",
@@ -6726,7 +6726,7 @@ export const questionBank = {
   {
     "id": 216,
     "topic": "Consumer Protection",
-    "question": "Question 216. Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
+    "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
     "options": [
       "UCC 2.328",
       "Chapter 604A surcharge restrictions",
@@ -6739,7 +6739,7 @@ export const questionBank = {
   {
     "id": 217,
     "topic": "Auction Basics",
-    "question": "Question 217. An auctioneer sells a manufactured home but fails to ensure proper title transfer. This is most connected to:",
+    "question": "An auctioneer sells a manufactured home but fails to ensure proper title transfer. This is most connected to:",
     "options": [
       "DTPA only",
       "Manufactured housing administrative rules",
@@ -6752,7 +6752,7 @@ export const questionBank = {
   {
     "id": 218,
     "topic": "Auction Basics",
-    "question": "Question 218. Offering a discount for cash instead of charging a credit card surcharge is:",
+    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
     "options": [
       "Always illegal",
       "Generally permitted distinction from a surcharge",
@@ -6765,7 +6765,7 @@ export const questionBank = {
   {
     "id": 219,
     "topic": "Auction Basics",
-    "question": "Question 219. Offering a discount for cash instead of charging a credit card surcharge is:",
+    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
     "options": [
       "Always illegal",
       "Generally permitted distinction from a surcharge",
@@ -6778,7 +6778,7 @@ export const questionBank = {
   {
     "id": 220,
     "topic": "Contract Law",
-    "question": "Question 220. Breach notification must generally include:",
+    "question": "Breach notification must generally include:",
     "options": [
       "Auction chant training",
       "Description of breach and type of sensitive info involved",
@@ -6791,7 +6791,7 @@ export const questionBank = {
   {
     "id": 221,
     "topic": "Auction Basics",
-    "question": "Question 221. Selling protected wildlife at auction without proper authority could result in:",
+    "question": "Selling protected wildlife at auction without proper authority could result in:",
     "options": [
       "Automatic exemption",
       "Regulatory violations and penalties",
@@ -6804,7 +6804,7 @@ export const questionBank = {
   {
     "id": 222,
     "topic": "Contract Law",
-    "question": "Question 222. Breach notification must generally include:",
+    "question": "Breach notification must generally include:",
     "options": [
       "Auction chant training",
       "Description of breach and type of sensitive info involved",
@@ -6817,7 +6817,7 @@ export const questionBank = {
   {
     "id": 223,
     "topic": "Consumer Protection",
-    "question": "Question 223. Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
+    "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
     "options": [
       "UCC 2.328",
       "Chapter 604A surcharge restrictions",
@@ -6830,7 +6830,7 @@ export const questionBank = {
   {
     "id": 224,
     "topic": "Auction Basics",
-    "question": "Question 224. Selling protected wildlife at auction without proper authority could result in:",
+    "question": "Selling protected wildlife at auction without proper authority could result in:",
     "options": [
       "Automatic exemption",
       "Regulatory violations and penalties",
@@ -6843,7 +6843,7 @@ export const questionBank = {
   {
     "id": 225,
     "topic": "Auction Basics",
-    "question": "Question 225. Offering a discount for cash instead of charging a credit card surcharge is:",
+    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
     "options": [
       "Always illegal",
       "Generally permitted distinction from a surcharge",
@@ -6856,7 +6856,7 @@ export const questionBank = {
   {
     "id": 226,
     "topic": "Auction Basics",
-    "question": "Question 226. A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
+    "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
     "options": [
       "A civil tort only",
       "An offense of fraudulent use or possession of identifying information",
@@ -6869,7 +6869,7 @@ export const questionBank = {
   {
     "id": 227,
     "topic": "Contract Law",
-    "question": "Question 227. Breach notification must generally include:",
+    "question": "Breach notification must generally include:",
     "options": [
       "Auction chant training",
       "Description of breach and type of sensitive info involved",
@@ -6882,7 +6882,7 @@ export const questionBank = {
   {
     "id": 228,
     "topic": "State-Specific Laws",
-    "question": "Question 228. Texas Business & Commerce Code Chapter 521 primarily addresses:",
+    "question": "Texas Business & Commerce Code Chapter 521 primarily addresses:",
     "options": [
       "Secured transactions",
       "Unauthorized use of identifying information and data breach notification",
@@ -6895,7 +6895,7 @@ export const questionBank = {
   {
     "id": 229,
     "topic": "Contract Law",
-    "question": "Question 229. Breach notification must generally include:",
+    "question": "Breach notification must generally include:",
     "options": [
       "Auction chant training",
       "Description of breach and type of sensitive info involved",
@@ -6908,7 +6908,7 @@ export const questionBank = {
   {
     "id": 230,
     "topic": "Consumer Protection",
-    "question": "Question 230. Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
+    "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
     "options": [
       "UCC 2.328",
       "Chapter 604A surcharge restrictions",
@@ -6921,7 +6921,7 @@ export const questionBank = {
   {
     "id": 231,
     "topic": "State-Specific Laws",
-    "question": "Question 231. Texas Administrative Code Title 10, Chapter 80 relates to:",
+    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
     "options": [
       "Auction chant",
       "Manufactured housing regulations",
@@ -6934,7 +6934,7 @@ export const questionBank = {
   {
     "id": 232,
     "topic": "Auction Basics",
-    "question": "Question 232. Offering a discount for cash instead of charging a credit card surcharge is:",
+    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
     "options": [
       "Always illegal",
       "Generally permitted distinction from a surcharge",
@@ -6947,7 +6947,7 @@ export const questionBank = {
   {
     "id": 233,
     "topic": "Bidding Procedures",
-    "question": "Question 233. An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
+    "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
     "options": [
       "Raise buyer premiums",
       "Provide breach notification as required under Chapter 521",
@@ -6960,7 +6960,7 @@ export const questionBank = {
   {
     "id": 234,
     "topic": "State-Specific Laws",
-    "question": "Question 234. Texas Administrative Code Title 34 Chapter 3 relates to:",
+    "question": "Texas Administrative Code Title 34 Chapter 3 relates to:",
     "options": [
       "Tax administration",
       "Auction bid calling",
@@ -6973,7 +6973,7 @@ export const questionBank = {
   {
     "id": 235,
     "topic": "State-Specific Laws",
-    "question": "Question 235. Texas Administrative Code Title 10, Chapter 80 relates to:",
+    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
     "options": [
       "Auction chant",
       "Manufactured housing regulations",
@@ -6986,7 +6986,7 @@ export const questionBank = {
   {
     "id": 236,
     "topic": "State-Specific Laws",
-    "question": "Question 236. Texas Administrative Code Title 10, Chapter 80 relates to:",
+    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
     "options": [
       "Auction chant",
       "Manufactured housing regulations",
@@ -6999,7 +6999,7 @@ export const questionBank = {
   {
     "id": 237,
     "topic": "State-Specific Laws",
-    "question": "Question 237. Texas Administrative Code Title 10, Chapter 80 relates to:",
+    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
     "options": [
       "Auction chant",
       "Manufactured housing regulations",
@@ -7012,7 +7012,7 @@ export const questionBank = {
   {
     "id": 238,
     "topic": "State-Specific Laws",
-    "question": "Question 238. Texas Administrative Code Title 10, Chapter 80 relates to:",
+    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
     "options": [
       "Auction chant",
       "Manufactured housing regulations",
@@ -7025,7 +7025,7 @@ export const questionBank = {
   {
     "id": 239,
     "topic": "Auction Basics",
-    "question": "Question 239. A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
+    "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
     "options": [
       "A civil tort only",
       "An offense of fraudulent use or possession of identifying information",
@@ -7038,7 +7038,7 @@ export const questionBank = {
   {
     "id": 240,
     "topic": "Auction Basics",
-    "question": "Question 240. A manufactured home offered at auction may require compliance with:",
+    "question": "A manufactured home offered at auction may require compliance with:",
     "options": [
       "Only buyer registration",
       "Title and installation standards under TDHCA rules",
@@ -7051,7 +7051,7 @@ export const questionBank = {
   {
     "id": 241,
     "topic": "Bidding Procedures",
-    "question": "Question 241. An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
+    "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
     "options": [
       "Raise buyer premiums",
       "Provide breach notification as required under Chapter 521",
@@ -7064,7 +7064,7 @@ export const questionBank = {
   {
     "id": 242,
     "topic": "Bidding Procedures",
-    "question": "Question 242. An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
+    "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
     "options": [
       "Raise buyer premiums",
       "Provide breach notification as required under Chapter 521",
@@ -7077,7 +7077,7 @@ export const questionBank = {
   {
     "id": 243,
     "topic": "Auction Basics",
-    "question": "Question 243. A manufactured home offered at auction may require compliance with:",
+    "question": "A manufactured home offered at auction may require compliance with:",
     "options": [
       "Only buyer registration",
       "Title and installation standards under TDHCA rules",
@@ -7090,7 +7090,7 @@ export const questionBank = {
   {
     "id": 244,
     "topic": "State-Specific Laws",
-    "question": "Question 244. Texas Administrative Code Title 34 Chapter 3 relates to:",
+    "question": "Texas Administrative Code Title 34 Chapter 3 relates to:",
     "options": [
       "Tax administration",
       "Auction bid calling",
@@ -7103,7 +7103,7 @@ export const questionBank = {
   {
     "id": 245,
     "topic": "Auction Basics",
-    "question": "Question 245. Offering a discount for cash instead of charging a credit card surcharge is:",
+    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
     "options": [
       "Always illegal",
       "Generally permitted distinction from a surcharge",
@@ -7116,7 +7116,7 @@ export const questionBank = {
   {
     "id": 246,
     "topic": "State-Specific Laws",
-    "question": "Question 246. Texas Business & Commerce Code Chapter 521 primarily addresses:",
+    "question": "Texas Business & Commerce Code Chapter 521 primarily addresses:",
     "options": [
       "Secured transactions",
       "Unauthorized use of identifying information and data breach notification",
@@ -7129,7 +7129,7 @@ export const questionBank = {
   {
     "id": 247,
     "topic": "Auction Basics",
-    "question": "Question 247. A manufactured home offered at auction may require compliance with:",
+    "question": "A manufactured home offered at auction may require compliance with:",
     "options": [
       "Only buyer registration",
       "Title and installation standards under TDHCA rules",
@@ -7142,7 +7142,7 @@ export const questionBank = {
   {
     "id": 248,
     "topic": "Contract Law",
-    "question": "Question 248. Breach notification must generally include:",
+    "question": "Breach notification must generally include:",
     "options": [
       "Auction chant training",
       "Description of breach and type of sensitive info involved",
@@ -7155,7 +7155,7 @@ export const questionBank = {
   {
     "id": 249,
     "topic": "State-Specific Laws",
-    "question": "Question 249. Texas Administrative Code Title 31, Chapter 65 involves:",
+    "question": "Texas Administrative Code Title 31, Chapter 65 involves:",
     "options": [
       "Wildlife and conservation rules",
       "Credit card surcharges",
@@ -7168,7 +7168,7 @@ export const questionBank = {
   {
     "id": 250,
     "topic": "State-Specific Laws",
-    "question": "Question 250. Texas Administrative Code Title 31, Chapter 65 involves:",
+    "question": "Texas Administrative Code Title 31, Chapter 65 involves:",
     "options": [
       "Wildlife and conservation rules",
       "Credit card surcharges",
@@ -7181,7 +7181,7 @@ export const questionBank = {
   {
     "id": 251,
     "topic": "Auction Basics",
-    "question": "Question 251. An auctioneer\u2019s best practice when announcing terms of sale is to:",
+    "question": "An auctioneer\u2019s best practice when announcing terms of sale is to:",
     "options": [
       "Keep terms vague",
       "Clearly disclose premiums, reserves, and payment requirements before bidding",
@@ -7194,7 +7194,7 @@ export const questionBank = {
   {
     "id": 252,
     "topic": "Bidding Procedures",
-    "question": "Question 252. Shill bidding is:",
+    "question": "Shill bidding is:",
     "options": [
       "Encouraged",
       "Using fake bids to artificially raise price",
@@ -7207,7 +7207,7 @@ export const questionBank = {
   {
     "id": 253,
     "topic": "Auction Basics",
-    "question": "Question 253. Client funds should be handled by:",
+    "question": "Client funds should be handled by:",
     "options": [
       "Mixing with operating funds",
       "Separate accounting and prompt remittance",
@@ -7220,7 +7220,7 @@ export const questionBank = {
   {
     "id": 254,
     "topic": "Bidding Procedures",
-    "question": "Question 254. If a bidder dispute occurs, the auctioneer should:",
+    "question": "If a bidder dispute occurs, the auctioneer should:",
     "options": [
       "Ignore it",
       "Follow the published conditions of sale and document the resolution",
@@ -7233,7 +7233,7 @@ export const questionBank = {
   {
     "id": 255,
     "topic": "Auction Basics",
-    "question": "Question 255. If an auctioneer has a conflict of interest, they should:",
+    "question": "If an auctioneer has a conflict of interest, they should:",
     "options": [
       "Hide it",
       "Disclose it clearly",
@@ -7246,7 +7246,7 @@ export const questionBank = {
   {
     "id": 256,
     "topic": "Bidding Procedures",
-    "question": "Question 256. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7258,8 +7258,8 @@ export const questionBank = {
   },
   {
     "id": 257,
-    "topic": "Auction Calculations",
-    "question": "Question 257. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7272,7 +7272,7 @@ export const questionBank = {
   {
     "id": 258,
     "topic": "Advertising and Marketing",
-    "question": "Question 258. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7285,7 +7285,7 @@ export const questionBank = {
   {
     "id": 259,
     "topic": "Record Keeping",
-    "question": "Question 259. An auctioneer should keep records of sales and settlements to:",
+    "question": "An auctioneer should keep records of sales and settlements to:",
     "options": [
       "Avoid paying taxes",
       "Provide accountability and respond to disputes or audits",
@@ -7298,7 +7298,7 @@ export const questionBank = {
   {
     "id": 260,
     "topic": "Record Keeping",
-    "question": "Question 260. An auctioneer should keep records of sales and settlements to:",
+    "question": "An auctioneer should keep records of sales and settlements to:",
     "options": [
       "Avoid paying taxes",
       "Provide accountability and respond to disputes or audits",
@@ -7311,7 +7311,7 @@ export const questionBank = {
   {
     "id": 261,
     "topic": "Bidding Procedures",
-    "question": "Question 261. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7324,7 +7324,7 @@ export const questionBank = {
   {
     "id": 262,
     "topic": "Advertising and Marketing",
-    "question": "Question 262. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7337,7 +7337,7 @@ export const questionBank = {
   {
     "id": 263,
     "topic": "Advertising and Marketing",
-    "question": "Question 263. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7350,7 +7350,7 @@ export const questionBank = {
   {
     "id": 264,
     "topic": "Advertising and Marketing",
-    "question": "Question 264. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7363,7 +7363,7 @@ export const questionBank = {
   {
     "id": 265,
     "topic": "Record Keeping",
-    "question": "Question 265. An auctioneer should keep records of sales and settlements to:",
+    "question": "An auctioneer should keep records of sales and settlements to:",
     "options": [
       "Avoid paying taxes",
       "Provide accountability and respond to disputes or audits",
@@ -7375,8 +7375,8 @@ export const questionBank = {
   },
   {
     "id": 266,
-    "topic": "Auction Calculations",
-    "question": "Question 266. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7389,7 +7389,7 @@ export const questionBank = {
   {
     "id": 267,
     "topic": "Advertising and Marketing",
-    "question": "Question 267. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7402,7 +7402,7 @@ export const questionBank = {
   {
     "id": 268,
     "topic": "Bidding Procedures",
-    "question": "Question 268. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7414,8 +7414,8 @@ export const questionBank = {
   },
   {
     "id": 269,
-    "topic": "Auction Calculations",
-    "question": "Question 269. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7427,8 +7427,8 @@ export const questionBank = {
   },
   {
     "id": 270,
-    "topic": "Auction Calculations",
-    "question": "Question 270. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7441,7 +7441,7 @@ export const questionBank = {
   {
     "id": 271,
     "topic": "Bidding Procedures",
-    "question": "Question 271. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7454,7 +7454,7 @@ export const questionBank = {
   {
     "id": 272,
     "topic": "Advertising and Marketing",
-    "question": "Question 272. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7466,8 +7466,8 @@ export const questionBank = {
   },
   {
     "id": 273,
-    "topic": "Auction Calculations",
-    "question": "Question 273. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7480,7 +7480,7 @@ export const questionBank = {
   {
     "id": 274,
     "topic": "Bidding Procedures",
-    "question": "Question 274. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7493,7 +7493,7 @@ export const questionBank = {
   {
     "id": 275,
     "topic": "Advertising and Marketing",
-    "question": "Question 275. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7505,8 +7505,8 @@ export const questionBank = {
   },
   {
     "id": 276,
-    "topic": "Auction Calculations",
-    "question": "Question 276. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7518,8 +7518,8 @@ export const questionBank = {
   },
   {
     "id": 277,
-    "topic": "Auction Calculations",
-    "question": "Question 277. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7532,7 +7532,7 @@ export const questionBank = {
   {
     "id": 278,
     "topic": "Bidding Procedures",
-    "question": "Question 278. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7545,7 +7545,7 @@ export const questionBank = {
   {
     "id": 279,
     "topic": "Bidding Procedures",
-    "question": "Question 279. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7557,8 +7557,8 @@ export const questionBank = {
   },
   {
     "id": 280,
-    "topic": "Auction Calculations",
-    "question": "Question 280. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7570,8 +7570,8 @@ export const questionBank = {
   },
   {
     "id": 281,
-    "topic": "Auction Calculations",
-    "question": "Question 281. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7583,8 +7583,8 @@ export const questionBank = {
   },
   {
     "id": 282,
-    "topic": "Auction Calculations",
-    "question": "Question 282. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7597,7 +7597,7 @@ export const questionBank = {
   {
     "id": 283,
     "topic": "Advertising and Marketing",
-    "question": "Question 283. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7609,8 +7609,8 @@ export const questionBank = {
   },
   {
     "id": 284,
-    "topic": "Auction Calculations",
-    "question": "Question 284. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7623,7 +7623,7 @@ export const questionBank = {
   {
     "id": 285,
     "topic": "Record Keeping",
-    "question": "Question 285. An auctioneer should keep records of sales and settlements to:",
+    "question": "An auctioneer should keep records of sales and settlements to:",
     "options": [
       "Avoid paying taxes",
       "Provide accountability and respond to disputes or audits",
@@ -7636,7 +7636,7 @@ export const questionBank = {
   {
     "id": 286,
     "topic": "Bidding Procedures",
-    "question": "Question 286. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7649,7 +7649,7 @@ export const questionBank = {
   {
     "id": 287,
     "topic": "Bidding Procedures",
-    "question": "Question 287. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7662,7 +7662,7 @@ export const questionBank = {
   {
     "id": 288,
     "topic": "Bidding Procedures",
-    "question": "Question 288. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7675,7 +7675,7 @@ export const questionBank = {
   {
     "id": 289,
     "topic": "Record Keeping",
-    "question": "Question 289. An auctioneer should keep records of sales and settlements to:",
+    "question": "An auctioneer should keep records of sales and settlements to:",
     "options": [
       "Avoid paying taxes",
       "Provide accountability and respond to disputes or audits",
@@ -7687,8 +7687,8 @@ export const questionBank = {
   },
   {
     "id": 290,
-    "topic": "Auction Calculations",
-    "question": "Question 290. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7701,7 +7701,7 @@ export const questionBank = {
   {
     "id": 291,
     "topic": "Advertising and Marketing",
-    "question": "Question 291. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7713,8 +7713,8 @@ export const questionBank = {
   },
   {
     "id": 292,
-    "topic": "Auction Calculations",
-    "question": "Question 292. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7727,7 +7727,7 @@ export const questionBank = {
   {
     "id": 293,
     "topic": "Advertising and Marketing",
-    "question": "Question 293. Advertising an item with a known false statement could lead to:",
+    "question": "Advertising an item with a known false statement could lead to:",
     "options": [
       "No issue",
       "Deceptive trade practice liability",
@@ -7739,8 +7739,8 @@ export const questionBank = {
   },
   {
     "id": 294,
-    "topic": "Auction Calculations",
-    "question": "Question 294. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7752,8 +7752,8 @@ export const questionBank = {
   },
   {
     "id": 295,
-    "topic": "Auction Calculations",
-    "question": "Question 295. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7766,7 +7766,7 @@ export const questionBank = {
   {
     "id": 296,
     "topic": "Bidding Procedures",
-    "question": "Question 296. Best practice for bidder registration is to:",
+    "question": "Best practice for bidder registration is to:",
     "options": [
       "Collect unnecessary sensitive data",
       "Collect only what is needed and protect it securely",
@@ -7779,7 +7779,7 @@ export const questionBank = {
   {
     "id": 297,
     "topic": "Record Keeping",
-    "question": "Question 297. An auctioneer should keep records of sales and settlements to:",
+    "question": "An auctioneer should keep records of sales and settlements to:",
     "options": [
       "Avoid paying taxes",
       "Provide accountability and respond to disputes or audits",
@@ -7792,7 +7792,7 @@ export const questionBank = {
   {
     "id": 298,
     "topic": "Record Keeping",
-    "question": "Question 298. An auctioneer should keep records of sales and settlements to:",
+    "question": "An auctioneer should keep records of sales and settlements to:",
     "options": [
       "Avoid paying taxes",
       "Provide accountability and respond to disputes or audits",
@@ -7804,8 +7804,8 @@ export const questionBank = {
   },
   {
     "id": 299,
-    "topic": "Auction Calculations",
-    "question": "Question 299. A cash discount compared to a credit card price is generally:",
+    "topic": "Auction Math",
+    "question": "A cash discount compared to a credit card price is generally:",
     "options": [
       "The same as a surcharge",
       "A permissible pricing structure distinct from a surcharge",
@@ -7818,7 +7818,7 @@ export const questionBank = {
   {
     "id": 300,
     "topic": "Record Keeping",
-    "question": "Question 300. An auctioneer should keep records of sales and settlements to:",
+    "question": "An auctioneer should keep records of sales and settlements to:",
     "options": [
       "Avoid paying taxes",
       "Provide accountability and respond to disputes or audits",
@@ -7841,6 +7841,16 @@ export const getQuestionsForState = (state) => {
   return questionBank['Texas'] || [];
 };
 
+// Fisher-Yates shuffle for proper randomization
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 // Get questions by topic
 export const getQuestionsByTopic = (state, topic) => {
   const stateQuestions = getQuestionsForState(state);
@@ -7850,12 +7860,12 @@ export const getQuestionsByTopic = (state, topic) => {
 // Get random questions for a test
 export const getRandomQuestions = (state, count = 75) => {
   const stateQuestions = getQuestionsForState(state);
-  const shuffled = [...stateQuestions].sort(() => Math.random() - 0.5);
+  const shuffled = shuffleArray(stateQuestions);
   
-  // If we don't have enough questions, repeat them
+  // If we don't have enough questions, repeat them with re-shuffling
   const questions = [];
   while (questions.length < count) {
-    questions.push(...shuffled);
+    questions.push(...shuffleArray(stateQuestions));
   }
   
   return questions.slice(0, count);
@@ -7867,7 +7877,12 @@ export const getQuizQuestions = (state, topic = null, count = 10) => {
     ? getQuestionsByTopic(state, topic)
     : getQuestionsForState(state);
   
-  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  if (questions.length === 0) {
+    console.warn(`No questions found for state: ${state}, topic: ${topic}`);
+    return [];
+  }
+  
+  const shuffled = shuffleArray(questions);
   
   // If we don't have enough questions, use what we have
   return shuffled.slice(0, Math.min(count, shuffled.length));
