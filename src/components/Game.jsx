@@ -1,109 +1,173 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { getQuizQuestions } from '../data/questionBank';
 import './Game.css';
 
 function Game({ state, topic, onExit }) {
+  const [gameState, setGameState] = useState('loading'); // loading, playing, paused, gameOver
   const [questions, setQuestions] = useState([]);
-  const [currentQuestion, setCurrentQuestion] = useState(null);
-  const [options, setOptions] = useState([]);
+  const [answers, setAnswers] = useState([]);
+  const [selectedQuestion, setSelectedQuestion] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [matchedPairs, setMatchedPairs] = useState([]);
+  const [incorrectPairs, setIncorrectPairs] = useState([]);
   const [score, setScore] = useState(0);
-  const [questionsAnswered, setQuestionsAnswered] = useState(0);
-  const [feedback, setFeedback] = useState(null);
-  const [streak, setStreak] = useState(0);
-  const [bestStreak, setBestStreak] = useState(0);
+  const [timeRemaining, setTimeRemaining] = useState(60); // 60 seconds
+  const [combo, setCombo] = useState(0);
+  const [bestCombo, setBestCombo] = useState(0);
 
+  // Initialize game
   useEffect(() => {
-    const gameQuestions = getQuizQuestions(state, 15, topic);
-    setQuestions(gameQuestions);
+    const gameQuestions = getQuizQuestions(state, 8, topic); // Use 8 questions for matching
     if (gameQuestions.length > 0) {
-      loadNextQuestion(gameQuestions, 0);
+      const questionsList = gameQuestions.map((q, idx) => ({
+        id: idx,
+        text: q.question,
+        topic: q.topic,
+        correctAnswerId: idx
+      }));
+      
+      const answersList = gameQuestions.map((q, idx) => ({
+        id: idx,
+        text: q.options[q.correctAnswer],
+        explanation: q.explanation
+      }));
+      
+      // Shuffle answers to make it challenging
+      const shuffledAnswers = [...answersList].sort(() => Math.random() - 0.5);
+      
+      setQuestions(questionsList);
+      setAnswers(shuffledAnswers);
+      setGameState('playing');
     }
   }, [state, topic]);
 
-  const loadNextQuestion = (questionList, index) => {
-    if (index >= questionList.length) {
-      // Game over
-      setCurrentQuestion(null);
-      return;
+  // Timer countdown
+  useEffect(() => {
+    if (gameState !== 'playing') return;
+    
+    const timer = setInterval(() => {
+      setTimeRemaining(prev => {
+        if (prev <= 1) {
+          setGameState('gameOver');
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [gameState]);
+
+  // Check if game is complete
+  useEffect(() => {
+    if (gameState === 'playing' && matchedPairs.length === questions.length && questions.length > 0) {
+      setGameState('gameOver');
     }
+  }, [matchedPairs, questions, gameState]);
 
-    const question = questionList[index];
-    setCurrentQuestion(question);
+  const handleQuestionClick = (questionId) => {
+    if (matchedPairs.includes(questionId)) return;
     
-    // Shuffle options
-    const shuffledOptions = question.options.map((opt, idx) => ({
-      text: opt,
-      index: idx
-    })).sort(() => Math.random() - 0.5);
-    
-    setOptions(shuffledOptions);
-    setSelectedAnswer(null);
-    setFeedback(null);
-  };
-
-  const handleAnswer = (optionIndex) => {
-    if (selectedAnswer !== null) return; // Already answered
-
-    setSelectedAnswer(optionIndex);
-    const isCorrect = optionIndex === currentQuestion.correctAnswer;
-    
-    setFeedback({
-      isCorrect,
-      explanation: currentQuestion.explanation
-    });
-
-    if (isCorrect) {
-      setScore(score + 10);
-      setStreak(streak + 1);
-      if (streak + 1 > bestStreak) {
-        setBestStreak(streak + 1);
-      }
+    if (selectedQuestion === questionId) {
+      setSelectedQuestion(null);
     } else {
-      setStreak(0);
+      setSelectedQuestion(questionId);
+      
+      // If an answer is already selected, try to match
+      if (selectedAnswer !== null) {
+        checkMatch(questionId, selectedAnswer);
+      }
     }
-
-    setQuestionsAnswered(questionsAnswered + 1);
-
-    // Auto advance after 2 seconds
-    setTimeout(() => {
-      loadNextQuestion(questions, questionsAnswered + 1);
-    }, 2000);
   };
 
-  if (questions.length === 0) {
+  const handleAnswerClick = (answerId) => {
+    if (matchedPairs.includes(answerId)) return;
+    
+    if (selectedAnswer === answerId) {
+      setSelectedAnswer(null);
+    } else {
+      setSelectedAnswer(answerId);
+      
+      // If a question is already selected, try to match
+      if (selectedQuestion !== null) {
+        checkMatch(selectedQuestion, answerId);
+      }
+    }
+  };
+
+  const checkMatch = (questionId, answerId) => {
+    const question = questions.find(q => q.id === questionId);
+    
+    if (question && question.correctAnswerId === answerId) {
+      // Correct match!
+      setMatchedPairs([...matchedPairs, questionId]);
+      const newCombo = combo + 1;
+      setCombo(newCombo);
+      if (newCombo > bestCombo) {
+        setBestCombo(newCombo);
+      }
+      
+      // Calculate points: base + time bonus + combo bonus
+      const basePoints = 100;
+      const timeBonus = Math.floor(timeRemaining / 2); // Up to 30 bonus points
+      const comboBonus = newCombo * 10;
+      const totalPoints = basePoints + timeBonus + comboBonus;
+      
+      setScore(score + totalPoints);
+      
+      // Clear selections
+      setSelectedQuestion(null);
+      setSelectedAnswer(null);
+    } else {
+      // Incorrect match
+      setIncorrectPairs([...incorrectPairs, { questionId, answerId }]);
+      setCombo(0);
+      
+      // Flash red and clear after delay
+      setTimeout(() => {
+        setIncorrectPairs([]);
+        setSelectedQuestion(null);
+        setSelectedAnswer(null);
+      }, 800);
+    }
+  };
+
+  const togglePause = () => {
+    setGameState(gameState === 'playing' ? 'paused' : 'playing');
+  };
+
+  if (gameState === 'loading' || questions.length === 0) {
     return (
       <div className="game-container">
-        <div className="loading">Loading game...</div>
+        <div className="loading">Loading matching game...</div>
       </div>
     );
   }
 
-  if (!currentQuestion) {
-    // Game over screen
-    const totalQuestions = questions.length;
-    const percentage = ((score / (totalQuestions * 10)) * 100).toFixed(0);
+  if (gameState === 'gameOver') {
+    const totalPossibleScore = questions.length * 100 + 30 * questions.length; // Base + max time bonus
+    const percentage = questions.length > 0 ? Math.round((score / totalPossibleScore) * 100) : 0;
 
     return (
       <div className="game-container">
         <div className="game-over">
-          <h2>🎮 Game Over!</h2>
+          <h2>⏰ Time's Up!</h2>
           <div className="final-score">
             <div className="score-big">{score}</div>
             <div className="score-label">Final Score</div>
           </div>
           <div className="game-stats">
             <div className="stat">
+              <div className="stat-value">{matchedPairs.length}/{questions.length}</div>
+              <div className="stat-label">Matched</div>
+            </div>
+            <div className="stat">
               <div className="stat-value">{percentage}%</div>
-              <div className="stat-label">Accuracy</div>
+              <div className="stat-label">Efficiency</div>
             </div>
             <div className="stat">
-              <div className="stat-value">{questionsAnswered}</div>
-              <div className="stat-label">Questions</div>
-            </div>
-            <div className="stat">
-              <div className="stat-value">{bestStreak}</div>
-              <div className="stat-label">Best Streak</div>
+              <div className="stat-value">{bestCombo}</div>
+              <div className="stat-label">Best Combo</div>
             </div>
           </div>
           <div className="game-actions">
@@ -116,85 +180,106 @@ function Game({ state, topic, onExit }) {
     );
   }
 
+  const formatTime = (seconds) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  };
+
   return (
     <div className="game-container">
       <div className="game-header">
         <div className="game-info">
-          <h2>🎮 Study Game</h2>
-          <p>{topic || 'All Topics'}</p>
+          <h2>🎮 Matching Game</h2>
+          <p>{topic || 'All Topics'} - {state}</p>
         </div>
-        <button onClick={onExit} className="btn-exit">Exit</button>
+        <div className="header-controls">
+          <button onClick={togglePause} className="btn-pause">
+            {gameState === 'paused' ? '▶️ Resume' : '⏸️ Pause'}
+          </button>
+          <button onClick={onExit} className="btn-exit">Exit</button>
+        </div>
       </div>
 
       <div className="game-stats-bar">
+        <div className="stat-item">
+          <span className="stat-icon">⏱️</span>
+          <span className={`timer ${timeRemaining <= 10 ? 'timer-warning' : ''}`}>
+            {formatTime(timeRemaining)}
+          </span>
+        </div>
         <div className="stat-item">
           <span className="stat-icon">🎯</span>
           <span>Score: {score}</span>
         </div>
         <div className="stat-item">
-          <span className="stat-icon">📝</span>
-          <span>{questionsAnswered + 1}/{questions.length}</span>
+          <span className="stat-icon">✓</span>
+          <span>{matchedPairs.length}/{questions.length} Matched</span>
         </div>
         <div className="stat-item">
           <span className="stat-icon">🔥</span>
-          <span>Streak: {streak}</span>
+          <span>Combo: {combo}</span>
         </div>
       </div>
 
-      <div className="game-content">
-        <div className="game-topic">{currentQuestion.topic}</div>
-        
-        <div className="game-question">
-          {currentQuestion.question}
-        </div>
-
-        <div className="game-options">
-          {options.map((option, idx) => {
-            let className = 'game-option';
-            
-            if (selectedAnswer !== null) {
-              if (option.index === currentQuestion.correctAnswer) {
-                className += ' correct';
-              } else if (option.index === selectedAnswer) {
-                className += ' incorrect';
-              } else {
-                className += ' disabled';
-              }
-            }
-
-            return (
-              <button
-                key={idx}
-                className={className}
-                onClick={() => handleAnswer(option.index)}
-                disabled={selectedAnswer !== null}
-              >
-                {option.text}
-              </button>
-            );
-          })}
-        </div>
-
-        {feedback && (
-          <div className={`game-feedback ${feedback.isCorrect ? 'correct' : 'incorrect'}`}>
-            <div className="feedback-header">
-              {feedback.isCorrect ? (
-                <>
-                  <span className="feedback-icon">✓</span>
-                  <span>Correct! +10 points</span>
-                </>
-              ) : (
-                <>
-                  <span className="feedback-icon">✗</span>
-                  <span>Incorrect</span>
-                </>
-              )}
-            </div>
-            <div className="feedback-explanation">
-              {feedback.explanation}
-            </div>
+      {gameState === 'paused' && (
+        <div className="pause-overlay" onClick={togglePause}>
+          <div className="pause-message">
+            <h2>⏸️ Paused</h2>
+            <p>Click anywhere to continue</p>
           </div>
-        )}
+        </div>
+      )}
+
+      <div className="game-content">
+        <div className="instructions">
+          <p>💡 Click a question, then click its matching answer!</p>
+        </div>
+
+        <div className="matching-grid">
+          {/* Questions Column */}
+          <div className="questions-column">
+            <h3 className="column-header">Questions</h3>
+            {questions.map((question) => {
+              const isMatched = matchedPairs.includes(question.id);
+              const isSelected = selectedQuestion === question.id;
+              const isIncorrect = incorrectPairs.some(p => p.questionId === question.id);
+              
+              return (
+                <div
+                  key={question.id}
+                  className={`match-item question-item ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''} ${isIncorrect ? 'incorrect' : ''}`}
+                  onClick={() => !isMatched && handleQuestionClick(question.id)}
+                >
+                  <div className="match-number">{question.id + 1}</div>
+                  <div className="match-text">{question.text}</div>
+                  {isMatched && <div className="check-mark">✓</div>}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Answers Column */}
+          <div className="answers-column">
+            <h3 className="column-header">Answers</h3>
+            {answers.map((answer) => {
+              const isMatched = matchedPairs.includes(answer.id);
+              const isSelected = selectedAnswer === answer.id;
+              const isIncorrect = incorrectPairs.some(p => p.answerId === answer.id);
+              
+              return (
+                <div
+                  key={answer.id}
+                  className={`match-item answer-item ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''} ${isIncorrect ? 'incorrect' : ''}`}
+                  onClick={() => !isMatched && handleAnswerClick(answer.id)}
+                >
+                  <div className="match-text">{answer.text}</div>
+                  {isMatched && <div className="check-mark">✓</div>}
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );
