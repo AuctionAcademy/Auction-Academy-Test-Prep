@@ -18,8 +18,8 @@ This is a modern React application that requires a web server. Browsers block Ja
 **Steps:**
 ```bash
 # 1. Open Terminal/Command Prompt
-# 2. Navigate to the downloaded folder
-cd path/to/Auction-Academy-Test-Prep
+# 2. Navigate to the downloaded folder (REPLACE with your actual path!)
+cd Downloads/Auction-Academy-Test-Prep
 
 # 3. Install dependencies (one time only)
 npm install
@@ -31,6 +31,8 @@ npm run dev
 **Then:** Open your browser and go to `http://localhost:5173`
 
 ✅ **Done!** The app is now running.
+
+> ⚠️ **Getting "package.json not found" error?** You're running npm from the wrong directory. Make sure you `cd` into the project folder first!
 
 ---
 
@@ -67,6 +69,32 @@ npm run build
 ---
 
 ## 🆘 Still Having Issues?
+
+### "Could not read package.json" or "ENOENT: no such file or directory"
+
+**This means you're running npm from the wrong directory!**
+
+**The problem:**
+```bash
+# ❌ WRONG - Running from home directory
+~ % npm install
+npm error path /Users/gracekirkland/package.json
+npm error enoent Could not read package.json
+```
+
+**The solution:**
+```bash
+# ✅ CORRECT - Navigate INTO the project folder first
+~ % cd Downloads/Auction-Academy-Test-Prep
+Auction-Academy-Test-Prep % npm install
+# Now it works!
+```
+
+**How to fix:**
+1. Find where you downloaded the project (probably in Downloads)
+2. Use `cd` to navigate INTO that folder
+3. Your terminal prompt should show you're in `Auction-Academy-Test-Prep`
+4. NOW run `npm install`
 
 ### "I don't have Node.js"
 1. Download from [nodejs.org](https://nodejs.org/)

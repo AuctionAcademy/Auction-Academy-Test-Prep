@@ -4,16 +4,26 @@ A comprehensive web application designed to help auctioneer students prepare for
 
 ## 🚀 Simplest Way to Open This Website
 
-**3 commands - that's it!**
+**First, open Terminal (Mac) or Command Prompt (Windows)**
+
+Then run these commands:
 
 ```bash
+# 1. Navigate INTO the downloaded folder (IMPORTANT!)
+cd Auction-Academy-Test-Prep
+
+# 2. Install dependencies
 npm install
+
+# 3. Start the app
 npm run dev
 ```
 
 Then open your browser to: **http://localhost:5173**
 
 > **Don't have Node.js?** [Download it here](https://nodejs.org/) (takes 2 minutes to install)
+
+> ⚠️ **Common mistake:** Make sure you `cd` into the project folder first! If you get an error about "package.json not found", you're in the wrong directory.
 
 ---
 
