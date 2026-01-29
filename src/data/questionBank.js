@@ -6341,10 +6341,25 @@ export function getQuestionsForState(state) {
 // Helper function to get questions by topic
 export function getQuestionsByTopic(state, topic) {
   const stateQuestions = getQuestionsForState(state);
-  if (topic === 'All Topics') {
+  if (topic === 'All Topics' || !topic) {
     return stateQuestions;
   }
   return stateQuestions.filter(q => q.topic === topic);
+}
+
+// Helper function to get available topics for a specific state
+export function getAvailableTopics(state) {
+  const stateQuestions = getQuestionsForState(state);
+  const topicsWithQuestions = new Set();
+  
+  stateQuestions.forEach(q => {
+    if (q.topic) {
+      topicsWithQuestions.add(q.topic);
+    }
+  });
+  
+  // Return 'All Topics' first, then alphabetically sorted topics that have questions
+  return ['All Topics', ...Array.from(topicsWithQuestions).sort()];
 }
 
 // Fisher-Yates shuffle for proper randomization

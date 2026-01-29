@@ -1,10 +1,13 @@
-import { useState } from 'react';
-import { topics } from '../data/questionBank';
+import { useState, useMemo } from 'react';
+import { getAvailableTopics } from '../data/questionBank';
 import './Dashboard.css';
 
 function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide }) {
   const [selectedTopic, setSelectedTopic] = useState('');
   const [quizSize, setQuizSize] = useState(10);
+  
+  // Get topics that actually have questions for the selected state
+  const availableTopics = useMemo(() => getAvailableTopics(state), [state]);
 
   return (
     <div className="dashboard-container">
@@ -54,7 +57,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
                 className="topic-select"
               >
                 <option value="">All Topics</option>
-                {topics.map(topic => (
+                {availableTopics.filter(t => t !== 'All Topics').map(topic => (
                   <option key={topic} value={topic}>{topic}</option>
                 ))}
               </select>
@@ -92,7 +95,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
                 className="topic-select"
               >
                 <option value="">All Topics</option>
-                {topics.map(topic => (
+                {availableTopics.filter(t => t !== 'All Topics').map(topic => (
                   <option key={topic} value={topic}>{topic}</option>
                 ))}
               </select>
@@ -119,7 +122,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
                 className="topic-select"
               >
                 <option value="">All Topics</option>
-                {topics.map(topic => (
+                {availableTopics.filter(t => t !== 'All Topics').map(topic => (
                   <option key={topic} value={topic}>{topic}</option>
                 ))}
               </select>
@@ -152,7 +155,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
         <div className="topics-section">
           <h3>Topics Covered</h3>
           <div className="topics-grid">
-            {topics.map(topic => (
+            {availableTopics.filter(t => t !== 'All Topics').map(topic => (
               <div key={topic} className="topic-badge">
                 {topic}
               </div>
