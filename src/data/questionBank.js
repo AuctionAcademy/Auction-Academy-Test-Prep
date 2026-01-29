@@ -4329,7 +4329,11 @@ export function getRandomQuestions(state, count, topic = 'All Topics', excludeMa
     const repetitions = Math.ceil(count / shuffled.length);
     const repeated = [];
     for (let i = 0; i < repetitions; i++) {
-      repeated.push(...shuffleArray(questions));
+      const batch = shuffleArray(questions).map((q, idx) => ({
+        ...q,
+        id: `${q.id}-rep${i}-${idx}` // Add unique suffix to prevent duplicate keys
+      }));
+      repeated.push(...batch);
     }
     return repeated.slice(0, count);
   }
