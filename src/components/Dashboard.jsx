@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { topics } from '../data/questionBank';
 import './Dashboard.css';
 
-function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame }) {
+function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide }) {
   const [selectedTopic, setSelectedTopic] = useState('');
   const [quizSize, setQuizSize] = useState(10);
 
@@ -130,6 +130,20 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
               className="btn-mode"
             >
               Play Game
+            </button>
+          </div>
+
+          {/* Study Guide */}
+          <div className="study-mode-card">
+            <div className="card-icon">📚</div>
+            <h3>Study Guide</h3>
+            <p>Read and print comprehensive study materials for {state}</p>
+            
+            <button 
+              onClick={onStartStudyGuide} 
+              className="btn-mode"
+            >
+              View Study Guide
             </button>
           </div>
         </div>
