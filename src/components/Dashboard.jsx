@@ -10,7 +10,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
     <div className="dashboard-container">
       <header className="dashboard-header">
         <div className="header-content">
-          <img src="/logo.png" alt="Auction Academy" className="dashboard-logo" />
+          <img src="/Auction Academy Logo.svg" alt="Auction Academy" className="dashboard-logo" />
           <div className="state-info">
             <span className="state-label">Studying for:</span>
             <span className="state-name">{state}</span>

@@ -30,7 +30,7 @@ function StateSelector({ onSelectState }) {
   return (
     <div className="state-selector-container">
       <div className="brand-header">
-        <img src="/logo.png" alt="Auction Academy" className="brand-logo" />
+        <img src="/Auction Academy Logo.svg" alt="Auction Academy" className="brand-logo" />
         <h2>Auctioneer Exam Prep</h2>
         <p className="tagline">Master Your State Licensing Exam</p>
       </div>
