@@ -706,3908 +706,2407 @@ export const questionBank = {
 
   'Texas': [
   {
-    "id": 1,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,050 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,050",
-      "$1,155",
-      "$1,255",
-      "$1,105"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,050 = $105. Step 2: Total = $1,050 + $105 = $1,155."
-  },
-  {
-    "id": 2,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,100 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,100",
-      "$1,210",
-      "$1,310",
-      "$1,160"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,100 = $110. Step 2: Total = $1,100 + $110 = $1,210."
-  },
-  {
-    "id": 3,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,150 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,150",
-      "$1,265",
-      "$1,365",
-      "$1,215"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,150 = $115. Step 2: Total = $1,150 + $115 = $1,265."
-  },
-  {
-    "id": 4,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,200 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,200",
-      "$1,320",
-      "$1,420",
-      "$1,270"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,200 = $120. Step 2: Total = $1,200 + $120 = $1,320."
-  },
-  {
-    "id": 5,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,250 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,250",
-      "$1,375",
-      "$1,475",
-      "$1,325"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,250 = $125. Step 2: Total = $1,250 + $125 = $1,375."
-  },
-  {
-    "id": 6,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,300 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,300",
-      "$1,430",
-      "$1,530",
-      "$1,380"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,300 = $130. Step 2: Total = $1,300 + $130 = $1,430."
-  },
-  {
-    "id": 7,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,350 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,350",
-      "$1,485",
-      "$1,585",
-      "$1,435"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,350 = $135. Step 2: Total = $1,350 + $135 = $1,485."
-  },
-  {
-    "id": 8,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,400 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,400",
-      "$1,540",
-      "$1,640",
-      "$1,490"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,400 = $140. Step 2: Total = $1,400 + $140 = $1,540."
-  },
-  {
-    "id": 9,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,450 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,450",
-      "$1,595",
-      "$1,695",
-      "$1,545"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,450 = $145. Step 2: Total = $1,450 + $145 = $1,595."
-  },
-  {
-    "id": 10,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,500 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,500",
-      "$1,650",
-      "$1,750",
-      "$1,600"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,500 = $150. Step 2: Total = $1,500 + $150 = $1,650."
-  },
-  {
-    "id": 11,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,550 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,550",
-      "$1,705",
-      "$1,805",
-      "$1,655"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,550 = $155. Step 2: Total = $1,550 + $155 = $1,705."
-  },
-  {
-    "id": 12,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,600 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,600",
-      "$1,760",
-      "$1,860",
-      "$1,710"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,600 = $160. Step 2: Total = $1,600 + $160 = $1,760."
-  },
-  {
-    "id": 13,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,650 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,650",
-      "$1,815",
-      "$1,915",
-      "$1,765"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,650 = $165. Step 2: Total = $1,650 + $165 = $1,815."
-  },
-  {
-    "id": 14,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,700 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,700",
-      "$1,870",
-      "$1,970",
-      "$1,820"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,700 = $170. Step 2: Total = $1,700 + $170 = $1,870."
-  },
-  {
-    "id": 15,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,750 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,750",
-      "$1,925",
-      "$2,025",
-      "$1,875"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,750 = $175. Step 2: Total = $1,750 + $175 = $1,925."
-  },
-  {
-    "id": 16,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,800 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,800",
-      "$1,980",
-      "$2,080",
-      "$1,930"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,800 = $180. Step 2: Total = $1,800 + $180 = $1,980."
-  },
-  {
-    "id": 17,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,850 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,850",
-      "$2,035",
-      "$2,135",
-      "$1,985"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,850 = $185. Step 2: Total = $1,850 + $185 = $2,035."
-  },
-  {
-    "id": 18,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,900 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,900",
-      "$2,090",
-      "$2,190",
-      "$2,040"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,900 = $190. Step 2: Total = $1,900 + $190 = $2,090."
-  },
-  {
-    "id": 19,
-    "topic": "Auction Math",
-    "question": "Hammer price is $1,950 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$1,950",
-      "$2,145",
-      "$2,245",
-      "$2,095"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $1,950 = $195. Step 2: Total = $1,950 + $195 = $2,145."
-  },
-  {
-    "id": 20,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,000 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,000",
-      "$2,200",
-      "$2,300",
-      "$2,150"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,000 = $200. Step 2: Total = $2,000 + $200 = $2,200."
-  },
-  {
-    "id": 21,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,050 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,050",
-      "$2,255",
-      "$2,355",
-      "$2,205"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,050 = $205. Step 2: Total = $2,050 + $205 = $2,255."
-  },
-  {
-    "id": 22,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,100 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,100",
-      "$2,310",
-      "$2,410",
-      "$2,260"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,100 = $210. Step 2: Total = $2,100 + $210 = $2,310."
-  },
-  {
-    "id": 23,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,150 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,150",
-      "$2,365",
-      "$2,465",
-      "$2,315"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,150 = $215. Step 2: Total = $2,150 + $215 = $2,365."
-  },
-  {
-    "id": 24,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,200 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,200",
-      "$2,420",
-      "$2,520",
-      "$2,370"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,200 = $220. Step 2: Total = $2,200 + $220 = $2,420."
-  },
-  {
-    "id": 25,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,250 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,250",
-      "$2,475",
-      "$2,575",
-      "$2,425"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,250 = $225. Step 2: Total = $2,250 + $225 = $2,475."
-  },
-  {
-    "id": 26,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,300 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,300",
-      "$2,530",
-      "$2,630",
-      "$2,480"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,300 = $230. Step 2: Total = $2,300 + $230 = $2,530."
-  },
-  {
-    "id": 27,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,350 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,350",
-      "$2,585",
-      "$2,685",
-      "$2,535"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,350 = $235. Step 2: Total = $2,350 + $235 = $2,585."
-  },
-  {
-    "id": 28,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,400 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,400",
-      "$2,640",
-      "$2,740",
-      "$2,590"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,400 = $240. Step 2: Total = $2,400 + $240 = $2,640."
-  },
-  {
-    "id": 29,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,450 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,450",
-      "$2,695",
-      "$2,795",
-      "$2,645"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,450 = $245. Step 2: Total = $2,450 + $245 = $2,695."
-  },
-  {
-    "id": 30,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,500 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,500",
-      "$2,750",
-      "$2,850",
-      "$2,700"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,500 = $250. Step 2: Total = $2,500 + $250 = $2,750."
-  },
-  {
-    "id": 31,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,550 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,550",
-      "$2,805",
-      "$2,905",
-      "$2,755"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,550 = $255. Step 2: Total = $2,550 + $255 = $2,805."
-  },
-  {
-    "id": 32,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,600 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,600",
-      "$2,860",
-      "$2,960",
-      "$2,810"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,600 = $260. Step 2: Total = $2,600 + $260 = $2,860."
-  },
-  {
-    "id": 33,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,650 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,650",
-      "$2,915",
-      "$3,015",
-      "$2,865"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,650 = $265. Step 2: Total = $2,650 + $265 = $2,915."
-  },
-  {
-    "id": 34,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,700 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,700",
-      "$2,970",
-      "$3,070",
-      "$2,920"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,700 = $270. Step 2: Total = $2,700 + $270 = $2,970."
-  },
-  {
-    "id": 35,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,750 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,750",
-      "$3,025",
-      "$3,125",
-      "$2,975"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,750 = $275. Step 2: Total = $2,750 + $275 = $3,025."
-  },
-  {
-    "id": 36,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,800 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,800",
-      "$3,080",
-      "$3,180",
-      "$3,030"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,800 = $280. Step 2: Total = $2,800 + $280 = $3,080."
-  },
-  {
-    "id": 37,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,850 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,850",
-      "$3,135",
-      "$3,235",
-      "$3,085"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,850 = $285. Step 2: Total = $2,850 + $285 = $3,135."
-  },
-  {
-    "id": 38,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,900 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,900",
-      "$3,190",
-      "$3,290",
-      "$3,140"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,900 = $290. Step 2: Total = $2,900 + $290 = $3,190."
-  },
-  {
-    "id": 39,
-    "topic": "Auction Math",
-    "question": "Hammer price is $2,950 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$2,950",
-      "$3,245",
-      "$3,345",
-      "$3,195"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $2,950 = $295. Step 2: Total = $2,950 + $295 = $3,245."
-  },
-  {
-    "id": 40,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,000 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,000",
-      "$3,300",
-      "$3,400",
-      "$3,250"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,000 = $300. Step 2: Total = $3,000 + $300 = $3,300."
-  },
-  {
-    "id": 41,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,050 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,050",
-      "$3,355",
-      "$3,455",
-      "$3,305"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,050 = $305. Step 2: Total = $3,050 + $305 = $3,355."
-  },
-  {
-    "id": 42,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,100 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,100",
-      "$3,410",
-      "$3,510",
-      "$3,360"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,100 = $310. Step 2: Total = $3,100 + $310 = $3,410."
-  },
-  {
-    "id": 43,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,150 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,150",
-      "$3,465",
-      "$3,565",
-      "$3,415"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,150 = $315. Step 2: Total = $3,150 + $315 = $3,465."
-  },
-  {
-    "id": 44,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,200 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,200",
-      "$3,520",
-      "$3,620",
-      "$3,470"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,200 = $320. Step 2: Total = $3,200 + $320 = $3,520."
-  },
-  {
-    "id": 45,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,250 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,250",
-      "$3,575",
-      "$3,675",
-      "$3,525"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,250 = $325. Step 2: Total = $3,250 + $325 = $3,575."
-  },
-  {
-    "id": 46,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,300 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,300",
-      "$3,630",
-      "$3,730",
-      "$3,580"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,300 = $330. Step 2: Total = $3,300 + $330 = $3,630."
-  },
-  {
-    "id": 47,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,350 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,350",
-      "$3,685",
-      "$3,785",
-      "$3,635"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,350 = $335. Step 2: Total = $3,350 + $335 = $3,685."
-  },
-  {
-    "id": 48,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,400 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,400",
-      "$3,740",
-      "$3,840",
-      "$3,690"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,400 = $340. Step 2: Total = $3,400 + $340 = $3,740."
-  },
-  {
-    "id": 49,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,450 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,450",
-      "$3,795",
-      "$3,895",
-      "$3,745"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,450 = $345. Step 2: Total = $3,450 + $345 = $3,795."
-  },
-  {
-    "id": 50,
-    "topic": "Auction Math",
-    "question": "Hammer price is $3,500 with a 10% buyer premium. What is total due (ignore tax)?",
-    "options": [
-      "$3,500",
-      "$3,850",
-      "$3,950",
-      "$3,800"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Premium = 10% x $3,500 = $350. Step 2: Total = $3,500 + $350 = $3,850. Balanced mix of statute recall + real exam-style scenarios."
-  },
-  {
-    "id": 51,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 52,
-    "topic": "State-Specific Laws",
-    "question": "A sale by auction is complete when:",
-    "options": [
-      "The first bid is made",
-      "The auctioneer announces completion by fall of the hammer or customary manner",
-      "The buyer pays",
-      "The catalog is printed"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 53,
-    "topic": "State-Specific Laws",
-    "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
-    "options": [
-      "Only before bidding begins",
-      "Any time until completion is announced",
-      "Only with buyer approval",
-      "Never"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 54,
-    "topic": "State-Specific Laws",
-    "question": "In an auction without reserve, once bids are called for, the lot:",
-    "options": [
-      "Can always be withdrawn",
-      "Cannot be withdrawn unless no bid is made within a reasonable time",
-      "Can be withdrawn after any bid",
-      "Must be sold regardless of fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 55,
-    "topic": "State-Specific Laws",
-    "question": "A bidder may retract a bid:",
-    "options": [
-      "At any time, even after the hammer falls",
-      "Until the auctioneer announces completion",
-      "Only if the seller agrees",
-      "Never"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 56,
-    "topic": "State-Specific Laws",
-    "question": "If a bid is retracted, it does NOT revive:",
-    "options": [
-      "The seller\u2019s reserve",
-      "Any previous bid",
-      "The buyer\u2019s deposit",
-      "The auctioneer\u2019s commission"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 57,
-    "topic": "State-Specific Laws",
-    "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
-    "options": [
-      "Be forced to complete purchase",
-      "Avoid the sale or take goods at last good faith bid",
-      "Only sue for damages",
-      "Automatically win the item free"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 58,
-    "topic": "State-Specific Laws",
-    "question": "Seller bidding rules do NOT apply to:",
-    "options": [
-      "Online auctions",
-      "Forced sales",
-      "Antique auctions",
-      "Reserve auctions"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 59,
-    "topic": "State-Specific Laws",
-    "question": "Buyer\u2019s premium is best defined as:",
-    "options": [
-      "Auctioneer fee paid by seller",
-      "Percentage added to hammer price paid by buyer",
-      "Deposit refunded after sale",
-      "Sales tax amount"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 60,
-    "topic": "State-Specific Laws",
-    "question": "Conditions of sale are:",
-    "options": [
-      "Optional marketing notes",
-      "Legal terms governing the auction (payment, premiums, removal, reserve)",
-      "Only the seller\u2019s warranty",
-      "The auctioneer\u2019s chant"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 61,
-    "topic": "State-Specific Laws",
-    "question": "An 'as is' sale means:",
-    "options": [
-      "Seller guarantees condition",
-      "No warranty; buyer must inspect",
-      "Buyer may return goods anytime",
-      "Auctioneer insures the item"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 62,
-    "topic": "State-Specific Laws",
-    "question": "Advertising an auction with intentionally false descriptions could violate:",
-    "options": [
-      "Only UCC rules",
-      "Deceptive Trade Practices protections",
-      "Only bankruptcy code",
-      "Wildlife regulations"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 63,
-    "topic": "State-Specific Laws",
-    "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
-    "options": [
-      "Ignore it automatically",
-      "Reopen bidding or declare goods sold under the bid being accepted",
-      "Arrest the bidder",
-      "Void the auction"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 64,
-    "topic": "State-Specific Laws",
-    "question": "Before an auction under a temporary charitable alcohol permit, notice must include:",
-    "options": [
-      "Only seller name",
-      "Date, time, place, and inventory of beverages",
-      "Buyer credit scores",
-      "Auction chant script"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 65,
-    "topic": "State-Specific Laws",
-    "question": "A temporary charitable auction permit holder may NOT:",
-    "options": [
-      "Deposit proceeds into its account",
-      "Pay commission to arrange or conduct the auction",
-      "Auction donated beverages",
-      "Provide notice"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 66,
-    "topic": "State-Specific Laws",
-    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
-    "options": [
-      "Only a handshake",
-      "A written transfer describing marks/brands",
-      "A buyer\u2019s premium receipt",
-      "A UCC financing statement"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 67,
-    "topic": "State-Specific Laws",
-    "question": "A bidder may retract a bid:",
-    "options": [
-      "At any time, even after the hammer falls",
-      "Until the auctioneer announces completion",
-      "Only if the seller agrees",
-      "Never"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 68,
-    "topic": "State-Specific Laws",
-    "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
-    "options": [
-      "Only before bidding begins",
-      "Any time until completion is announced",
-      "Only with buyer approval",
-      "Never"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 69,
-    "topic": "State-Specific Laws",
-    "question": "Buyer\u2019s premium is best defined as:",
-    "options": [
-      "Auctioneer fee paid by seller",
-      "Percentage added to hammer price paid by buyer",
-      "Deposit refunded after sale",
-      "Sales tax amount"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 70,
-    "topic": "State-Specific Laws",
-    "question": "In an auction without reserve, once bids are called for, the lot:",
-    "options": [
-      "Can always be withdrawn",
-      "Cannot be withdrawn unless no bid is made within a reasonable time",
-      "Can be withdrawn after any bid",
-      "Must be sold regardless of fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 71,
-    "topic": "State-Specific Laws",
-    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
-    "options": [
-      "Only a handshake",
-      "A written transfer describing marks/brands",
-      "A buyer\u2019s premium receipt",
-      "A UCC financing statement"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 72,
-    "topic": "State-Specific Laws",
-    "question": "A temporary charitable auction permit holder may NOT:",
-    "options": [
-      "Deposit proceeds into its account",
-      "Pay commission to arrange or conduct the auction",
-      "Auction donated beverages",
-      "Provide notice"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 73,
-    "topic": "State-Specific Laws",
-    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
-    "options": [
-      "Only a handshake",
-      "A written transfer describing marks/brands",
-      "A buyer\u2019s premium receipt",
-      "A UCC financing statement"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 74,
-    "topic": "State-Specific Laws",
-    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
-    "options": [
-      "Only a handshake",
-      "A written transfer describing marks/brands",
-      "A buyer\u2019s premium receipt",
-      "A UCC financing statement"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 75,
-    "topic": "State-Specific Laws",
-    "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
-    "options": [
-      "Ignore it automatically",
-      "Reopen bidding or declare goods sold under the bid being accepted",
-      "Arrest the bidder",
-      "Void the auction"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 76,
-    "topic": "State-Specific Laws",
-    "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
-    "options": [
-      "Be forced to complete purchase",
-      "Avoid the sale or take goods at last good faith bid",
-      "Only sue for damages",
-      "Automatically win the item free"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 77,
-    "topic": "State-Specific Laws",
-    "question": "In an auction without reserve, once bids are called for, the lot:",
-    "options": [
-      "Can always be withdrawn",
-      "Cannot be withdrawn unless no bid is made within a reasonable time",
-      "Can be withdrawn after any bid",
-      "Must be sold regardless of fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 78,
-    "topic": "State-Specific Laws",
-    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
-    "options": [
-      "Only a handshake",
-      "A written transfer describing marks/brands",
-      "A buyer\u2019s premium receipt",
-      "A UCC financing statement"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 79,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 80,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 81,
-    "topic": "State-Specific Laws",
-    "question": "In an auction without reserve, once bids are called for, the lot:",
-    "options": [
-      "Can always be withdrawn",
-      "Cannot be withdrawn unless no bid is made within a reasonable time",
-      "Can be withdrawn after any bid",
-      "Must be sold regardless of fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 82,
-    "topic": "State-Specific Laws",
-    "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
-    "options": [
-      "Ignore it automatically",
-      "Reopen bidding or declare goods sold under the bid being accepted",
-      "Arrest the bidder",
-      "Void the auction"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 83,
-    "topic": "State-Specific Laws",
-    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
-    "options": [
-      "Only a handshake",
-      "A written transfer describing marks/brands",
-      "A buyer\u2019s premium receipt",
-      "A UCC financing statement"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 84,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 85,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 86,
-    "topic": "State-Specific Laws",
-    "question": "In an auction with reserve, the auctioneer may withdraw the goods:",
-    "options": [
-      "Only before bidding begins",
-      "Any time until completion is announced",
-      "Only with buyer approval",
-      "Never"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 87,
-    "topic": "State-Specific Laws",
-    "question": "A temporary charitable auction permit holder may NOT:",
-    "options": [
-      "Deposit proceeds into its account",
-      "Pay commission to arrange or conduct the auction",
-      "Auction donated beverages",
-      "Provide notice"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 88,
-    "topic": "State-Specific Laws",
-    "question": "If the auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:",
-    "options": [
-      "Be forced to complete purchase",
-      "Avoid the sale or take goods at last good faith bid",
-      "Only sue for damages",
-      "Automatically win the item free"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 89,
-    "topic": "State-Specific Laws",
-    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
-    "options": [
-      "Only a handshake",
-      "A written transfer describing marks/brands",
-      "A buyer\u2019s premium receipt",
-      "A UCC financing statement"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 90,
-    "topic": "State-Specific Laws",
-    "question": "A sale by auction is complete when:",
-    "options": [
-      "The first bid is made",
-      "The auctioneer announces completion by fall of the hammer or customary manner",
-      "The buyer pays",
-      "The catalog is printed"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 91,
-    "topic": "State-Specific Laws",
-    "question": "A sale by auction is complete when:",
-    "options": [
-      "The first bid is made",
-      "The auctioneer announces completion by fall of the hammer or customary manner",
-      "The buyer pays",
-      "The catalog is printed"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 92,
-    "topic": "State-Specific Laws",
-    "question": "A sale by auction is complete when:",
-    "options": [
-      "The first bid is made",
-      "The auctioneer announces completion by fall of the hammer or customary manner",
-      "The buyer pays",
-      "The catalog is printed"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 93,
-    "topic": "State-Specific Laws",
-    "question": "A sale by auction is complete when:",
-    "options": [
-      "The first bid is made",
-      "The auctioneer announces completion by fall of the hammer or customary manner",
-      "The buyer pays",
-      "The catalog is printed"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 94,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 95,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 96,
-    "topic": "State-Specific Laws",
-    "question": "A bidder makes a bid while the hammer is falling. The auctioneer may:",
-    "options": [
-      "Ignore it automatically",
-      "Reopen bidding or declare goods sold under the bid being accepted",
-      "Arrest the bidder",
-      "Void the auction"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 97,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 98,
-    "topic": "State-Specific Laws",
-    "question": "Before an auction under a temporary charitable alcohol permit, notice must include:",
-    "options": [
-      "Only seller name",
-      "Date, time, place, and inventory of beverages",
-      "Buyer credit scores",
-      "Auction chant script"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 99,
-    "topic": "State-Specific Laws",
-    "question": "When selling cattle or horses in Texas, delivery must be accompanied by:",
-    "options": [
-      "Only a handshake",
-      "A written transfer describing marks/brands",
-      "A buyer\u2019s premium receipt",
-      "A UCC financing statement"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 100,
-    "topic": "State-Specific Laws",
-    "question": "If goods are put up in lots at an auction, each lot is:",
-    "options": [
-      "Part of one single sale",
-      "The subject of a separate sale",
-      "Withdrawn automatically",
-      "Always without reserve"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 101,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Under UCC Article 9, collateral refers to:",
-    "options": [
-      "Buyer premium",
-      "Property subject to a security interest",
-      "Auction license",
-      "Sales tax"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 102,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 103,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 104,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A disposition of collateral must be:",
-    "options": [
-      "Secret",
-      "Commercially reasonable",
-      "Always without reserve",
-      "Tax free"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 105,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Reasonable notification of disposition generally must be sent to:",
-    "options": [
-      "Only the auctioneer",
-      "Debtor and certain secured parties",
-      "Only the buyer",
-      "The governor"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 106,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 107,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 108,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A 'consumer' under DTPA generally is someone who:",
-    "options": [
-      "Buys or leases goods or services",
-      "Only sells goods",
-      "Only bids online",
-      "Holds an auction license"
-    ],
-    "correctAnswer": 0,
-    "explanation": ""
-  },
-  {
-    "id": 109,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
-    "options": [
-      "Only UCC remedies",
-      "DTPA liability",
-      "No consequences",
-      "Automatic license renewal"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 110,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 111,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
-    "options": [
-      "Standard practice",
-      "Deceptive and unethical conduct",
-      "Required in reserve auctions",
-      "Buyer protection"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 112,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 113,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auction company advertises 'No buyer premium' but charges one at settlement. This is:",
-    "options": [
-      "Acceptable",
-      "Potentially deceptive under DTPA",
-      "Required by UCC",
-      "A tax issue only"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 114,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 115,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
-    "options": [
-      "Subject to all unknown liens",
-      "Free of the debtor\u2019s interest and subordinate security interests if disposition complies",
-      "Nothing",
-      "Only partial title"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 116,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 117,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 118,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 119,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 120,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 121,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 122,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 123,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
-    "options": [
-      "Only UCC remedies",
-      "DTPA liability",
-      "No consequences",
-      "Automatic license renewal"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 124,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 125,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 126,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 127,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 128,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 129,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 130,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 131,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 132,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 133,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 134,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 135,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 136,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 137,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 138,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 139,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 140,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 141,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 142,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 143,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 144,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 145,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 146,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 147,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 148,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
-    "options": [
-      "Standard practice",
-      "Deceptive and unethical conduct",
-      "Required in reserve auctions",
-      "Buyer protection"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 149,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 150,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 151,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Under UCC Article 9, collateral refers to:",
-    "options": [
-      "Buyer premium",
-      "Property subject to a security interest",
-      "Auction license",
-      "Sales tax"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 152,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 153,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 154,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A disposition of collateral must be:",
-    "options": [
-      "Secret",
-      "Commercially reasonable",
-      "Always without reserve",
-      "Tax free"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 155,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Reasonable notification of disposition generally must be sent to:",
-    "options": [
-      "Only the auctioneer",
-      "Debtor and certain secured parties",
-      "Only the buyer",
-      "The governor"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 156,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 157,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 158,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A 'consumer' under DTPA generally is someone who:",
-    "options": [
-      "Buys or leases goods or services",
-      "Only sells goods",
-      "Only bids online",
-      "Holds an auction license"
-    ],
-    "correctAnswer": 0,
-    "explanation": ""
-  },
-  {
-    "id": 159,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
-    "options": [
-      "Only UCC remedies",
-      "DTPA liability",
-      "No consequences",
-      "Automatic license renewal"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 160,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 161,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
-    "options": [
-      "Standard practice",
-      "Deceptive and unethical conduct",
-      "Required in reserve auctions",
-      "Buyer protection"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 162,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 163,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auction company advertises 'No buyer premium' but charges one at settlement. This is:",
-    "options": [
-      "Acceptable",
-      "Potentially deceptive under DTPA",
-      "Required by UCC",
-      "A tax issue only"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 164,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 165,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A buyer purchases repossessed collateral at a public auction. Article 9 generally provides the buyer takes:",
-    "options": [
-      "Subject to all unknown liens",
-      "Free of the debtor\u2019s interest and subordinate security interests if disposition complies",
-      "Nothing",
-      "Only partial title"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 166,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 167,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 168,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 169,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 170,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 171,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 172,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 173,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Misrepresenting the characteristics or quality of goods sold at auction may trigger:",
-    "options": [
-      "Only UCC remedies",
-      "DTPA liability",
-      "No consequences",
-      "Automatic license renewal"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 174,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 175,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 176,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 177,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 178,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 179,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 180,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 181,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A disposition is commercially reasonable if:",
-    "options": [
-      "It maximizes price in every case",
-      "It follows accepted market practices and is conducted fairly",
-      "It happens quickly",
-      "It is secret"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 182,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 183,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 184,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 185,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 186,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 187,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "An auctioneer stating 'authentic gold' when it is not could be a:",
-    "options": [
-      "Puffery only",
-      "False, misleading, or deceptive act",
-      "Required advertising",
-      "Tax exemption"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 188,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 189,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 190,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 191,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A security agreement is:",
-    "options": [
-      "Auction contract between buyer and auctioneer",
-      "Agreement creating or providing for a security interest",
-      "Bidder registration form",
-      "Tax exemption form"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 192,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 193,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 194,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured party purchasing collateral at a public disposition is:",
-    "options": [
-      "Prohibited",
-      "Allowed",
-      "Allowed only if debtor objects",
-      "Automatically void"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 195,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "The Texas Deceptive Trade Practices Act is designed to protect:",
-    "options": [
-      "Only auctioneers",
-      "Consumers from false, misleading, or deceptive acts",
-      "Only banks",
-      "Only wholesalers"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 196,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "After default, a secured party may dispose of collateral by:",
-    "options": [
-      "Only private sale",
-      "Public or private sale, including auction",
-      "Only court order sale",
-      "Only online"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 197,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 198,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "Producing fake bids (shill bidding) would most likely be viewed as:",
-    "options": [
-      "Standard practice",
-      "Deceptive and unethical conduct",
-      "Required in reserve auctions",
-      "Buyer protection"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 199,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 200,
-    "topic": "UCC (Uniform Commercial Code)",
-    "question": "A secured lender repossesses equipment and sells it at auction without notifying the debtor. The debtor may claim:",
-    "options": [
-      "Proper compliance",
-      "Failure of required notification under Article 9",
-      "No rights after default",
-      "Automatic forgiveness"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 201,
-    "topic": "State-Specific Laws",
-    "question": "Texas Business & Commerce Code Chapter 521 primarily addresses:",
-    "options": [
-      "Secured transactions",
-      "Unauthorized use of identifying information and data breach notification",
-      "Wildlife regulations",
-      "Alcohol permits"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 202,
-    "topic": "State-Specific Laws",
-    "question": "Personal identifying information includes:",
-    "options": [
-      "Only a name",
-      "Information such as SSN, driver\u2019s license number, or financial account data",
-      "Hammer price only",
-      "Auctioneer license number only"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 203,
-    "topic": "State-Specific Laws",
-    "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
-    "options": [
-      "A civil tort only",
-      "An offense of fraudulent use or possession of identifying information",
-      "No violation",
-      "A surcharge violation"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 204,
-    "topic": "State-Specific Laws",
-    "question": "A business experiencing a data breach must notify affected individuals:",
-    "options": [
-      "Never",
-      "As quickly as possible after discovering the breach",
-      "Only after 2 years",
-      "Only if asked"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 205,
-    "topic": "State-Specific Laws",
-    "question": "Breach notification must generally include:",
-    "options": [
-      "Auction chant training",
-      "Description of breach and type of sensitive info involved",
-      "Buyer premium percentage",
-      "Reserve price"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 206,
-    "topic": "State-Specific Laws",
-    "question": "Texas Business & Commerce Code Chapter 604A prohibits:",
-    "options": [
-      "Sales tax",
-      "Certain surcharges for credit card use",
-      "Buyer premiums",
-      "Auction reserves"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 207,
-    "topic": "State-Specific Laws",
-    "question": "A 'surcharge' in this context is:",
-    "options": [
-      "Buyer premium",
-      "Extra fee imposed specifically for using a credit card instead of cash",
-      "Sales tax",
-      "Deposit"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 208,
-    "topic": "State-Specific Laws",
-    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
-    "options": [
-      "Always illegal",
-      "Generally permitted distinction from a surcharge",
-      "Required",
-      "Treated the same as fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 209,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
-    "options": [
-      "Auction chant",
-      "Manufactured housing regulations",
-      "Wildlife licenses",
-      "Bank repossessions"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 210,
-    "topic": "State-Specific Laws",
-    "question": "A manufactured home offered at auction may require compliance with:",
-    "options": [
-      "Only buyer registration",
-      "Title and installation standards under TDHCA rules",
-      "UCC 2.328 only",
-      "No regulations"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 211,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 31, Chapter 65 involves:",
-    "options": [
-      "Wildlife and conservation rules",
-      "Credit card surcharges",
-      "Identity theft",
-      "Alcohol permits"
-    ],
-    "correctAnswer": 0,
-    "explanation": ""
-  },
-  {
-    "id": 212,
-    "topic": "State-Specific Laws",
-    "question": "Selling protected wildlife at auction without proper authority could result in:",
-    "options": [
-      "Automatic exemption",
-      "Regulatory violations and penalties",
-      "License renewal",
-      "No consequence"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 213,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 34 Chapter 3 relates to:",
-    "options": [
-      "Tax administration",
-      "Auction bid calling",
-      "Manufactured housing only",
-      "Banking"
-    ],
-    "correctAnswer": 0,
-    "explanation": ""
-  },
-  {
-    "id": 214,
-    "topic": "State-Specific Laws",
-    "question": "Auctioneers collecting sales tax must:",
-    "options": [
-      "Keep no records",
-      "Remit collected tax according to state requirements",
-      "Pay tax only if asked",
-      "Ignore online sales"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 215,
-    "topic": "State-Specific Laws",
-    "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
-    "options": [
-      "Raise buyer premiums",
-      "Provide breach notification as required under Chapter 521",
-      "Cancel its license automatically",
-      "Ignore unless police request"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 216,
-    "topic": "State-Specific Laws",
-    "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
-    "options": [
-      "UCC 2.328",
-      "Chapter 604A surcharge restrictions",
-      "Wildlife rules",
-      "Manufactured housing rules"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 217,
-    "topic": "State-Specific Laws",
-    "question": "An auctioneer sells a manufactured home but fails to ensure proper title transfer. This is most connected to:",
-    "options": [
-      "DTPA only",
-      "Manufactured housing administrative rules",
-      "UCC 9 collateral rules only",
-      "Alcohol permits"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 218,
-    "topic": "State-Specific Laws",
-    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
-    "options": [
-      "Always illegal",
-      "Generally permitted distinction from a surcharge",
-      "Required",
-      "Treated the same as fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 219,
-    "topic": "State-Specific Laws",
-    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
-    "options": [
-      "Always illegal",
-      "Generally permitted distinction from a surcharge",
-      "Required",
-      "Treated the same as fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 220,
-    "topic": "State-Specific Laws",
-    "question": "Breach notification must generally include:",
-    "options": [
-      "Auction chant training",
-      "Description of breach and type of sensitive info involved",
-      "Buyer premium percentage",
-      "Reserve price"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 221,
-    "topic": "State-Specific Laws",
-    "question": "Selling protected wildlife at auction without proper authority could result in:",
-    "options": [
-      "Automatic exemption",
-      "Regulatory violations and penalties",
-      "License renewal",
-      "No consequence"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 222,
-    "topic": "State-Specific Laws",
-    "question": "Breach notification must generally include:",
-    "options": [
-      "Auction chant training",
-      "Description of breach and type of sensitive info involved",
-      "Buyer premium percentage",
-      "Reserve price"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 223,
-    "topic": "State-Specific Laws",
-    "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
-    "options": [
-      "UCC 2.328",
-      "Chapter 604A surcharge restrictions",
-      "Wildlife rules",
-      "Manufactured housing rules"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 224,
-    "topic": "State-Specific Laws",
-    "question": "Selling protected wildlife at auction without proper authority could result in:",
-    "options": [
-      "Automatic exemption",
-      "Regulatory violations and penalties",
-      "License renewal",
-      "No consequence"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 225,
-    "topic": "State-Specific Laws",
-    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
-    "options": [
-      "Always illegal",
-      "Generally permitted distinction from a surcharge",
-      "Required",
-      "Treated the same as fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 226,
-    "topic": "State-Specific Laws",
-    "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
-    "options": [
-      "A civil tort only",
-      "An offense of fraudulent use or possession of identifying information",
-      "No violation",
-      "A surcharge violation"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 227,
-    "topic": "State-Specific Laws",
-    "question": "Breach notification must generally include:",
-    "options": [
-      "Auction chant training",
-      "Description of breach and type of sensitive info involved",
-      "Buyer premium percentage",
-      "Reserve price"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 228,
-    "topic": "State-Specific Laws",
-    "question": "Texas Business & Commerce Code Chapter 521 primarily addresses:",
-    "options": [
-      "Secured transactions",
-      "Unauthorized use of identifying information and data breach notification",
-      "Wildlife regulations",
-      "Alcohol permits"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 229,
-    "topic": "State-Specific Laws",
-    "question": "Breach notification must generally include:",
-    "options": [
-      "Auction chant training",
-      "Description of breach and type of sensitive info involved",
-      "Buyer premium percentage",
-      "Reserve price"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 230,
-    "topic": "State-Specific Laws",
-    "question": "Charging an extra 3% 'credit card fee' only when buyers use a card may raise issues under:",
-    "options": [
-      "UCC 2.328",
-      "Chapter 604A surcharge restrictions",
-      "Wildlife rules",
-      "Manufactured housing rules"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 231,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
-    "options": [
-      "Auction chant",
-      "Manufactured housing regulations",
-      "Wildlife licenses",
-      "Bank repossessions"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 232,
-    "topic": "State-Specific Laws",
-    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
-    "options": [
-      "Always illegal",
-      "Generally permitted distinction from a surcharge",
-      "Required",
-      "Treated the same as fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 233,
-    "topic": "State-Specific Laws",
-    "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
-    "options": [
-      "Raise buyer premiums",
-      "Provide breach notification as required under Chapter 521",
-      "Cancel its license automatically",
-      "Ignore unless police request"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 234,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 34 Chapter 3 relates to:",
-    "options": [
-      "Tax administration",
-      "Auction bid calling",
-      "Manufactured housing only",
-      "Banking"
-    ],
-    "correctAnswer": 0,
-    "explanation": ""
-  },
-  {
-    "id": 235,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
-    "options": [
-      "Auction chant",
-      "Manufactured housing regulations",
-      "Wildlife licenses",
-      "Bank repossessions"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 236,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
-    "options": [
-      "Auction chant",
-      "Manufactured housing regulations",
-      "Wildlife licenses",
-      "Bank repossessions"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 237,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
-    "options": [
-      "Auction chant",
-      "Manufactured housing regulations",
-      "Wildlife licenses",
-      "Bank repossessions"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 238,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 10, Chapter 80 relates to:",
-    "options": [
-      "Auction chant",
-      "Manufactured housing regulations",
-      "Wildlife licenses",
-      "Bank repossessions"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 239,
-    "topic": "State-Specific Laws",
-    "question": "A person who obtains, possesses, transfers, or uses another\u2019s identifying info without consent and with intent to harm or defraud commits:",
-    "options": [
-      "A civil tort only",
-      "An offense of fraudulent use or possession of identifying information",
-      "No violation",
-      "A surcharge violation"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 240,
-    "topic": "State-Specific Laws",
-    "question": "A manufactured home offered at auction may require compliance with:",
-    "options": [
-      "Only buyer registration",
-      "Title and installation standards under TDHCA rules",
-      "UCC 2.328 only",
-      "No regulations"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 241,
-    "topic": "State-Specific Laws",
-    "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
-    "options": [
-      "Raise buyer premiums",
-      "Provide breach notification as required under Chapter 521",
-      "Cancel its license automatically",
-      "Ignore unless police request"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 242,
-    "topic": "State-Specific Laws",
-    "question": "An auction company stores bidder SSNs insecurely and they are stolen. The company\u2019s most immediate legal duty is:",
-    "options": [
-      "Raise buyer premiums",
-      "Provide breach notification as required under Chapter 521",
-      "Cancel its license automatically",
-      "Ignore unless police request"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 243,
-    "topic": "State-Specific Laws",
-    "question": "A manufactured home offered at auction may require compliance with:",
-    "options": [
-      "Only buyer registration",
-      "Title and installation standards under TDHCA rules",
-      "UCC 2.328 only",
-      "No regulations"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 244,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 34 Chapter 3 relates to:",
-    "options": [
-      "Tax administration",
-      "Auction bid calling",
-      "Manufactured housing only",
-      "Banking"
-    ],
-    "correctAnswer": 0,
-    "explanation": ""
-  },
-  {
-    "id": 245,
-    "topic": "State-Specific Laws",
-    "question": "Offering a discount for cash instead of charging a credit card surcharge is:",
-    "options": [
-      "Always illegal",
-      "Generally permitted distinction from a surcharge",
-      "Required",
-      "Treated the same as fraud"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 246,
-    "topic": "State-Specific Laws",
-    "question": "Texas Business & Commerce Code Chapter 521 primarily addresses:",
-    "options": [
-      "Secured transactions",
-      "Unauthorized use of identifying information and data breach notification",
-      "Wildlife regulations",
-      "Alcohol permits"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 247,
-    "topic": "State-Specific Laws",
-    "question": "A manufactured home offered at auction may require compliance with:",
-    "options": [
-      "Only buyer registration",
-      "Title and installation standards under TDHCA rules",
-      "UCC 2.328 only",
-      "No regulations"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 248,
-    "topic": "State-Specific Laws",
-    "question": "Breach notification must generally include:",
-    "options": [
-      "Auction chant training",
-      "Description of breach and type of sensitive info involved",
-      "Buyer premium percentage",
-      "Reserve price"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 249,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 31, Chapter 65 involves:",
-    "options": [
-      "Wildlife and conservation rules",
-      "Credit card surcharges",
-      "Identity theft",
-      "Alcohol permits"
-    ],
-    "correctAnswer": 0,
-    "explanation": ""
-  },
-  {
-    "id": 250,
-    "topic": "State-Specific Laws",
-    "question": "Texas Administrative Code Title 31, Chapter 65 involves:",
-    "options": [
-      "Wildlife and conservation rules",
-      "Credit card surcharges",
-      "Identity theft",
-      "Alcohol permits"
-    ],
-    "correctAnswer": 0,
-    "explanation": ""
-  },
-  {
-    "id": 251,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer\u2019s best practice when announcing terms of sale is to:",
-    "options": [
-      "Keep terms vague",
-      "Clearly disclose premiums, reserves, and payment requirements before bidding",
-      "Announce only after sale",
-      "Disclose only to sellers"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 252,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Shill bidding is:",
-    "options": [
-      "Encouraged",
-      "Using fake bids to artificially raise price",
-      "A cash discount",
-      "Required in reserve auctions"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 253,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Client funds should be handled by:",
-    "options": [
-      "Mixing with operating funds",
-      "Separate accounting and prompt remittance",
-      "Holding indefinitely",
-      "Paying staff bonuses first"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 254,
-    "topic": "Ethics and Professional Conduct",
-    "question": "If a bidder dispute occurs, the auctioneer should:",
-    "options": [
-      "Ignore it",
-      "Follow the published conditions of sale and document the resolution",
-      "Let bidders decide",
-      "Cancel auction immediately"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 255,
-    "topic": "Ethics and Professional Conduct",
-    "question": "If an auctioneer has a conflict of interest, they should:",
-    "options": [
-      "Hide it",
-      "Disclose it clearly",
-      "Raise bids secretly",
-      "Withdraw license"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 256,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 257,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 258,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 259,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer should keep records of sales and settlements to:",
-    "options": [
-      "Avoid paying taxes",
-      "Provide accountability and respond to disputes or audits",
-      "Increase chant speed",
-      "Replace licensing"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 260,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer should keep records of sales and settlements to:",
-    "options": [
-      "Avoid paying taxes",
-      "Provide accountability and respond to disputes or audits",
-      "Increase chant speed",
-      "Replace licensing"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 261,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 262,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 263,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 264,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 265,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer should keep records of sales and settlements to:",
-    "options": [
-      "Avoid paying taxes",
-      "Provide accountability and respond to disputes or audits",
-      "Increase chant speed",
-      "Replace licensing"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 266,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 267,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 268,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 269,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 270,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 271,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 272,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 273,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 274,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 275,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 276,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 277,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 278,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 279,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 280,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 281,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 282,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 283,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 284,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 285,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer should keep records of sales and settlements to:",
-    "options": [
-      "Avoid paying taxes",
-      "Provide accountability and respond to disputes or audits",
-      "Increase chant speed",
-      "Replace licensing"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 286,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 287,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 288,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 289,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer should keep records of sales and settlements to:",
-    "options": [
-      "Avoid paying taxes",
-      "Provide accountability and respond to disputes or audits",
-      "Increase chant speed",
-      "Replace licensing"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 290,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 291,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 292,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 293,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Advertising an item with a known false statement could lead to:",
-    "options": [
-      "No issue",
-      "Deceptive trade practice liability",
-      "Automatic exemption",
-      "Required conduct"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 294,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 295,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 296,
-    "topic": "Ethics and Professional Conduct",
-    "question": "Best practice for bidder registration is to:",
-    "options": [
-      "Collect unnecessary sensitive data",
-      "Collect only what is needed and protect it securely",
-      "Post SSNs publicly",
-      "Ignore privacy"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 297,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer should keep records of sales and settlements to:",
-    "options": [
-      "Avoid paying taxes",
-      "Provide accountability and respond to disputes or audits",
-      "Increase chant speed",
-      "Replace licensing"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 298,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer should keep records of sales and settlements to:",
-    "options": [
-      "Avoid paying taxes",
-      "Provide accountability and respond to disputes or audits",
-      "Increase chant speed",
-      "Replace licensing"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 299,
-    "topic": "Ethics and Professional Conduct",
-    "question": "A cash discount compared to a credit card price is generally:",
-    "options": [
-      "The same as a surcharge",
-      "A permissible pricing structure distinct from a surcharge",
-      "Always illegal",
-      "Required"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
-  },
-  {
-    "id": 300,
-    "topic": "Ethics and Professional Conduct",
-    "question": "An auctioneer should keep records of sales and settlements to:",
-    "options": [
-      "Avoid paying taxes",
-      "Provide accountability and respond to disputes or audits",
-      "Increase chant speed",
-      "Replace licensing"
-    ],
-    "correctAnswer": 1,
-    "explanation": ""
+    id: 1001,
+    topic: 'Auction Math',
+    question: `Which term describes the additional percentage added to the hammer price that the buyer must pay?`,
+    options: ["Commission", "Buyer\u2019s Premium", "Deposit", "Increment"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1002,
+    topic: 'Bidding Procedures',
+    question: `Which term means the bid step amount required between bids?`,
+    options: ["Provenance", "Increment", "Escrow", "Reserve"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1003,
+    topic: 'Contract Law',
+    question: `What does “conditions of sale” refer to?`,
+    options: ["Weather during auction", "Legal terms governing the auction transaction", "The chant style", "The buyer\u2019s deposit refund policy only"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1004,
+    topic: 'Auction Basics',
+    question: `What does an “as is” auction sale mean?`,
+    options: ["Seller guarantees condition", "Buyer may return items", "No warranty; buyer assumes risk after inspection", "Auctioneer repairs defects"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1005,
+    topic: 'Auction Math',
+    question: `An item sells for $5,000 hammer price with a 12% buyer premium. What is total due before tax?`,
+    options: ["$5,000", "$5,600", "$6,200", "$4,400"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1006,
+    topic: 'Auction Math',
+    question: `A seller pays a 10% commission on a $20,000 sale. What is the commission?`,
+    options: ["$1,000", "$2,000", "$3,000", "$10,000"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1007,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,000. Buyer premium is 10%. Sales tax is 6% on hammer only. Total buyer cost?`,
+    options: ["$8,800", "$9,280", "$9,600", "$8,480"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1008,
+    topic: 'Auction Math',
+    question: `A bidder pays a $1,500 deposit and wins an item for $6,000. Remaining balance before premium?`,
+    options: ["$4,500", "$6,000", "$1,500", "$7,500"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1009,
+    topic: 'Auction Basics',
+    question: `A sale by auction is complete when:`,
+    options: ["First bid is placed", "Auctioneer announces completion by hammer fall", "Buyer pays", "Seller signs receipt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1010,
+    topic: 'Bidding Procedures',
+    question: `An auction is presumed to be with reserve unless:`,
+    options: ["Seller is silent", "It is explicitly stated to be without reserve", "Auction is online", "Item is livestock"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1011,
+    topic: 'Bidding Procedures',
+    question: `In an auction with reserve, the auctioneer may withdraw the goods:`,
+    options: ["Only before bidding begins", "Any time until completion is announced", "Only after sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1012,
+    topic: 'Bidding Procedures',
+    question: `A bidder may retract a bid until:`,
+    options: ["Payment clears", "Auctioneer announces completion", "Seller accepts bid privately", "Auction begins"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1013,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,000 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,000", "$3,300", "$3,600", "$3,150"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1014,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,100 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,100", "$3,410", "$3,720", "$3,255"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1015,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,200 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,200", "$3,520", "$3,840", "$3,360"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1016,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,300 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,300", "$3,630", "$3,960", "$3,465"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1017,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,400 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,400", "$3,740", "$4,080", "$3,570"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1018,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,500 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,500", "$3,850", "$4,200", "$3,675"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1019,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,600 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,600", "$3,960", "$4,320", "$3,780"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1020,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,700 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,700", "$4,070", "$4,440", "$3,885"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1021,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,800 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,800", "$4,180", "$4,560", "$3,990"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1022,
+    topic: 'Auction Math',
+    question: `A hammer price is $3,900 with a 10% buyer premium. Total due before tax?`,
+    options: ["$3,900", "$4,290", "$4,680", "$4,095"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1023,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,000 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,000", "$4,400", "$4,800", "$4,200"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1024,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,100 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,100", "$4,510", "$4,920", "$4,305"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1025,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,200 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,200", "$4,620", "$5,040", "$4,410"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1026,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,300 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,300", "$4,730", "$5,160", "$4,515"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1027,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,400 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,400", "$4,840", "$5,280", "$4,620"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1028,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,500 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,500", "$4,950", "$5,400", "$4,725"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1029,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,600 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,600", "$5,060", "$5,520", "$4,830"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1030,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,700 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,700", "$5,170", "$5,640", "$4,935"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1031,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,800 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,800", "$5,280", "$5,760", "$5,040"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1032,
+    topic: 'Auction Math',
+    question: `A hammer price is $4,900 with a 10% buyer premium. Total due before tax?`,
+    options: ["$4,900", "$5,390", "$5,880", "$5,145"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1033,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,000 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,000", "$5,500", "$6,000", "$5,250"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1034,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,100 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,100", "$5,610", "$6,120", "$5,355"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1035,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,200 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,200", "$5,720", "$6,240", "$5,460"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1036,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,300 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,300", "$5,830", "$6,360", "$5,565"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1037,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,400 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,400", "$5,940", "$6,480", "$5,670"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1038,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,500 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,500", "$6,050", "$6,600", "$5,775"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1039,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,600 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,600", "$6,160", "$6,720", "$5,880"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1040,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,700 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,700", "$6,270", "$6,840", "$5,985"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1041,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,800 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,800", "$6,380", "$6,960", "$6,090"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1042,
+    topic: 'Auction Math',
+    question: `A hammer price is $5,900 with a 10% buyer premium. Total due before tax?`,
+    options: ["$5,900", "$6,490", "$7,080", "$6,195"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1043,
+    topic: 'Auction Math',
+    question: `A hammer price is $6,000 with a 10% buyer premium. Total due before tax?`,
+    options: ["$6,000", "$6,600", "$7,200", "$6,300"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1044,
+    topic: 'Auction Math',
+    question: `A hammer price is $6,100 with a 10% buyer premium. Total due before tax?`,
+    options: ["$6,100", "$6,710", "$7,320", "$6,405"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1045,
+    topic: 'Auction Math',
+    question: `A hammer price is $6,200 with a 10% buyer premium. Total due before tax?`,
+    options: ["$6,200", "$6,820", "$7,440", "$6,510"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1046,
+    topic: 'Auction Math',
+    question: `A hammer price is $6,300 with a 10% buyer premium. Total due before tax?`,
+    options: ["$6,300", "$6,930", "$7,560", "$6,615"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1047,
+    topic: 'Auction Math',
+    question: `A hammer price is $6,400 with a 10% buyer premium. Total due before tax?`,
+    options: ["$6,400", "$7,040", "$7,680", "$6,720"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1048,
+    topic: 'Auction Math',
+    question: `A hammer price is $6,500 with a 10% buyer premium. Total due before tax?`,
+    options: ["$6,500", "$7,150", "$7,800", "$6,825"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1049,
+    topic: 'Auction Math',
+    question: `A hammer price is $6,600 with a 10% buyer premium. Total due before tax?`,
+    options: ["$6,600", "$7,260", "$7,920", "$6,930"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1050,
+    topic: 'Auction Math',
+    question: `A hammer price is $6,700 with a 10% buyer premium. Total due before tax?`,
+    options: ["$6,700", "$7,370", "$8,040", "$7,035"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1051,
+    topic: 'Bidding Procedures',
+    question: `If an auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:`,
+    options: ["Be forced to complete purchase", "Avoid the sale or take goods at last good faith bid", "Only sue for tax refund", "Automatically win item free"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1052,
+    topic: 'Bidding Procedures',
+    question: `Auctions are presumed to be with reserve unless:`,
+    options: ["Seller is silent", "Explicitly stated without reserve", "Conducted online", "Conducted on government property"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1053,
+    topic: 'Bidding Procedures',
+    question: `A bidder may retract a bid:`,
+    options: ["At any time after payment", "Until the auctioneer announces completion", "Only if seller agrees", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1054,
+    topic: 'Auction Math',
+    question: `Advertising 'no buyer premium' but charging one at settlement is most likely:`,
+    options: ["Acceptable", "Potentially deceptive under DTPA", "Required practice", "Only a tax issue"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1055,
+    topic: 'Auction Basics',
+    question: `Misrepresenting an item's authenticity could violate:`,
+    options: ["Only UCC rules", "Texas Deceptive Trade Practices Act", "Wildlife code", "Credit surcharge law"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1056,
+    topic: 'Auction Math',
+    question: `Hammer price is $4,500. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$4,781", "$4,950", "$5,231", "$5,431"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1057,
+    topic: 'Auction Math',
+    question: `Hammer price is $4,775. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,073", "$5,252", "$5,551", "$5,751"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1058,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,050. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,366", "$5,555", "$5,871", "$6,071"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1059,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1060,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1061,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,875. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$6,242", "$6,462", "$6,830", "$7,030"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1062,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,150. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$6,534", "$6,765", "$7,149", "$7,349"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1063,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,425. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$6,827", "$7,068", "$7,469", "$7,669"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1064,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,700. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,119", "$7,370", "$7,789", "$7,989"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1065,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,975. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,411", "$7,672", "$8,108", "$8,308"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1066,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,250. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,703", "$7,975", "$8,428", "$8,628"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1067,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,525. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,995", "$8,278", "$8,748", "$8,948"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1068,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,800. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$8,288", "$8,580", "$9,068", "$9,268"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1069,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,075. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$8,580", "$8,882", "$9,387", "$9,587"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1070,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,350. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$8,872", "$9,185", "$9,707", "$9,907"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1071,
+    topic: 'Auction Math',
+    question: `Hammer price is $4,500. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$4,781", "$4,950", "$5,231", "$5,431"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1072,
+    topic: 'Auction Math',
+    question: `Advertising 'no buyer premium' but charging one at settlement is most likely:`,
+    options: ["Acceptable", "Potentially deceptive under DTPA", "Required practice", "Only a tax issue"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1073,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,975. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,411", "$7,672", "$8,108", "$8,308"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1074,
+    topic: 'Auction Math',
+    question: `Advertising 'no buyer premium' but charging one at settlement is most likely:`,
+    options: ["Acceptable", "Potentially deceptive under DTPA", "Required practice", "Only a tax issue"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1075,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1076,
+    topic: 'Auction Math',
+    question: `Hammer price is $4,500. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$4,781", "$4,950", "$5,231", "$5,431"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1077,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,525. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,995", "$8,278", "$8,748", "$8,948"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1078,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,250. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,703", "$7,975", "$8,428", "$8,628"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1079,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1080,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,700. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,119", "$7,370", "$7,789", "$7,989"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1081,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,075. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$8,580", "$8,882", "$9,387", "$9,587"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1082,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1083,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,350. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$8,872", "$9,185", "$9,707", "$9,907"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1084,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1085,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,975. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,411", "$7,672", "$8,108", "$8,308"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1086,
+    topic: 'Bidding Procedures',
+    question: `If an auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:`,
+    options: ["Be forced to complete purchase", "Avoid the sale or take goods at last good faith bid", "Only sue for tax refund", "Automatically win item free"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1087,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,800. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$8,288", "$8,580", "$9,068", "$9,268"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1088,
+    topic: 'Auction Math',
+    question: `Hammer price is $4,500. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$4,781", "$4,950", "$5,231", "$5,431"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1089,
+    topic: 'Bidding Procedures',
+    question: `A bidder may retract a bid:`,
+    options: ["At any time after payment", "Until the auctioneer announces completion", "Only if seller agrees", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1090,
+    topic: 'Bidding Procedures',
+    question: `If an auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:`,
+    options: ["Be forced to complete purchase", "Avoid the sale or take goods at last good faith bid", "Only sue for tax refund", "Automatically win item free"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1091,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1092,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,800. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$8,288", "$8,580", "$9,068", "$9,268"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1093,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1094,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,150. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$6,534", "$6,765", "$7,149", "$7,349"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1095,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1096,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,525. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,995", "$8,278", "$8,748", "$8,948"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1097,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1098,
+    topic: 'Auction Math',
+    question: `Hammer price is $5,050. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$5,366", "$5,555", "$5,871", "$6,071"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1099,
+    topic: 'Bidding Procedures',
+    question: `A bidder may retract a bid:`,
+    options: ["At any time after payment", "Until the auctioneer announces completion", "Only if seller agrees", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1100,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,250. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
+    options: ["$7,703", "$7,975", "$8,428", "$8,628"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1101,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1102,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1103,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1104,
+    topic: 'Auction Basics',
+    question: `Failing to provide required notice of collateral auction to the debtor may result in:`,
+    options: ["Automatic approval", "Liability and challenges to deficiency recovery", "Tax exemption", "Faster foreclosure"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1105,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `A secured party may purchase collateral at:`,
+    options: ["Any private sale always", "A public auction disposition", "Never", "Only if debtor bids"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1106,
+    topic: 'Auction Math',
+    question: `A secured debt is $15,000. Collateral sells at auction for $9,000. Sale costs are $600. What deficiency remains?`,
+    options: ["$6,600", "$6,000", "$8,400", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1107,
+    topic: 'Auction Math',
+    question: `A secured debt is $15,500. Collateral sells at auction for $9,350. Sale costs are $620. What deficiency remains?`,
+    options: ["$6,770", "$6,150", "$8,730", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1108,
+    topic: 'Auction Math',
+    question: `A secured debt is $16,000. Collateral sells at auction for $9,700. Sale costs are $640. What deficiency remains?`,
+    options: ["$6,940", "$6,300", "$9,060", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1109,
+    topic: 'Auction Math',
+    question: `A secured debt is $16,500. Collateral sells at auction for $10,050. Sale costs are $660. What deficiency remains?`,
+    options: ["$7,110", "$6,450", "$9,390", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1110,
+    topic: 'Auction Math',
+    question: `A secured debt is $17,000. Collateral sells at auction for $10,400. Sale costs are $680. What deficiency remains?`,
+    options: ["$7,280", "$6,600", "$9,720", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1111,
+    topic: 'Auction Math',
+    question: `A secured debt is $17,500. Collateral sells at auction for $10,750. Sale costs are $700. What deficiency remains?`,
+    options: ["$7,450", "$6,750", "$10,050", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1112,
+    topic: 'Auction Math',
+    question: `A secured debt is $18,000. Collateral sells at auction for $11,100. Sale costs are $720. What deficiency remains?`,
+    options: ["$7,620", "$6,900", "$10,380", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1113,
+    topic: 'Auction Math',
+    question: `A secured debt is $18,500. Collateral sells at auction for $11,450. Sale costs are $740. What deficiency remains?`,
+    options: ["$7,790", "$7,050", "$10,710", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1114,
+    topic: 'Auction Math',
+    question: `A secured debt is $19,000. Collateral sells at auction for $11,800. Sale costs are $760. What deficiency remains?`,
+    options: ["$7,960", "$7,200", "$11,040", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1115,
+    topic: 'Auction Math',
+    question: `A secured debt is $19,500. Collateral sells at auction for $12,150. Sale costs are $780. What deficiency remains?`,
+    options: ["$8,130", "$7,350", "$11,370", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1116,
+    topic: 'Auction Math',
+    question: `A secured debt is $20,000. Collateral sells at auction for $12,500. Sale costs are $800. What deficiency remains?`,
+    options: ["$8,300", "$7,500", "$11,700", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1117,
+    topic: 'Auction Math',
+    question: `A secured debt is $20,500. Collateral sells at auction for $12,850. Sale costs are $820. What deficiency remains?`,
+    options: ["$8,470", "$7,650", "$12,030", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1118,
+    topic: 'Auction Math',
+    question: `A secured debt is $21,000. Collateral sells at auction for $13,200. Sale costs are $840. What deficiency remains?`,
+    options: ["$8,640", "$7,800", "$12,360", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1119,
+    topic: 'Auction Math',
+    question: `A secured debt is $21,500. Collateral sells at auction for $13,550. Sale costs are $860. What deficiency remains?`,
+    options: ["$8,810", "$7,950", "$12,690", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1120,
+    topic: 'Auction Math',
+    question: `A secured debt is $22,000. Collateral sells at auction for $13,900. Sale costs are $880. What deficiency remains?`,
+    options: ["$8,980", "$8,100", "$13,020", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1121,
+    topic: 'Auction Math',
+    question: `A secured debt is $22,500. Collateral sells at auction for $14,250. Sale costs are $900. What deficiency remains?`,
+    options: ["$9,150", "$8,250", "$13,350", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1122,
+    topic: 'Auction Math',
+    question: `A secured debt is $23,000. Collateral sells at auction for $14,600. Sale costs are $920. What deficiency remains?`,
+    options: ["$9,320", "$8,400", "$13,680", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1123,
+    topic: 'Auction Math',
+    question: `A secured debt is $23,500. Collateral sells at auction for $14,950. Sale costs are $940. What deficiency remains?`,
+    options: ["$9,490", "$8,550", "$14,010", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1124,
+    topic: 'Auction Math',
+    question: `A secured debt is $24,000. Collateral sells at auction for $15,300. Sale costs are $960. What deficiency remains?`,
+    options: ["$9,660", "$8,700", "$14,340", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1125,
+    topic: 'Auction Math',
+    question: `A secured debt is $24,500. Collateral sells at auction for $15,650. Sale costs are $980. What deficiency remains?`,
+    options: ["$9,830", "$8,850", "$14,670", "$0"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1126,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1127,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1128,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1129,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1130,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1131,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1132,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1133,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1134,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1135,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1136,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1137,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1138,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1139,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1140,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1141,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1142,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1143,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1144,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1145,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1146,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1147,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1148,
+    topic: 'Auction Basics',
+    question: `All aspects of a collateral disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1149,
+    topic: 'Auction Basics',
+    question: `Collateral is best defined as:`,
+    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1150,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `After default, a secured party may dispose of collateral by:`,
+    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1151,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 521 primarily governs:`,
+    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1152,
+    topic: 'State-Specific Laws',
+    question: `After determining a breach occurred, Texas law generally requires notice no later than:`,
+    options: ["10 days", "30 days", "60 days", "1 year"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1153,
+    topic: 'Auction Basics',
+    question: `Sensitive personal information includes:`,
+    options: ["Item lot number", "Social Security or driver\u2019s license number", "Hammer price only", "Auction chant notes"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1154,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 604A prohibits:`,
+    options: ["Cash discounts", "Certain credit card surcharges", "Buyer registration", "Seller commissions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1155,
+    topic: 'Auction Basics',
+    question: `A surcharge is best described as:`,
+    options: ["Buyer premium", "Extra fee for credit card payment", "Sales tax", "Deposit"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1156,
+    topic: 'Bidding Procedures',
+    question: `An auction company stores bidder SSNs insecurely and they are stolen. The company must:`,
+    options: ["Ignore unless asked", "Provide breach notification under Chapter 521", "Cancel all auctions permanently", "Raise buyer premiums"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1157,
+    topic: 'Auction Math',
+    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
+    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1158,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$6,000", "$6,600", "$6,675", "$6,825"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1159,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$6,250", "$6,875", "$6,950", "$7,100"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1160,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$6,500", "$7,150", "$7,225", "$7,375"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1161,
+    topic: 'Auction Math',
+    question: `Hammer price is $6,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$6,750", "$7,425", "$7,500", "$7,650"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1162,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$7,000", "$7,700", "$7,775", "$7,925"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1163,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$7,250", "$7,975", "$8,050", "$8,200"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1164,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$7,500", "$8,250", "$8,325", "$8,475"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1165,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$7,750", "$8,525", "$8,600", "$8,750"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1166,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$8,000", "$8,800", "$8,875", "$9,025"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1167,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$8,250", "$9,075", "$9,150", "$9,300"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1168,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$8,500", "$9,350", "$9,425", "$9,575"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1169,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$8,750", "$9,625", "$9,700", "$9,850"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1170,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$9,000", "$9,900", "$9,975", "$10,125"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1171,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$9,250", "$10,175", "$10,250", "$10,400"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1172,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$9,500", "$10,450", "$10,525", "$10,675"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1173,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$9,750", "$10,725", "$10,800", "$10,950"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1174,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$10,000", "$11,000", "$11,075", "$11,225"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1175,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$10,250", "$11,275", "$11,350", "$11,500"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1176,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$10,500", "$11,550", "$11,625", "$11,775"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1177,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
+    options: ["$10,750", "$11,825", "$11,900", "$12,050"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1178,
+    topic: 'Auction Math',
+    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
+    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1179,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 521 primarily governs:`,
+    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1180,
+    topic: 'State-Specific Laws',
+    question: `After determining a breach occurred, Texas law generally requires notice no later than:`,
+    options: ["10 days", "30 days", "60 days", "1 year"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1181,
+    topic: 'Auction Basics',
+    question: `Sensitive personal information includes:`,
+    options: ["Item lot number", "Social Security or driver\u2019s license number", "Hammer price only", "Auction chant notes"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1182,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 604A prohibits:`,
+    options: ["Cash discounts", "Certain credit card surcharges", "Buyer registration", "Seller commissions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1183,
+    topic: 'Auction Basics',
+    question: `A surcharge is best described as:`,
+    options: ["Buyer premium", "Extra fee for credit card payment", "Sales tax", "Deposit"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1184,
+    topic: 'Bidding Procedures',
+    question: `An auction company stores bidder SSNs insecurely and they are stolen. The company must:`,
+    options: ["Ignore unless asked", "Provide breach notification under Chapter 521", "Cancel all auctions permanently", "Raise buyer premiums"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1185,
+    topic: 'Auction Math',
+    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
+    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1186,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 521 primarily governs:`,
+    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1187,
+    topic: 'State-Specific Laws',
+    question: `After determining a breach occurred, Texas law generally requires notice no later than:`,
+    options: ["10 days", "30 days", "60 days", "1 year"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1188,
+    topic: 'Auction Basics',
+    question: `Sensitive personal information includes:`,
+    options: ["Item lot number", "Social Security or driver\u2019s license number", "Hammer price only", "Auction chant notes"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1189,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 604A prohibits:`,
+    options: ["Cash discounts", "Certain credit card surcharges", "Buyer registration", "Seller commissions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1190,
+    topic: 'Auction Basics',
+    question: `A surcharge is best described as:`,
+    options: ["Buyer premium", "Extra fee for credit card payment", "Sales tax", "Deposit"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1191,
+    topic: 'Bidding Procedures',
+    question: `An auction company stores bidder SSNs insecurely and they are stolen. The company must:`,
+    options: ["Ignore unless asked", "Provide breach notification under Chapter 521", "Cancel all auctions permanently", "Raise buyer premiums"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1192,
+    topic: 'Auction Math',
+    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
+    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1193,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 521 primarily governs:`,
+    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1194,
+    topic: 'State-Specific Laws',
+    question: `After determining a breach occurred, Texas law generally requires notice no later than:`,
+    options: ["10 days", "30 days", "60 days", "1 year"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1195,
+    topic: 'Auction Basics',
+    question: `Sensitive personal information includes:`,
+    options: ["Item lot number", "Social Security or driver\u2019s license number", "Hammer price only", "Auction chant notes"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1196,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 604A prohibits:`,
+    options: ["Cash discounts", "Certain credit card surcharges", "Buyer registration", "Seller commissions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1197,
+    topic: 'Auction Basics',
+    question: `A surcharge is best described as:`,
+    options: ["Buyer premium", "Extra fee for credit card payment", "Sales tax", "Deposit"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1198,
+    topic: 'Bidding Procedures',
+    question: `An auction company stores bidder SSNs insecurely and they are stolen. The company must:`,
+    options: ["Ignore unless asked", "Provide breach notification under Chapter 521", "Cancel all auctions permanently", "Raise buyer premiums"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1199,
+    topic: 'Auction Math',
+    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
+    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1200,
+    topic: 'State-Specific Laws',
+    question: `Texas Chapter 521 primarily governs:`,
+    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1201,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 10 Chapter 80 relates to:`,
+    options: ["Identity theft", "Manufactured housing regulations", "Buyer premiums", "Alcohol permits"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1202,
+    topic: 'Auction Basics',
+    question: `Auctioning a manufactured home requires attention to:`,
+    options: ["Only bidder registration", "Proper title transfer and TDHCA compliance", "Ignoring installation rules", "No documentation"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1203,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 31 Chapter 65 primarily governs:`,
+    options: ["Credit card fees", "Wildlife and conservation rules", "Auction increments", "Bankruptcy sales"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1204,
+    topic: 'Auction Basics',
+    question: `Selling protected wildlife at auction without authorization may lead to:`,
+    options: ["Automatic exemption", "Regulatory penalties", "License renewal bonus", "No consequences"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1205,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 34 Chapter 3 addresses:`,
+    options: ["Auction chant rules", "Tax administration and collection duties", "Identity theft", "Alcohol permits"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1206,
+    topic: 'Auction Math',
+    question: `If an auctioneer collects sales tax, they must:`,
+    options: ["Keep no records", "Remit collected tax according to state requirements", "Refund tax automatically", "Ignore out-of-state buyers"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1207,
+    topic: 'Auction Basics',
+    question: `An auctioneer sells a manufactured home but fails to provide proper title paperwork. This is most connected to:`,
+    options: ["UCC 2.328 only", "Manufactured housing administrative compliance", "Wildlife regulations", "Credit surcharge law"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1208,
+    topic: 'Auction Basics',
+    question: `An auction includes rare animal specimens. Before selling, the auctioneer should:`,
+    options: ["Ignore wildlife law", "Confirm legality under Texas wildlife regulations", "Charge extra premium", "Assume buyer responsibility only"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1209,
+    topic: 'Auction Math',
+    question: `Auctioneer collects sales tax on taxable goods. Best practice is to:`,
+    options: ["Spend immediately", "Hold separately and remit properly", "Never remit", "Remove tax line"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1210,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,000. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$7,560", "$7,840", "$8,400", "$8,650"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1211,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,300. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$7,884", "$8,176", "$8,760", "$9,010"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1212,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,600. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$8,208", "$8,512", "$9,120", "$9,370"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1213,
+    topic: 'Auction Math',
+    question: `Hammer price is $7,900. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$8,532", "$8,848", "$9,480", "$9,730"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1214,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,200. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$8,856", "$9,184", "$9,840", "$10,090"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1215,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,500. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$9,180", "$9,520", "$10,200", "$10,450"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1216,
+    topic: 'Auction Math',
+    question: `Hammer price is $8,800. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$9,504", "$9,856", "$10,560", "$10,810"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1217,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,100. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$9,828", "$10,192", "$10,920", "$11,170"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1218,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,400. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$10,152", "$10,528", "$11,280", "$11,530"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1219,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,700. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$10,476", "$10,864", "$11,640", "$11,890"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1220,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,000. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$10,800", "$11,200", "$12,000", "$12,250"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1221,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,300. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$11,124", "$11,536", "$12,360", "$12,610"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1222,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,600. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$11,448", "$11,872", "$12,720", "$12,970"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1223,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,900. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$11,772", "$12,208", "$13,080", "$13,330"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1224,
+    topic: 'Auction Math',
+    question: `Hammer price is $11,200. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$12,096", "$12,544", "$13,440", "$13,690"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1225,
+    topic: 'Auction Math',
+    question: `Hammer price is $11,500. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$12,420", "$12,880", "$13,800", "$14,050"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1226,
+    topic: 'Auction Math',
+    question: `Hammer price is $11,800. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$12,744", "$13,216", "$14,160", "$14,410"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1227,
+    topic: 'Auction Math',
+    question: `Hammer price is $12,100. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$13,068", "$13,552", "$14,520", "$14,770"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1228,
+    topic: 'Auction Math',
+    question: `Hammer price is $12,400. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$13,392", "$13,888", "$14,880", "$15,130"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1229,
+    topic: 'Auction Math',
+    question: `Hammer price is $12,700. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
+    options: ["$13,716", "$14,224", "$15,240", "$15,490"],
+    correctAnswer: 2,
+    explanation: ``
+  },
+  {
+    id: 1230,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 31 Chapter 65 primarily governs:`,
+    options: ["Credit card fees", "Wildlife and conservation rules", "Auction increments", "Bankruptcy sales"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1231,
+    topic: 'Auction Basics',
+    question: `Selling protected wildlife at auction without authorization may lead to:`,
+    options: ["Automatic exemption", "Regulatory penalties", "License renewal bonus", "No consequences"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1232,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 34 Chapter 3 addresses:`,
+    options: ["Auction chant rules", "Tax administration and collection duties", "Identity theft", "Alcohol permits"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1233,
+    topic: 'Auction Math',
+    question: `If an auctioneer collects sales tax, they must:`,
+    options: ["Keep no records", "Remit collected tax according to state requirements", "Refund tax automatically", "Ignore out-of-state buyers"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1234,
+    topic: 'Auction Basics',
+    question: `An auctioneer sells a manufactured home but fails to provide proper title paperwork. This is most connected to:`,
+    options: ["UCC 2.328 only", "Manufactured housing administrative compliance", "Wildlife regulations", "Credit surcharge law"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1235,
+    topic: 'Auction Basics',
+    question: `An auction includes rare animal specimens. Before selling, the auctioneer should:`,
+    options: ["Ignore wildlife law", "Confirm legality under Texas wildlife regulations", "Charge extra premium", "Assume buyer responsibility only"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1236,
+    topic: 'Auction Math',
+    question: `Auctioneer collects sales tax on taxable goods. Best practice is to:`,
+    options: ["Spend immediately", "Hold separately and remit properly", "Never remit", "Remove tax line"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1237,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 10 Chapter 80 relates to:`,
+    options: ["Identity theft", "Manufactured housing regulations", "Buyer premiums", "Alcohol permits"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1238,
+    topic: 'Auction Basics',
+    question: `Auctioning a manufactured home requires attention to:`,
+    options: ["Only bidder registration", "Proper title transfer and TDHCA compliance", "Ignoring installation rules", "No documentation"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1239,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 31 Chapter 65 primarily governs:`,
+    options: ["Credit card fees", "Wildlife and conservation rules", "Auction increments", "Bankruptcy sales"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1240,
+    topic: 'Auction Basics',
+    question: `Selling protected wildlife at auction without authorization may lead to:`,
+    options: ["Automatic exemption", "Regulatory penalties", "License renewal bonus", "No consequences"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1241,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 34 Chapter 3 addresses:`,
+    options: ["Auction chant rules", "Tax administration and collection duties", "Identity theft", "Alcohol permits"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1242,
+    topic: 'Auction Math',
+    question: `If an auctioneer collects sales tax, they must:`,
+    options: ["Keep no records", "Remit collected tax according to state requirements", "Refund tax automatically", "Ignore out-of-state buyers"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1243,
+    topic: 'Auction Basics',
+    question: `An auctioneer sells a manufactured home but fails to provide proper title paperwork. This is most connected to:`,
+    options: ["UCC 2.328 only", "Manufactured housing administrative compliance", "Wildlife regulations", "Credit surcharge law"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1244,
+    topic: 'Auction Basics',
+    question: `An auction includes rare animal specimens. Before selling, the auctioneer should:`,
+    options: ["Ignore wildlife law", "Confirm legality under Texas wildlife regulations", "Charge extra premium", "Assume buyer responsibility only"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1245,
+    topic: 'Auction Math',
+    question: `Auctioneer collects sales tax on taxable goods. Best practice is to:`,
+    options: ["Spend immediately", "Hold separately and remit properly", "Never remit", "Remove tax line"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1246,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 10 Chapter 80 relates to:`,
+    options: ["Identity theft", "Manufactured housing regulations", "Buyer premiums", "Alcohol permits"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1247,
+    topic: 'Auction Basics',
+    question: `Auctioning a manufactured home requires attention to:`,
+    options: ["Only bidder registration", "Proper title transfer and TDHCA compliance", "Ignoring installation rules", "No documentation"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1248,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 31 Chapter 65 primarily governs:`,
+    options: ["Credit card fees", "Wildlife and conservation rules", "Auction increments", "Bankruptcy sales"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1249,
+    topic: 'Auction Basics',
+    question: `Selling protected wildlife at auction without authorization may lead to:`,
+    options: ["Automatic exemption", "Regulatory penalties", "License renewal bonus", "No consequences"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1250,
+    topic: 'State-Specific Laws',
+    question: `Texas Administrative Code Title 34 Chapter 3 addresses:`,
+    options: ["Auction chant rules", "Tax administration and collection duties", "Identity theft", "Alcohol permits"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1251,
+    topic: 'Contract Law',
+    question: `An auctioneer’s best practice when announcing terms of sale is to:`,
+    options: ["Keep terms vague", "Clearly disclose premiums, reserves, and payment requirements before bidding", "Announce only after sale", "Disclose only to sellers"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1252,
+    topic: 'Bidding Procedures',
+    question: `Shill bidding is:`,
+    options: ["Encouraged", "Using fake bids to artificially raise price", "A cash discount", "Required in reserve auctions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1253,
+    topic: 'Auction Basics',
+    question: `Client funds should be handled by:`,
+    options: ["Mixing with operating funds", "Separate accounting and prompt remittance", "Holding indefinitely", "Paying bonuses first"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1254,
+    topic: 'Bidding Procedures',
+    question: `If a bidder dispute occurs, the auctioneer should:`,
+    options: ["Ignore it", "Follow published conditions of sale and document the resolution", "Let bidders decide", "Cancel auction immediately"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1255,
+    topic: 'Ethics and Professional Conduct',
+    question: `If an auctioneer has a conflict of interest, they should:`,
+    options: ["Hide it", "Disclose it clearly", "Raise bids secretly", "Withdraw license permanently"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1256,
+    topic: 'Auction Math',
+    question: `An auctioneer advertises ‘no buyer premium’ but adds a 10% premium at settlement. This is most likely:`,
+    options: ["Acceptable", "Potentially deceptive under consumer protection rules", "Required in Texas", "Only a tax issue"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1257,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `A secured party sells collateral at auction after default. The disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Tax free", "Without notice"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1258,
+    topic: 'Bidding Procedures',
+    question: `Bids may generally be retracted until:`,
+    options: ["Payment clears", "Auctioneer announces completion", "Seller accepts later", "One hour after auction"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1259,
+    topic: 'State-Specific Laws',
+    question: `Sensitive bidder data is stolen in a breach. Texas law requires:`,
+    options: ["No action", "Timely breach notification under Chapter 521", "Only raising premiums", "Automatic license suspension"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1260,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,000. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$7,650", "$9,000", "$1,350", "$8,150"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1261,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,400. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$7,990", "$9,400", "$1,410", "$8,490"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1262,
+    topic: 'Auction Math',
+    question: `Hammer price is $9,800. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$8,330", "$9,800", "$1,470", "$8,830"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1263,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,200. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$8,670", "$10,200", "$1,530", "$9,170"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1264,
+    topic: 'Auction Math',
+    question: `Hammer price is $10,600. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$9,010", "$10,600", "$1,590", "$9,510"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1265,
+    topic: 'Auction Math',
+    question: `Hammer price is $11,000. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$9,350", "$11,000", "$1,650", "$9,850"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1266,
+    topic: 'Auction Math',
+    question: `Hammer price is $11,400. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$9,690", "$11,400", "$1,710", "$10,190"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1267,
+    topic: 'Auction Math',
+    question: `Hammer price is $11,800. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$10,030", "$11,800", "$1,770", "$10,530"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1268,
+    topic: 'Auction Math',
+    question: `Hammer price is $12,200. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$10,370", "$12,200", "$1,830", "$10,870"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1269,
+    topic: 'Auction Math',
+    question: `Hammer price is $12,600. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$10,710", "$12,600", "$1,890", "$11,210"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1270,
+    topic: 'Auction Math',
+    question: `Hammer price is $13,000. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$11,050", "$13,000", "$1,950", "$11,550"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1271,
+    topic: 'Auction Math',
+    question: `Hammer price is $13,400. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$11,390", "$13,400", "$2,010", "$11,890"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1272,
+    topic: 'Auction Math',
+    question: `Hammer price is $13,800. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$11,730", "$13,800", "$2,070", "$12,230"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1273,
+    topic: 'Auction Math',
+    question: `Hammer price is $14,200. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$12,070", "$14,200", "$2,130", "$12,570"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1274,
+    topic: 'Auction Math',
+    question: `Hammer price is $14,600. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$12,410", "$14,600", "$2,190", "$12,910"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1275,
+    topic: 'Auction Math',
+    question: `Hammer price is $15,000. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$12,750", "$15,000", "$2,250", "$13,250"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1276,
+    topic: 'Auction Math',
+    question: `Hammer price is $15,400. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$13,090", "$15,400", "$2,310", "$13,590"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1277,
+    topic: 'Auction Math',
+    question: `Hammer price is $15,800. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$13,430", "$15,800", "$2,370", "$13,930"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1278,
+    topic: 'Auction Math',
+    question: `Hammer price is $16,200. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$13,770", "$16,200", "$2,430", "$14,270"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1279,
+    topic: 'Auction Math',
+    question: `Hammer price is $16,600. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
+    options: ["$14,110", "$16,600", "$2,490", "$14,610"],
+    correctAnswer: 0,
+    explanation: ``
+  },
+  {
+    id: 1280,
+    topic: 'Auction Basics',
+    question: `Client funds should be handled by:`,
+    options: ["Mixing with operating funds", "Separate accounting and prompt remittance", "Holding indefinitely", "Paying bonuses first"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1281,
+    topic: 'Bidding Procedures',
+    question: `If a bidder dispute occurs, the auctioneer should:`,
+    options: ["Ignore it", "Follow published conditions of sale and document the resolution", "Let bidders decide", "Cancel auction immediately"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1282,
+    topic: 'Ethics and Professional Conduct',
+    question: `If an auctioneer has a conflict of interest, they should:`,
+    options: ["Hide it", "Disclose it clearly", "Raise bids secretly", "Withdraw license permanently"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1283,
+    topic: 'Auction Math',
+    question: `An auctioneer advertises ‘no buyer premium’ but adds a 10% premium at settlement. This is most likely:`,
+    options: ["Acceptable", "Potentially deceptive under consumer protection rules", "Required in Texas", "Only a tax issue"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1284,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `A secured party sells collateral at auction after default. The disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Tax free", "Without notice"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1285,
+    topic: 'Bidding Procedures',
+    question: `Bids may generally be retracted until:`,
+    options: ["Payment clears", "Auctioneer announces completion", "Seller accepts later", "One hour after auction"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1286,
+    topic: 'State-Specific Laws',
+    question: `Sensitive bidder data is stolen in a breach. Texas law requires:`,
+    options: ["No action", "Timely breach notification under Chapter 521", "Only raising premiums", "Automatic license suspension"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1287,
+    topic: 'Contract Law',
+    question: `An auctioneer’s best practice when announcing terms of sale is to:`,
+    options: ["Keep terms vague", "Clearly disclose premiums, reserves, and payment requirements before bidding", "Announce only after sale", "Disclose only to sellers"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1288,
+    topic: 'Bidding Procedures',
+    question: `Shill bidding is:`,
+    options: ["Encouraged", "Using fake bids to artificially raise price", "A cash discount", "Required in reserve auctions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1289,
+    topic: 'Auction Basics',
+    question: `Client funds should be handled by:`,
+    options: ["Mixing with operating funds", "Separate accounting and prompt remittance", "Holding indefinitely", "Paying bonuses first"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1290,
+    topic: 'Bidding Procedures',
+    question: `If a bidder dispute occurs, the auctioneer should:`,
+    options: ["Ignore it", "Follow published conditions of sale and document the resolution", "Let bidders decide", "Cancel auction immediately"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1291,
+    topic: 'Ethics and Professional Conduct',
+    question: `If an auctioneer has a conflict of interest, they should:`,
+    options: ["Hide it", "Disclose it clearly", "Raise bids secretly", "Withdraw license permanently"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1292,
+    topic: 'Auction Math',
+    question: `An auctioneer advertises ‘no buyer premium’ but adds a 10% premium at settlement. This is most likely:`,
+    options: ["Acceptable", "Potentially deceptive under consumer protection rules", "Required in Texas", "Only a tax issue"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1293,
+    topic: 'UCC (Uniform Commercial Code)',
+    question: `A secured party sells collateral at auction after default. The disposition must be:`,
+    options: ["Secret", "Commercially reasonable", "Tax free", "Without notice"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1294,
+    topic: 'Bidding Procedures',
+    question: `Bids may generally be retracted until:`,
+    options: ["Payment clears", "Auctioneer announces completion", "Seller accepts later", "One hour after auction"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1295,
+    topic: 'State-Specific Laws',
+    question: `Sensitive bidder data is stolen in a breach. Texas law requires:`,
+    options: ["No action", "Timely breach notification under Chapter 521", "Only raising premiums", "Automatic license suspension"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1296,
+    topic: 'Contract Law',
+    question: `An auctioneer’s best practice when announcing terms of sale is to:`,
+    options: ["Keep terms vague", "Clearly disclose premiums, reserves, and payment requirements before bidding", "Announce only after sale", "Disclose only to sellers"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1297,
+    topic: 'Bidding Procedures',
+    question: `Shill bidding is:`,
+    options: ["Encouraged", "Using fake bids to artificially raise price", "A cash discount", "Required in reserve auctions"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1298,
+    topic: 'Auction Basics',
+    question: `Client funds should be handled by:`,
+    options: ["Mixing with operating funds", "Separate accounting and prompt remittance", "Holding indefinitely", "Paying bonuses first"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1299,
+    topic: 'Bidding Procedures',
+    question: `If a bidder dispute occurs, the auctioneer should:`,
+    options: ["Ignore it", "Follow published conditions of sale and document the resolution", "Let bidders decide", "Cancel auction immediately"],
+    correctAnswer: 1,
+    explanation: ``
+  },
+  {
+    id: 1300,
+    topic: 'Ethics and Professional Conduct',
+    question: `If an auctioneer has a conflict of interest, they should:`,
+    options: ["Hide it", "Disclose it clearly", "Raise bids secretly", "Withdraw license permanently"],
+    correctAnswer: 1,
+    explanation: ``
   }
-]
+  ]
 };
-
 
 // Fisher-Yates shuffle for proper randomization
 const shuffleArray = (array) => {
