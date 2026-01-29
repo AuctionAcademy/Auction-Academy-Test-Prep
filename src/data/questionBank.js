@@ -1,9 +1,10 @@
 // Question bank for Auctioneer Exam Prep
-// Contains authentic exam questions for Alabama, Tennessee, and Texas
+// Contains authentic exam questions for Alabama, Kentucky, Tennessee, and Texas
 // UPDATED: Using latest question banks from reformatted source documents
 
 export const states = [
   'Alabama',
+  'Kentucky',
   'Tennessee',
   'Texas'
 ];
@@ -288,6 +289,393 @@ export const questionBank = {
     "id": 20
   }
 ],
+
+  'Kentucky': [
+  {
+    "topic": "Auction Law and Ethics",
+    "question": "Which statement best describes the primary purpose of the Kentucky Board of Auctioneers?",
+    "options": ["To promote the financial interests of auctioneers", "To protect the public through licensing and regulation", "To advertise auctions held in Kentucky", "To set commission rates for all auctions"],
+    "correctAnswer": 1,
+    "explanation": "The study guide states that the Board was created \u201cfor the primary purpose of protecting the public,\u201d which it does by licensing and regulating auctioneers, apprentice auctioneers, auction house operators, and limited livestock auctioneers.",
+    "id": 1
+  },
+  {
+    "topic": "Auction Law and Ethics",
+    "question": "Who appoints the members of the Kentucky Board of Auctioneers?",
+    "options": ["The Governor of Kentucky", "The Secretary of State"],
+    "correctAnswer": 2,
+    "explanation": "Under KRS 330.050(1), the governor appoints the members of the Kentucky Board of Auctioneers, not the legislature. The study guide highlights this in the sample question discussion.",
+    "id": 2
+  },
+  {
+    "topic": "Auction Law and Ethics",
+    "question": "All Kentucky auctioneer licenses expire on which date each year, unless otherwise provided?",
+    "options": ["January 31", "June 30", "The anniversary date of original licensure"],
+    "correctAnswer": 2,
+    "explanation": "The study guide notes that KRS 330.070(6)(a) specifies June 30 as the expiration date for auctioneer licenses.",
+    "id": 3
+  },
+  {
+    "topic": "Auction Law and Ethics",
+    "question": "Which statement about limited livestock auctioneers is TRUE?",
+    "options": ["They may sell livestock at any location in the state", "They must maintain their own escrow accounts for every sale", "They are prohibited from establishing bid increments"],
+    "correctAnswer": 1,
+    "explanation": "A limited livestock auctioneer license may only be used at fixed base livestock markets regulated by the U.S. Department of Agriculture, and they may establish reasonable bid increments customary for livestock auctions.",
+    "id": 4
+  },
+  {
+    "topic": "Auction Law and Ethics",
+    "question": "Which of the following is TRUE regarding who must be licensed as an auction house operator?",
+    "options": ["Only corporations can hold an auction house operator license", "Every employee of an auction house must hold this license", "The individual principally responsible for the operation of a fixed-base auction house", "Only the person calling bids at the auction"],
+    "correctAnswer": 2,
+    "explanation": "An \u201cauction house operator\u201d is the individual principally or ultimately responsible for the operation of an auction house, in whose interest it is operated.",
+    "id": 5
+  },
+  {
+    "topic": "Auction Law and Ethics",
+    "question": "Which statement about employees such as ringmen, clerks, and cashiers is CORRECT according to the study guide?",
+    "options": ["They must all hold apprentice licenses", "They must all hold principal auctioneer licenses", "They are considered agents of the auctioneer/auction house operator but are not required by law to be licensed if they do not perform auctioneer functions", "They may never speak to bidders"],
+    "correctAnswer": 2,
+    "explanation": "The study guide notes that all employees are agents of the auctioneer or auction house operator, who may be held liable for their actions, but these staff are not legally required to be licensed if their duties do not meet the definition of auctioneer, apprentice, or auction house operator.",
+    "id": 6
+  },
+  {
+    "topic": "Auction Terminology and Types",
+    "question": "\u201cBona fide\u201d in the context of auction law most nearly means:",
+    "options": ["In good faith, without dishonesty or fraud", "Subject to reserve", "Final and non-negotiable"],
+    "correctAnswer": 1,
+    "explanation": "The study guide defines \u201cbona fide\u201d as acting in good faith, without dishonesty, fraud, or deceit.",
+    "id": 7
+  },
+  {
+    "topic": "Auction Terminology and Types",
+    "question": "Which term describes evidence that is sufficient on its face to establish an allegation as reasonably probable, justifying a hearing?",
+    "options": ["Habeas corpus", "Res judicata", "Prima facie"],
+    "correctAnswer": 2,
+    "explanation": "\u201cPrima facie\u201d is defined as evidence sufficient to establish an allegation as reasonably probable and supporting the Board in granting a hearing on a complaint.",
+    "id": 8
+  },
+  {
+    "topic": "Auction Terminology and Types",
+    "question": "What is \u201cfair market value\u201d as described in the study guide?",
+    "options": ["The tax assessor\u2019s value for property", "The original purchase price less depreciation", "The price a willing buyer and willing seller agree to without compulsion", "The seller\u2019s minimum acceptable price"],
+    "correctAnswer": 2,
+    "explanation": "Fair market value is the estimated price that a willing buyer and willing seller agree to when neither is under compulsion or undue influence to buy or sell.",
+    "id": 9
+  },
+  {
+    "topic": "Auction Terminology and Types",
+    "question": "At an \u201cabsolute auction\u201d in Kentucky, which of the following is TRUE?",
+    "options": ["The seller may freely bid to protect the price", "The seller may withdraw a lot at any time up to closing", "There must be a bona fide intent to transfer ownership regardless of bid amount", "The terms \u201cabsolute\u201d and \u201cwith reserve\u201d mean the same thing"],
+    "correctAnswer": 2,
+    "explanation": "For an auction advertised as absolute, there must be a bona fide intent to transfer ownership at the time of advertising and at the time of the auction, regardless of the bid or bidder.",
+    "id": 10
+  },
+  {
+    "topic": "Auction Terminology and Types",
+    "question": "Which is a requirement for advertising and conducting an absolute auction?",
+    "options": ["The seller must set a secret reserve", "The auction must be held on a weekend", "Only real estate can be sold absolute"],
+    "correctAnswer": 1,
+    "explanation": "The law requires that either there be no liens except current taxes, or that all lienholders sign the absolute auction contract or a binding commitment to allow sale to the highest bidder, or a financially responsible party guarantees the liens will be paid.",
+    "id": 11
+  },
+  {
+    "topic": "Auction Terminology and Types",
+    "question": "In an auction with reserve (without the seller reserving the right to bid), which statement is CORRECT?",
+    "options": ["The seller automatically has the right to bid", "The auctioneer may withdraw goods any time before announcing the sale complete", "The auction must be advertised as \u201cabsolute\u201d", "The highest bid must be accepted"],
+    "correctAnswer": 1,
+    "explanation": "In an auction with reserve, the auctioneer may withdraw goods at any time until the sale is announced as complete, and the seller may accept or reject bids; the seller does not automatically have the right to bid.",
+    "id": 12
+  },
+  {
+    "topic": "Auction Terminology and Types",
+    "question": "What distinguishes an \u201cauction with reserve and the seller reserving the right to bid\u201d from a simple reserve auction?",
+    "options": ["Sales tax is not charged", "The buyer may always retract his bid after the hammer", "The seller or someone on the seller\u2019s behalf may bid, but only if that right has been fully disclosed", "The auctioneer may not set bid increments"],
+    "correctAnswer": 2,
+    "explanation": "Where the seller reserves the right to bid, the seller or someone on the seller\u2019s behalf may bid only if there is full disclosure that this liberty is retained; the auctioneer must not knowingly receive such bids without disclosure.",
+    "id": 13
+  },
+  {
+    "topic": "Auction Terminology and Types",
+    "question": "When is a sale by auction considered complete?",
+    "options": ["When the buyer pays in full", "When the cashier issues a receipt", "When the auctioneer announces the item sold or by the fall of the hammer", "When the seller signs the closing statement"],
+    "correctAnswer": 2,
+    "explanation": "The study guide explains that an auction sale is complete when the auctioneer announces the item sold or by the fall of the hammer, though real estate also requires a written sales contract to be enforceable.",
+    "id": 14
+  },
+  {
+    "topic": "Escrow and Advertising",
+    "question": "Which funds must be placed in an escrow account?",
+    "options": ["Only cash payments from buyers", "Only proceeds from real estate auctions", "Only unpaid commissions"],
+    "correctAnswer": 2,
+    "explanation": "The study guide states that all proceeds resulting from an auction and being held for settlement must be kept in an escrow account.",
+    "id": 15
+  },
+  {
+    "topic": "Escrow and Advertising",
+    "question": "Which of the following may be legally paid directly from the auction escrow account?",
+    "options": ["Hauling and labor costs", "None of the above"],
+    "correctAnswer": 3,
+    "explanation": "Auction-related expenses and commissions may not be paid directly from the escrow account. After settlement, the auctioneer transfers the amounts due into the business account and pays expenses from there.",
+    "id": 16
+  },
+  {
+    "topic": "Escrow and Advertising",
+    "question": "If an escrow account is interest-bearing, what must occur?",
+    "options": ["The parties must agree in writing on the disposition of interest", "Interest must be donated to charity"],
+    "correctAnswer": 2,
+    "explanation": "The study guide notes that if an escrow account bears interest, all parties should agree in writing as to how that interest will be handled.",
+    "id": 17
+  },
+  {
+    "topic": "Escrow and Advertising",
+    "question": "Which of the following is NOT one of the typical ways that escrow funds may be disbursed?",
+    "options": ["Full settlement according to the listing contract", "Written agreement of all parties"],
+    "correctAnswer": 3,
+    "explanation": "Escrow disbursements occur upon full settlement, written agreement of all parties, under terms of the listing contract, or by court order\u2014never simply at the auctioneer\u2019s unilateral discretion.",
+    "id": 18
+  },
+  {
+    "topic": "Escrow and Advertising",
+    "question": "Which item must appear in all auction advertising according to KRS 330.230(1)?",
+    "options": ["The auctioneer\u2019s license number", "The managing auctioneer\u2019s name, identified as an auctioneer", "The seller\u2019s Social Security number", "The estimated fair market value of the property"],
+    "correctAnswer": 1,
+    "explanation": "All advertising must include the managing auctioneer\u2019s name and signify that he or she is an auctioneer. Listing the license number is permitted but not required.",
+    "id": 19
+  },
+  {
+    "topic": "Escrow and Advertising",
+    "question": "When a buyer\u2019s premium will be charged, how must it be handled in advertising?",
+    "options": ["It should not be mentioned", "It may only be disclosed verbally at the auction", "It must be disclosed in all terms and conditions and included in advertising where terms appear", "It must be hidden in the sales tax line"],
+    "correctAnswer": 2,
+    "explanation": "The study guide states that any buyer\u2019s premium must be disclosed in all terms and conditions and in any advertising that contains terms for that auction.",
+    "id": 20
+  },
+  {
+    "topic": "Warranties and Special Sales",
+    "question": "When an auctioneer sells property \u201cas is, where is, with all faults,\u201d what is generally being excluded?",
+    "options": ["Sales tax obligation", "Implied warranties regarding condition or authenticity", "Seller\u2019s responsibility to deliver possession"],
+    "correctAnswer": 1,
+    "explanation": "The study guide explains that \u201cas is\u201d and similar language generally means the auctioneer and auction house operator do not warrant or guarantee an item\u2019s condition or authenticity, although statements of fact can still create liability.",
+    "id": 21
+  },
+  {
+    "topic": "Warranties and Special Sales",
+    "question": "Which statement about an auctioneer without a Federal Firearms License (FFL) is TRUE?",
+    "options": ["They may freely accept firearms on consignment", "They may occasionally sell legal firearms in an estate-type auction without being \u201cengaged in the business\u201d", "They may ship handguns across state lines to non-dealers", "They may sell machine guns with no additional requirements"],
+    "correctAnswer": 1,
+    "explanation": "The firearms section states that an auctioneer without a Federal license may occasionally sell a legal firearm in an estate-type auction, but cannot accept firearms on consignment or become \u201cengaged in the business\u201d without an FFL.",
+    "id": 22
+  },
+  {
+    "topic": "Warranties and Special Sales",
+    "question": "At what minimum age may an auctioneer (without an FFL) sell a shotgun or rifle to a purchaser?",
+    "options": ["16", "18", "19", "21"],
+    "correctAnswer": 1,
+    "explanation": "The study guide explains that a shotgun or rifle may be sold to a purchaser who is at least 18 years old; handguns require the purchaser to be at least 21.",
+    "id": 23
+  },
+  {
+    "topic": "Sales Tax Requirements",
+    "question": "What is the current Kentucky sales tax rate identified in the study guide?",
+    "options": ["4%", "5%", "6%", "7%"],
+    "correctAnswer": 2,
+    "explanation": "The sales tax section begins by noting that Kentucky sales tax is currently 6%.",
+    "id": 24
+  },
+  {
+    "topic": "Sales Tax Requirements",
+    "question": "How are sales at auction treated under the Kentucky Sales and Use Tax Law?",
+    "options": ["They are exempt from tax as wholesale sales", "They are treated as \u201cretail sales\u201d and generally subject to tax", "They are only taxable if real estate is sold", "They are taxable only when sold to dealers"],
+    "correctAnswer": 1,
+    "explanation": "The guide states that sales at auction are considered \u201cretail sales,\u201d which means auctions are subject to sales tax unless an exemption applies.",
+    "id": 25
+  },
+  {
+    "topic": "Sales Tax Requirements",
+    "question": "Which situation may exempt a charitable auction from the auctioneer having to collect sales tax?",
+    "options": ["The auction is advertised as \u201cabsolute\u201d", "The auctioneer donates his commission", "The auction is held on a Sunday"],
+    "correctAnswer": 2,
+    "explanation": "A charitable auction may be exempt if a qualifying organization (such as a church or nonprofit school) sponsors the auction, is responsible for control and disbursement of proceeds, and purchasers pay that organization directly.",
+    "id": 26
+  },
+  {
+    "topic": "Sales Tax Requirements",
+    "question": "Who does the Kentucky Department of Revenue consider responsible for remitting any sales tax due from an auction?",
+    "options": ["The seller only", "The buyer only", "The auctioneer and auction house operator", "The county clerk"],
+    "correctAnswer": 2,
+    "explanation": "The guide explains that the Department of Revenue will consider the auctioneer and auction house operator as the parties responsible for remitting sales tax due from an auction, whether or not they actually collected it.",
+    "id": 27
+  },
+  {
+    "topic": "Sales Tax Requirements",
+    "question": "Which of the following purchases is generally NOT taxable at auction under Kentucky law?",
+    "options": ["New furniture", "Registered motor vehicles", "Power tools"],
+    "correctAnswer": 2,
+    "explanation": "Registered licensed motor vehicles (including motorcycles) are taxed by the county clerk when title is transferred, not through the auction\u2019s sales tax remittance.",
+    "id": 28
+  },
+  {
+    "topic": "Real Estate Auctions",
+    "question": "Which of the following is included in the definition of \u201creal property\u201d in the study guide?",
+    "options": ["Money, notes, and bonds only", "Timeshares, options, and leaseholds less than a full fee simple interest", "Only land without improvements", "Farm machinery and crops"],
+    "correctAnswer": 1,
+    "explanation": "Real estate/real property includes timeshares, options, leaseholds, and other interests less than leaseholds, typically including improvements such as buildings and fences.",
+    "id": 29
+  },
+  {
+    "topic": "Real Estate Auctions",
+    "question": "Which deed offers the greatest protection to the grantee and the greatest liability to the grantor?",
+    "options": ["Quitclaim deed", "Special warranty deed", "General warranty deed"],
+    "correctAnswer": 2,
+    "explanation": "A general warranty deed includes broad guarantees that the grantor has good title, that it is free of undisclosed encumbrances, and that the guarantees extend back through all prior owners.",
+    "id": 30
+  },
+  {
+    "topic": "Real Estate Auctions",
+    "question": "A deed that conveys only whatever ownership interest the grantor may have, with no warranties, is called:",
+    "options": ["General warranty deed", "Special warranty deed", "Quitclaim deed", "Warranty of habitability deed"],
+    "correctAnswer": 2,
+    "explanation": "A quitclaim deed conveys only the interest the grantor may have, without warranties, and provides the least protection to the grantee.",
+    "id": 31
+  },
+  {
+    "topic": "Real Estate Auctions",
+    "question": "Which document must be in writing to be enforceable in a real estate auction?",
+    "options": ["Oral bid acknowledgement", "Real estate sales and purchase contract"],
+    "correctAnswer": 2,
+    "explanation": "The study guide notes that while a sale is complete at the fall of the hammer, real estate auction agreements between buyer and seller must be put into a written sales and purchase contract to be enforceable.",
+    "id": 32
+  },
+  {
+    "topic": "Real Estate Auctions",
+    "question": "If a person dies without leaving a valid will, that person is said to have died:",
+    "options": ["Testate", "Intestate", "Encumbered", "In default"],
+    "correctAnswer": 1,
+    "explanation": "The estates section defines \u201cintestate\u201d as dying without a valid will; \u201ctestate\u201d means dying with a valid will.",
+    "id": 33
+  },
+  {
+    "topic": "Contract Law",
+    "question": "Which of the following is always required to be in writing under Kentucky auction law?",
+    "options": ["Oral bid between two dealers", "Opening and closing remarks"],
+    "correctAnswer": 1,
+    "explanation": "The study guide states that all auction listing contracts are required by law to be written, while most personal property sales contracts at auction are oral.",
+    "id": 34
+  },
+  {
+    "topic": "Contract Law",
+    "question": "Which term describes a contract that has no legal force or effect and cannot be enforced by either party?",
+    "options": ["Valid", "Voidable", "Void", "Enforceable"],
+    "correctAnswer": 2,
+    "explanation": "A void contract is null and has no legal force or binding effect, making it unenforceable.",
+    "id": 35
+  },
+  {
+    "topic": "Contract Law",
+    "question": "Which of the following is NOT one of the six basic requirements for a valid and enforceable contract according to the study guide?",
+    "options": ["Legal capacity", "Legal purpose", "Offer and acceptance", "Subrogation"],
+    "correctAnswer": 3,
+    "explanation": "The six basic requirements listed are legal capacity, legal purpose, offer and acceptance, consideration, reality of consent, and legal form. Subrogation is not one of them.",
+    "id": 36
+  },
+  {
+    "topic": "Contract Law",
+    "question": "In an auction listing contract, the consideration provided to the auctioneer is typically:",
+    "options": ["The buyer\u2019s premium", "The clerk\u2019s hourly wage", "Sales tax"],
+    "correctAnswer": 1,
+    "explanation": "The study guide explains that in the listing contract, \u201cgood and valuable consideration\u201d is usually the commission or fee paid by the seller to the auctioneer.",
+    "id": 37
+  },
+  {
+    "topic": "Contract Law",
+    "question": "Which statement about signatures on an auction listing contract for real estate is TRUE?",
+    "options": ["Only the auctioneer must sign", "Only one owner needs to sign, even if there are multiple owners", "If the seller is married, the spouse must also sign to release marital rights", "Signatures are optional if the contract is notarized"],
+    "correctAnswer": 2,
+    "explanation": "The legal form requirement states that if the seller is married, marital rights must be released and the spouse must also sign; all co-owners or partners must sign as well.",
+    "id": 38
+  },
+  {
+    "topic": "Contract Law",
+    "question": "Which is a proper reason for termination of an auction listing contract before the auction occurs?",
+    "options": ["The auctioneer changes their chant", "The seller no longer likes the advertising design, but both parties agree to cancel", "The clerk wants a higher hourly rate"],
+    "correctAnswer": 1,
+    "explanation": "Listing contracts may be terminated by mutual agreement of all parties before advertising, or by withdrawal/resignation if one party is not properly discharging duties, or by court order.",
+    "id": 39
+  },
+  {
+    "topic": "Auction Procedures",
+    "question": "A closing statement in an auction context is primarily:",
+    "options": ["The accounting between auctioneer/auction house operator and seller showing debits, credits, and net due seller", "The bidder registration log"],
+    "correctAnswer": 1,
+    "explanation": "The study guide defines a Closing Statement as the accounting of an auction between the auctioneer/auction house operator and the seller, listing expenses as debits, income as credits, and the net due the seller.",
+    "id": 40
+  },
+  {
+    "topic": "Auction Procedures",
+    "question": "Which of the following is typically treated as a DEBIT to the seller on a closing statement?",
+    "options": ["Gross auction proceeds", "Total bids from all buyers"],
+    "correctAnswer": 1,
+    "explanation": "Commissions and seller-paid expenses such as advertising, liens, and testing fees are listed as debits (reductions) to the seller, while gross sales are credits.",
+    "id": 41
+  },
+  {
+    "topic": "Auction Procedures",
+    "question": "Which item is NEITHER a debit nor a credit to the seller on the closing statement?",
+    "options": ["Sales tax collected", "Hauling fees charged to the seller"],
+    "correctAnswer": 2,
+    "explanation": "Sales tax is between the auctioneer/auction house operator and the Kentucky Department of Revenue; it is neither an expense nor income to the seller on the closing statement.",
+    "id": 42
+  },
+  {
+    "topic": "Auction Procedures",
+    "question": "In closing remarks, which of the following is most appropriate?",
+    "options": ["Thanking bidders and reminding them of payment and removal instructions", "Starting a new round of bidding"],
+    "correctAnswer": 1,
+    "explanation": "The study guide notes that in closing remarks, the auctioneer should thank bidders and remind them when items became their responsibility, along with instructions for payment and removal.",
+    "id": 43
+  },
+  {
+    "topic": "Auction Math",
+    "question": "You sell an item at auction for a hammer price of $2,000 with a 10% buyer\u2019s premium. Kentucky sales tax is 6%. What is the total amount the buyer owes?",
+    "options": ["$2,120", "$2,260", "$2,332", "$2,360"],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium: 10% of $2,000 = $200.\nSelling price = $2,000 + $200 = $2,200.\nSales tax: 6% of $2,200 = $132.\nTotal due = $2,200 + $132 = $2,332.",
+    "id": 44
+  },
+  {
+    "topic": "Auction Math",
+    "question": "A rectangular tract of land measures 150 feet wide and 300 feet deep. How many square feet does it contain?",
+    "options": ["15,000 sq. ft.", "30,000 sq. ft.", "45,000 sq. ft.", "60,000 sq. ft."],
+    "correctAnswer": 2,
+    "explanation": "Area of a rectangle = length \u00d7 width.\n150 ft \u00d7 300 ft = 45,000 square feet. The study guide\u2019s math section emphasizes area computations for rectangles.",
+    "id": 45
+  },
+  {
+    "topic": "Auction Math",
+    "question": "Your auction totals $50,000 in gross sales. Your commission is 10%, advertising is $1,200, and labor is $800, all paid by the seller. Ignoring sales tax, what are the net proceeds to the seller?",
+    "options": ["$43,000", "$44,000", "$45,000", "$46,000"],
+    "correctAnswer": 1,
+    "explanation": "Commission: 10% of $50,000 = $5,000.\nTotal expenses to seller = $5,000 + $1,200 + $800 = $7,000.\nNet to seller = $50,000 \u2212 $7,000 = $44,000.",
+    "id": 46
+  },
+  {
+    "topic": "Auction Math",
+    "question": "A seller wants to net at least $93,000 after paying an 8% commission that includes all auction expenses. To the nearest dollar, what is the minimum selling price required?",
+    "options": ["$99,000", "$100,000", "$101,087", "$102,000"],
+    "correctAnswer": 2,
+    "explanation": "If commission is 8%, the seller nets 92% of the selling price.\nLet S = selling price.\n0.92S = 93,000 \u2192 S = 93,000 \u00f7 0.92 \u2248 101,086.96, or $101,087 when rounded to the nearest dollar.",
+    "id": 47
+  },
+  {
+    "topic": "Auction Math",
+    "question": "An auctioneer prints 4,000 handbills at a cost of $150 per thousand and runs a newspaper ad of 20 column-inches at $5 per column-inch per day for two days. What is the total advertising cost?",
+    "options": ["$550", "$650", "$800", "$750"],
+    "correctAnswer": 2,
+    "explanation": "Handbills: 4,000 \u00f7 1,000 = 4 thousands \u2192 4 \u00d7 $150 = $600.\nNewspaper ad: 20 inches \u00d7 $5 = $100 per day.\nFor 2 days: $100 \u00d7 2 = $200.\nTotal advertising = $600 + $200 = $800.",
+    "id": 48
+  }
+  ],
 
   'Tennessee': [
   {
