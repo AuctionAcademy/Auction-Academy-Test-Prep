@@ -21,8 +21,8 @@
 }
 
 .dashboard-logo {
-  height: auto;
-  width: 250px;
+  height: 50px;
+  width: auto;
   max-width: 100%;
   object-fit: contain;
   display: block;
@@ -230,7 +230,7 @@
   }
   
   .dashboard-logo {
-    height: 30px;
+    height: 40px;
   }
   
   .study-modes-grid {
