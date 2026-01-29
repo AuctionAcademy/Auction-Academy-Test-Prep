@@ -28,7 +28,7 @@ export const topics = [
 export const questionBank = {
   'Alabama': [
   {
-    "topic": "Contracts – Definition",
+    "topic": "Contract Law Fundamentals",
     "question": "Which best defines a contract in auction law?",
     "options": [
       "A verbal promise that cannot be enforced",
@@ -41,7 +41,7 @@ export const questionBank = {
     "id": 1
   },
   {
-    "topic": "Contract Formation – Negotiation",
+    "topic": "Contract Law Fundamentals",
     "question": "Which of the following must be definite during contract negotiation?",
     "options": [
       "The auctioneer's chant style",
@@ -54,7 +54,7 @@ export const questionBank = {
     "id": 2
   },
   {
-    "topic": "Parol Evidence Rule",
+    "topic": "Contract Law Fundamentals",
     "question": "What does the parol evidence rule mean for auctions?",
     "options": [
       "Oral promises override written contracts",
@@ -67,7 +67,7 @@ export const questionBank = {
     "id": 3
   },
   {
-    "topic": "Essential Elements of Contract",
+    "topic": "Contract Law Fundamentals",
     "question": "Which is NOT an essential element of a valid contract?",
     "options": [
       "Offer",
@@ -80,7 +80,7 @@ export const questionBank = {
     "id": 4
   },
   {
-    "topic": "Offer",
+    "topic": "Offers and Acceptance",
     "question": "An offer must be:",
     "options": [
       "Forced and mandatory",
@@ -93,7 +93,7 @@ export const questionBank = {
     "id": 5
   },
   {
-    "topic": "Revocation of Offer",
+    "topic": "Offers and Acceptance",
     "question": "When may an offer be withdrawn?",
     "options": [
       "Only after acceptance",
@@ -106,7 +106,7 @@ export const questionBank = {
     "id": 6
   },
   {
-    "topic": "Death and Offers",
+    "topic": "Offers and Acceptance",
     "question": "What happens if the offeror dies before acceptance?",
     "options": [
       "The offer remains valid forever",
@@ -119,7 +119,7 @@ export const questionBank = {
     "id": 7
   },
   {
-    "topic": "Mistake of Law",
+    "topic": "Contract Defects and Remedies",
     "question": "A mistake of law has what effect?",
     "options": [
       "Makes contract voidable",
@@ -132,7 +132,7 @@ export const questionBank = {
     "id": 8
   },
   {
-    "topic": "Consideration – Fairness",
+    "topic": "Contract Defects and Remedies",
     "question": "Which is true about consideration?",
     "options": [
       "It must always be equal between parties",
@@ -145,7 +145,7 @@ export const questionBank = {
     "id": 9
   },
   {
-    "topic": "Misrepresentation and Fraud",
+    "topic": "Contract Defects and Remedies",
     "question": "For fraud, a material misrepresentation must be:",
     "options": [
       "Made accidentally",
@@ -158,7 +158,7 @@ export const questionBank = {
     "id": 10
   },
   {
-    "topic": "Minors and Capacity",
+    "topic": "Capacity and Legal Requirements",
     "question": "Contracts with minors are generally:",
     "options": [
       "Enforceable in all cases",
@@ -171,7 +171,7 @@ export const questionBank = {
     "id": 11
   },
   {
-    "topic": "Statute of Frauds",
+    "topic": "Capacity and Legal Requirements",
     "question": "In Alabama auction practice, contracts must generally be:",
     "options": [
       "Oral to be valid",
@@ -184,7 +184,7 @@ export const questionBank = {
     "id": 12
   },
   {
-    "topic": "Liquidated Damages",
+    "topic": "Contract Terms and Damages",
     "question": "What is a liquidated damages clause?",
     "options": [
       "An unpaid commission",
@@ -197,7 +197,7 @@ export const questionBank = {
     "id": 13
   },
   {
-    "topic": "Warranties – Express vs. Implied",
+    "topic": "Contract Terms and Damages",
     "question": "An \"as-is\" sale typically means:",
     "options": [
       "The seller guarantees the item's value",
@@ -210,7 +210,7 @@ export const questionBank = {
     "id": 14
   },
   {
-    "topic": "Agency – Principal Responsibilities",
+    "topic": "Agency Relationships",
     "question": "When an auctioneer acts as an agent for a seller, the seller is called the:",
     "options": [
       "Buyer",
@@ -223,7 +223,7 @@ export const questionBank = {
     "id": 15
   },
   {
-    "topic": "Duties of Agent",
+    "topic": "Agency Relationships",
     "question": "An auctioneer (agent) owes what duty to the seller (principal)?",
     "options": [
       "Loyalty",
@@ -236,7 +236,7 @@ export const questionBank = {
     "id": 16
   },
   {
-    "topic": "Third-Party Rights",
+    "topic": "Agency Relationships",
     "question": "If an auctioneer fails to disclose they are acting as an agent:",
     "options": [
       "No liability",
@@ -249,7 +249,7 @@ export const questionBank = {
     "id": 17
   },
   {
-    "topic": "Termination of Agency",
+    "topic": "Agency Relationships",
     "question": "An agency relationship may be terminated by:",
     "options": [
       "Death of the principal",
@@ -262,7 +262,7 @@ export const questionBank = {
     "id": 18
   },
   {
-    "topic": "Auctioneer Licensing",
+    "topic": "Licensing and Regulation",
     "question": "In Alabama, who must have an auctioneer license?",
     "options": [
       "Anyone who cries a bid",
@@ -275,7 +275,7 @@ export const questionBank = {
     "id": 19
   },
   {
-    "topic": "Ethical Conduct",
+    "topic": "Professional Ethics",
     "question": "Auctioneers must avoid:",
     "options": [
       "Conflicts of interest",
