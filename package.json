@@ -1,0 +1,18 @@
+{
+  "name": "auction-academy-test-prep",
+  "version": "1.0.0",
+  "description": "Auction Academy Test Prep Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js 3000",
+    "custom-port": "node server.js"
+  },
+  "keywords": [
+    "auction",
+    "test-prep",
+    "education"
+  ],
+  "author": "Auction Academy",
+  "license": "ISC"
+}
