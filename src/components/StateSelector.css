@@ -15,10 +15,12 @@
 }
 
 .brand-logo {
-  max-width: 500px;
-  width: 100%;
+  width: 600px;
+  max-width: 90%;
   height: auto;
   margin-bottom: 1rem;
+  object-fit: contain;
+  display: block;
 }
 
 .brand-header h1 {
