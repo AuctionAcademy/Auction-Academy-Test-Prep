@@ -1,21 +1,19 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { getQuizQuestions } from '../data/questionBank';
 import './Game.css';
 
 function Game({ state, topic, onExit }) {
-  const [gameState, setGameState] = useState('loading');
+  const [gameState, setGameState] = useState('loading'); // loading, playing, paused, gameOver
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentAnswers, setCurrentAnswers] = useState([]);
   const [score, setScore] = useState(0);
-  const [timeRemaining, setTimeRemaining] = useState(60);
+  const [timeRemaining, setTimeRemaining] = useState(60); // 60 seconds per question
   const [correctAnswers, setCorrectAnswers] = useState(0);
-  const [showFeedback, setShowFeedback] = useState(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [rocketAngle, setRocketAngle] = useState(0);
-  const [laserShot, setLaserShot] = useState(null); // { start, end, active }
-  const [bubbles, setBubbles] = useState([]);
-  const gameAreaRef = useRef(null);
-  const animationFrameRef = useRef(null);
+  const [blastingBubble, setBlastingBubble] = useState(null);
+  const [showFeedback, setShowFeedback] = useState(null); // { correct: bool, message: string }
+  const [rocketTarget, setRocketTarget] = useState(null); // Coordinates for rocket to aim at
+  const [removedBubbles, setRemovedBubbles] = useState([]); // Track bubbles that should be hidden
 
   // Initialize game
   useEffect(() => {
@@ -26,138 +24,45 @@ function Game({ state, topic, onExit }) {
     }
   }, [state, topic]);
 
-  // Initialize bubbles for current question
+  // Load current question's answers when question changes
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
       const question = questions[currentQuestionIndex];
-      const newBubbles = question.options.map((opt, idx) => ({
+      // Get 4-5 options (current question has 4, we'll use all of them)
+      const answerOptions = question.options.map((opt, idx) => ({
         id: idx,
         text: opt,
         isCorrect: idx === question.correctAnswer,
-        x: Math.random() * 60 + 20, // 20-80% of width
-        y: Math.random() * 40 + 10, // 10-50% of height
-        vx: (Math.random() - 0.5) * 2, // velocity x
-        vy: (Math.random() - 0.5) * 2, // velocity y
-        radius: 80, // collision radius in pixels
-        removed: false
+        position: generateRandomPosition(idx)
       }));
-      setBubbles(newBubbles);
-      setTimeRemaining(60);
+      setCurrentAnswers(answerOptions);
+      setTimeRemaining(60); // Reset timer for new question
       setShowFeedback(null);
-      setLaserShot(null);
+      setRemovedBubbles([]); // Reset removed bubbles for new question
+      setRocketTarget(null); // Reset rocket target
     }
   }, [currentQuestionIndex, questions]);
 
-  // Mouse tracking for rocket aim
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      if (gameAreaRef.current && gameState === 'playing') {
-        const rect = gameAreaRef.current.getBoundingClientRect();
-        setMousePosition({
-          x: e.clientX - rect.left,
-          y: e.clientY - rect.top
-        });
-      }
-    };
+  // Generate random positions for floating bubbles - moved lower to avoid question overlap
+  const generateRandomPosition = (index) => {
+    const positions = [
+      { top: '35%', left: '15%' },
+      { top: '40%', right: '15%' },
+      { top: '55%', left: '10%' },
+      { top: '50%', right: '12%' },
+      { top: '65%', left: '20%' },
+    ];
+    return positions[index % positions.length];
+  };
 
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, [gameState]);
-
-  // Calculate rocket rotation to point at mouse
-  useEffect(() => {
-    if (gameAreaRef.current) {
-      const rect = gameAreaRef.current.getBoundingClientRect();
-      const rocketX = rect.width / 2;
-      const rocketY = rect.height - 80; // Rocket position at bottom
-      
-      const dx = mousePosition.x - rocketX;
-      const dy = mousePosition.y - rocketY;
-      const angle = Math.atan2(dy, dx) * (180 / Math.PI);
-      
-      setRocketAngle(angle + 90); // +90 to adjust for rocket facing up by default
-    }
-  }, [mousePosition]);
-
-  // Physics animation loop
-  useEffect(() => {
-    if (gameState !== 'playing') return;
-
-    const animate = () => {
-      setBubbles(prevBubbles => {
-        return prevBubbles.map(bubble => {
-          if (bubble.removed) return bubble;
-
-          let { x, y, vx, vy } = bubble;
-
-          // Update position
-          x += vx * 0.5;
-          y += vy * 0.5;
-
-          // Bounce off walls
-          if (x <= 5 || x >= 95) {
-            vx = -vx;
-            x = x <= 5 ? 5 : 95;
-          }
-          if (y <= 5 || y >= 65) { // Keep away from bottom where rocket is
-            vy = -vy;
-            y = y <= 5 ? 5 : 65;
-          }
-
-          return { ...bubble, x, y, vx, vy };
-        });
-      });
-
-      // Check bubble-to-bubble collisions
-      setBubbles(prevBubbles => {
-        const newBubbles = [...prevBubbles];
-        for (let i = 0; i < newBubbles.length; i++) {
-          for (let j = i + 1; j < newBubbles.length; j++) {
-            if (newBubbles[i].removed || newBubbles[j].removed) continue;
-
-            const dx = newBubbles[j].x - newBubbles[i].x;
-            const dy = newBubbles[j].y - newBubbles[i].y;
-            const distance = Math.sqrt(dx * dx + dy * dy);
-            const minDistance = 18; // Minimum distance between bubble centers (in %)
-
-            if (distance < minDistance) {
-              // Collision detected - bounce off each other
-              const angle = Math.atan2(dy, dx);
-              const targetX = newBubbles[i].x + Math.cos(angle) * minDistance;
-              const targetY = newBubbles[i].y + Math.sin(angle) * minDistance;
-
-              // Separate bubbles
-              const ax = targetX - newBubbles[j].x;
-              const ay = targetY - newBubbles[j].y;
-              
-              newBubbles[i].vx -= ax * 0.1;
-              newBubbles[i].vy -= ay * 0.1;
-              newBubbles[j].vx += ax * 0.1;
-              newBubbles[j].vy += ay * 0.1;
-            }
-          }
-        }
-        return newBubbles;
-      });
-
-      animationFrameRef.current = requestAnimationFrame(animate);
-    };
-
-    animationFrameRef.current = requestAnimationFrame(animate);
-    return () => {
-      if (animationFrameRef.current) {
-        cancelAnimationFrame(animationFrameRef.current);
-      }
-    };
-  }, [gameState]);
-
-  // Timer countdown
+  // Timer countdown for current question
   useEffect(() => {
     if (gameState !== 'playing') return;
     
     const timer = setInterval(() => {
       setTimeRemaining(prev => {
         if (prev <= 1) {
+          // Time's up for this question, move to next
           handleTimeUp();
           return 60;
         }
@@ -169,6 +74,7 @@ function Game({ state, topic, onExit }) {
   }, [gameState, currentQuestionIndex]);
 
   const handleTimeUp = () => {
+    // Move to next question or end game
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
     } else {
@@ -176,35 +82,27 @@ function Game({ state, topic, onExit }) {
     }
   };
 
-  const handleBubbleClick = (bubble) => {
-    if (showFeedback || bubble.removed) return;
+  const handleBubbleClick = (answer, event) => {
+    if (showFeedback || removedBubbles.includes(answer.id)) return; // Prevent clicking while feedback is showing or bubble is removed
 
-    // Calculate laser shot path
-    if (gameAreaRef.current) {
-      const rect = gameAreaRef.current.getBoundingClientRect();
-      const rocketX = rect.width / 2;
-      const rocketY = rect.height - 80;
-      const bubbleX = (bubble.x / 100) * rect.width;
-      const bubbleY = (bubble.y / 100) * rect.height;
+    // Get bubble position for rocket targeting
+    const bubbleRect = event.currentTarget.getBoundingClientRect();
+    const bubbleCenter = {
+      x: bubbleRect.left + bubbleRect.width / 2,
+      y: bubbleRect.top + bubbleRect.height / 2
+    };
+    setRocketTarget(bubbleCenter);
 
-      setLaserShot({
-        start: { x: rocketX, y: rocketY },
-        end: { x: bubbleX, y: bubbleY },
-        active: true
-      });
-
-      // Clear laser after animation
-      setTimeout(() => setLaserShot(null), 300);
-    }
-
-    // Mark bubble as removed
-    setBubbles(prev => prev.map(b => 
-      b.id === bubble.id ? { ...b, removed: true } : b
-    ));
+    setBlastingBubble(answer.id);
 
     setTimeout(() => {
-      if (bubble.isCorrect) {
-        const timeBonus = Math.floor(timeRemaining * 2);
+      setBlastingBubble(null);
+      setRemovedBubbles(prev => [...prev, answer.id]); // Mark bubble as removed
+      setRocketTarget(null); // Reset rocket target
+      
+      if (answer.isCorrect) {
+        // Correct answer!
+        const timeBonus = Math.floor(timeRemaining * 2); // Up to 120 bonus points
         const totalPoints = 100 + timeBonus;
         setScore(prev => prev + totalPoints);
         setCorrectAnswers(prev => prev + 1);
@@ -214,6 +112,7 @@ function Game({ state, topic, onExit }) {
           message: `🚀 Direct Hit! +${totalPoints} points`
         });
 
+        // Move to next question after showing feedback
         setTimeout(() => {
           if (currentQuestionIndex < questions.length - 1) {
             setCurrentQuestionIndex(prev => prev + 1);
@@ -222,16 +121,18 @@ function Game({ state, topic, onExit }) {
           }
         }, 1500);
       } else {
+        // Wrong answer - bubble stays gone, allow clicking other bubbles
         setShowFeedback({
           correct: false,
           message: '💥 Missed! Try again!'
         });
 
+        // Clear feedback and allow another attempt
         setTimeout(() => {
           setShowFeedback(null);
         }, 1000);
       }
-    }, 300);
+    }, 600); // Match the animation duration
   };
 
   const togglePause = () => {
@@ -333,8 +234,8 @@ function Game({ state, topic, onExit }) {
         </div>
       )}
 
-      <div className="space-game-area" ref={gameAreaRef}>
-        {/* Stars background */}
+      <div className="space-game-area">
+        {/* Stars background effect */}
         <div className="stars"></div>
         <div className="stars2"></div>
         <div className="stars3"></div>
@@ -344,46 +245,24 @@ function Game({ state, topic, onExit }) {
           <div className="question-text">{currentQuestion.question}</div>
         </div>
 
-        {/* Bouncing answer bubbles */}
+        {/* Answer bubbles floating in space */}
         <div className="answer-bubbles">
-          {bubbles.map((bubble) => (
+          {currentAnswers.map((answer) => (
             <div
-              key={bubble.id}
-              className={`bubble ${bubble.removed ? 'removed' : ''}`}
-              style={{
-                left: `${bubble.x}%`,
-                top: `${bubble.y}%`,
-                transition: 'opacity 0.3s',
-              }}
-              onClick={() => handleBubbleClick(bubble)}
+              key={answer.id}
+              className={`bubble ${blastingBubble === answer.id ? 'blasting' : ''} ${removedBubbles.includes(answer.id) ? 'removed' : ''}`}
+              style={answer.position}
+              onClick={(e) => handleBubbleClick(answer, e)}
             >
               <div className="bubble-content">
-                {bubble.text}
+                {answer.text}
               </div>
             </div>
           ))}
         </div>
 
-        {/* Laser shot animation */}
-        {laserShot && laserShot.active && (
-          <svg className="laser-svg">
-            <line
-              x1={laserShot.start.x}
-              y1={laserShot.start.y}
-              x2={laserShot.end.x}
-              y2={laserShot.end.y}
-              className="laser-beam"
-            />
-          </svg>
-        )}
-
-        {/* Rocket ship - rotates to follow mouse */}
-        <div 
-          className="rocket-ship" 
-          style={{ 
-            transform: `translate(-50%, -50%) rotate(${rocketAngle}deg)`
-          }}
-        >
+        {/* Rocket ship at bottom */}
+        <div className={`rocket-ship ${rocketTarget ? 'aiming' : ''}`}>
           <div className="rocket-body">🚀</div>
           <div className="rocket-flame">🔥</div>
         </div>

@@ -77,6 +77,15 @@ function Flashcards({ state, topic, onExit }) {
             <div className="card-label">Question</div>
             <div className="card-topic">{currentCard.topic}</div>
             <div className="card-content">{currentCard.question}</div>
+            {currentCard.options && currentCard.options.length > 0 && (
+              <div className="card-options">
+                {currentCard.options.map((option, idx) => (
+                  <div key={idx} className="card-option">
+                    {String.fromCharCode(65 + idx)}. {option}
+                  </div>
+                ))}
+              </div>
+            )}
             <div className="card-hint">Click to see answer</div>
           </div>
           

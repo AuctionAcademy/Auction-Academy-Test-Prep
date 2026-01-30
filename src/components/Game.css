@@ -429,8 +429,7 @@
   border-radius: 50%;
   padding: 1.5rem;
   cursor: pointer;
-  transition: all 0.3s;
-  animation: float 6s ease-in-out infinite;
+  transition: opacity 0.3s, transform 0.2s;
   box-shadow: 0 8px 32px rgba(100, 150, 255, 0.6), inset 0 4px 16px rgba(255, 255, 255, 0.3);
   min-width: 200px;
   max-width: 280px;
@@ -440,31 +439,18 @@
   backdrop-filter: blur(10px);
   visibility: visible;
   z-index: 10;
+  transform: translate(-50%, -50%); /* Center bubbles on their position */
 }
 
 /* Removed bubble - completely hidden */
 .bubble.removed {
-  display: none;
-  visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
-
-.bubble:nth-child(1) { animation-delay: 0s; }
-.bubble:nth-child(2) { animation-delay: 0.5s; }
-.bubble:nth-child(3) { animation-delay: 1s; }
-.bubble:nth-child(4) { animation-delay: 1.5s; }
-.bubble:nth-child(5) { animation-delay: 2s; }
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  25% { transform: translateY(-20px) rotate(2deg); }
-  50% { transform: translateY(-10px) rotate(-2deg); }
-  75% { transform: translateY(-15px) rotate(1deg); }
+  transform: translate(-50%, -50%) scale(0);
 }
 
 .bubble:hover {
-  transform: scale(1.1) translateY(-10px);
+  transform: translate(-50%, -50%) scale(1.1);
   box-shadow: 0 12px 48px rgba(150, 200, 255, 0.8), inset 0 4px 16px rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.8);
 }
@@ -565,12 +551,12 @@
 /* Rocket ship at bottom */
 .rocket-ship {
   position: absolute;
-  bottom: 40px;
+  bottom: 80px;
   left: 50%;
-  transform: translateX(-50%);
   text-align: center;
   z-index: 30;
-  transition: transform 0.3s ease-out;
+  transform-origin: center center;
+  transition: transform 0.1s ease-out; /* Smooth rotation */
 }
 
 .rocket-ship.aiming {
@@ -579,30 +565,13 @@
 
 .rocket-body {
   font-size: 4rem;
-  animation: hover 2s ease-in-out infinite;
   filter: drop-shadow(0 4px 20px rgba(255, 150, 50, 0.8));
-  transition: transform 0.3s ease-out;
-}
-
-.rocket-ship.aiming .rocket-body {
-  animation: none;
-  transform: rotate(-15deg) scale(1.1); /* Tilt rocket when aiming */
-}
-
-@keyframes hover {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
 }
 
 .rocket-flame {
   font-size: 2rem;
   margin-top: -10px;
   animation: flicker 0.2s ease-in-out infinite;
-  transition: transform 0.3s ease-out;
-}
-
-.rocket-ship.aiming .rocket-flame {
-  transform: rotate(-15deg) scale(1.2); /* Make flame bigger when shooting */
 }
 
 @keyframes flicker {
@@ -789,5 +758,39 @@
 
   .space-game-area {
     height: calc(100vh - 300px);
+  }
+}
+
+/* Laser beam animation */
+.laser-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 25;
+}
+
+.laser-beam {
+  stroke: #00ff00;
+  stroke-width: 3;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 10px #00ff00) drop-shadow(0 0 20px #00ff00);
+  animation: laserPulse 0.3s ease-out;
+}
+
+@keyframes laserPulse {
+  0% {
+    stroke-width: 1;
+    opacity: 1;
+  }
+  50% {
+    stroke-width: 5;
+    opacity: 0.8;
+  }
+  100% {
+    stroke-width: 1;
+    opacity: 0;
   }
 }

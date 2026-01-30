@@ -101,8 +101,9 @@
 .question-text {
   font-size: 1.3rem;
   margin-bottom: 2rem;
-  color: #111;
+  color: #001829; /* Navy color for better readability */
   line-height: 1.6;
+  font-weight: 500;
 }
 
 .options-container {
@@ -143,6 +144,7 @@
 .option-text {
   font-size: 1.1rem;
   flex: 1;
+  color: #001829; /* Navy color for better readability */
 }
 
 .test-navigation {
