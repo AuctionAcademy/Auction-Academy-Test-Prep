@@ -36,8 +36,8 @@ function Game({ state, topic, onExit }) {
         isCorrect: idx === question.correctAnswer,
         x: Math.random() * 60 + 20, // 20-80% of width
         y: Math.random() * 40 + 10, // 10-50% of height
-        vx: (Math.random() - 0.5) * 2, // velocity x
-        vy: (Math.random() - 0.5) * 2, // velocity y
+        vx: (Math.random() - 0.5) * 1, // velocity x (reduced for readability)
+        vy: (Math.random() - 0.5) * 1, // velocity y (reduced for readability)
         radius: 80, // collision radius in pixels
         removed: false
       }));
@@ -73,7 +73,10 @@ function Game({ state, topic, onExit }) {
       
       const dx = mousePosition.x - rocketX;
       const dy = mousePosition.y - rocketY;
-      const angle = Math.atan2(dy, dx) * (180 / Math.PI);
+      let angle = Math.atan2(dy, dx) * (180 / Math.PI);
+      
+      // Clamp angle to -90 to +90 degrees (left to right only, no full rotation)
+      angle = Math.max(-90, Math.min(90, angle));
       
       setRocketAngle(angle + 90); // +90 to adjust for rocket facing up by default
     }
@@ -324,6 +327,11 @@ function Game({ state, topic, onExit }) {
         </div>
       </div>
 
+      {/* Question Section - Separate from play area */}
+      <div className="game-question-section">
+        <div className="question-text">{currentQuestion.question}</div>
+      </div>
+
       {gameState === 'paused' && (
         <div className="pause-overlay" onClick={togglePause}>
           <div className="pause-message">
@@ -338,11 +346,6 @@ function Game({ state, topic, onExit }) {
         <div className="stars"></div>
         <div className="stars2"></div>
         <div className="stars3"></div>
-
-        {/* Question display */}
-        <div className="question-display">
-          <div className="question-text">{currentQuestion.question}</div>
-        </div>
 
         {/* Bouncing answer bubbles */}
         <div className="answer-bubbles">

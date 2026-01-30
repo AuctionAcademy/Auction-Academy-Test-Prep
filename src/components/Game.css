@@ -388,21 +388,19 @@
 }
 
 /* Question display at top */
-.question-display {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 700px;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%);
-  padding: 1.25rem 1.75rem;
-  border-radius: 16px;
-  text-align: center;
-  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.6);
-  border: 3px solid rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px);
-  z-index: 15; /* Lower than before to ensure it doesn't block interaction */
+/* Question Section - Separate header area below stats */
+.game-question-section {
+  width: 100%;
+  background: linear-gradient(135deg, rgba(0, 24, 41, 0.98), rgba(0, 40, 70, 0.98));
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .question-text {
@@ -551,8 +549,9 @@
 /* Rocket ship at bottom */
 .rocket-ship {
   position: absolute;
-  bottom: 80px;
+  bottom: 30px;
   left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   z-index: 30;
   transform-origin: center center;
