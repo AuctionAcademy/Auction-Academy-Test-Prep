@@ -12,6 +12,8 @@ function Game({ state, topic, onExit }) {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [blastingBubble, setBlastingBubble] = useState(null);
   const [showFeedback, setShowFeedback] = useState(null); // { correct: bool, message: string }
+  const [rocketTarget, setRocketTarget] = useState(null); // Coordinates for rocket to aim at
+  const [removedBubbles, setRemovedBubbles] = useState([]); // Track bubbles that should be hidden
 
   // Initialize game
   useEffect(() => {
@@ -36,16 +38,18 @@ function Game({ state, topic, onExit }) {
       setCurrentAnswers(answerOptions);
       setTimeRemaining(60); // Reset timer for new question
       setShowFeedback(null);
+      setRemovedBubbles([]); // Reset removed bubbles for new question
+      setRocketTarget(null); // Reset rocket target
     }
   }, [currentQuestionIndex, questions]);
 
-  // Generate random positions for floating bubbles
+  // Generate random positions for floating bubbles - moved lower to avoid question overlap
   const generateRandomPosition = (index) => {
     const positions = [
-      { top: '15%', left: '15%' },
-      { top: '20%', right: '15%' },
-      { top: '45%', left: '10%' },
-      { top: '40%', right: '12%' },
+      { top: '35%', left: '15%' },
+      { top: '40%', right: '15%' },
+      { top: '55%', left: '10%' },
+      { top: '50%', right: '12%' },
       { top: '65%', left: '20%' },
     ];
     return positions[index % positions.length];
@@ -78,13 +82,23 @@ function Game({ state, topic, onExit }) {
     }
   };
 
-  const handleBubbleClick = (answer) => {
-    if (showFeedback) return; // Prevent clicking while feedback is showing
+  const handleBubbleClick = (answer, event) => {
+    if (showFeedback || removedBubbles.includes(answer.id)) return; // Prevent clicking while feedback is showing or bubble is removed
+
+    // Get bubble position for rocket targeting
+    const bubbleRect = event.currentTarget.getBoundingClientRect();
+    const bubbleCenter = {
+      x: bubbleRect.left + bubbleRect.width / 2,
+      y: bubbleRect.top + bubbleRect.height / 2
+    };
+    setRocketTarget(bubbleCenter);
 
     setBlastingBubble(answer.id);
 
     setTimeout(() => {
       setBlastingBubble(null);
+      setRemovedBubbles(prev => [...prev, answer.id]); // Mark bubble as removed
+      setRocketTarget(null); // Reset rocket target
       
       if (answer.isCorrect) {
         // Correct answer!
@@ -107,7 +121,7 @@ function Game({ state, topic, onExit }) {
           }
         }, 1500);
       } else {
-        // Wrong answer
+        // Wrong answer - bubble stays gone, allow clicking other bubbles
         setShowFeedback({
           correct: false,
           message: '💥 Missed! Try again!'
@@ -118,7 +132,7 @@ function Game({ state, topic, onExit }) {
           setShowFeedback(null);
         }, 1000);
       }
-    }, 300);
+    }, 600); // Match the animation duration
   };
 
   const togglePause = () => {
@@ -236,9 +250,9 @@ function Game({ state, topic, onExit }) {
           {currentAnswers.map((answer) => (
             <div
               key={answer.id}
-              className={`bubble ${blastingBubble === answer.id ? 'blasting' : ''}`}
+              className={`bubble ${blastingBubble === answer.id ? 'blasting' : ''} ${removedBubbles.includes(answer.id) ? 'removed' : ''}`}
               style={answer.position}
-              onClick={() => handleBubbleClick(answer)}
+              onClick={(e) => handleBubbleClick(answer, e)}
             >
               <div className="bubble-content">
                 {answer.text}
@@ -248,7 +262,7 @@ function Game({ state, topic, onExit }) {
         </div>
 
         {/* Rocket ship at bottom */}
-        <div className="rocket-ship">
+        <div className={`rocket-ship ${rocketTarget ? 'aiming' : ''}`}>
           <div className="rocket-body">🚀</div>
           <div className="rocket-flame">🔥</div>
         </div>
