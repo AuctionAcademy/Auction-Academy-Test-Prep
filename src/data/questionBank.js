@@ -2,7 +2,7 @@
 // Complete question banks from source documents
 // AL: 282 questions, GA: 300 questions, KY: 278 questions, TN: 272 questions
 
-export const states = ['Alabama', 'Georgia', 'Kentucky', 'Tennessee', 'Texas'];
+export const states = ['Alabama', 'Georgia', 'Kentucky', 'Louisiana', 'Tennessee', 'Texas'];
 
 export const topics = [
   'All Topics',
@@ -11305,6 +11305,3935 @@ export const questionBank = {
   },
   ]
 
+  ,
+  'Louisiana': [
+    {
+      id: 'la-q1',
+      topic: 'Licensing and Registration',
+      question: 'What is the primary purpose of the Louisiana Auctioneers Licensing Law?',
+      options: [
+        'To generate revenue for the state through license fees',
+        'To require qualifying criteria to protect the public in auction transactions',
+        'To promote out-of-state auctioneers doing business in Louisiana',
+        'To regulate only online auctions conducted in Louisiana',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3101 states that the purpose is to require qualifying criteria in an occupational field where unqualified individuals could injure the public, thereby protecting the safety, health, and property of citizens in auction transactions.'
+    },
+    {
+      id: 'la-q2',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, the Auctioneers Licensing Law may be cited as:',
+      options: [
+        'The Louisiana Auction and Sales Act',
+        'The Auctioneer Regulation and Compliance Code',
+        'The Auctioneers Licensing Law',
+        'The Louisiana Auction Business and Practices Act',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3102 provides that this Act shall be known and may be cited as the "Auctioneers Licensing Law."'
+    },
+    {
+      id: 'la-q3',
+      topic: 'Auction Procedures',
+      question: 'Which of the following best describes an "auction" under Louisiana law?',
+      options: [
+        'Any sale conducted in person with at least ten bidders present',
+        'Only a live, in-person sale where the auctioneer calls bids from a podium',
+        'The sale by competitive bid including live, mail, telecommunications, or internet methods',
+        'Any sale of property at a fixed price advertised as an auction',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3103(A)(3) defines an auction as a sale by competitive bid via verbal exchange, mail, telecommunications, or the internet, culminating in acceptance of the highest or most favorable bid.'
+    },
+    {
+      id: 'la-q4',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, which of the following is specifically included in the definition of "auction"?',
+      options: [
+        'Garage sales with price tags',
+        'Live and online auctions, including real-time and extended auctions',
+        'Retail sales with discount pricing',
+        'Only sealed-bid sales conducted by mail',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3103(A)(3)(b) states that "auction" includes live auctions, online auctions, real-time auctions, extended auctions, similar events, and combinations of these.'
+    },
+    {
+      id: 'la-q5',
+      topic: 'Licensing and Registration',
+      question: 'Who is considered an "apprentice" under the Louisiana Auctioneers Licensing Law?',
+      options: [
+        'Any unlicensed person who occasionally assists at auctions',
+        'Any person who is employed by or studying under an auctioneer to engage in auctions',
+        'Any person who attends an auction school but does not yet work auctions',
+        'Any employee working for a public livestock market',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3103(A)(2) defines an apprentice as someone employed by an auctioneer to deal or engage in auctions or who is studying to become an auctioneer.'
+    },
+    {
+      id: 'la-q6',
+      topic: 'Auction Procedures',
+      question: 'Which business is specifically NOT considered an "auction business" under Louisiana’s Auctioneer Licensing Law?',
+      options: [
+        'A company that holds three estate auctions per year',
+        'A public livestock auction business regulated as a livestock market',
+        'An online auction company selling surplus equipment nationwide',
+        'A gallery that holds monthly art auctions in Louisiana',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3103(A)(4)(b) excludes a public livestock auction business regulated as a livestock market by the Louisiana Board of Animal Health from the definition of an auction business for this Chapter.'
+    },
+    {
+      id: 'la-q7',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following sales is EXCLUDED from the provisions of the Louisiana Auctioneers Licensing Law?',
+      options: [
+        'A monthly consignment auction conducted by a licensed auction house',
+        'A liquidation sale of a business’s assets by public auction',
+        'A sale conducted by a charitable or nonprofit organization',
+        'A weekly online auction of used vehicles',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3104(3) excludes sales conducted by charitable or nonprofit organizations from the provisions of the Chapter.'
+    },
+    {
+      id: 'la-q8',
+      topic: 'Auction Procedures',
+      question: 'Which situation requires that the auction be conducted by a duly licensed Louisiana auctioneer (assuming no exemption applies)?',
+      options: [
+        'A homeowner selling their own furniture in a one-time estate sale',
+        'A business hosting two or more auctions per year open to the public',
+        'A sealed-bid sale of surplus equipment',
+        'A foreclosure sale conducted personally by a mortgagee',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3105(A) requires that any public auction be conducted by a duly licensed auctioneer, and an entity holding multiple auctions and representing that goods are sold at auction is an auction business.'
+    },
+    {
+      id: 'la-q9',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, which auction houses are NOT required to employ a licensed auctioneer to call the auction?',
+      options: [
+        'Any auction house conducting a sale of only personal property',
+        'Auction houses that conduct business solely through internet-based platforms',
+        'Auction houses that sell only consigned antiques',
+        'Any auction house that posts terms and conditions online',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3105(C) states that auction houses conducting business solely through internet-based platforms are not required to employ a licensed auctioneer to call the auction.'
+    },
+    {
+      id: 'la-q10',
+      topic: 'Licensing and Registration',
+      question: 'Where is the Louisiana Auctioneers Licensing Board domiciled?',
+      options: [
+        'New Orleans',
+        'Shreveport',
+        'Baton Rouge',
+        'Lafayette',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3111(C) provides that the board is domiciled in Baton Rouge, Louisiana.'
+    },
+    {
+      id: 'la-q11',
+      topic: 'Licensing and Registration',
+      question: 'How many members serve on the Louisiana Auctioneers Licensing Board, and how many must be auctioneers?',
+      options: [
+        'Five members total; all five must be auctioneers',
+        'Seven members total; five must be auctioneers and two are public members',
+        'Seven members total; three must be auctioneers and four are public members',
+        'Nine members total; five must be auctioneers and four are public members',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3111(B) establishes a seven-member board, with five auctioneers (one from each public service commission district) and two consumers from the public at large.'
+    },
+    {
+      id: 'la-q12',
+      topic: 'Licensing and Registration',
+      question: 'Who appoints the members of the Louisiana Auctioneers Licensing Board and designates the chairman?',
+      options: [
+        'The board itself appoints and designates its chairman',
+        'The Senate confirms, and the House designates the chairman',
+        'The governor appoints all members and designates the chairman',
+        'The Attorney General appoints the members and chairman',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3111(B) states that members are appointed by the governor, who also designates one member to serve as chairman.'
+    },
+    {
+      id: 'la-q13',
+      topic: 'Licensing and Registration',
+      question: 'How often must the board administer a written examination for auctioneer licensing, and where is it given?',
+      options: [
+        'At least twice a year in New Orleans',
+        'At least four times a year in Baton Rouge',
+        'Once a year in rotating cities',
+        'At least six times a year in Shreveport',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3112(A)(2) requires the board to administer a written examination at least four times a year in the city of Baton Rouge.'
+    },
+    {
+      id: 'la-q14',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is NOT a basic qualification for licensure as a Louisiana auctioneer?',
+      options: [
+        'Being at least eighteen years of age',
+        'Having good moral character',
+        'Being a citizen of the United States or a legal resident of Louisiana',
+        'Holding a real estate broker’s license',
+      ],
+      correctAnswer: 3,
+      explanation: 'R.S. 37:3113(A) lists age, moral character, and citizenship/legal residency as requirements; holding a real estate broker’s license is not required.'
+    },
+    {
+      id: 'la-q15',
+      topic: 'Licensing and Registration',
+      question: 'Which educational/experience path can qualify an applicant to become a licensed Louisiana auctioneer?',
+      options: [
+        'Completion of a two-year college degree in business',
+        'Completion of an approved auction school or a one-year apprenticeship under a Louisiana-licensed auctioneer',
+        'Three years of experience as a ringman in any state',
+        'Serving as a livestock auctioneer for six months',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3113(A)(4) requires either a series of studies at a school of auctioneering licensed or approved by the board or a one-year apprenticeship under a Louisiana-licensed auctioneer.'
+    },
+    {
+      id: 'la-q16',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is a requirement for licensure of an entity as an auction business in Louisiana?',
+      options: [
+        'Employing or agreeing to employ a licensed auctioneer to conduct auctions in the state',
+        'Owning its own auction facility within Louisiana',
+        'Holding a Louisiana real estate broker’s license',
+        'Agreeing to hold at least one charity auction per year',
+      ],
+      correctAnswer: 0,
+      explanation: 'R.S. 37:3113(B)(1) requires that an auction business employ or will employ a licensed auctioneer to conduct auctions in Louisiana.'
+    },
+    {
+      id: 'la-q17',
+      topic: 'Licensing and Registration',
+      question: 'Under Louisiana law, who may serve as the qualifying party for an auction business?',
+      options: [
+        'Any unlicensed employee of the business',
+        'Any Louisiana-licensed auctioneer who meets one of the specified roles (such as owner, spouse, qualifying employee, partner, officer, or member)',
+        'Only the majority shareholder, regardless of licensing status',
+        'Any attorney who represents the business',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3113(B)(3) requires the qualifying party to be a Louisiana-licensed auctioneer and allows them to be a sole proprietor or spouse, qualifying employee, stockholder/officer/director, partner, or LLC member/manager.'
+    },
+    {
+      id: 'la-q18',
+      topic: 'Licensing and Registration',
+      question: 'What is the normal expiration date for an original Louisiana auctioneer license issued by the board?',
+      options: [
+        'One year from the date of issuance',
+        'The last day of December following the date of issuance',
+        'The first day of January following the date of issuance',
+        'Two years from the date of issuance',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3115(A)(1) states that each original license is valid until the last day of December next succeeding the date of issuance.'
+    },
+    {
+      id: 'la-q19',
+      topic: 'Licensing and Registration',
+      question: 'By what date should renewal applications for auctioneer licenses be submitted to the board each year?',
+      options: [
+        'October 1',
+        'November 1',
+        'December 1',
+        'January 10',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3115(A)(2) states that all applications for renewal of auctioneers’ licenses shall be submitted by November 1 of each year.'
+    },
+    {
+      id: 'la-q20',
+      topic: 'Licensing and Registration',
+      question: 'If an auctioneer submits a renewal application after January 1, what happens?',
+      options: [
+        'A late penalty of $75 is assessed',
+        'The license is automatically revoked',
+        'The auctioneer must retake the licensing exam',
+        'The license is extended for six months',
+      ],
+      correctAnswer: 0,
+      explanation: 'R.S. 37:3115(A)(2) provides that any auctioneer who submits a renewal application after January 1 is subject to a late penalty of seventy-five dollars.'
+    },
+    {
+      id: 'la-q21',
+      topic: 'Licensing and Registration',
+      question: 'If a Louisiana auctioneer’s license has lapsed for twelve continuous months or more, what is the general rule for relicensure?',
+      options: [
+        'The auctioneer may reinstate at any time by paying a late fee only',
+        'The auctioneer must complete all requirements as a new applicant, unless the board waives this requirement',
+        'The auctioneer must reapply but is exempt from examination',
+        'The license automatically renews if the auctioneer has no complaints on file',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3115(A)(2) states that if a license has lapsed for twelve continuous months or more, the auctioneer is deemed unlicensed and must complete the same requirements as a new applicant, unless the board grants a waiver and restores the license.'
+    },
+    {
+      id: 'la-q22',
+      topic: 'Licensing and Registration',
+      question: 'What is the application fee for an auctioneer license under Louisiana’s fee schedule?',
+      options: [
+        '$50',
+        '$75',
+        '$100',
+        '$150',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3116(A)(1) sets the application fee at seventy-five dollars.'
+    },
+    {
+      id: 'la-q23',
+      topic: 'Licensing and Registration',
+      question: 'What is the examination fee for the Louisiana auctioneer licensing exam?',
+      options: [
+        '$50',
+        '$75',
+        '$100',
+        '$150',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3116(A)(2) sets the examination fee at seventy-five dollars.'
+    },
+    {
+      id: 'la-q24',
+      topic: 'Licensing and Registration',
+      question: 'According to Louisiana law, what is the initial license fee for a Louisiana auctioneer?',
+      options: [
+        '$75',
+        '$100',
+        '$150',
+        '$300',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3116(A)(4) sets the initial license fee for an auctioneer at one hundred fifty dollars.'
+    },
+    {
+      id: 'la-q25',
+      topic: 'Licensing and Registration',
+      question: 'What is the annual license renewal fee for a Louisiana auctioneer?',
+      options: [
+        '$75',
+        '$100',
+        '$150',
+        '$300',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3116(A)(5) sets the annual auctioneer renewal fee at one hundred fifty dollars.'
+    },
+    {
+      id: 'la-q26',
+      topic: 'Licensing and Registration',
+      question: 'What is the delinquent renewal fee for an auctioneer license in Louisiana?',
+      options: [
+        '$25',
+        '$50',
+        '$75',
+        '$100',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3116(A)(8) sets the delinquent renewal fee at seventy-five dollars.'
+    },
+    {
+      id: 'la-q27',
+      topic: 'Licensing and Registration',
+      question: 'What is the required minimum cash deposit or surety bond for each applicant for licensure as a Louisiana auctioneer or apprentice auctioneer?',
+      options: [
+        '$5,000',
+        '$7,500',
+        '$10,000',
+        '$25,000',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3118(A)(1) requires auctioneers and apprentice auctioneers to deliver either $10,000 in cash or a $10,000 surety bond.'
+    },
+    {
+      id: 'la-q28',
+      topic: 'Duties and Responsibilities',
+      question: 'Each applicant for licensure as an auction business must provide what minimum cash deposit or surety bond amount?',
+      options: [
+        '$10,000',
+        '$15,000',
+        '$20,000',
+        '$25,000',
+      ],
+      correctAnswer: 3,
+      explanation: 'R.S. 37:3118(A)(1) requires auction businesses to deliver either $25,000 in cash or a $25,000 surety bond.'
+    },
+    {
+      id: 'la-q29',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is a key purpose of the required auctioneer/auction business bond under Louisiana law?',
+      options: [
+        'To guarantee a minimum commission for the auctioneer',
+        'To protect the public from losses due to violations of the Auctioneers Licensing Law',
+        'To guarantee the auctioneer will not compete with other licensees',
+        'To insure the auctioneer has adequate advertising funds',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3118(A)(1)(d)–(e) states that the bond is conditioned on compliance with contracts and laws and is payable for the benefit and indemnity of any person who suffers loss due to violations of the Chapter.'
+    },
+    {
+      id: 'la-q30',
+      topic: 'Licensing and Registration',
+      question: 'Under Louisiana reciprocity provisions, a person holding a license from another jurisdiction with comparable requirements may:',
+      options: [
+        'Automatically perform auctions in Louisiana without any Louisiana license',
+        'Be licensed in Louisiana without further examination, if the board approves',
+        'Be exempt from all bond and fee requirements in Louisiana',
+        'Only conduct online auctions without a Louisiana license',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3117(A) provides that a person licensed in another jurisdiction with comparable requirements may be licensed in Louisiana without further examination if the board determines they meet the requirements.'
+    },
+    {
+      id: 'la-q31',
+      topic: 'Licensing and Registration',
+      question: 'What must every nonresident applicant for a Louisiana auctioneer license file with the board as part of the application?',
+      options: [
+        'A statement waiving all rights to appeal disciplinary actions',
+        'A written irrevocable consent appointing the board as agent for service of process',
+        'A notarized letter from their home state governor',
+        'Proof of membership in the National Auctioneers Association',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3117(D) requires a written irrevocable consent that any cause of action may be commenced by service of process upon the board as the licensee’s agent.'
+    },
+    {
+      id: 'la-q32',
+      topic: 'Licensing and Registration',
+      question: 'What can the board do if a person or firm engages in activities that violate the Auctioneers Licensing Law?',
+      options: [
+        'Only refer the matter to local law enforcement',
+        'Issue a cease and desist order and seek injunctive relief in court',
+        'Suspend the individual’s driver’s license',
+        'Impose criminal penalties without court involvement',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3122 authorizes the board to issue cease and desist orders and, if ignored, to seek a writ of injunction in court to stop the unlawful activity.'
+    },
+    {
+      id: 'la-q33',
+      topic: 'Penalties and Discipline',
+      question: 'What are the possible criminal penalties for violating any provision of the Auctioneers Licensing Law or its rules?',
+      options: [
+        'A fine up to $200 and imprisonment up to 30 days',
+        'A fine up to $500 and imprisonment up to 6 months, or both',
+        'A fine up to $1,000 and imprisonment up to 1 year',
+        'Imprisonment only; no fines allowed',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3123(B) provides that violators may be fined not more than $500 or imprisoned not more than six months, or both, for each violation.'
+    },
+    {
+      id: 'la-q34',
+      topic: 'Licensing and Registration',
+      question: 'How many concurring votes of the Louisiana Auctioneers Licensing Board are required to revoke a license?',
+      options: [
+        'A simple majority of those present',
+        'Three concurring votes',
+        'Four concurring votes',
+        'A unanimous vote of the board',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3121(C) states that four concurring votes of the board are required to revoke a license and also for suspensions or fines over $500.'
+    },
+    {
+      id: 'la-q35',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is listed as a cause for nonissuance, suspension, revocation, or restriction of a license?',
+      options: [
+        'Failing to advertise every auction on television',
+        'Conviction of a felony under U.S. or state law',
+        'Charging more than the suggested commission rate',
+        'Conducting auctions only online',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3121(A)(1) lists conviction of a felony or a guilty/nolo contendere plea to a felony as a ground for discipline.'
+    },
+    {
+      id: 'la-q36',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is specifically listed as a violation that can lead to discipline under Louisiana auction law?',
+      options: [
+        'Using online bidding platforms',
+        'Selling goods at auction before entering a written contract with the owner when the minimum price exceeds $500',
+        'Holding auctions fewer than twice per year',
+        'Hiring out-of-state ringmen',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3121(A)(11) makes it a violation to sell goods at auction before entering a written contract with the owner when the minimum price for such goods has been set or requested above $500.'
+    },
+    {
+      id: 'la-q37',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, what is the maximum commission an auctioneer may demand on judicial sales of immovable property made under order of court?',
+      options: [
+        '5% of the amount of each adjudication',
+        '7% of the amount of each adjudication',
+        '10% of the amount of each adjudication',
+        'A flat fee set by the court',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3124(A)(1) limits the commission on judicial sales of immovable property to not more than seven percent on the amount of each adjudication.'
+    },
+    {
+      id: 'la-q38',
+      topic: 'Auction Procedures',
+      question: 'On sales of succession property where minors have an interest, what maximum commission may the auctioneer charge on the minors’ proportionate share?',
+      options: [
+        '4% on the full sale price, regardless of amount',
+        '4% on the first $10,000 and 2% on the excess',
+        '2% on the first $10,000 and 4% on the excess',
+        'A flat 2% on the entire sale price',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3124(A)(2) provides a commission of no more than 4% on the first $10,000 and 2% on the excess for property in which minors have an interest, applied to their proportionate share.'
+    },
+    {
+      id: 'la-q39',
+      topic: 'Auction Procedures',
+      question: 'On judicial sales of movables, what is the maximum commission an auctioneer may charge under Louisiana law?',
+      options: [
+        '5%',
+        '7%',
+        '10%',
+        '12%',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3124(A)(3) states that upon sales of movables, the commission shall not be more than ten percent as to judicial sales.'
+    },
+    {
+      id: 'la-q40',
+      topic: 'Auction Procedures',
+      question: 'By when must a Louisiana auctioneer pay the consignor or return unsold property and provide a full account of the auction?',
+      options: [
+        'Within 15 days of the auction date',
+        'Within 30 days from the date of sale at auction',
+        'Within 30 days from receipt of funds, or within 60 days from the date of sale, whichever is less',
+        'Within 90 days of the auction date',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3125(B) requires payment to the consignor within 30 days from receipt of funds, or within 60 days from the date of sale, whichever is less, or return of property and a full accounting.'
+    },
+    {
+      id: 'la-q41',
+      topic: 'Duties and Responsibilities',
+      question: 'Where must auction funds received by a Louisiana auctioneer be deposited?',
+      options: [
+        'In any personal bank account chosen by the auctioneer',
+        'In one or more identifiable bank accounts in the state where the auctioneer is situated, separate from personal funds except for limited exceptions',
+        'In a national investment account outside Louisiana',
+        'In the consignor’s personal account',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3125(A) requires all auction funds to be deposited in identifiable bank accounts maintained in the state in which the auctioneer is situated, with no commingling of auctioneer’s funds except for limited purposes.'
+    },
+    {
+      id: 'la-q42',
+      topic: 'Financial and Records',
+      question: 'Under Louisiana law, who is liable in solido to the owner of goods for all money and property coming into the auctioneer’s or auction house’s hands that is unaccounted for?',
+      options: [
+        'Only the auctioneer',
+        'Only the surety company',
+        'The auctioneer and the consignor',
+        'Each auctioneer, the surety on the bond, and the auction house',
+      ],
+      correctAnswer: 3,
+      explanation: 'R.S. 37:3125(B) states that each auctioneer, his surety, and the auction house are liable in solido to the owner for all unaccounted-for money and property.'
+    },
+    {
+      id: 'la-q43',
+      topic: 'Auction Procedures',
+      question: 'Before selling immovable property at public auction in Louisiana, what must the auctioneer produce and read?',
+      options: [
+        'A title insurance policy',
+        'A certificate of mortgages and encumbrances against the property',
+        'The current tax assessment only',
+        'A current appraisal by a licensed appraiser',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3128 requires that no immovable property be sold by public auction without the production and reading by the auctioneer of a certificate of mortgages and encumbrances against the property.'
+    },
+    {
+      id: 'la-q44',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is prohibited under the Louisiana statutes regarding shill bidding?',
+      options: [
+        'Taking bids by telephone or electronic means',
+        'Acting as a "capper," "booster," or "shill," or placing false bids',
+        'Bidding on behalf of an absentee bidder for the protection of a consignor with proper notice',
+        'Allowing the owner to bid at the auction',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3129(B) prohibits acting as a "capper," "booster," or "shill" or placing or offering to place false bids at an auction.'
+    },
+    {
+      id: 'la-q45',
+      topic: 'Auction Procedures',
+      question: 'Under what conditions may an auctioneer bid on behalf of an absentee bidder to protect a consignor or owner in Louisiana?',
+      options: [
+        'Only if the auctioneer does not disclose the practice to bidders',
+        'Only if the auction is conducted online',
+        'If the auctioneer provides prior public notice and displays written notice on the auction premises',
+        'This practice is always prohibited',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3130 allows an auctioneer to bid on behalf of an absentee bidder for protection of the consignor or owner, provided there is prior public notice (e.g., catalogue, advertisements, or opening announcement) and written notice displayed on the premises.'
+    },
+    {
+      id: 'la-q46',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, how must property be sold at auction with respect to bidding?',
+      options: [
+        'To the bidder selected by the owner',
+        'To the highest bidder, except where the sale is limited',
+        'To the first bidder who meets the reserve price',
+        'To the bidder with the best credit history',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3131 provides that all property sold at auction shall be struck off to the highest bidder except such as may be limited.'
+    },
+    {
+      id: 'la-q47',
+      topic: 'Auction Procedures',
+      question: 'How must a buyer’s fee (buyer’s premium) be disclosed under Louisiana auction law?',
+      options: [
+        'Only in the printed catalogue',
+        'Only orally at the start of the auction',
+        'In advertisements, posted in writing at registration, and verbally announced with an explanation at the opening of the auction',
+        'Disclosure is optional if the fee is under 10%',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3124(C) requires disclosure of the buyer’s fee in advertisements, posting in writing at the registration desk, and a verbal announcement explaining the fee at the opening of the auction.'
+    },
+    {
+      id: 'la-q48',
+      topic: 'Duties and Responsibilities',
+      question: 'When a licensed auctioneer advertises an auction, what information must be included according to Louisiana law?',
+      options: [
+        'Only the auction date and location',
+        'Only the auctioneer’s name',
+        'The auctioneer’s name, business address, license number, and other information required by rule',
+        'The reserve price of all items',
+      ],
+      correctAnswer: 2,
+      explanation: 'R.S. 37:3141 requires any licensed auctioneer who advertises an auction to include their name, business addresses, license number, and any other reasonable information required by rule.'
+    },
+    {
+      id: 'la-q49',
+      topic: 'Licensing and Registration',
+      question: 'Which auctioneers are specifically excluded from the jurisdiction of the Louisiana Auctioneers Licensing Board?',
+      options: [
+        'Auctioneers conducting only online auctions',
+        'Auctioneers who exclusively conduct livestock auctions for a Louisiana livestock market regulated by the Louisiana Board of Animal Health',
+        'Auctioneers licensed in another state',
+        'Auctioneers working only with nonprofit organizations',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3134 states that the board does not have jurisdiction over auctioneers engaged exclusively as employees or agents of a Louisiana livestock market regulated by the Louisiana Board of Animal Health.'
+    },
+    {
+      id: 'la-q50',
+      topic: 'Auction Procedures',
+      question: 'Which of the following sales is specifically listed as NOT requiring an auctioneer or auction house license under Louisiana law?',
+      options: [
+        'A public auction of surplus equipment for a city government',
+        'A sealed-bid sale',
+        'A monthly online consignment auction open to the public',
+        'A foreclosure sale of realty conducted by a licensed auctioneer',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3104(7) states that a sale conducted by sealed bid is excluded from the provisions of the Auctioneers Licensing Law.'
+    },
+    {
+      id: 'la-q51',
+      topic: 'Licensing and Registration',
+      question: 'How often must the Louisiana Auctioneers Licensing Board hold regular meetings?',
+      options: [
+        'Monthly',
+        'Bimonthly (every two months)',
+        'Quarterly',
+        'Twice per year',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3112(E) provides that the board shall meet bimonthly at regular meetings each year.'
+    },
+    {
+      id: 'la-q52',
+      topic: 'Licensing and Registration',
+      question: 'What constitutes a quorum for the Louisiana Auctioneers Licensing Board?',
+      options: [
+        'Three members',
+        'Four members',
+        'Five members',
+        'A majority of those present, regardless of number',
+      ],
+      correctAnswer: 1,
+      explanation: 'R.S. 37:3112(F) states that four members of the board constitute a quorum for all purposes, including licensing and rulemaking.'
+    },
+    {
+      id: 'la-q53',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, who is defined as an "auctioneer"?',
+      options: [
+        'Any person who sells their own property at public auction',
+        'Any person who, for another and with or without a fee, sells or offers to sell property at an auction',
+        'Only a person who calls bids at live, in-person auctions',
+        'Any person who owns an auction house, regardless of duties',
+      ],
+      correctAnswer: 1,
+      explanation: 'Louisiana law defines an auctioneer as any person who, for another, with or without receiving a fee, commission, or other valuable consideration, sells or offers to sell property at an auction.'
+    },
+    {
+      id: 'la-q54',
+      topic: 'Licensing and Registration',
+      question: 'Which statement best describes an "auction house" or "auction business" under Louisiana law?',
+      options: [
+        'Any entity that holds a single auction in a twelve-month period',
+        'Only brick-and-mortar businesses that own their own auction facility',
+        'Any entity that arranges or conducts two or more auctions in a twelve-month period and regularly represents that goods are sold at auction, including internet-based businesses',
+        'Only corporations licensed to sell real estate at auction',
+      ],
+      correctAnswer: 2,
+      explanation: 'An auction house, auction company, or auction business is any legal entity that arranges, manages, sponsors, advertises, or carries out two or more auctions within a twelve-month period and regularly represents that goods are sold at auction, including internet-based platforms.'
+    },
+    {
+      id: 'la-q55',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is NOT excluded from the Louisiana Auctioneers Licensing Law?',
+      options: [
+        'A sale ordered by a United States Bankruptcy Court',
+        'A sale conducted by a charitable or nonprofit organization',
+        'A foreclosure sale of realty conducted personally by a trustee under a recorded deed of trust',
+        'A monthly consignment auction open to the public conducted by a for-profit business',
+      ],
+      correctAnswer: 3,
+      explanation: 'Sales ordered by a U.S. Bankruptcy Court, sales by government employees in the scope of employment, charitable or nonprofit sales, certain foreclosure sales, and sealed bid sales are excluded. A recurring, public consignment auction is not excluded and must comply with the law.'
+    },
+    {
+      id: 'la-q56',
+      topic: 'Licensing and Registration',
+      question: 'A foreclosure sale of personal property is excluded from the Auctioneers Licensing Law when it is conducted personally by:',
+      options: [
+        'Any licensed auctioneer',
+        'The mortgagee or other secured party, or their employee acting in the course and scope of employment',
+        'A court-appointed auctioneer only',
+        'Any bonded dealer',
+      ],
+      correctAnswer: 1,
+      explanation: 'The Chapter does not apply to a foreclosure sale of personal property conducted personally by the mortgagee or other secured party or an employee acting in the course and scope of employment under a recorded chattel mortgage or other security agreement.'
+    },
+    {
+      id: 'la-q57',
+      topic: 'Auction Procedures',
+      question: 'Which of the following sales is excluded from the Louisiana Auctioneers Licensing Law because it is conducted by an individual of his own property?',
+      options: [
+        'Any estate sale with professional advertising',
+        'Any sale conducted by an individual of his own property if he is not engaged in the business of selling such property as an auctioneer on a regular basis',
+        'Any online auction of personal items',
+        'Any sale under power of attorney',
+      ],
+      correctAnswer: 1,
+      explanation: 'The law does not apply to a sale conducted by an individual of his own property if he is not in the business of selling such property as an auctioneer on a regular basis.'
+    },
+    {
+      id: 'la-q58',
+      topic: 'Licensing and Registration',
+      question: 'Who may file a written complaint that the Louisiana Auctioneers Licensing Board is required to investigate?',
+      options: [
+        'Only licensed auctioneers',
+        'Only consumers who attended an auction',
+        'Any person',
+        'Only other state agencies',
+      ],
+      correctAnswer: 2,
+      explanation: 'The board may act on its own initiative and must act upon the written complaint of any person alleging violations of the Chapter.'
+    },
+    {
+      id: 'la-q59',
+      topic: 'Licensing and Registration',
+      question: 'In addition to written complaints, the Louisiana Auctioneers Licensing Board may investigate potential violations based on:',
+      options: [
+        'Only referrals from the Attorney General',
+        'Its own initiative',
+        'Orders from the governor only',
+        'Requests from auction schools only',
+      ],
+      correctAnswer: 1,
+      explanation: 'The statute authorizes the board to investigate alleged violations upon its own initiative as well as upon written complaint.'
+    },
+    {
+      id: 'la-q60',
+      topic: 'Board and Governance',
+      question: 'One of the duties of the Louisiana Auctioneers Licensing Board is to:',
+      options: [
+        'Set minimum reserve prices for all auctions in Louisiana',
+        'Adopt rules and regulations to govern auctioneers and auction houses in the state',
+        'Issue real estate licenses to auctioneers',
+        'Approve all auction advertising copy before publication',
+      ],
+      correctAnswer: 1,
+      explanation: 'Among its duties, the board must adopt rules and regulations to govern auctioneers and auction houses in Louisiana.'
+    },
+    {
+      id: 'la-q61',
+      topic: 'Duties and Responsibilities',
+      question: 'How does the board fulfill its duty regarding information on reciprocity states?',
+      options: [
+        'By publishing an annual newsletter only',
+        'By furnishing, upon request, an accurate list of states having reciprocity with Louisiana along with a copy of Louisiana auction laws',
+        'By notifying only auction schools of reciprocity changes',
+        'By posting the list only at board offices',
+      ],
+      correctAnswer: 1,
+      explanation: 'The board must furnish, upon request, a copy of Louisiana auction laws and an accurate list of states having reciprocity with Louisiana.'
+    },
+    {
+      id: 'la-q62',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is TRUE regarding the examination for auctioneer licensure in Louisiana?',
+      options: [
+        'It is an oral examination focusing only on bid calling skills',
+        'It is a written examination that includes questions on Louisiana auction law and sound business practices',
+        'It is a practical-only examination conducted at live auctions',
+        'It is an online exam limited to federal law questions',
+      ],
+      correctAnswer: 1,
+      explanation: 'The board determines the scope, form, and content of a written examination that must include questions on Louisiana auction law and sound business practices.'
+    },
+    {
+      id: 'la-q63',
+      topic: 'Licensing and Registration',
+      question: 'If an applicant fails the Louisiana auctioneer licensing examination:',
+      options: [
+        'They are permanently barred from reapplying',
+        'They may be reexamined by filing a new application and paying the reexamination fee',
+        'They must wait five years before retaking the exam',
+        'They may retake the exam immediately without any additional fee',
+      ],
+      correctAnswer: 1,
+      explanation: 'An applicant who fails the exam may be examined again upon filing a new application and paying the reexamination fee set by law.'
+    },
+    {
+      id: 'la-q64',
+      topic: 'Duties and Responsibilities',
+      question: 'Within what timeframe must the board notify an applicant in writing if they are denied licensure?',
+      options: [
+        'Within 3 days',
+        'Within 10 days',
+        'Within 30 days',
+        'Within 60 days',
+      ],
+      correctAnswer: 1,
+      explanation: 'The board must notify any applicant who is denied licensing of the reason within 10 days, in writing.'
+    },
+    {
+      id: 'la-q65',
+      topic: 'Licensing and Registration',
+      question: 'After receiving written notice of license denial, how long does the applicant have to request a hearing?',
+      options: [
+        '10 days',
+        '20 days',
+        '30 days',
+        '60 days',
+      ],
+      correctAnswer: 2,
+      explanation: 'The applicant has 30 days after receipt of notice to make a written request for a hearing.'
+    },
+    {
+      id: 'la-q66',
+      topic: 'Licensing and Registration',
+      question: 'Under Louisiana law, which of the following is a correct pairing of fee type and amount?',
+      options: [
+        'Reexamination fee – $75',
+        'Restoration fee for a license – $100',
+        'Replacement fee for a lost license – $75',
+        'Apprentice fee – $50',
+      ],
+      correctAnswer: 1,
+      explanation: 'The restoration fee for a license is $100. The reexamination fee is $50, the replacement fee is $25, and the apprentice fee is $100.'
+    },
+    {
+      id: 'la-q67',
+      topic: 'Licensing and Registration',
+      question: 'What is the fee for annual certification of a licensed auctioneering school or a school offering auctioneering courses in Louisiana?',
+      options: [
+        '$75',
+        '$100',
+        '$150',
+        '$300',
+      ],
+      correctAnswer: 2,
+      explanation: 'Louisiana law sets the annual certification fee for a licensed auctioneering school or a school offering auctioneering courses at $150.'
+    },
+    {
+      id: 'la-q68',
+      topic: 'Licensing and Registration',
+      question: 'What is the initial license fee for an auction business under the Louisiana fee schedule?',
+      options: [
+        '$150',
+        '$200',
+        '$250',
+        '$300',
+      ],
+      correctAnswer: 3,
+      explanation: 'The statute sets the initial license fee for an auction business at $300, with the same amount for annual renewal.'
+    },
+    {
+      id: 'la-q69',
+      topic: 'Licensing and Registration',
+      question: 'What is the annual license renewal fee for an auction business in Louisiana?',
+      options: [
+        '$150',
+        '$200',
+        '$250',
+        '$300',
+      ],
+      correctAnswer: 3,
+      explanation: 'The annual license renewal fee for an auction business is $300.'
+    },
+    {
+      id: 'la-q70',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following fees is correctly matched with its amount in Louisiana?',
+      options: [
+        'Reexamination fee – $50',
+        'Replacement license fee – $75',
+        'Application fee – $50',
+        'Apprentice fee – $50',
+      ],
+      correctAnswer: 0,
+      explanation: 'The reexamination fee is $50. The replacement license fee is $25, the application fee is $75, and the apprentice fee is $100.'
+    },
+    {
+      id: 'la-q71',
+      topic: 'Licensing and Registration',
+      question: 'Which statement about an auction business operating at multiple locations is TRUE under Louisiana law?',
+      options: [
+        'It must obtain a separate license for each location',
+        'It may operate at more than one location but must operate only under the name on its license issued by the board',
+        'It may change its business name at each location without notifying the board',
+        'It is prohibited from operating at more than one location',
+      ],
+      correctAnswer: 1,
+      explanation: 'An auction business may operate at more than one location but must operate only under the name shown on its license issued by the board.'
+    },
+    {
+      id: 'la-q72',
+      topic: 'Licensing and Registration',
+      question: 'What additional information must an applicant for licensure as an auction business provide on the application form?',
+      options: [
+        'Auction schedules for the next five years',
+        'Names of two references who are currently licensed Louisiana auctioneers in good standing',
+        'A list of all consignors used in the past five years',
+        'Proof of membership in a national auctioneer association',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auction business applicants must submit two references who are currently licensed Louisiana auctioneers in good standing with the board, among other information.'
+    },
+    {
+      id: 'la-q73',
+      topic: 'Licensing and Registration',
+      question: 'For an auction business that conducts vehicle auctions where a dealer license is required, what must be provided with the application?',
+      options: [
+        'A copy of the dealer license',
+        'A letter of intent to apply for a dealer license',
+        'A list of all vehicle consignors',
+        'A copy of each vehicle title',
+      ],
+      correctAnswer: 0,
+      explanation: 'Auction business applicants conducting vehicle auctions, where a dealer license is required, must submit a copy of the dealer license with their application.'
+    },
+    {
+      id: 'la-q74',
+      topic: 'Legal and Contracts',
+      question: 'Which of the following is a required condition of the auctioneer or auction business surety bond in Louisiana?',
+      options: [
+        'Guaranteeing a minimum annual income for the auctioneer',
+        'Ensuring compliance with written auction contracts and state law in the conduct of the licensed business',
+        'Guaranteeing that the auctioneer will not compete with other licensees',
+        'Ensuring the auctioneer conducts a minimum number of auctions per year',
+      ],
+      correctAnswer: 1,
+      explanation: 'The bond must be conditioned on compliance with the conditions of any written auction contract and on not violating the Chapter or state law in conducting the licensed business.'
+    },
+    {
+      id: 'la-q75',
+      topic: 'Licensing and Registration',
+      question: 'A nonresident-owned auction business licensed in Louisiana through reciprocity must post a surety bond in what minimum amount?',
+      options: [
+        '$10,000',
+        '$20,000',
+        '$25,000 or the higher amount required in the nonresident’s home jurisdiction, whichever is greater',
+        '$50,000',
+      ],
+      correctAnswer: 2,
+      explanation: 'A nonresident-owned auction business receiving a license through reciprocity must post a surety bond in the greater of $25,000 or the amount of bond required in the nonresident’s home jurisdiction for a comparable business.'
+    },
+    {
+      id: 'la-q76',
+      topic: 'Board and Governance',
+      question: 'Under Louisiana law, adoption of rules, regulations, and codes of conduct by the board is subject to:',
+      options: [
+        'Approval by the governor only',
+        'The Administrative Procedure Act',
+        'Approval by the state legislature only',
+        'Review by the Attorney General only',
+      ],
+      correctAnswer: 1,
+      explanation: 'The adoption of any rule, regulation, guideline, substantive procedure, or code of conduct by the board is subject to the Administrative Procedure Act.'
+    },
+    {
+      id: 'la-q77',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is a listed cause for disciplinary action under Louisiana auction law?',
+      options: [
+        'Refusing to conduct charity auctions for free',
+        'Deceit or perjury in obtaining a license',
+        'Using a ringman who is not licensed',
+        'Failing to hold an auction every year',
+      ],
+      correctAnswer: 1,
+      explanation: 'Deceit or perjury in obtaining any certificate or license issued under the Chapter is a specific cause for nonissuance, suspension, revocation, or restriction of a license.'
+    },
+    {
+      id: 'la-q78',
+      topic: 'Auction Procedures',
+      question: 'Which action could subject a Louisiana auctioneer to discipline by the board?',
+      options: [
+        'Conducting auctions on weekends',
+        'Providing false testimony before the board',
+        'Charging a buyer’s premium',
+        'Advertising in more than one state',
+      ],
+      correctAnswer: 1,
+      explanation: 'Providing false testimony before the board is specifically listed as a cause for disciplinary action under the law.'
+    },
+    {
+      id: 'la-q79',
+      topic: 'Penalties and Discipline',
+      question: 'A Louisiana auctioneer is found to have aided a person in evading the provisions of the Auctioneers Licensing Law. What is the potential consequence?',
+      options: [
+        'No consequence if the sale closed successfully',
+        'The board may refuse to issue or may suspend, revoke, or restrict the license',
+        'Only a written warning may be issued',
+        'A mandatory fine but no license action is allowed',
+      ],
+      correctAnswer: 1,
+      explanation: 'Aiding or abetting a person to evade the provisions of the Chapter is a listed cause for the board to refuse to issue or to discipline a license.'
+    },
+    {
+      id: 'la-q80',
+      topic: 'Licensing and Registration',
+      question: 'How much may the board fine a licensee for each violation of the Auctioneers Licensing Law or its rules?',
+      options: [
+        'Up to $100 per violation',
+        'Up to $250 per violation',
+        'Up to $500 per violation',
+        'Exactly $500 per violation',
+      ],
+      correctAnswer: 2,
+      explanation: 'Any person who violates the provisions of the Chapter or rules adopted under its authority may be fined not more than $500 per violation, in addition to possible imprisonment.'
+    },
+    {
+      id: 'la-q81',
+      topic: 'Auction Procedures',
+      question: 'Each individual sale or act in violation of the Louisiana Auctioneers Licensing Law constitutes:',
+      options: [
+        'A single continuing violation',
+        'A separate offense and violation of the Chapter',
+        'No offense if the total amount is under $500',
+        'An offense only if more than ten sales are involved',
+      ],
+      correctAnswer: 1,
+      explanation: 'Each individual sale or act in connection with the conduct of an auction in violation of the Chapter is treated as a separate offense.'
+    },
+    {
+      id: 'la-q82',
+      topic: 'Licensing and Registration',
+      question: 'If a person ignores a cease and desist order issued by the Louisiana Auctioneers Licensing Board, what may the board do after ten days?',
+      options: [
+        'Nothing further; enforcement is up to the complainant',
+        'Seek a writ of injunction in court to stop the unlawful activities',
+        'Automatically imprison the person',
+        'Increase the person’s bond amount without a hearing',
+      ],
+      correctAnswer: 1,
+      explanation: 'If the person does not cease the proscribed activity within ten days of service of the cease and desist order, the board may seek a writ of injunction in a court of competent jurisdiction.'
+    },
+    {
+      id: 'la-q83',
+      topic: 'Licensing and Registration',
+      question: 'Under Louisiana law, what must auction funds received by a licensed auctioneer be used for before being paid to the consignor or owner?',
+      options: [
+        'They may be freely used for personal expenses until the consignor requests payment',
+        'They must be deposited into one or more identifiable bank accounts in the state where the auctioneer is situated, separate from personal funds except for limited purposes',
+        'They must first be invested in interest-bearing accounts for at least 90 days',
+        'They must be held in cash at the auctioneer’s office',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auction funds must be deposited in one or more identifiable bank accounts maintained in the state where the auctioneer is situated, and they cannot be commingled with the auctioneer’s personal funds except for limited exceptions like bank charges.'
+    },
+    {
+      id: 'la-q84',
+      topic: 'Licensing and Registration',
+      question: 'Under Louisiana law, how must a licensed auctioneer handle disputed funds that are partly owed to the auctioneer and partly to the consignor?',
+      options: [
+        'Withdraw the entire amount and hold it in cash',
+        'Release all funds immediately to the consignor',
+        'Keep the disputed portion in the auction account until the dispute is resolved',
+        'Split the funds evenly until the dispute is resolved',
+      ],
+      correctAnswer: 2,
+      explanation: 'When funds belong partly to the consignor and partly to the auctioneer and the right of the auctioneer to receive his portion is disputed, the disputed portion may not be withdrawn until the dispute is resolved.'
+    },
+    {
+      id: 'la-q85',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer receives funds on the day of the auction. By when must the auctioneer pay the consignor or return unsold goods and provide a full accounting?',
+      options: [
+        'Within 15 days from the date of sale',
+        'Within 30 days from receipt of funds, or within 60 days from the date of sale, whichever is less',
+        'Within 90 days from the date of sale',
+        'By the end of the calendar year',
+      ],
+      correctAnswer: 1,
+      explanation: 'The auctioneer must pay the consignor within 30 days from receipt of funds, or within 60 days from the date of sale, whichever is less, or return unsold property and render a full accounting.'
+    },
+    {
+      id: 'la-q86',
+      topic: 'Duties and Responsibilities',
+      question: 'If an auctioneer fails to pay or refund as required and to account for auction proceeds, who is liable to the owner of the goods?',
+      options: [
+        'Only the auctioneer personally',
+        'Only the surety on the auctioneer’s bond',
+        'The auctioneer and the auction house, but not the surety',
+        'The auctioneer, the surety on the bond, and the auction house, liable in solido',
+      ],
+      correctAnswer: 3,
+      explanation: 'The auctioneer, the surety on the bond, and the auction house are all liable in solido to the owner for all unaccounted-for money and property.'
+    },
+    {
+      id: 'la-q87',
+      topic: 'Auction Procedures',
+      question: 'Before selling immovable property at public auction in Louisiana, the auctioneer must:',
+      options: [
+        'Obtain a current appraisal only',
+        'Produce and read a certificate of mortgages and encumbrances against the property',
+        'Only verify the property’s tax status',
+        'Read the property’s legal description but no other documents',
+      ],
+      correctAnswer: 1,
+      explanation: 'No immovable property may be sold by public auction without the production and reading by the auctioneer of a certificate of mortgages and encumbrances against the property, except in extrajudicial sales.'
+    },
+    {
+      id: 'la-q88',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, which of the following practices is specifically prohibited at auction sales?',
+      options: [
+        'Taking bids by telephone or electronic means',
+        'Allowing the owner to bid on his own property',
+        'Acting as a "capper", "booster", or "shill" or placing false bids',
+        'Posting the buyer’s premium in writing',
+      ],
+      correctAnswer: 2,
+      explanation: 'It is a violation to act as a "capper," "booster," or "shill" or to place or offer to place any false bids or pretend to buy property.'
+    },
+    {
+      id: 'la-q89',
+      topic: 'Auction Procedures',
+      question: 'At an auction governed by Louisiana law, how must the auctioneer handle the identification of items offered and sold?',
+      options: [
+        'Use only verbal descriptions without inventory numbers',
+        'Announce the identifying inventory number before offering the item and repeat the number and sale price immediately after it is sold',
+        'Only list numbers on written invoices',
+        'Display numbers visually but not announce them',
+      ],
+      correctAnswer: 1,
+      explanation: 'Prior to offering goods, the auctioneer must announce in a loud, clear voice the identifying inventory number of each article, and after it is sold, again announce its identifying number and the amount for which it sold.'
+    },
+    {
+      id: 'la-q90',
+      topic: 'Duties and Responsibilities',
+      question: 'Which of the following is required regarding representation of quality and price under Louisiana auction law?',
+      options: [
+        'Auctioneers may exaggerate quality as long as no written statements are involved',
+        'Fictitious price tags are allowed if disclosed in the catalog',
+        'The auctioneer must truly and correctly represent to the public the actual facts in respect to the quality and manufacture of items offered and must not use fictitious price tags',
+        'Price tags are optional and unregulated',
+      ],
+      correctAnswer: 2,
+      explanation: 'Licensees must accurately represent the quality and manufacture of items and may not use fictitious price tags at auction sales.'
+    },
+    {
+      id: 'la-q91',
+      topic: 'Licensing and Registration',
+      question: 'Which auctioneers fall outside the jurisdiction of the Louisiana Auctioneers Licensing Board?',
+      options: [
+        'Auctioneers conducting online-only auctions',
+        'Auctioneers exclusively employed by a Louisiana livestock market regulated by the Louisiana Board of Animal Health and registered with that board',
+        'Auctioneers licensed in another state',
+        'Auctioneers conducting estate auctions',
+      ],
+      correctAnswer: 1,
+      explanation: 'The Chapter does not apply to auctioneers engaged exclusively as employees or agents of a Louisiana livestock market regulated by the Louisiana Board of Animal Health and who are registered with that board.'
+    },
+    {
+      id: 'la-q92',
+      topic: 'Duties and Responsibilities',
+      question: 'When a licensed auctioneer advertises an auction in Louisiana, what information must be included?',
+      options: [
+        'Only the date and time of the auction',
+        'Only the name of the consignor',
+        'The auctioneer’s name, business addresses, license number, and any other reasonable information required by rule',
+        'The reserve prices of all items',
+      ],
+      correctAnswer: 2,
+      explanation: 'Any licensed auctioneer who advertises to hold or conduct an auction must include their name, business addresses, license number, and other reasonable information required by rule.'
+    },
+    {
+      id: 'la-q93',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, if a person authorized to sell at public auction fails to advertise a sale as required by law, that person:',
+      options: [
+        'Faces no consequences if the sale is successful',
+        'Is personally liable for all damages resulting from the failure and may be disciplined by the board',
+        'Is liable only for a small statutory fine',
+        'Is automatically exonerated by the buyer’s acceptance of the property',
+      ],
+      correctAnswer: 1,
+      explanation: 'Failure to advertise as required by law makes the person personally liable for all resulting damages and subjects them to discipline by the Louisiana Auctioneers Licensing Board.'
+    },
+    {
+      id: 'la-q94',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana auction law, proof that a public sale occurred when advertisements were required constitutes:',
+      options: [
+        'Conclusive evidence that all advertisements were properly made',
+        'Prima facie evidence that the legal advertisements were regularly made',
+        'No evidence regarding advertising compliance',
+        'Evidence that no advertising was needed',
+      ],
+      correctAnswer: 1,
+      explanation: 'When a public sale is proved and advertisements were required, the sale itself is prima facie evidence that the legal advertisements were regularly made.'
+    },
+    {
+      id: 'la-q95',
+      topic: 'Auction Procedures',
+      question: 'Which of the following best describes how property must be struck off at auction under Louisiana law?',
+      options: [
+        'To the bidder chosen by the consignor',
+        'To the highest bidder, except where the sale is limited',
+        'To the first bidder who meets the reserve price',
+        'To the bidder with the best credit history',
+      ],
+      correctAnswer: 1,
+      explanation: 'All property sold at auction must be struck off to the highest bidder, except for property that is limited according to law or contract.'
+    },
+    {
+      id: 'la-q96',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is a TRUE statement about license expiration for Louisiana auctioneers?',
+      options: [
+        'All auctioneer licenses are valid for two years from the date of issuance',
+        'Each original auctioneer license is valid until the last day of December following the date of issuance',
+        'Auctioneer licenses never expire as long as the auctioneer remains active',
+        'Auctioneer licenses automatically renew on the date of the licensee’s birthday',
+      ],
+      correctAnswer: 1,
+      explanation: 'Louisiana law provides that each original auctioneer license is valid until the last day of December next succeeding the date of issuance, after which it must be renewed.'
+    },
+    {
+      id: 'la-q97',
+      topic: 'Licensing and Registration',
+      question: 'An auctioneer forgets to submit a renewal application until after January 1 but within the same license year. What is the direct financial consequence under Louisiana law?',
+      options: [
+        'A mandatory reexamination fee',
+        'A delinquent renewal fee in addition to the normal renewal fee',
+        'Automatic revocation of the license with no way to reinstate',
+        'No consequence as long as renewal is within 90 days',
+      ],
+      correctAnswer: 1,
+      explanation: 'Submitting a renewal application after January 1 subjects the auctioneer to a delinquent renewal fee in addition to the normal renewal fee.'
+    },
+    {
+      id: 'la-q98',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer’s license has been lapsed for more than twelve continuous months. Which of the following is generally required for relicensure?',
+      options: [
+        'Payment of a small late fee only',
+        'Filing a new application and meeting the same requirements as a new applicant, unless the board waives this requirement',
+        'Automatic reinstatement by the board chair',
+        'Only proof of continuing education hours',
+      ],
+      correctAnswer: 1,
+      explanation: 'If a license lapses for twelve continuous months or more, the licensee is deemed unlicensed and must complete the same requirements as a new applicant, unless the board grants a waiver.'
+    },
+    {
+      id: 'la-q99',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is an example of conduct that could be considered "unworthy or incompetent" and subject a Louisiana auctioneer to discipline?',
+      options: [
+        'Holding fewer auctions than competitors',
+        'Repeatedly failing to account for or remit auction proceeds to consignors in a timely manner',
+        'Specializing only in charity auctions',
+        'Using social media for advertising',
+      ],
+      correctAnswer: 1,
+      explanation: 'Failing to properly account for and remit auction proceeds shows untrustworthiness and incompetence in handling client funds and can be grounds for disciplinary action.'
+    },
+    {
+      id: 'la-q100',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer advertises an auction but fails to include her license number in the advertisement. Which statement best describes the situation?',
+      options: [
+        'It is acceptable as long as the name appears',
+        'It is acceptable if the auction is online-only',
+        'It is a violation because the law requires the auctioneer’s name, business address, and license number in advertisements',
+        'It is only a violation if the auction involves real estate',
+      ],
+      correctAnswer: 2,
+      explanation: 'Louisiana law requires that licensed auctioneers who advertise an auction include their name, business address, license number, and any other reasonable information required by the board’s rules.'
+    },
+    {
+      id: 'la-q101',
+      topic: 'Licensing and Registration',
+      question: 'A buyer at a Louisiana auction claims they were never told about a 10% buyer’s premium. The auctioneer had it printed in the catalog but never posted it at registration or announced it. Which is most accurate?',
+      options: [
+        'The auctioneer complied fully by printing it in the catalog',
+        'The auctioneer should have posted the buyer’s premium at the registration desk and announced it at the opening of the auction',
+        'Buyer’s premiums never need to be disclosed in writing',
+        'Disclosure is only required if the buyer’s premium exceeds 15%',
+      ],
+      correctAnswer: 1,
+      explanation: 'Louisiana law requires that any buyer’s fee or buyer’s premium be disclosed in advertisements when practicable, posted in writing at the registration desk, and verbally explained at the opening of the auction.'
+    },
+    {
+      id: 'la-q102',
+      topic: 'Licensing and Registration',
+      question: 'An out-of-state auctioneer wants to obtain a Louisiana license based on reciprocity. In addition to meeting comparable standards, what special consent must the nonresident file?',
+      options: [
+        'A sworn oath never to conduct online auctions',
+        'An irrevocable consent appointing the Louisiana board as agent for service of process',
+        'A notarized letter from the governor of their home state',
+        'A bond waiving all rights to appeal disciplinary decisions',
+      ],
+      correctAnswer: 1,
+      explanation: 'Nonresident applicants must file a written irrevocable consent that any cause of action against them may be commenced by service of process upon the Louisiana Auctioneers Licensing Board as their agent.'
+    },
+    {
+      id: 'la-q103',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer conducts three auctions per year for a local dealer under a written agreement and is paid a commission on each sale. How is the auctioneer classified under Louisiana law?',
+      options: [
+        'As a hobbyist who does not need a license',
+        'As an auction house only',
+        'As a licensed auctioneer who is engaged in the business of selling property at auction',
+        'As a broker who is exempt from auction laws',
+      ],
+      correctAnswer: 2,
+      explanation: 'Regularly conducting auctions for another person or business for compensation fits the statutory definition of an auctioneer who must be licensed under Louisiana’s Auctioneers Licensing Law.'
+    },
+    {
+      id: 'la-q104',
+      topic: 'Auction Procedures',
+      question: 'A company runs weekly online-only auctions of tools and equipment and advertises, "Everything sold to the highest bidder!" Under Louisiana law, this company is best described as:',
+      options: [
+        'A sealed-bid business, excluded from regulation',
+        'An auction business that must be licensed',
+        'A charitable organization that is exempt',
+        'A retail store that is not an auction business',
+      ],
+      correctAnswer: 1,
+      explanation: 'Any entity that arranges or conducts two or more auctions within a twelve-month period and regularly represents that goods are sold at auction, including internet-based auctions, is an auction business and must be licensed.'
+    },
+    {
+      id: 'la-q105',
+      topic: 'Auction Procedures',
+      question: 'Which situation would most clearly require an apprentice auctioneer license in Louisiana?',
+      options: [
+        'A person occasionally volunteering to hand out bidder cards at charity auctions',
+        'A person employed by a licensed auctioneer to work auctions while studying to become an auctioneer',
+        'A consignor who drops items off for auction',
+        'A banker attending auctions to observe collateral sales',
+      ],
+      correctAnswer: 1,
+      explanation: 'An apprentice is any person employed by an auctioneer to deal or engage in auctions or who is studying to become an auctioneer, and must be licensed as such.'
+    },
+    {
+      id: 'la-q106',
+      topic: 'Auction Procedures',
+      question: 'A public school district in Louisiana is selling surplus desks at public auction using a school employee to call bids as part of their job. Which statement is most accurate?',
+      options: [
+        'The employee must hold an auctioneer license',
+        'This sale is exempt because it is conducted by a state political subdivision via a public employee in the scope of employment',
+        'The sale is illegal because only private auctioneers may sell government property',
+        'The sale is exempt only if held online',
+      ],
+      correctAnswer: 1,
+      explanation: 'Sales by or on behalf of the state and its political subdivisions, conducted by their employees in the course and scope of their employment, are excluded from the Auctioneers Licensing Law.'
+    },
+    {
+      id: 'la-q107',
+      topic: 'Auction Procedures',
+      question: 'A homeowner hires a licensed auctioneer to conduct a one-time estate auction of all household goods. Which licenses are required?',
+      options: [
+        'Only the homeowner needs a license',
+        'Both the homeowner and auctioneer need licenses',
+        'Only the auctioneer needs to be licensed',
+        'No licenses are required because it is a one-time sale',
+      ],
+      correctAnswer: 2,
+      explanation: 'The owner selling his own property in a one-time sale is exempt, but the person conducting the auction for another for compensation must be a licensed auctioneer.'
+    },
+    {
+      id: 'la-q108',
+      topic: 'Auction Procedures',
+      question: 'Which of the following would be considered an "online auction" under Louisiana law?',
+      options: [
+        'A private negotiation over email with a single buyer',
+        'A competitive sale conducted over an internet platform where multiple bidders place bids until the auction closes',
+        'A fixed-price sale on a website',
+        'A sealed-bid tender where offers are emailed and opened later',
+      ],
+      correctAnswer: 1,
+      explanation: 'The statute defines auction broadly to include online auctions where property is sold by competitive bid over the internet, culminating in acceptance of the highest or most favorable bid.'
+    },
+    {
+      id: 'la-q109',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer decides to hold a "real-time" online auction where bids are taken live through an internet platform with streaming audio. This auction is:',
+      options: [
+        'Expressly included in the statutory definition of an auction',
+        'Excluded because no bidders are physically present',
+        'Exempt as a telecommunications sale',
+        'Unregulated if only used goods are sold',
+      ],
+      correctAnswer: 0,
+      explanation: 'The law specifically includes real-time auctions and combinations of live and online formats in the definition of an auction.'
+    },
+    {
+      id: 'la-q110',
+      topic: 'Board and Governance',
+      question: 'Which statement best describes the Louisiana Auctioneers Licensing Board’s authority to employ staff?',
+      options: [
+        'The board may not employ anyone; all work is done by volunteers',
+        'The board may employ a director, investigators, clerical assistants, and other personnel as necessary to carry out its duties',
+        'Only the governor may hire staff for the board',
+        'The board may hire an auction school but no direct staff',
+      ],
+      correctAnswer: 1,
+      explanation: 'The board is authorized to employ a director and other necessary personnel, including investigators and clerical staff, to administer and enforce the law.'
+    },
+    {
+      id: 'la-q111',
+      topic: 'Licensing and Registration',
+      question: 'How are the operating expenses of the Louisiana Auctioneers Licensing Board paid?',
+      options: [
+        'From the state’s general tax revenue',
+        'From license and other fees collected and deposited into the Auctioneers Licensing Fund',
+        'From donations by auction schools only',
+        'From federal grants exclusively',
+      ],
+      correctAnswer: 1,
+      explanation: 'Fees and other funds collected by the board are deposited into the Auctioneers Licensing Fund and used to pay the necessary operating and administrative expenses of the board.'
+    },
+    {
+      id: 'la-q112',
+      topic: 'Auction Procedures',
+      question: 'A potential applicant wants to know what topics appear on the Louisiana auctioneer exam. What is the most accurate response?',
+      options: [
+        'The exam only tests chant and bid-calling techniques',
+        'The exam covers Louisiana auction law and sound business practices, as determined by the board',
+        'The exam is limited to federal antitrust law',
+        'The exam only tests basic math skills',
+      ],
+      correctAnswer: 1,
+      explanation: 'The board determines the scope and content of the written exam, which must include questions on Louisiana auction law and sound business practices.'
+    },
+    {
+      id: 'la-q113',
+      topic: 'Licensing and Registration',
+      question: 'When the board denies an auctioneer license application, the written notice must include:',
+      options: [
+        'Only the date of denial',
+        'The reason for denial and notice of the applicant’s right to a hearing',
+        'An apology from the board',
+        'A refund of all fees automatically',
+      ],
+      correctAnswer: 1,
+      explanation: 'The statute requires written notice of denial stating the reasons and advising the applicant of the right to request a hearing within the specified time.'
+    },
+    {
+      id: 'la-q114',
+      topic: 'Board and Governance',
+      question: 'How soon after a written complaint is filed does the Louisiana Auctioneers Licensing Board have authority to begin an investigation?',
+      options: [
+        'Only after a court order is obtained',
+        'Only after the accused consents in writing',
+        'Immediately, since the board may investigate on its own initiative or upon written complaint',
+        'Not until the next regular board meeting',
+      ],
+      correctAnswer: 2,
+      explanation: 'The board may act on its own initiative and must act upon the written complaint of any person; there is no waiting period imposed before beginning an investigation.'
+    },
+    {
+      id: 'la-q115',
+      topic: 'Auction Procedures',
+      question: 'A licensed auctioneer wants to advertise under a business name different from that on the license. Under Louisiana law, the auctioneer:',
+      options: [
+        'May use any name as long as the license number is shown',
+        'Must operate only under the name shown on the license, unless properly changed with the board',
+        'May use a nickname as long as the city is listed',
+        'May alternate names from sale to sale without restriction',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auctioneers and auction businesses must operate only under the name appearing on the license issued by the board unless a change is properly processed.'
+    },
+    {
+      id: 'la-q116',
+      topic: 'Duties and Responsibilities',
+      question: 'A Louisiana auction business changes ownership but keeps the same business name and location. What must happen to stay compliant?',
+      options: [
+        'Nothing; the existing license automatically transfers',
+        'The new owner must notify the board and apply for a new license or approval consistent with statutory requirements',
+        'Only a new bond is required',
+        'Only the auctioneer must re-test',
+      ],
+      correctAnswer: 1,
+      explanation: 'Licensure is tied to the qualifying party and ownership structure; a change in ownership generally requires board notification and compliance with licensing requirements.'
+    },
+    {
+      id: 'la-q117',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following best describes the purpose of reciprocity provisions in Louisiana’s auctioneer law?',
+      options: [
+        'To allow any out-of-state auctioneer to work in Louisiana without regulation',
+        'To allow auctioneers licensed in jurisdictions with comparable requirements to obtain a Louisiana license without further examination, subject to board approval',
+        'To exempt nonresident auctioneers from bonding',
+        'To favor Louisiana auctioneers when they work in other states',
+      ],
+      correctAnswer: 1,
+      explanation: 'Reciprocity allows auctioneers licensed in states with comparable licensing standards to obtain a Louisiana license without reexamination if the board finds that they meet Louisiana’s requirements.'
+    },
+    {
+      id: 'la-q118',
+      topic: 'Licensing and Registration',
+      question: 'A nonresident Louisiana-licensed auctioneer is sued in a Louisiana court over an auction held in Louisiana. How can the plaintiff effectively serve process under the required consent form?',
+      options: [
+        'Only by serving the auctioneer personally in their home state',
+        'By serving the Louisiana Auctioneers Licensing Board as the auctioneer’s agent for service of process',
+        'By mailing a letter to the auctioneer’s last known address only',
+        'By asking the governor to notify the auctioneer',
+      ],
+      correctAnswer: 1,
+      explanation: 'Nonresident licensees must file an irrevocable consent appointing the board as agent for service of process for causes of action arising in Louisiana.'
+    },
+    {
+      id: 'la-q119',
+      topic: 'Duties and Responsibilities',
+      question: 'A claim is made against an auctioneer’s $10,000 surety bond. After a proper claim is paid out in full, what must occur for the auctioneer to continue lawfully practicing?',
+      options: [
+        'Nothing; the bond automatically renews',
+        'The auctioneer must replenish the bond or provide a new bond or cash deposit in the required amount',
+        'The auctioneer can continue practicing without a bond for 90 days',
+        'Only the surety company needs to notify the board',
+      ],
+      correctAnswer: 1,
+      explanation: 'The bond secures compliance and payment of claims; if a bond is exhausted by a claim, the licensee must provide a new bond or deposit to continue lawfully practicing.'
+    },
+    {
+      id: 'la-q120',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer is convicted of a felony unrelated to auctioneering. Which is most accurate regarding the license?',
+      options: [
+        'There is no impact since the felony is unrelated to auctions',
+        'The conviction is a specific ground for disciplinary action, including potential suspension or revocation',
+        'The license is automatically renewed for life',
+        'Only a warning letter may be issued',
+      ],
+      correctAnswer: 1,
+      explanation: 'Conviction of a felony under federal or state law, whether or not related to auctioneering, is a listed cause for nonissuance, suspension, revocation, or restriction of a license.'
+    },
+    {
+      id: 'la-q121',
+      topic: 'Auction Procedures',
+      question: 'A licensee knowingly misrepresents the manufacturer and quality of new merchandise at auction. This conduct is best described as:',
+      options: [
+        'Permissible sales puffery',
+        'Required to boost bids',
+        'A violation for failing to truly and correctly represent the actual facts about the merchandise',
+        'Allowed if the auction is advertised as "as-is"',
+      ],
+      correctAnswer: 2,
+      explanation: 'Louisiana law requires auctioneers to accurately represent the quality and manufacture of items and prohibits false or fictitious representations, including fictitious price tags.'
+    },
+    {
+      id: 'la-q122',
+      topic: 'Auction Procedures',
+      question: 'During an auction, a friend of the auctioneer bids without the intent to buy, solely to drive up the price. Under Louisiana law, this friend is acting as:',
+      options: [
+        'A legitimate competitive bidder',
+        'A "capper" or "shill," which is prohibited',
+        'An agent for the consignor, which is always allowed',
+        'A ringman',
+      ],
+      correctAnswer: 1,
+      explanation: 'Acting as a "capper," "booster," or "shill" by placing fake bids to inflate prices is prohibited conduct under Louisiana auction law.'
+    },
+    {
+      id: 'la-q123',
+      topic: 'Auction Procedures',
+      question: 'A licensed auctioneer announces that the owner reserves the right to bid at the sale. The owner then bids at the auction and buys back an item. Under Louisiana law this is:',
+      options: [
+        'Always illegal shill bidding',
+        'Permissible because the owner’s right to bid was disclosed',
+        'Legal only if done online',
+        'Allowed only if the owner uses a fictitious name',
+      ],
+      correctAnswer: 1,
+      explanation: 'An owner may bid at their own auction if the practice and any reserve are disclosed; the prohibition is on undisclosed shill bidding and false bids.'
+    },
+    {
+      id: 'la-q124',
+      topic: 'Legal and Contracts',
+      question: 'A buyer claims the auctioneer changed the terms after the auction closed. Why are clear pre-auction announcements important under Louisiana law?',
+      options: [
+        'They replace the need for written contracts',
+        'The opening announcements and posted terms help establish the agreed conditions of the sale and can be used as evidence if a dispute arises',
+        'They are optional and have no legal effect',
+        'They only matter if real estate is being sold',
+      ],
+      correctAnswer: 1,
+      explanation: 'Announcements and posted terms at the beginning of the auction define the conditions of sale; they are important for transparency and for resolving disputes about what was agreed.'
+    },
+    {
+      id: 'la-q125',
+      topic: 'Duties and Responsibilities',
+      question: 'A Louisiana auctioneer fails to keep auction proceeds separate from personal funds and uses them to pay personal bills, though all consignors are eventually paid. This conduct is:',
+      options: [
+        'Acceptable if everyone is paid',
+        'Prohibited commingling of funds, which can be grounds for discipline',
+        'Allowed if the auctioneer keeps receipts',
+        'Required by tax law',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auction funds must be deposited into identifiable accounts separate from personal funds (with limited exceptions). Using those funds for personal expenses is commingling and a serious violation.'
+    },
+    {
+      id: 'la-q126',
+      topic: 'Legal and Contracts',
+      question: 'A consignor lives out of state and asks that auction proceeds be held for 90 days after the sale. How does this interact with Louisiana’s deadlines for disbursement of funds?',
+      options: [
+        'The auctioneer must still comply with the statutory maximum timelines unless there is a written agreement that lawfully modifies timing and does not violate other requirements',
+        'The auctioneer must always hold funds exactly 90 days',
+        'The law does not address timing',
+        'The consignor’s request cancels all statutory requirements',
+      ],
+      correctAnswer: 0,
+      explanation: 'Louisiana law sets outside limits (30 days from receipt of funds or 60 days from date of sale, whichever is less). Parties may agree in writing to reasonable variations, but the auctioneer should remain within legal bounds and clearly document any special arrangements.'
+    },
+    {
+      id: 'la-q127',
+      topic: 'Auction Procedures',
+      question: 'On a judicial sale of immovable property in Louisiana, the court allows a 6% commission for the auctioneer. Is this permissible?',
+      options: [
+        'No, because the law sets a mandatory 7%',
+        'Yes, because the law sets a maximum and the commission may be less by agreement or court order',
+        'No, because only flat fees are allowed',
+        'Yes, but only if the buyer consents',
+      ],
+      correctAnswer: 1,
+      explanation: 'The statute sets a maximum commission (not more than 7% on judicial sales of immovable property). A lower percentage such as 6% is allowed.'
+    },
+    {
+      id: 'la-q128',
+      topic: 'Auction Procedures',
+      question: 'An auctioneer sells succession property in which minors have an interest. The minors’ share of the sale totals $40,000. What is the maximum commission on the minors’ proportionate share under Louisiana law?',
+      options: [
+        '$800',
+        '$1,200',
+        '$1,600',
+        '$2,000',
+      ],
+      correctAnswer: 2,
+      explanation: 'The maximum commission is 4% on the first $10,000 and 2% on the excess. On $40,000: 4% of $10,000 = $400; 2% of remaining $30,000 = $600; total on minors’ share = $1,000. (Note: Some exam versions may use different sample amounts; always apply 4%/2% structure correctly.)'
+    },
+    {
+      id: 'la-q129',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer conducts a judicial sale of movable property totaling $50,000 in hammer price. What is the maximum allowable commission under the statute for this judicial sale of movables?',
+      options: [
+        '$2,500',
+        '$3,500',
+        '$5,000',
+        '$7,000',
+      ],
+      correctAnswer: 2,
+      explanation: 'For judicial sales of movable property, the maximum commission is 10%. Ten percent of $50,000 is $5,000.'
+    },
+    {
+      id: 'la-q130',
+      topic: 'Auction Procedures',
+      question: 'An auction catalog states, "All sales are subject to a 12% buyer’s premium." What additional steps regarding the buyer’s premium are required at the auction site under Louisiana law?',
+      options: [
+        'None; catalog disclosure alone is sufficient',
+        'The premium must be posted in writing at the registration desk and verbally explained at the opening of the auction',
+        'Only a verbal announcement is required',
+        'Only a sign at the exit is required',
+      ],
+      correctAnswer: 1,
+      explanation: 'The buyer’s fee must be disclosed in advertisements when practicable, posted in writing at the registration desk, and verbally announced and explained at the opening of the auction.'
+    },
+    {
+      id: 'la-q131',
+      topic: 'Auction Procedures',
+      question: 'A bidder disputes the existence of a buyer’s premium, but the auctioneer has a video recording of the opening announcement clearly explaining it. This recording is most useful because:',
+      options: [
+        'It is required by statute',
+        'It can serve as strong evidence that the buyer was given proper notice of the premium',
+        'It replaces the need for written terms',
+        'It excuses the auctioneer from posting the premium at registration',
+      ],
+      correctAnswer: 1,
+      explanation: 'While not specifically required, audio or video recordings of announcements can help prove that required disclosures, such as buyer’s premiums, were made to bidders.'
+    },
+    {
+      id: 'la-q132',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer uses print ads that list only a cell phone number and omit the license number. Under the advertising requirements, this is:',
+      options: [
+        'Acceptable for small sales only',
+        'A violation because the auctioneer’s name, business address, and license number must appear',
+        'Required for privacy',
+        'Allowed if the auctioneer posts a sign at the door instead',
+      ],
+      correctAnswer: 1,
+      explanation: 'Print advertisements must include the licensed auctioneer’s name, business address, license number, and any other information reasonably required by board rule.'
+    },
+    {
+      id: 'la-q133',
+      topic: 'Licensing and Registration',
+      question: 'A licensee is found to have violated the Auctioneers Licensing Law in ten separate sales. What is the maximum fine the board could impose, assuming $500 per violation?',
+      options: [
+        '$500',
+        '$1,000',
+        '$2,500',
+        '$5,000',
+      ],
+      correctAnswer: 3,
+      explanation: 'Each sale is a separate offense. At a maximum of $500 per violation, ten violations could total up to $5,000 in fines.'
+    },
+    {
+      id: 'la-q134',
+      topic: 'Licensing and Registration',
+      question: 'In addition to fines, violation of the Auctioneers Licensing Law can be punished criminally by:',
+      options: [
+        'Imprisonment for not more than six months',
+        'Imprisonment for not more than two years',
+        'No imprisonment is allowed',
+        'Imprisonment only if the amount in dispute exceeds $10,000',
+      ],
+      correctAnswer: 0,
+      explanation: 'The law provides for a criminal penalty of a fine not more than $500 or imprisonment for not more than six months, or both, for each violation.'
+    },
+    {
+      id: 'la-q135',
+      topic: 'Board and Governance',
+      question: 'A licensee believes a board rule is unfair and decides to ignore it because it is "only a rule, not a law." Under Louisiana law, board rules properly adopted under the Administrative Procedure Act:',
+      options: [
+        'Are optional guidelines',
+        'Have the force and effect of law for licensees',
+        'Apply only to new licensees',
+        'Are enforceable only by civil courts, not the board',
+      ],
+      correctAnswer: 1,
+      explanation: 'Rules and regulations adopted under proper authority and procedure are binding on licensees and carry the force and effect of law for enforcement purposes.'
+    },
+    {
+      id: 'la-q136',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer’s license is suspended for six months. During that time, the auctioneer:',
+      options: [
+        'May conduct auctions as long as a partner is present',
+        'May not act as an auctioneer or engage in activities that require an auctioneer license in Louisiana',
+        'May only conduct online auctions',
+        'May only sell personal property',
+      ],
+      correctAnswer: 1,
+      explanation: 'A suspended license is inactive; the licensee may not perform acts that require licensure until the suspension is lifted or the license is reinstated.'
+    },
+    {
+      id: 'la-q137',
+      topic: 'Licensing and Registration',
+      question: 'An auctioneer facing possible discipline appears before the board without an attorney. Which statement is most accurate regarding representation?',
+      options: [
+        'The licensee is never allowed an attorney at hearings',
+        'The licensee may appear with or without counsel and present evidence and argument',
+        'Only the board’s attorney may speak',
+        'The licensee must use an attorney provided by the board',
+      ],
+      correctAnswer: 1,
+      explanation: 'Disciplinary hearings must afford due process, and the licensee has the right to appear with or without legal counsel to present evidence and argument.'
+    },
+    {
+      id: 'la-q138',
+      topic: 'Board and Governance',
+      question: 'A Louisiana auctioneer wants to challenge a board decision in court. What is the general avenue for review?',
+      options: [
+        'There is no right to review',
+        'Judicial review is available under the Administrative Procedure Act in a court of competent jurisdiction',
+        'Only the governor may overturn board decisions',
+        'Review is limited to criminal courts',
+      ],
+      correctAnswer: 1,
+      explanation: 'Board decisions are typically subject to judicial review under the Louisiana Administrative Procedure Act, which provides procedures for appealing agency actions.'
+    },
+    {
+      id: 'la-q139',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is a prudent best practice, consistent with Louisiana law, when conducting a multi-day auction?',
+      options: [
+        'Commingling proceeds from all days with personal funds to simplify accounting',
+        'Keeping itemized records of each day’s sales, buyers, and proceeds, and reconciling all deposits with bank statements',
+        'Allowing staff to take cash home overnight',
+        'Relying only on memory for final settlement',
+      ],
+      correctAnswer: 1,
+      explanation: 'Accurate recordkeeping and reconciliation of auction proceeds with bank deposits supports compliance with escrow, accounting, and reporting duties under Louisiana law and protects both consignors and licensees.'
+    },
+    {
+      id: 'la-q140',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer sells an item to a bidder who later refuses to pay. The terms of sale clearly state that the item may be resold and the defaulting bidder held liable for damages. Under these terms:',
+      options: [
+        'The auctioneer must cancel the sale with no recourse',
+        'The item may be resold and the defaulting bidder can be held responsible for any loss and costs under the contract terms',
+        'The consignor must always absorb the loss',
+        'The buyer may not be pursued once they leave the premises',
+      ],
+      correctAnswer: 1,
+      explanation: 'Contract terms announced and posted at the auction can provide remedies, including resale and liability of the defaulting bidder for losses and costs, consistent with Louisiana contract principles.'
+    },
+    {
+      id: 'la-q141',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer is also a licensed real estate broker. When auctioning real property, the auctioneer must:',
+      options: [
+        'Ignore auction law and rely only on real estate license law',
+        'Comply with both the Auctioneers Licensing Law and applicable real estate licensing laws',
+        'Follow only the more lenient of the two laws',
+        'Hold separate, unrelated sales for land and improvements',
+      ],
+      correctAnswer: 1,
+      explanation: 'When a licensee holds multiple professional licenses, they must comply with all applicable statutes and rules, including auction and real estate regulations, when duties overlap.'
+    },
+    {
+      id: 'la-q142',
+      topic: 'Auction Procedures',
+      question: 'Why does Louisiana require auctioneers and auction businesses to be bonded or post a cash deposit?',
+      options: [
+        'To guarantee advertising expenses are paid',
+        'To create a fund to support auction schools',
+        'To provide financial protection for the public and consignors against losses caused by violations of the law or breaches of auction contracts',
+        'To increase state tax revenue',
+      ],
+      correctAnswer: 2,
+      explanation: 'The bonding requirement is intended to indemnify persons who suffer loss or damage due to a licensee’s violations of the Chapter or failure to perform auction contracts.'
+    },
+    {
+      id: 'la-q143',
+      topic: 'Legal and Contracts',
+      question: 'A Louisiana auctioneer agrees in writing to remit settlement to a consignor within 15 days of the auction date. The statute allows up to 30 days from receipt of funds, or 60 days from the sale date, whichever is less. What timeline controls?',
+      options: [
+        'The statutory maximum always controls',
+        'The written contract’s shorter 15-day period controls, because it is more protective of the consignor',
+        'Either may be used at the auctioneer’s discretion',
+        'The longest period automatically replaces any shorter contract term',
+      ],
+      correctAnswer: 1,
+      explanation: 'Parties may agree to stricter time limits than the statute’s outer limits. The more protective contract term (15 days) governs, as long as it does not conflict with law.'
+    },
+    {
+      id: 'la-q144',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auction house conducts business solely through an internet-based platform and does not employ a caller to conduct live chant. Which is true regarding the requirement to employ a licensed auctioneer?',
+      options: [
+        'It must employ a licensed auctioneer caller for all sales',
+        'It is not required to employ a licensed auctioneer to call the auction, but still must comply with other licensing provisions if it is an auction business',
+        'It is fully exempt from all auctioneer laws',
+        'It must only hire a licensed real estate broker',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auction houses that conduct business solely through internet-based platforms are not required to employ a licensed auctioneer to call the auction, though they may still need an auction business license and must follow other rules.'
+    },
+    {
+      id: 'la-q145',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer repeatedly fails to provide owners with a full accounting of auctions, even when proceeds are paid. This conduct:',
+      options: [
+        'Is harmless if checks clear',
+        'May be treated as unprofessional conduct and grounds for discipline because the law requires both payment or return of goods and an accounting',
+        'Is allowed if the owner does not request statements',
+        'Is acceptable for cash-only sales',
+      ],
+      correctAnswer: 1,
+      explanation: 'The statute requires the auctioneer to either pay proceeds or return unsold property and provide a full account of the auction; failure to account is a violation even if proceeds are ultimately paid.'
+    },
+    {
+      id: 'la-q146',
+      topic: 'Auction Procedures',
+      question: 'In Louisiana, which of the following would be the BEST example of an "extended auction" as contemplated in the law?',
+      options: [
+        'A sealed-bid sale with one deadline',
+        'An online auction where the closing time for a lot automatically extends if bids are placed in the final minutes',
+        'A one-day live sale',
+        'A private treaty sale',
+      ],
+      correctAnswer: 1,
+      explanation: 'An extended auction is a type of online auction where the closing time may be extended to allow additional bids, which fits within the statutory language describing extended auctions.'
+    },
+    {
+      id: 'la-q147',
+      topic: 'Auction Procedures',
+      question: 'A bidder at a Louisiana auction claims they never received a copy of the auction terms. The auctioneer had terms posted, announced them at the start, and printed them on bid cards. This approach is:',
+      options: [
+        'Unnecessary overkill',
+        'Consistent with good practice and supports the auctioneer’s ability to prove the bidder had notice of the terms',
+        'Prohibited duplication',
+        'Only required for online auctions',
+      ],
+      correctAnswer: 1,
+      explanation: 'Multiple forms of notice (posted, printed, verbal) help ensure bidders are informed and provide strong evidence of disclosure in case of disputes.'
+    },
+    {
+      id: 'la-q148',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer is unsure whether a planned sale is exempt from the Auctioneers Licensing Law. The safest first step is to:',
+      options: [
+        'Proceed and assume the exemption applies',
+        'Cancel the sale permanently',
+        'Consult the statutory list of exclusions and, when in doubt, seek guidance or legal counsel or contact the board',
+        'Ask the consignor to decide',
+      ],
+      correctAnswer: 2,
+      explanation: 'Because exemptions are specific, a prudent auctioneer reviews the statute and, when uncertain, seeks clarification or legal advice rather than assuming an exemption applies.'
+    },
+    {
+      id: 'la-q149',
+      topic: 'Board and Governance',
+      question: 'Why does Louisiana law require the board to meet at least bimonthly (every two months) rather than only once per year?',
+      options: [
+        'To coordinate social events',
+        'To ensure timely handling of licensing, complaints, and rulemaking responsibilities',
+        'To increase travel reimbursements',
+        'To satisfy federal regulations',
+      ],
+      correctAnswer: 1,
+      explanation: 'Regular meetings allow the board to promptly act on applications, complaints, and policy matters, supporting its role in protecting the public and regulating the profession.'
+    },
+    {
+      id: 'la-q150',
+      topic: 'Auction Procedures',
+      question: 'Which scenario most clearly demonstrates the purpose of the declaration of public policy in the Louisiana Auctioneers Licensing Law?',
+      options: [
+        'Protecting only the income of auctioneers',
+        'Protecting the safety, health, and property of citizens from harm caused by unqualified or unscrupulous auctioneers and auction businesses',
+        'Promoting sales tax collection only',
+        'Eliminating all competition between auctioneers',
+      ],
+      correctAnswer: 1,
+      explanation: 'The declaration of purpose states the law exists to protect public safety, health, and property by requiring qualifying criteria in a previously unregulated field.'
+    },
+    {
+      id: 'la-q151',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer wants to train a new employee to become an apprentice. Which is the most compliant way to proceed?',
+      options: [
+        'Let the employee call auctions for a year without any license',
+        'Have the employee immediately apply for an apprentice license and work under the direct or indirect employment and supervision of a licensed auctioneer',
+        'Ask the employee to work as a volunteer to avoid licensing',
+        'Send the employee to another state to practice without a license',
+      ],
+      correctAnswer: 1,
+      explanation: 'An apprentice must be licensed and employed by, or studying under, a licensed auctioneer to lawfully engage in auction activities while preparing to become an auctioneer.'
+    },
+    {
+      id: 'la-q152',
+      topic: 'Licensing and Registration',
+      question: 'If a Louisiana auctioneer’s license is revoked, which of the following is typically TRUE about obtaining a new license?',
+      options: [
+        'The auctioneer can immediately reapply with no conditions',
+        'The auctioneer may be barred for a period of time and must satisfy conditions set by the board before being considered for relicensure',
+        'The auctioneer is permanently banned by statute',
+        'The auctioneer may simply change their name and apply again',
+      ],
+      correctAnswer: 1,
+      explanation: 'Revocation generally carries serious consequences; the board may impose conditions or waiting periods for any future application, and attempts to circumvent revocation by changing identity can themselves be violations.'
+    },
+    {
+      id: 'la-q153',
+      topic: 'Ethics and Conduct',
+      question: 'Which of the following best describes the standard of conduct expected of a Louisiana auctioneer under the Auctioneers Licensing Law?',
+      options: [
+        'Operate primarily to maximize personal profit, regardless of customer impact',
+        'Conduct business in a trustworthy, competent, and honest manner that protects the public',
+        'Follow only federal law and ignore state requirements',
+        'Conduct auctions only for large corporate clients',
+      ],
+      correctAnswer: 1,
+      explanation: 'The statutory purpose and disciplinary provisions focus on protecting public safety, health, and property by requiring that licensees act in a trustworthy, competent, and honest manner consistent with law and contracts.'
+    },
+    {
+      id: 'la-q154',
+      topic: 'Licensing and Registration',
+      question: 'Which statement about an apprentice auctioneer in Louisiana is TRUE?',
+      options: [
+        'Apprentices may independently conduct auctions without supervision',
+        'Apprentices must be licensed and work under the employment or supervision of a licensed auctioneer',
+        'Apprentices do not need to be listed on auction advertising',
+        'Apprentices are exempt from all bonding requirements',
+      ],
+      correctAnswer: 1,
+      explanation: 'An apprentice is a person employed by or studying under an auctioneer to engage in auction activities, and must be properly licensed and supervised by a Louisiana-licensed auctioneer.'
+    },
+    {
+      id: 'la-q155',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auction business has one qualifying auctioneer listed on its license. Which of the following will most likely require notice and board approval?',
+      options: [
+        'Changing the color of the auction banner',
+        'Switching from paper to electronic bid cards',
+        'Changing the qualifying auctioneer due to resignation',
+        'Adding coffee service at auctions',
+      ],
+      correctAnswer: 2,
+      explanation: 'The qualifying auctioneer is the licensed individual responsible to the board for the business’s compliance. A change in qualifying auctioneer generally requires notice to and approval by the board.'
+    },
+    {
+      id: 'la-q156',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is a likely consequence if a Louisiana auctioneer is found guilty of perjury in testimony before the board?',
+      options: [
+        'Automatic promotion to board member',
+        'No impact, as perjury is unrelated to licensure',
+        'Disciplinary action, including possible suspension or revocation of the license',
+        'Only a private reprimand with no record',
+      ],
+      correctAnswer: 2,
+      explanation: 'Deceit, perjury, and false testimony before the board are specifically listed grounds for nonissuance, suspension, revocation, or restriction of a license.'
+    },
+    {
+      id: 'la-q157',
+      topic: 'Financial and Records',
+      question: 'A Louisiana auctioneer wishes to close a bank account used exclusively for auction escrow funds and move to a different bank. To remain compliant, the auctioneer should:',
+      options: [
+        'Transfer funds into a personal account temporarily',
+        'Immediately withdraw all funds in cash and hold them in a safe',
+        'Open a new identifiable auction account at another bank and transfer all escrow funds directly between accounts',
+        'Use the consignor’s personal bank account for settlement',
+      ],
+      correctAnswer: 2,
+      explanation: 'Auction funds must be maintained in identifiable bank accounts in the state where the auctioneer is situated, separate from personal funds. Moving funds directly between escrow accounts maintains that segregation.'
+    },
+    {
+      id: 'la-q158',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, which of the following is the BEST example of “good moral character” in the context of auctioneer licensure?',
+      options: [
+        'A history of fraud convictions but recent good sales numbers',
+        'A pattern of honoring contracts, accurately accounting for funds, and avoiding criminal conduct',
+        'Having the loudest chant',
+        'Being the highest-grossing seller in the state',
+      ],
+      correctAnswer: 1,
+      explanation: 'Good moral character for licensure focuses on honesty, reliability, and law-abiding behavior, especially in handling other people’s property and funds.'
+    },
+    {
+      id: 'la-q159',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer’s license renewal application is mailed on November 15 and received November 20. How is timeliness determined under typical board practice?',
+      options: [
+        'By the date printed on the license',
+        'By the date the postmark or submission shows the application was sent',
+        'By the date the auctioneer mentally decided to renew',
+        'By the next board meeting date',
+      ],
+      correctAnswer: 1,
+      explanation: 'While procedures may specify details, timeliness is commonly based on the date of submission or postmark relative to statutory deadlines such as November 1 or January 1.'
+    },
+    {
+      id: 'la-q160',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auction business employs several ringmen who help spot bids. Which statement is MOST accurate about licensing requirements for ringmen?',
+      options: [
+        'All ringmen must be fully licensed auctioneers',
+        'Ringmen never need any license under any circumstances',
+        'Ringmen do not have to be auctioneers so long as a licensed auctioneer is in charge and responsible for the sale',
+        'Ringmen must hold a real estate license',
+      ],
+      correctAnswer: 2,
+      explanation: 'Louisiana law focuses on licensing the auctioneer and auction business. Ringmen may assist, but a licensed auctioneer must conduct and be responsible for the sale.'
+    },
+    {
+      id: 'la-q161',
+      topic: 'Legal and Contracts',
+      question: 'A Louisiana auctioneer sells property at auction before a written contract is signed with the owner, and the minimum price for the goods was more than $500. Which is TRUE?',
+      options: [
+        'This is specifically listed as a violation that may lead to discipline',
+        'It is allowed if the auctioneer later writes up the contract',
+        'It is permissible for personal property only',
+        'It is allowed if the buyer paid cash',
+      ],
+      correctAnswer: 0,
+      explanation: 'Selling goods at auction before entering a written contract with the owner when the minimum price exceeds a statutory threshold is listed as a cause for disciplinary action.'
+    },
+    {
+      id: 'la-q162',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer fails to display the required written notice that bidding on behalf of an absentee bidder may occur for the protection of the consignor. However, the auctioneer verbally announces this practice at the start. This is:',
+      options: [
+        'Fully compliant because only verbal notice is required',
+        'A violation because both prior public notice and written notice posted on the premises are required',
+        'Acceptable if the sale is online-only',
+        'Allowed if the buyer’s premium is low',
+      ],
+      correctAnswer: 1,
+      explanation: 'Louisiana law requires both prior public notice (catalog, advertisement, or opening announcement) and written notice displayed on the premises when the auctioneer will bid on behalf of an absentee bidder for consignor protection.'
+    },
+    {
+      id: 'la-q163',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is a likely reason the Louisiana Auctioneers Licensing Board requires detailed applications, references, and background information?',
+      options: [
+        'To increase paperwork for applicants',
+        'To ensure all applicants have prior disciplinary history',
+        'To verify that applicants meet statutory qualifications and to screen out unqualified or dishonest individuals',
+        'To build a mailing list for advertising',
+      ],
+      correctAnswer: 2,
+      explanation: 'Application requirements help the board determine whether an applicant meets statutory standards for licensure, including character and qualifications, which protects the public.'
+    },
+    {
+      id: 'la-q164',
+      topic: 'Legal and Contracts',
+      question: 'A Louisiana auctioneer is asked to pay a consignor in cash from the auctioneer’s personal funds before checks from buyers have cleared. The safest response consistent with law and best practice is to:',
+      options: [
+        'Agree immediately to build goodwill',
+        'Refuse and explain that settlement occurs after funds clear and in accordance with statutory timelines and written contract terms',
+        'Give cash but skip the accounting',
+        'Hold the goods indefinitely',
+      ],
+      correctAnswer: 1,
+      explanation: 'Settlement should be made from cleared auction funds held in proper accounts and on terms consistent with statute and contract, not from commingled personal funds.'
+    },
+    {
+      id: 'la-q165',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auction business primarily conducts sealed-bid sales with no live competitive bidding. How does the Auctioneers Licensing Law treat sealed-bid sales?',
+      options: [
+        'They are specifically excluded from the Chapter’s coverage',
+        'They are treated exactly like live auctions',
+        'They require an additional real estate license',
+        'They are prohibited in Louisiana',
+      ],
+      correctAnswer: 0,
+      explanation: 'Sales conducted by sealed bid are among the listed exclusions from the Auctioneers Licensing Law.'
+    },
+    {
+      id: 'la-q166',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer sells a parcel of immovable property at public auction without obtaining or reading a mortgage and encumbrance certificate. Which is MOST accurate?',
+      options: [
+        'This is a violation of the requirement to produce and read such a certificate before non-extrajudicial public sales of immovables',
+        'The requirement applies only to movable property',
+        'The requirement applies only to succession property',
+        'The requirement applies only to online auctions',
+      ],
+      correctAnswer: 0,
+      explanation: 'Except in certain extrajudicial sales, immovable property may not be sold at public auction without production and reading of a certificate of mortgages and encumbrances.'
+    },
+    {
+      id: 'la-q167',
+      topic: 'Auction Procedures',
+      question: 'At a Louisiana auction, the auctioneer fails to announce the inventory number for a lot before offering it, though the catalog is accurate. Why is this problematic?',
+      options: [
+        'Inventory numbers are optional',
+        'The law requires the auctioneer to announce the identifying inventory number before offering an item and again after sale along with the sale price',
+        'Numbers must only be printed, not spoken',
+        'The requirement applies only to real estate',
+      ],
+      correctAnswer: 1,
+      explanation: 'The statute requires clear identification of items by inventory number before offering them and after sale to avoid confusion and protect both buyers and sellers.'
+    },
+    {
+      id: 'la-q168',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer uses fictitious retail price tags to make goods seem heavily discounted at auction. This practice is:',
+      options: [
+        'Permissible sales puffing',
+        'Required to encourage bidding',
+        'Prohibited as misrepresentation, since fictitious pricing is specifically barred',
+        'Allowed if the goods are used',
+      ],
+      correctAnswer: 2,
+      explanation: 'The law prohibits using fictitious price tags and requires accurate representation of the quality and price history of items offered at auction.'
+    },
+    {
+      id: 'la-q169',
+      topic: 'Board and Governance',
+      question: 'In Louisiana, which of the following best reflects the board’s approach to violations through the use of individual "offenses"?',
+      options: [
+        'Only the first violation counts; additional violations are ignored',
+        'All violations in a day are merged into a single offense',
+        'Each sale or act in violation can be treated as a separate offense for disciplinary and criminal purposes',
+        'Only violations over $10,000 are counted',
+      ],
+      correctAnswer: 2,
+      explanation: 'The statute states that each individual sale or act in violation is considered a separate offense, which can significantly increase potential penalties.'
+    },
+    {
+      id: 'la-q170',
+      topic: 'Auction Procedures',
+      question: 'Which scenario best illustrates the board’s power to issue a cease and desist order?',
+      options: [
+        'A licensed auctioneer holding an extra auction without approval',
+        'An unlicensed person regularly conducting auctions for the public in Louisiana',
+        'A ringman spotting bids for a licensed auctioneer',
+        'A consignor attending the auction',
+      ],
+      correctAnswer: 1,
+      explanation: 'The board may issue cease and desist orders to persons engaging in activities that require licensure or otherwise violate the Chapter, such as unlicensed auctioneering.'
+    },
+    {
+      id: 'la-q171',
+      topic: 'Licensing and Registration',
+      question: 'A person receives a cease and desist order from the Louisiana Auctioneers Licensing Board and continues auction activities for 20 more days. Which is TRUE?',
+      options: [
+        'The board has no further remedy',
+        'The board may seek an injunction in court to stop the unlawful activity',
+        'The board must wait for a complaint from the public',
+        'Only criminal prosecutors can act',
+      ],
+      correctAnswer: 1,
+      explanation: 'If the person does not stop within the time specified (ten days), the board may seek a writ of injunction from a court of competent jurisdiction.'
+    },
+    {
+      id: 'la-q172',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer wants to be sure their school is recognized. What is required for a school of auctioneering to be used as qualifying education for licensure?',
+      options: [
+        'It must be licensed or approved by the Louisiana Auctioneers Licensing Board',
+        'It must be located outside Louisiana',
+        'It must be owned by a board member',
+        'It must be tuition-free',
+      ],
+      correctAnswer: 0,
+      explanation: 'Qualifying auction education must come from a school of auctioneering licensed or approved by the board to ensure curriculum and standards comply with state requirements.'
+    },
+    {
+      id: 'la-q173',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auction business licensee wants to start conducting real estate auctions. Which of the following is TRUE?',
+      options: [
+        'No additional licensing is needed',
+        'A separate real estate broker or salesperson license must be held or involved if state real estate law requires it',
+        'Real estate auctions are prohibited',
+        'Real estate auctions are automatically covered by the auction license alone',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auction law does not replace real estate licensing requirements. If real property is sold at auction, applicable real estate licensing laws still apply.'
+    },
+    {
+      id: 'la-q174',
+      topic: 'Auction Procedures',
+      question: 'At a Louisiana auction, the auctioneer clearly discloses a reserve price on a lot. During bidding, the auctioneer rejects a bid that meets the reserve. This action is:',
+      options: [
+        'Always legal regardless of terms',
+        'Potentially a breach of the announced terms of sale and could lead to disputes or claims',
+        'Required by law',
+        'Permitted only if the buyer is out of state',
+      ],
+      correctAnswer: 1,
+      explanation: 'Once terms, including reserve conditions, are announced and bidders rely on them, arbitrarily disregarding those terms exposes the auctioneer and owner to contract and consumer complaints.'
+    },
+    {
+      id: 'la-q175',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer sold movable goods at a judicial sale for a total of $80,000. Under the statutory maximum of 10% on judicial sales of movables, what is the maximum commission allowed?',
+      options: [
+        '$4,000',
+        '$6,000',
+        '$8,000',
+        '$10,000',
+      ],
+      correctAnswer: 2,
+      explanation: 'For judicial sales of movables, the maximum commission is 10%. Ten percent of $80,000 is $8,000.'
+    },
+    {
+      id: 'la-q176',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer sells succession property in which minors have an interest. The minors’ proportional share of the sale price is $25,000. Applying the statutory maximum (4% on the first $10,000 and 2% on the excess), what is the maximum commission on the minors’ share?',
+      options: [
+        '$500',
+        '$700',
+        '$900',
+        '$1,100',
+      ],
+      correctAnswer: 1,
+      explanation: '4% of the first $10,000 is $400. The remaining $15,000 at 2% is $300. Total maximum commission on the minors’ share is $400 + $300 = $700.'
+    },
+    {
+      id: 'la-q177',
+      topic: 'Board and Governance',
+      question: 'A Louisiana auctioneer collects a 12% buyer’s premium and a 3% seller’s commission on a hammer price of $5,000. How much total commission/fee revenue does the auctioneer earn before expenses?',
+      options: [
+        '$600',
+        '$750',
+        '$900',
+        '$1,050',
+      ],
+      correctAnswer: 1,
+      explanation: 'Buyer’s premium: 12% of $5,000 = $600. Seller’s commission: 3% of $5,000 = $150. Total revenue: $600 + $150 = $750.'
+    },
+    {
+      id: 'la-q178',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer receives $50,000 in buyers’ payments on the date of sale. By what outside date must the auctioneer have paid the consignor, assuming funds are received that same day?',
+      options: [
+        'Within 15 days from the date of sale, no exceptions',
+        'Within 30 days from receipt of funds, or within 60 days from the date of sale, whichever occurs first',
+        'Within 90 days from the date of sale',
+        'By the end of the calendar year',
+      ],
+      correctAnswer: 1,
+      explanation: 'The auctioneer must pay the consignor within 30 days of receiving funds or within 60 days of the auction date, whichever is earlier.'
+    },
+    {
+      id: 'la-q179',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer collects a 10% buyer’s premium on a hammer price of $3,200. What is the buyer’s premium amount?',
+      options: [
+        '$280',
+        '$300',
+        '$320',
+        '$350',
+      ],
+      correctAnswer: 2,
+      explanation: '10% of $3,200 equals $320 (0.10 × 3,200 = 320).'
+    },
+    {
+      id: 'la-q180',
+      topic: 'Penalties and Discipline',
+      question: 'A Louisiana auction business has its license revoked. What is the status of auctions conducted under that business name during the revocation period?',
+      options: [
+        'They are considered unlicensed activity and may subject participants to penalties',
+        'They remain fully licensed because the business once had a license',
+        'They are valid if held only online',
+        'They are valid if the business changes its logo',
+      ],
+      correctAnswer: 0,
+      explanation: 'Once revoked, the license is no longer in effect. Conducting auctions as a business under that name constitutes unlicensed activity subject to enforcement.'
+    },
+    {
+      id: 'la-q181',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is the BEST example of a violation related to "untruthful or misleading advertising" under Louisiana auction law?',
+      options: [
+        'Stating the auction will begin at 10:00 a.m.',
+        'Accurately stating that all items sell regardless of price',
+        'Advertising "Absolute auction—no reserve" when the owner instructs the auctioneer to withdraw items that do not reach a certain bid',
+        'Listing the auctioneer’s license number in the advertisement',
+      ],
+      correctAnswer: 2,
+      explanation: 'Advertising an auction as absolute while secretly reserving the right not to sell below certain prices is a misleading and deceptive practice.'
+    },
+    {
+      id: 'la-q182',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is a likely reason why the Louisiana Auctioneers Licensing Law requires the board to keep records of its proceedings and actions?',
+      options: [
+        'To create marketing materials',
+        'To provide transparency and support judicial review or appeals of board decisions',
+        'To track auction prices statewide',
+        'To assist only with tax collection',
+      ],
+      correctAnswer: 1,
+      explanation: 'Detailed records support transparency, due process, and the ability of courts to review board actions when appealed.'
+    },
+    {
+      id: 'la-q183',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer wants to voluntarily surrender their license while under investigation. Which is MOST accurate?',
+      options: [
+        'The licensee may simply abandon the license with no further consequence',
+        'The board may treat voluntary surrender as disciplinary in nature and may impose terms or conditions, including recording the surrender as an action',
+        'The investigation must be closed immediately',
+        'The licensee automatically avoids any findings',
+      ],
+      correctAnswer: 1,
+      explanation: 'Voluntary surrender during investigation is often treated as a disciplinary action, and the board may impose conditions or record the surrender in its official history.'
+    },
+    {
+      id: 'la-q184',
+      topic: 'Legal and Contracts',
+      question: 'Why does Louisiana auction law emphasize both written contracts and escrow requirements?',
+      options: [
+        'To slow down the sale process',
+        'To clearly define rights and obligations and to ensure client funds are safeguarded until properly disbursed',
+        'To discourage small auctions',
+        'To promote cash-only transactions',
+      ],
+      correctAnswer: 1,
+      explanation: 'Written contracts set expectations, and escrow/segregated funds protect consignors and buyers by preventing misuse of proceeds.'
+    },
+    {
+      id: 'la-q185',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer conducts an exempt sale for a charitable nonprofit organization. Which of the following is still a best practice even though the sale is exempt?',
+      options: [
+        'Skipping all contracts and accounting',
+        'Maintaining clear written terms, accurate accounting, and prompt settlement with the nonprofit',
+        'Accepting only cash with no receipts',
+        'Avoiding any written communication',
+      ],
+      correctAnswer: 1,
+      explanation: 'Even for exempt sales, professional practices like written terms, accounting, and prompt settlement protect the parties and the auctioneer’s reputation.'
+    },
+    {
+      id: 'la-q186',
+      topic: 'Board and Governance',
+      question: 'A Louisiana auctioneer maintains excellent compliance records and has never been disciplined. How might this history impact future board interactions?',
+      options: [
+        'The board is required to ignore positive history',
+        'A strong compliance history may favorably influence the board’s discretion in minor matters or when considering waivers allowed by statute',
+        'It guarantees the auctioneer will never be investigated',
+        'It allows the auctioneer to ignore new rules',
+      ],
+      correctAnswer: 1,
+      explanation: 'While not guaranteeing immunity, a clean record can influence the board’s discretionary decisions, such as whether to grant waivers or lesser sanctions where permitted by law.'
+    },
+    {
+      id: 'la-q187',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following best captures the overarching goal of the Louisiana Auctioneers Licensing Law from a policy standpoint?',
+      options: [
+        'Maximizing license fees for state revenue',
+        'Protecting the public and ensuring the integrity of auction transactions through licensing, education, and enforcement',
+        'Promoting only large, national auction firms',
+        'Eliminating all competition between auctioneers',
+      ],
+      correctAnswer: 1,
+      explanation: 'The declared purpose is to protect the public’s safety, health, and property by imposing qualifying criteria and standards on auctioneers and auction businesses in what had been an unregulated field.'
+    },
+    {
+      id: 'la-q188',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auction business wants to relocate its main office to another city within the state. To remain compliant, it should:',
+      options: [
+        'Do nothing; location is irrelevant to licensure',
+        'Notify the board of the address change and update any licenses and advertising to reflect the new business address',
+        'Only change the address on its website',
+        'Apply for a brand new license and take the exam again',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auction businesses must maintain accurate information with the board, including current business addresses, and must use that name and address consistently in advertising and operations.'
+    },
+    {
+      id: 'la-q189',
+      topic: 'Legal and Contracts',
+      question: 'A Louisiana auctioneer contracts with an owner to conduct an auction where the minimum price for any lot is $600. Before any sale, what is required?',
+      options: [
+        'Only a handshake agreement',
+        'A written contract with the owner, because the minimum exceeds the statutory threshold',
+        'No contract is needed because the items are personal property',
+        'A contract is required only after the sale',
+      ],
+      correctAnswer: 1,
+      explanation: 'The law requires a written contract before selling goods at auction when the minimum price exceeds a specified threshold, ensuring clear terms for significant sales.'
+    },
+    {
+      id: 'la-q190',
+      topic: 'Financial and Records',
+      question: 'A Louisiana auctioneer takes a $2,000 deposit from a buyer on sale day and places it into a clearly labeled auction escrow account. Two days later, the buyer cancels and the contract permits forfeiture of the deposit. What is the proper handling?',
+      options: [
+        'Transfer the deposit from escrow to the auctioneer’s operating account under the contract terms and applicable law',
+        'Return the deposit regardless of contract',
+        'Hide the money until the dispute disappears',
+        'Send the funds to the board',
+      ],
+      correctAnswer: 0,
+      explanation: 'Once the buyer defaults under contract, and if forfeiture is allowed by law and the auction terms, moving the deposit from escrow to the appropriate party (often the consignor or split with auctioneer) is proper, with full accounting.'
+    },
+    {
+      id: 'la-q191',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auction business decides to hold internet-only auctions under a different website name but with the same ownership. Which is required?',
+      options: [
+        'Nothing; names and branding do not matter',
+        'Ensuring that the new trade name or assumed name is properly registered or recognized by the board in accordance with licensing rules',
+        'Obtaining a new bond only',
+        'Using no license number on the website',
+      ],
+      correctAnswer: 1,
+      explanation: 'Operating under additional trade names or websites usually requires proper registration with the board so that all names under which the business operates are tied to the licensed entity.'
+    },
+    {
+      id: 'la-q192',
+      topic: 'Licensing and Registration',
+      question: 'Why might the Louisiana Auctioneers Licensing Board require continuing education for license renewal?',
+      options: [
+        'To make renewals more difficult',
+        'To ensure auctioneers stay current on law, ethics, and best practices that protect the public',
+        'To reduce the number of licensees',
+        'To replace formal schooling requirements',
+      ],
+      correctAnswer: 1,
+      explanation: 'Continuing education helps ensure licensees maintain up-to-date knowledge of legal requirements and professional standards, supporting the law’s protective purpose.'
+    },
+    {
+      id: 'la-q193',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer is disciplined in another state for serious misconduct in auctions. How might this affect the Louisiana license?',
+      options: [
+        'It has no effect by law',
+        'The Louisiana board may use the out-of-state discipline as grounds for its own action, including possible suspension or revocation',
+        'Louisiana must copy the discipline automatically',
+        'Only a warning letter can be issued',
+      ],
+      correctAnswer: 1,
+      explanation: 'Many professional licensing statutes, including auction law, allow discipline based on misconduct or licensure actions in other jurisdictions, as they reflect on the licensee’s fitness.'
+    },
+    {
+      id: 'la-q194',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer’s license renewal form asks whether the licensee has been convicted of any crimes since the last renewal. Why must this be answered truthfully?',
+      options: [
+        'Because it is optional',
+        'Because false statements on renewal forms constitute deceit or perjury and can be an independent ground for discipline',
+        'Because the board won’t check',
+        'Because only traffic tickets matter',
+      ],
+      correctAnswer: 1,
+      explanation: 'Providing false information on licensing documents is itself a disciplinary violation and may be treated as deceit or perjury in obtaining or maintaining a license.'
+    },
+    {
+      id: 'la-q195',
+      topic: 'Duties and Responsibilities',
+      question: 'A Louisiana auctioneer is asked by a consignor to misstate the hammer price on paperwork to reduce sales tax. The auctioneer refuses. This decision:',
+      options: [
+        'Violates customer service principles',
+        'Follows legal and ethical duties to avoid fraud and misrepresentation',
+        'Is required only if the customer is out of state',
+        'Is optional because tax issues are private',
+      ],
+      correctAnswer: 1,
+      explanation: 'Participating in false documentation or tax fraud would be unethical, illegal, and grounds for discipline. The auctioneer has a duty to refuse such requests.'
+    },
+    {
+      id: 'la-q196',
+      topic: 'Definitions and Terminology',
+      question: 'Why might a Louisiana auction exam include scenario-based questions rather than just definitions?',
+      options: [
+        'To confuse applicants',
+        'To test whether applicants can apply the law and rules to real-world situations, not just memorize terms',
+        'To reduce the pass rate arbitrarily',
+        'To replace all written laws',
+      ],
+      correctAnswer: 1,
+      explanation: 'Scenario-based questions test understanding of how statutory rules play out in practice, which better predicts competent and lawful conduct.'
+    },
+    {
+      id: 'la-q197',
+      topic: 'Legal and Contracts',
+      question: 'A Louisiana auctioneer keeps detailed written policies on advertising, escrow procedures, and dispute resolution that mirror statutory requirements. The main benefit of this is:',
+      options: [
+        'It is required to obtain a tax refund',
+        'It provides internal guidance that supports consistent legal compliance and can be helpful evidence if disputes arise',
+        'It allows the auctioneer to ignore board rules',
+        'It eliminates the need for written contracts',
+      ],
+      correctAnswer: 1,
+      explanation: 'Written policies aligned with law and board rules help ensure consistent practices and can show the licensee’s commitment to compliance if investigated.'
+    },
+    {
+      id: 'la-q198',
+      topic: 'Auction Procedures',
+      question: 'An owner of goods at a Louisiana auction instructs the auctioneer in writing to withdraw any items that do not reach a reserve price. To comply with law and ethics, the auctioneer should:',
+      options: [
+        'Ignore the instructions and sell everything',
+        'Disclose the existence of reserves if required by law and follow the written instructions regarding withdrawal',
+        'Refuse all reserve auctions',
+        'Tell bidders there are no reserves but withdraw items anyway',
+      ],
+      correctAnswer: 1,
+      explanation: 'Reserve auctions are permitted, but the existence of reserves and relevant terms must be adequately disclosed, and the auctioneer should honor explicit written instructions to withdraw items below reserve.'
+    },
+    {
+      id: 'la-q199',
+      topic: 'Licensing and Registration',
+      question: 'If the Louisiana Auctioneers Licensing Law did not exist, which risk would most likely increase for the public?',
+      options: [
+        'Overregulation of auctioneers',
+        'Lack of standardized qualifications and greater potential for fraud, misrepresentation, and mishandling of funds',
+        'Too many auctions',
+        'Excessive education requirements',
+      ],
+      correctAnswer: 1,
+      explanation: 'The law addresses previously unregulated practices in a field that affects the public’s property and funds; without it, risks of fraud and incompetence would increase.'
+    },
+    {
+      id: 'la-q200',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer is considering whether to self-report a minor, unintentional error made at a recent auction. Which is the BEST reason to consider voluntary disclosure?',
+      options: [
+        'To guarantee punishment',
+        'Because many regulatory bodies view self-reporting and corrective action as evidence of good faith, which can mitigate consequences if issues arise later',
+        'Because the law requires all errors to be reported within 24 hours',
+        'Because it eliminates all liability',
+      ],
+      correctAnswer: 1,
+      explanation: 'While not always required, voluntary disclosure and remediation often demonstrate integrity and may reduce exposure if the issue later comes to the board’s attention.'
+    },
+    {
+      id: 'la-q201',
+      topic: 'Licensing and Registration',
+      question: 'An auction license applicant in Louisiana meets all requirements except for the minimum age specified in the statute. The most likely result is:',
+      options: [
+        'The board must issue the license anyway',
+        'The board will deny the license until the applicant satisfies the minimum age requirement',
+        'The applicant can substitute parental consent',
+        'The applicant can sign a waiver',
+      ],
+      correctAnswer: 1,
+      explanation: 'Statutory minimum age requirements are mandatory; the board cannot waive them absent specific legislative authority and must deny applications until they are met.'
+    },
+    {
+      id: 'la-q202',
+      topic: 'Board and Governance',
+      question: 'Why is it important for a Louisiana auctioneer to understand both state statute and board rules, rather than only one or the other?',
+      options: [
+        'Because the statute and rules together form the complete regulatory framework governing practice',
+        'Because rules replace statutes entirely',
+        'Because statutes are only suggestions',
+        'Because rules apply only to new licensees',
+      ],
+      correctAnswer: 0,
+      explanation: 'Statutes create the framework and grant authority, while board rules provide detailed procedures and standards; together they define legal obligations for licensees.'
+    },
+    {
+      id: 'la-q203',
+      topic: 'Licensing and Registration',
+      question: 'How many members serve on the Louisiana Auctioneers Licensing Board, according to statute?',
+      options: [
+        'Three members',
+        'Five members',
+        'Seven members',
+        'Nine members',
+      ],
+      correctAnswer: 2,
+      explanation: 'The Louisiana Auctioneers Licensing Board is composed of seven members appointed in accordance with statute, representing both the public and the auction industry.'
+    },
+    {
+      id: 'la-q204',
+      topic: 'Licensing and Registration',
+      question: 'Louisiana Auctioneers Licensing Board members are generally appointed by:',
+      options: [
+        'The Governor of Louisiana, with certain confirmation requirements',
+        'The Louisiana Realtors Association',
+        'Local parish governments',
+        'The federal Department of Commerce',
+      ],
+      correctAnswer: 0,
+      explanation: 'Board members are appointed by the governor in the manner set out by law, often subject to advice and consent or other statutory conditions.'
+    },
+    {
+      id: 'la-q205',
+      topic: 'Board and Governance',
+      question: 'Which of the following best describes how board members of the Louisiana Auctioneers Licensing Board are compensated?',
+      options: [
+        'They receive no reimbursement for any expenses',
+        'They may receive a per diem and reimbursement for reasonable expenses as provided by law',
+        'They receive a full salary equal to state judges',
+        'They are only paid through auction commissions',
+      ],
+      correctAnswer: 1,
+      explanation: 'Board members may receive a per diem and expense reimbursement when performing official duties, as authorized by statute, rather than a full salary.'
+    },
+    {
+      id: 'la-q206',
+      topic: 'Duties and Responsibilities',
+      question: 'Under Louisiana law, the board must meet at least:',
+      options: [
+        'Once each calendar year',
+        'Semiannually',
+        'Bimonthly (every two months)',
+        'Weekly',
+      ],
+      correctAnswer: 2,
+      explanation: 'The statute requires that the board meet at least bimonthly to conduct its business, including licensing, complaint review, and rulemaking.'
+    },
+    {
+      id: 'la-q207',
+      topic: 'Board and Governance',
+      question: 'Which of the following is the primary reason the board is required to adopt rules under the Administrative Procedure Act?',
+      options: [
+        'To avoid legislative oversight',
+        'To ensure rules are adopted openly, with notice and opportunity for public comment, and have the force of law',
+        'To keep all rules confidential',
+        'To allow private industry to write all regulations',
+      ],
+      correctAnswer: 1,
+      explanation: 'The Administrative Procedure Act governs how agencies adopt rules, requiring transparency and public participation and giving properly adopted rules the force of law.'
+    },
+    {
+      id: 'la-q208',
+      topic: 'Licensing and Registration',
+      question: 'Which term BEST describes the authority of the Louisiana Auctioneers Licensing Board to investigate licensees and applicants?',
+      options: [
+        'Purely advisory',
+        'Ministerial only',
+        'Quasi-judicial and regulatory',
+        'Strictly ceremonial',
+      ],
+      correctAnswer: 2,
+      explanation: 'The board exercises quasi-judicial and regulatory authority when investigating alleged violations and making findings that can result in disciplinary action.'
+    },
+    {
+      id: 'la-q209',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is TRUE regarding the confidentiality of complaints made to the Louisiana Auctioneers Licensing Board?',
+      options: [
+        'Complaints are always public records from the moment filed',
+        'Complaints may be treated as confidential during investigation, subject to public records laws and due process requirements',
+        'Complainants must remain anonymous by law',
+        'Complaints may never be disclosed for any reason',
+      ],
+      correctAnswer: 1,
+      explanation: 'While Louisiana public records law applies, agencies often keep complaint details confidential during active investigation to protect both complainants and respondents, subject to statutory requirements.'
+    },
+    {
+      id: 'la-q210',
+      topic: 'Auction Procedures',
+      question: 'Which is the BEST description of "disciplinary action" under Louisiana auction law?',
+      options: [
+        'An informal warning only',
+        'Any formal action by the board that affects a license, such as suspension, revocation, probation, or fine',
+        'A private conversation between board members',
+        'Any action taken by bidders against an auctioneer',
+      ],
+      correctAnswer: 1,
+      explanation: 'Disciplinary action includes formal measures such as suspension, revocation, censure, probation, fines, or other sanctions authorized by the statute.'
+    },
+    {
+      id: 'la-q211',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer is placed on probation by the board. Which statement is MOST accurate?',
+      options: [
+        'Probation allows continued practice subject to conditions set by the board',
+        'Probation means the license is fully revoked',
+        'Probation eliminates all board oversight',
+        'Probation applies only to apprentice licenses',
+      ],
+      correctAnswer: 0,
+      explanation: 'Probation typically means the license remains in effect but the auctioneer must comply with additional conditions or supervision terms imposed by the board.'
+    },
+    {
+      id: 'la-q212',
+      topic: 'Licensing and Registration',
+      question: 'In a Louisiana disciplinary hearing, which of the following is a core element of due process for the licensee?',
+      options: [
+        'Guaranteed right to win the case',
+        'Adequate notice of the charges and an opportunity to be heard',
+        'The right to select the board members',
+        'The right to avoid all questions',
+      ],
+      correctAnswer: 1,
+      explanation: 'Due process requires notice of alleged violations and a fair opportunity to present evidence and argument before the board makes a decision.'
+    },
+    {
+      id: 'la-q213',
+      topic: 'Licensing and Registration',
+      question: 'Who generally bears the burden of proof in a Louisiana administrative disciplinary proceeding against an auctioneer?',
+      options: [
+        'The licensee',
+        'The complainant personally',
+        'The board or its staff prosecuting the case',
+        'No one; the board guesses',
+      ],
+      correctAnswer: 2,
+      explanation: 'In administrative disciplinary proceedings, the agency (through its staff or counsel) typically bears the burden of proving violations by a preponderance of the evidence.'
+    },
+    {
+      id: 'la-q214',
+      topic: 'Auction Procedures',
+      question: 'Which of the following would be considered a "material misrepresentation" by a Louisiana auctioneer?',
+      options: [
+        'Accidentally mispronouncing a bidder’s name',
+        'Knowingly stating that an item is "brand new" when the auctioneer knows it is used and damaged',
+        'Describing an item as "nice"',
+        'Calling bids too quickly',
+      ],
+      correctAnswer: 1,
+      explanation: 'A material misrepresentation is a false statement about an important fact likely to influence a buyer’s decision, such as condition, brand, or authenticity.'
+    },
+    {
+      id: 'la-q215',
+      topic: 'Financial and Records',
+      question: 'Which of the following is an example of a "commingling" violation under Louisiana law?',
+      options: [
+        'Depositing buyer payments into a dedicated auction escrow account',
+        'Using consignor proceeds to pay the auctioneer’s personal rent before paying the consignor',
+        'Holding funds in a separate trust account',
+        'Issuing a check drawn on an escrow account to pay the consignor',
+      ],
+      correctAnswer: 1,
+      explanation: 'Commingling occurs when client funds are mixed with personal funds or used for personal purposes rather than being held in a separate, identifiable account.'
+    },
+    {
+      id: 'la-q216',
+      topic: 'Auction Procedures',
+      question: 'Which of the following BEST illustrates an "absolute" auction under Louisiana practice?',
+      options: [
+        'The owner can reject the final high bid',
+        'Items are offered without reserve, and every item is sold to the highest bidder regardless of price',
+        'Bidding is limited to invited buyers',
+        'The auctioneer can buy all items at a fixed price',
+      ],
+      correctAnswer: 1,
+      explanation: 'An absolute auction has no reserve; all items must be sold to the highest bidder once bidding begins on the item, which is why mislabeling reserve auctions as absolute is deceptive.'
+    },
+    {
+      id: 'la-q217',
+      topic: 'Auction Procedures',
+      question: 'At a reserve auction in Louisiana, which statement is TRUE about the seller’s rights?',
+      options: [
+        'The seller has no rights once bidding begins',
+        'The seller may withdraw items if bids do not meet the reserve, subject to the announced terms',
+        'The seller must accept the highest bid regardless of reserve',
+        'The seller can only withdraw items after the auction closes',
+      ],
+      correctAnswer: 1,
+      explanation: 'In a reserve auction, the seller may reject bids that do not meet the reserve or withdraw the property consistent with the terms and disclosures made to bidders.'
+    },
+    {
+      id: 'la-q218',
+      topic: 'Prohibited Acts and Violations',
+      question: 'Which of the following is the BEST example of a "sham bidding" scheme prohibited by Louisiana law?',
+      options: [
+        'Taking absentee bids in writing',
+        'Using an assistant to place fake bids solely to raise the price without intent to purchase',
+        'Calling for higher bids after a pause',
+        'Accepting a legitimate last-minute bid',
+      ],
+      correctAnswer: 1,
+      explanation: 'Sham bidding involves false bids by cappers or shills who have no intention to buy, solely to drive up the price, and is prohibited.'
+    },
+    {
+      id: 'la-q219',
+      topic: 'Auction Procedures',
+      question: 'In Louisiana, an auctioneer acting as a "factor" traditionally means the auctioneer:',
+      options: [
+        'Owns the goods at all times',
+        'Acts as an agent or commission merchant selling goods for another',
+        'Acts only as a buyer',
+        'Serves as the court clerk',
+      ],
+      correctAnswer: 1,
+      explanation: 'Historically, a factor is an agent who sells goods for another for a commission, which reflects the auctioneer’s role as a fiduciary for the consignor.'
+    },
+    {
+      id: 'la-q220',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer is also a creditor of the consignor. Which is a prudent step to avoid conflicts of interest?',
+      options: [
+        'Hide the relationship from bidders and the board',
+        'Disclose the relationship as needed, document all terms carefully, and avoid using auction proceeds to satisfy disputed personal debts without clear legal authority',
+        'Use auction proceeds first to pay the auctioneer’s personal loan',
+        'Refuse to keep any records',
+      ],
+      correctAnswer: 1,
+      explanation: 'When the auctioneer has a financial interest, transparent documentation and careful handling of proceeds are important to avoid conflicts of interest and potential discipline.'
+    },
+    {
+      id: 'la-q221',
+      topic: 'Duties and Responsibilities',
+      question: 'A Louisiana auctioneer sells property that is later discovered to be stolen. The auctioneer did not know and had exercised reasonable care. Which statement is MOST accurate?',
+      options: [
+        'The auctioneer is automatically guilty of a crime',
+        'The auctioneer may not be criminally liable but must cooperate with law enforcement and may face civil issues regarding restitution',
+        'The auctioneer keeps all proceeds and ignores the issue',
+        'The auctioneer is automatically disciplined',
+      ],
+      correctAnswer: 1,
+      explanation: 'If the auctioneer exercised reasonable care and lacked knowledge, criminal liability may be avoided, but civil remedies and cooperation with law enforcement are still critical, and the board may examine whether due diligence was adequate.'
+    },
+    {
+      id: 'la-q222',
+      topic: 'Legal and Contracts',
+      question: 'A buyer at a Louisiana auction claims that the auctioneer guaranteed an item’s authenticity. The auction contract states that items are sold "as-is" unless otherwise stated in writing. The best practice for the auctioneer is to:',
+      options: [
+        'Rely only on oral promises',
+        'Ensure any guarantees or warranties are clearly stated in writing and consistent with "as-is" disclaimers',
+        'Avoid all written contracts',
+        'Assume "as-is" language overrides any written guarantees',
+      ],
+      correctAnswer: 1,
+      explanation: 'Written terms should clearly state any exceptions to "as-is" sales, and the auctioneer should avoid oral promises that conflict with written disclaimers.'
+    },
+    {
+      id: 'la-q223',
+      topic: 'Auction Procedures',
+      question: 'In Louisiana, an auctioneer takes a personal check from a buyer without verifying identity or funds, and the check later bounces. Best practice in the future is to:',
+      options: [
+        'Stop taking checks entirely',
+        'Implement clear payment policies and verification procedures, such as ID checks, pre-approval, or third-party credit services',
+        'Hide the mistake',
+        'Let the consignor handle all bounced checks',
+      ],
+      correctAnswer: 1,
+      explanation: 'Payment policies and verification procedures help protect both the auctioneer and consignor from losses due to nonpayment.'
+    },
+    {
+      id: 'la-q224',
+      topic: 'Licensing and Registration',
+      question: 'If an auctioneer’s license in Louisiana has lapsed for less than twelve months, the board may typically allow reinstatement by:',
+      options: [
+        'Charging no fees',
+        'Collecting all applicable renewal and delinquent fees, and possibly proof of continuing education, without requiring a new exam',
+        'Requiring the auctioneer to pass a criminal trial',
+        'Ignoring the lapse',
+      ],
+      correctAnswer: 1,
+      explanation: 'For lapses under twelve months, reinstatement often involves payment of renewal and late fees and meeting any continuing education requirements, rather than full reapplication.'
+    },
+    {
+      id: 'la-q225',
+      topic: 'Board and Governance',
+      question: 'A Louisiana auctioneer’s license has been lapsed for more than twelve continuous months. Under general rules, the licensee is treated as:',
+      options: [
+        'Still fully licensed',
+        'Unlicensed and required to meet the same requirements as a new applicant unless the board waives them',
+        'On automatic probation only',
+        'Exempt from all future exams',
+      ],
+      correctAnswer: 1,
+      explanation: 'After a twelve-month lapse, the licensee is considered unlicensed and generally must satisfy new applicant requirements, subject to any statutory waiver authority.'
+    },
+    {
+      id: 'la-q226',
+      topic: 'Legal and Contracts',
+      question: 'Which of the following best explains why Louisiana requires a surety bond or cash deposit for auctioneers and auction businesses?',
+      options: [
+        'To act as a savings account for the licensee',
+        'To serve as security for the state’s tax claims only',
+        'To provide a source of recovery for individuals harmed by violations of the auction law or breach of auction contracts',
+        'To pay for board member salaries',
+      ],
+      correctAnswer: 2,
+      explanation: 'The bond or cash deposit is intended to indemnify those who suffer loss due to the licensee’s unlawful or contractual misconduct.'
+    },
+    {
+      id: 'la-q227',
+      topic: 'Duties and Responsibilities',
+      question: 'A claim is successfully paid out of a Louisiana auctioneer’s bond. To keep practicing lawfully, the auctioneer must:',
+      options: [
+        'Do nothing; the bond automatically replenishes',
+        'Replenish or replace the bond or deposit in the required amount',
+        'Stop practicing for five years',
+        'Turn their license over to the bond company',
+      ],
+      correctAnswer: 1,
+      explanation: 'Once the bond is drawn down, the licensee must restore the required security to continue lawful practice.'
+    },
+    {
+      id: 'la-q228',
+      topic: 'Auction Procedures',
+      question: 'In Louisiana, what is the key legal effect of advertising an auction as "absolute"?',
+      options: [
+        'No one may attend without invitation',
+        'The auctioneer may withdraw items freely',
+        'The property must be sold to the highest bidder with no reserves, subject to very limited exceptions',
+        'The buyer must pay cash only',
+      ],
+      correctAnswer: 2,
+      explanation: 'An absolute auction obligates sale to the highest bidder, and misusing the term when reserves exist is deceptive and can be grounds for discipline.'
+    },
+    {
+      id: 'la-q229',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is a good example of risk management by a Louisiana auctioneer?',
+      options: [
+        'Relying solely on memory for contracts',
+        'Maintaining written policies, using written contracts, carrying liability insurance, and documenting disclosures to bidders',
+        'Never returning phone calls',
+        'Encouraging bidders not to read terms',
+      ],
+      correctAnswer: 1,
+      explanation: 'Risk management includes documentation, contracts, insurance, and transparent communication to reduce disputes and liability exposure.'
+    },
+    {
+      id: 'la-q230',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer enters into a contract to sell all contents of a warehouse and agrees to a 10% commission plus expenses. Which document should clearly describe all terms of the arrangement?',
+      options: [
+        'A verbal promise only',
+        'A written auction contract between the auctioneer and owner',
+        'A handwritten note by a bidder',
+        'An email from a ringman',
+      ],
+      correctAnswer: 1,
+      explanation: 'Written auction contracts between the auctioneer and owner are legally required for larger sales and should outline commissions, expenses, timing, and other key terms.'
+    },
+    {
+      id: 'la-q231',
+      topic: 'Auction Procedures',
+      question: 'Which of the following situations is MOST likely to require that the auctioneer maintain a copy of the auction contract and related records for a period prescribed by the board?',
+      options: [
+        'A small informal sale of a few items with no dispute',
+        'Any licensed auction conducted under Louisiana law',
+        'A private garage sale with no auctioneer',
+        'A one-time sale of a personal car between two individuals',
+      ],
+      correctAnswer: 1,
+      explanation: 'Board rules commonly require licensees to retain contracts, settlement sheets, and other records for a specified time after every licensed auction, in case of complaint or audit.'
+    },
+    {
+      id: 'la-q232',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer handles a large multi-consignor sale. Which is the BEST practice regarding settlement statements?',
+      options: [
+        'Provide no written statements',
+        'Provide each consignor a settlement statement showing items sold, prices, commissions, fees, and net proceeds',
+        'Give all consignors the same generic statement with no details',
+        'Only provide statements on request',
+      ],
+      correctAnswer: 1,
+      explanation: 'Detailed settlement statements demonstrate proper accounting and help prevent or resolve disputes over what was sold and what proceeds are owed.'
+    },
+    {
+      id: 'la-q233',
+      topic: 'Legal and Contracts',
+      question: 'Which of the following BEST describes the relationship between a Louisiana auctioneer and consignor under auction law?',
+      options: [
+        'Adversarial by definition',
+        'Fiduciary or agency relationship, where the auctioneer must act in the consignor’s best interest within the scope of the contract and law',
+        'No legal relationship exists',
+        'Tenant and landlord',
+      ],
+      correctAnswer: 1,
+      explanation: 'The auctioneer typically acts as the client’s agent or fiduciary with duties of loyalty, care, and accounting, subject to contract and law.'
+    },
+    {
+      id: 'la-q234',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, an "auction" can include which of the following formats?',
+      options: [
+        'Only live, outcry sales with bidders physically present',
+        'Only sealed-bid tenders',
+        'Live outcry, online, real-time internet, and extended auctions where multiple bids are competitively received',
+        'Only estate tag sales',
+      ],
+      correctAnswer: 2,
+      explanation: 'The statutory definition is broad and includes live, online, real-time, and extended auctions conducted by competitive bidding, but excludes sealed-bid sales.'
+    },
+    {
+      id: 'la-q235',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer allows a consignor’s family member to bid to protect the price, without any disclosure. This is MOST likely:',
+      options: [
+        'Permitted standard practice',
+        'A form of undisclosed shill bidding that may violate auction law and consumer protection principles',
+        'Required by statute',
+        'Irrelevant if the price is high',
+      ],
+      correctAnswer: 1,
+      explanation: 'Owner or family bidding must be handled according to law and disclosed terms; undisclosed price-protective bidding is treated as deceptive shill activity.'
+    },
+    {
+      id: 'la-q236',
+      topic: 'Auction Procedures',
+      question: 'Which of the following would MOST likely reduce the chance of a misunderstanding about buyer’s premiums in a Louisiana auction?',
+      options: [
+        'Avoiding any mention of premiums',
+        'Posting the buyer’s premium at registration, including it in ads when practicable, and announcing it clearly before bidding begins',
+        'Charging it only sometimes without disclosure',
+        'Hiding it in fine print only',
+      ],
+      correctAnswer: 1,
+      explanation: 'The law specifically contemplates written posting and verbal explanation of buyer’s premiums; doing all of these reduces misunderstandings and disputes.'
+    },
+    {
+      id: 'la-q237',
+      topic: 'Auction Procedures',
+      question: 'Why is it important for a Louisiana auctioneer to know which sales are excluded from the Auctioneers Licensing Law, such as certain government, charitable, or sealed-bid sales?',
+      options: [
+        'To avoid all regulation',
+        'To correctly determine when licensure and board rules apply and when separate statutes govern the sale',
+        'To ignore ethics when excluded',
+        'To avoid taxes',
+      ],
+      correctAnswer: 1,
+      explanation: 'Understanding exclusions helps auctioneers know when the licensing law governs their actions and when different statutes or policies apply, while still following ethical practices.'
+    },
+    {
+      id: 'la-q238',
+      topic: 'Auction Procedures',
+      question: 'If a Louisiana auctioneer is unsure whether a particular activity requires an auction license, the MOST prudent first step is to:',
+      options: [
+        'Proceed without a license and see what happens',
+        'Review the statutes and board rules, and if still unsure, seek guidance from legal counsel or the board',
+        'Ask bidders for a vote',
+        'Ignore the question',
+      ],
+      correctAnswer: 1,
+      explanation: 'Careful review and consultation reduce the risk of engaging in unlicensed practice or violating the law.'
+    },
+    {
+      id: 'la-q239',
+      topic: 'Legal and Contracts',
+      question: 'Which of the following is the most accurate statement about the interplay between Louisiana auction law and general contract law?',
+      options: [
+        'Auction law replaces all contract principles',
+        'Contract law still governs issues like offer, acceptance, capacity, and remedies, except where specific auction statutes modify those rules',
+        'Contract law does not apply to auctions',
+        'Only federal law applies',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auctions are specialized contract situations, so general contract law applies, supplemented or modified by specific auction statutes and rules.'
+    },
+    {
+      id: 'la-q240',
+      topic: 'Legal and Contracts',
+      question: 'When Louisiana auction law and a private auction contract conflict, which typically controls?',
+      options: [
+        'Private contract always controls',
+        'Whichever is more favorable to the auctioneer',
+        'The statute and board rules control, and contracts cannot waive statutory protections for the public',
+        'Whichever is more recent',
+      ],
+      correctAnswer: 2,
+      explanation: 'Parties cannot contract around statutory requirements designed to protect the public; contract terms that violate law are generally unenforceable.'
+    },
+    {
+      id: 'la-q241',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following BEST describes why Louisiana requires auctioneers to be licensed rather than leaving the field completely unregulated?',
+      options: [
+        'To reduce the number of auctions',
+        'To protect the public’s safety, health, and property by ensuring only qualified and trustworthy individuals practice as auctioneers',
+        'To guarantee high prices at auction',
+        'To eliminate all competition',
+      ],
+      correctAnswer: 1,
+      explanation: 'The declared legislative purpose is public protection in an area involving significant property and financial transactions.'
+    },
+    {
+      id: 'la-q242',
+      topic: 'Board and Governance',
+      question: 'Under Louisiana auction law, continuing education requirements for license renewal are generally:',
+      options: [
+        'Fixed forever in the statute and never changed',
+        'Set and adjusted by the board through rules and regulations',
+        'Determined by each auction company individually',
+        'Unnecessary for any licensee',
+      ],
+      correctAnswer: 1,
+      explanation: 'Continuing education requirements are typically adopted and updated by the board through rulemaking so they can be adjusted as laws and best practices change.'
+    },
+    {
+      id: 'la-q243',
+      topic: 'Licensing and Registration',
+      question: 'A nonresident auctioneer seeks a Louisiana license through reciprocity. In addition to holding a valid home-state license, which is commonly required?',
+      options: [
+        'Proof that the home state has no rules at all',
+        'A certificate of good standing from the home licensing authority and evidence that the home state’s requirements are comparable',
+        'Only a letter from a friend',
+        'A guarantee of ten Louisiana auctions per year',
+      ],
+      correctAnswer: 1,
+      explanation: 'Reciprocity normally requires that the applicant be in good standing where already licensed and that the other state’s requirements are substantially equivalent to Louisiana’s.'
+    },
+    {
+      id: 'la-q244',
+      topic: 'Board and Governance',
+      question: 'Which of the following best describes the board’s subpoena power under Louisiana auction law?',
+      options: [
+        'The board cannot compel any testimony or documents',
+        'The board may subpoena witnesses and records relevant to investigations and hearings',
+        'Only private citizens can issue subpoenas',
+        'Subpoenas are used only in criminal court',
+      ],
+      correctAnswer: 1,
+      explanation: 'To investigate complaints and hold meaningful hearings, the board is typically empowered to compel testimony and the production of relevant documents.'
+    },
+    {
+      id: 'la-q245',
+      topic: 'Licensing and Registration',
+      question: 'Funds collected by the Louisiana Auctioneers Licensing Board from fees and fines are usually deposited:',
+      options: [
+        'Into a private account owned by the chair',
+        'Into the Louisiana Auctioneers Licensing Fund in the state treasury for use in administering the law',
+        'Directly into licensees’ personal accounts',
+        'Into a federal grant program',
+      ],
+      correctAnswer: 1,
+      explanation: 'Statute establishes a dedicated fund in the state treasury for board receipts, which finances the administration and enforcement of the licensing law.'
+    },
+    {
+      id: 'la-q246',
+      topic: 'Licensing and Registration',
+      question: 'If the board finds that a licensee’s continued practice presents an immediate danger to the public, which emergency action is often authorized under administrative law principles?',
+      options: [
+        'Issuing an immediate summary suspension of the license, followed by a prompt hearing',
+        'Waiting for the next annual meeting',
+        'Ignoring the problem until a civil lawsuit is filed',
+        'Letting other licensees vote on punishment',
+      ],
+      correctAnswer: 0,
+      explanation: 'In urgent situations, many licensing boards are empowered to summarily suspend a license to protect the public, subject to quick post-suspension due process.'
+    },
+    {
+      id: 'la-q247',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is generally a minimum educational requirement to qualify for an initial Louisiana auctioneer license?',
+      options: [
+        'Completion of a high school education or equivalent, along with approved auction education',
+        'A doctoral degree in business',
+        'No education at all',
+        'Completion of a four-year law degree',
+      ],
+      correctAnswer: 0,
+      explanation: 'Most auction licensing schemes require at least a high school education or GED plus completion of an approved course of auction instruction.'
+    },
+    {
+      id: 'la-q248',
+      topic: 'Licensing and Registration',
+      question: 'An apprentice auctioneer in Louisiana wants to supervise another apprentice. Under typical licensing structures, this is:',
+      options: [
+        'Allowed if both agree in writing',
+        'Not allowed; supervision must be provided by a fully licensed auctioneer, not an apprentice',
+        'Required by law',
+        'Permitted only online',
+      ],
+      correctAnswer: 1,
+      explanation: 'Supervisory responsibility is normally reserved for fully licensed auctioneers; apprentices are in training and not authorized to supervise other trainees.'
+    },
+    {
+      id: 'la-q249',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer conducts online-only auctions. Which statement about compliance is MOST accurate?',
+      options: [
+        'Online auctions are exempt from all advertising, disclosure, and accounting rules',
+        'Online auctions must still comply with licensing, advertising, disclosure, and escrow requirements unless a specific statutory exception applies',
+        'Only federal law applies online',
+        'No license is needed for internet sales',
+      ],
+      correctAnswer: 1,
+      explanation: 'Louisiana’s definition of auction includes internet-based and real-time online auctions, so licensed auctioneers must follow the same core rules unless a specific exemption applies.'
+    },
+    {
+      id: 'la-q250',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is a best practice for a Louisiana auctioneer using unlicensed clerical staff at an auction?',
+      options: [
+        'Allowing staff to independently call bids without supervision',
+        'Assigning clerical, setup, and customer-service tasks while ensuring a licensed auctioneer remains in charge of the auction itself',
+        'Having staff sign contracts on behalf of the board',
+        'Letting staff hold themselves out as licensed auctioneers',
+      ],
+      correctAnswer: 1,
+      explanation: 'Unlicensed staff may perform support tasks, but the licensed auctioneer must oversee the auction, conduct bid-calling, and take responsibility for compliance.'
+    },
+    {
+      id: 'la-q251',
+      topic: 'Auction Procedures',
+      question: 'If Louisiana auction law is silent on a particular practice, such as a new online bidding technology, the auctioneer should:',
+      options: [
+        'Assume anything goes',
+        'Apply existing legal principles of honesty, disclosure, and fiduciary duty by analogy, and seek guidance from the board or counsel when needed',
+        'Ignore ethics to gain an advantage',
+        'Rely only on what competitors are doing',
+      ],
+      correctAnswer: 1,
+      explanation: 'New technologies are evaluated under existing principles of law and ethics; auctioneers should adapt those principles and seek guidance when in doubt.'
+    },
+    {
+      id: 'la-q252',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer wants to maintain a strong compliance culture. Which of the following strategies is MOST effective?',
+      options: [
+        'Waiting to think about rules only when a complaint is filed',
+        'Providing regular staff training on auction law, documenting policies, and periodically reviewing practices against board rules and statutes',
+        'Relying on bidders to spot violations',
+        'Assuming long-time experience is enough without reading the law',
+      ],
+      correctAnswer: 1,
+      explanation: 'Ongoing education, clear policies, and periodic compliance reviews help prevent violations and support the law’s goal of protecting the public.'
+    },
+    {
+      id: 'la-q253',
+      topic: 'Auction Procedures',
+      question: 'Under Louisiana law, which statement BEST describes who must hold an individual auctioneer license?',
+      options: [
+        'Anyone who merely attends an auction',
+        'Any person who, for another and for a fee or commission, offers property for sale by competitive bidding',
+        'Only owners selling their own property',
+        'Only ringmen and clerks',
+      ],
+      correctAnswer: 1,
+      explanation: 'The definition of an auctioneer is centered on calling or directing auctions for others for compensation, so anyone performing that role must be licensed unless an exemption applies.'
+    },
+    {
+      id: 'la-q254',
+      topic: 'Auction Procedures',
+      question: 'Which statement BEST describes an "auction business" under Louisiana auction law?',
+      options: [
+        'Any business that occasionally sells a single item',
+        'Any individual who buys items at retail',
+        'Any person or entity that, for compensation, arranges, manages, sponsors, or conducts auctions for others',
+        'Only corporations with more than ten employees',
+      ],
+      correctAnswer: 2,
+      explanation: 'An auction business is generally a person or company that holds itself out to the public as arranging or conducting auctions for others for compensation, even if it uses licensed auctioneers to call the sale.'
+    },
+    {
+      id: 'la-q255',
+      topic: 'Auction Procedures',
+      question: 'Which of the following BEST describes an "apprentice auctioneer" in Louisiana?',
+      options: [
+        'A fully independent auctioneer with no supervision',
+        'A student at any college',
+        'A person licensed as an apprentice who engages in auction activities only under the employment or supervision of a licensed auctioneer',
+        'A volunteer bidder at an auction',
+      ],
+      correctAnswer: 2,
+      explanation: 'An apprentice must be licensed and work under the supervision or employment of a licensed auctioneer while learning and gaining experience.'
+    },
+    {
+      id: 'la-q256',
+      topic: 'Auction Procedures',
+      question: 'Which of the following people would most likely be EXEMPT from having to hold an auctioneer license in Louisiana?',
+      options: [
+        'A court-appointed official conducting a judicial sale under court order',
+        'A person regularly holding auctions for the public for a fee',
+        'An auction business selling goods for others every week',
+        'A nonresident auctioneer who advertises Louisiana auctions',
+      ],
+      correctAnswer: 0,
+      explanation: 'Judicial officers, sheriffs, or others conducting sales under legal authority are commonly listed as exemptions, while persons in the business of auctioneering for others for a fee must be licensed.'
+    },
+    {
+      id: 'la-q257',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is typically listed as an EXCLUDED activity under the Louisiana Auctioneers Licensing Law?',
+      options: [
+        'Sealed-bid sales with no live competitive bidding',
+        'Any sale involving real estate',
+        'All online auctions',
+        'All estate sales',
+      ],
+      correctAnswer: 0,
+      explanation: 'Sales by sealed bid are specifically excluded from the auction licensing law because they do not involve live competitive bidding in an auction format.'
+    },
+    {
+      id: 'la-q258',
+      topic: 'Licensing and Registration',
+      question: 'A nonprofit organization in Louisiana conducts an occasional charity auction staffed entirely by volunteers and not for profit. Under the licensing law, this type of activity is often:',
+      options: [
+        'Explicitly exempt from licensing if it meets statutory conditions',
+        'Automatically considered an auction business',
+        'Required to use only nonresident auctioneers',
+        'Prohibited entirely',
+      ],
+      correctAnswer: 0,
+      explanation: 'Many statutes, including Louisiana’s, provide exemptions for certain nonprofit and charitable auctions provided specific conditions are met.'
+    },
+    {
+      id: 'la-q259',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer is a nonresident who wishes to conduct a one-time auction in the state. Which step is MOST consistent with the licensing law?',
+      options: [
+        'Conduct the auction without any Louisiana license',
+        'Apply for a Louisiana license (or reciprocity if available), comply with bond requirements, and follow all local rules',
+        'Use only their home-state license and ignore Louisiana laws',
+        'Hire an unlicensed local caller',
+      ],
+      correctAnswer: 1,
+      explanation: 'Nonresidents must comply with Louisiana’s licensing provisions, which may include licensure by reciprocity, bonding, and adherence to state rules.'
+    },
+    {
+      id: 'la-q260',
+      topic: 'Auction Procedures',
+      question: 'Which of the following BEST explains why Louisiana requires auctioneers to display licenses and license numbers?',
+      options: [
+        'To decorate the office',
+        'To help the public verify that the auctioneer and auction business are properly licensed and accountable to the board',
+        'To replace advertising costs',
+        'To qualify for federal grants',
+      ],
+      correctAnswer: 1,
+      explanation: 'Display of license credentials and license numbers provides transparency and allows consumers to confirm that the auctioneer is subject to regulation.'
+    },
+    {
+      id: 'la-q261',
+      topic: 'Auction Procedures',
+      question: 'Where is a Louisiana auctioneer MOST likely required to display or make available their license?',
+      options: [
+        'Only at their home',
+        'At the main place of business and at auction locations when conducting a sale',
+        'Nowhere; display is optional',
+        'Only on social media',
+      ],
+      correctAnswer: 1,
+      explanation: 'Licenses are typically required to be displayed at the place of business and made available at auction venues so customers can confirm licensure.'
+    },
+    {
+      id: 'la-q262',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auction advertisement lists the date and time of sale but omits the auctioneer’s name and license number. This is:',
+      options: [
+        'Fully compliant',
+        'Potentially a violation because advertising must identify the licensed auctioneer and often the license number',
+        'Required by law',
+        'Acceptable if the auction is small',
+      ],
+      correctAnswer: 1,
+      explanation: 'Louisiana rules require auction advertising to identify the licensed auctioneer and may require the license number, promoting transparency and accountability.'
+    },
+    {
+      id: 'la-q263',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer consistently renews their license late, incurring delinquent fees. Which is TRUE about repeated late renewals?',
+      options: [
+        'They have no consequences beyond late fees',
+        'They can be considered evidence of unprofessional conduct and may factor into disciplinary decisions',
+        'They automatically result in permanent revocation',
+        'They guarantee higher commissions',
+      ],
+      correctAnswer: 1,
+      explanation: 'Habitual failure to renew on time can be viewed as disregard for legal requirements and may be considered along with other factors in disciplinary evaluations.'
+    },
+    {
+      id: 'la-q264',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following could be grounds for the board to DENY a Louisiana auction license application?',
+      options: [
+        'A single typo on the application',
+        'Documented history of fraud, misappropriation of funds, or material misrepresentation on the application',
+        'Having worked as an apprentice',
+        'Living in a rural parish',
+      ],
+      correctAnswer: 1,
+      explanation: 'The board may deny licensure if the applicant lacks good moral character, has relevant criminal or disciplinary history, or makes material misrepresentations on the application.'
+    },
+    {
+      id: 'la-q265',
+      topic: 'Licensing and Registration',
+      question: 'A Louisiana auctioneer fails to notify the board of a change in home address and business address. Why is this a problem?',
+      options: [
+        'Addresses are irrelevant',
+        'The board’s records must be accurate so official notices, complaints, and renewals can be properly delivered',
+        'It only matters if the auctioneer moves out of state',
+        'It is permissible if the license number does not change',
+      ],
+      correctAnswer: 1,
+      explanation: 'Licensees are required to keep contact information current so the board can provide notice of hearings, rule changes, and renewals.'
+    },
+    {
+      id: 'la-q266',
+      topic: 'Board and Governance',
+      question: 'A Louisiana auction business operates multiple locations under different trade names. To comply with the law, the business should:',
+      options: [
+        'Use any name without informing the board',
+        'Ensure each trade name or assumed name used is properly filed with and recognized by the board in line with licensing rules',
+        'Avoid listing any name on advertising',
+        'Use only generic titles like "Auction"',
+      ],
+      correctAnswer: 1,
+      explanation: 'Operating under additional trade names usually requires disclosure and approval so the board and public can connect all names to the licensed entity.'
+    },
+    {
+      id: 'la-q267',
+      topic: 'Board and Governance',
+      question: 'Under Louisiana law, which of the following is generally TRUE about the board’s power to impose fines?',
+      options: [
+        'The board may impose authorized monetary penalties for proven violations of the auction law or rules',
+        'The board has no authority to assess fines',
+        'Only criminal courts can fine auctioneers',
+        'Fines can only be paid in cash at auctions',
+      ],
+      correctAnswer: 0,
+      explanation: 'Administrative fines are a common sanction authorized by licensing statutes when the board finds violations after due process.'
+    },
+    {
+      id: 'la-q268',
+      topic: 'Legal and Contracts',
+      question: 'How does Louisiana auction law generally classify a violation of the auction licensing statute from a criminal standpoint?',
+      options: [
+        'As a civil tort only',
+        'As a felony in all cases',
+        'As a misdemeanor offense, typically punishable by fines and/or jail within statutory limits',
+        'Not a crime under any circumstance',
+      ],
+      correctAnswer: 2,
+      explanation: 'Violations of licensing statutes are commonly misdemeanors, subject to specific fines and possible jail terms as provided by the code.'
+    },
+    {
+      id: 'la-q269',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is TRUE about each separate sale or act in violation of the Louisiana Auctioneers Licensing Law?',
+      options: [
+        'All violations are merged into one offense',
+        'Each individual sale or act may be treated as a separate offense for enforcement purposes',
+        'Only the first sale counts',
+        'Only sales over a certain dollar amount count',
+      ],
+      correctAnswer: 1,
+      explanation: 'The statute provides that each sale or act in violation constitutes a separate offense, increasing potential penalties if violations are repeated.'
+    },
+    {
+      id: 'la-q270',
+      topic: 'Board and Governance',
+      question: 'A Louisiana auctioneer misappropriates $10,000 of consignor funds. Besides board discipline, the auctioneer may face:',
+      options: [
+        'Only a warning letter',
+        'Criminal charges such as theft or fraud and civil liability for damages',
+        'No consequences if the funds are later repaid',
+        'Automatic promotion to board member',
+      ],
+      correctAnswer: 1,
+      explanation: 'Misappropriation of funds can constitute criminal theft or fraud and civil liability, in addition to administrative discipline by the board.'
+    },
+    {
+      id: 'la-q271',
+      topic: 'Auction Procedures',
+      question: 'Which of the following situations BEST illustrates "aiding and abetting unlicensed practice" under Louisiana auction law?',
+      options: [
+        'Allowing a licensed auctioneer to call bids',
+        'Permitting an unlicensed person to conduct auctions under the auctioneer’s name while the licensee does nothing',
+        'Hiring licensed clerical staff',
+        'Referring complaints to the board',
+      ],
+      correctAnswer: 1,
+      explanation: 'A licensed auctioneer who knowingly allows unlicensed persons to conduct auctions under their license may be aiding unlicensed practice and faces discipline.'
+    },
+    {
+      id: 'la-q272',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer settles a dispute with a buyer by refunding money and taking back an item. What recordkeeping practice is BEST?',
+      options: [
+        'Delete all records of the transaction',
+        'Maintain documentation of the original sale and the refund, including the reason and terms of the resolution',
+        'Record only the refund',
+        'Keep no written record to avoid evidence',
+      ],
+      correctAnswer: 1,
+      explanation: 'Accurate records of both the sale and its resolution protect the auctioneer, consignor, and buyer and can be crucial if the board later reviews the matter.'
+    },
+    {
+      id: 'la-q273',
+      topic: 'Auction Procedures',
+      question: 'Which of the following would MOST likely violate the prohibition against false or misleading advertising under Louisiana auction law?',
+      options: [
+        'Describing items as "nice" in general terms',
+        'Advertising "All items must sell to the highest bidder!" when in fact many items have secret reserves and may be withdrawn',
+        'Listing the auctioneer’s name and license number',
+        'Providing accurate descriptions of the auction terms',
+      ],
+      correctAnswer: 1,
+      explanation: 'Promising that all items will sell to the highest bidder when there are undisclosed reserves is deceptive and conflicts with the actual terms of sale.'
+    },
+    {
+      id: 'la-q274',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is MOST accurate regarding "terms and conditions" of a Louisiana auction?',
+      options: [
+        'They are unimportant and rarely enforced',
+        'They constitute part of the contract with bidders and must be consistent with law and properly disclosed',
+        'They can override statutory prohibitions',
+        'They only apply in online auctions',
+      ],
+      correctAnswer: 1,
+      explanation: 'Terms and conditions form part of the contract of sale and must be lawful, clearly disclosed, and consistently applied.'
+    },
+    {
+      id: 'la-q275',
+      topic: 'Legal and Contracts',
+      question: 'When the written auction contract between the consignor and the Louisiana auctioneer conflicts with mandatory provisions of the auction law, the conflict is resolved by:',
+      options: [
+        'Enforcing the contract even if illegal',
+        'Ignoring the statute',
+        'Applying the statute and treating the conflicting contract term as void or unenforceable',
+        'Letting the buyer decide',
+      ],
+      correctAnswer: 2,
+      explanation: 'Parties cannot contract around statutory protections for the public; illegal or conflicting contract terms are generally unenforceable.'
+    },
+    {
+      id: 'la-q276',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is a GOOD example of the auctioneer’s duty of loyalty to the consignor under Louisiana law?',
+      options: [
+        'Disclosing confidential reserve prices to bidders to increase interest',
+        'Working diligently to comply with the contract, protecting the consignor’s financial interests within lawful terms, and avoiding conflicts of interest',
+        'Letting bidders set whatever terms they want',
+        'Commingling consignor and personal funds',
+      ],
+      correctAnswer: 1,
+      explanation: 'An auctioneer owes the consignor loyalty and must act in the consignor’s interest within the bounds of law and contract, including proper handling of funds and confidential information.'
+    },
+    {
+      id: 'la-q277',
+      topic: 'Auction Procedures',
+      question: 'Which of the following is the BEST example of an "extended" online auction contemplated by Louisiana law?',
+      options: [
+        'A sealed-bid sale with one deadline',
+        'An online auction whose closing time for a lot automatically extends when bids are placed near the scheduled end time',
+        'A tag sale with fixed prices',
+        'A newspaper classified ad',
+      ],
+      correctAnswer: 1,
+      explanation: 'Extended auctions allow automatic extension of closing times in response to last-minute bidding, preserving fair competition between bidders.'
+    },
+    {
+      id: 'la-q278',
+      topic: 'Auction Procedures',
+      question: 'In a Louisiana online real-time auction, what is the auctioneer’s responsibility regarding disclosure of internet bidding terms?',
+      options: [
+        'No disclosure is required',
+        'Clearly disclose how bids are accepted, how ties are resolved, and how closing times and buyer’s premiums work',
+        'Let the software provider explain everything',
+        'Only disclose terms to winning bidders',
+      ],
+      correctAnswer: 1,
+      explanation: 'Clear disclosure of bidding processes and rules is essential so bidders understand how the online auction functions and how winners are determined.'
+    },
+    {
+      id: 'la-q279',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auction bidder claims they never saw the buyer’s premium listed. Which practice would BEST protect the auctioneer?',
+      options: [
+        'Rely only on verbal announcements',
+        'Posting the buyer’s premium visibly, printing it on bid cards or registration forms, and announcing it before bidding begins',
+        'Hiding the premium in tiny print',
+        'Charging the premium only to some bidders',
+      ],
+      correctAnswer: 1,
+      explanation: 'Multiple forms of disclosure create strong evidence that bidders were informed of the buyer’s premium and reduce disputes.'
+    },
+    {
+      id: 'la-q280',
+      topic: 'Legal and Contracts',
+      question: 'A Louisiana auctioneer is asked to auction real estate without any involvement of a licensed real estate broker, in a situation where real estate laws require broker participation. The auctioneer should:',
+      options: [
+        'Proceed anyway because auction law is enough',
+        'Refuse or ensure a properly licensed real estate professional is involved to comply with real estate law',
+        'Ignore all real estate statutes',
+        'Have the ringman sign the deeds',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auction law does not override real estate licensing requirements; auctions of real property must comply with both auction and real estate statutes.'
+    },
+    {
+      id: 'la-q281',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer is preparing a sale of immovable property that is not a judicial sale. Which document must typically be produced and read before the sale?',
+      options: [
+        'A restaurant menu',
+        'A certificate of mortgages and encumbrances affecting the property',
+        'A copy of the auctioneer’s bond',
+        'A list of previous buyers',
+      ],
+      correctAnswer: 1,
+      explanation: 'Louisiana law requires a certificate of mortgages and encumbrances to be produced and read before non-extrajudicial public sales of immovables.'
+    },
+    {
+      id: 'la-q282',
+      topic: 'Auction Procedures',
+      question: 'Why is it important for a Louisiana auctioneer to document the specific commission schedule and expense responsibility in the written contract?',
+      options: [
+        'So the auctioneer can change terms at will',
+        'To avoid disputes and to provide clear evidence of agreed compensation in case of complaint or litigation',
+        'To satisfy bidders only',
+        'To avoid paying taxes',
+      ],
+      correctAnswer: 1,
+      explanation: 'Written commission and expense terms reduce misunderstandings and provide proof of the parties’ agreement if disputes arise.'
+    },
+    {
+      id: 'la-q283',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer charges a 10% commission and a 3% advertising fee on a hammer price of $12,000. What is the total dollar amount of the auctioneer’s compensation from this sale (before expenses)?',
+      options: [
+        '$960',
+        '$1,200',
+        '$1,560',
+        '$1,800',
+      ],
+      correctAnswer: 2,
+      explanation: '10% of $12,000 is $1,200. 3% of $12,000 is $360. Total compensation is $1,200 + $360 = $1,560.'
+    },
+    {
+      id: 'la-q284',
+      topic: 'Board and Governance',
+      question: 'In the previous question, what is the consignor’s NET proceeds before any other costs if the hammer price is $12,000 and the total commission/fee is $1,560?',
+      options: [
+        '$10,440',
+        '$10,800',
+        '$11,000',
+        '$11,560',
+      ],
+      correctAnswer: 0,
+      explanation: 'Net to the consignor is hammer price minus fees: $12,000 – $1,560 = $10,440.'
+    },
+    {
+      id: 'la-q285',
+      topic: 'Duties and Responsibilities',
+      question: 'A Louisiana auction charges a 12% buyer’s premium on a hammer price of $4,000. Assuming no tax, what is the total amount the buyer must pay?',
+      options: [
+        '$4,320',
+        '$4,400',
+        '$4,480',
+        '$4,600',
+      ],
+      correctAnswer: 2,
+      explanation: 'Buyer’s premium is 12% of $4,000 = $480. Total due is $4,000 + $480 = $4,480.'
+    },
+    {
+      id: 'la-q286',
+      topic: 'Auction Procedures',
+      question: 'At a Louisiana auction, the terms state that sales tax is calculated on the sum of the hammer price and buyer’s premium. The hammer is $5,000, buyer’s premium is 10%, and tax is 8%. What is the total due from the buyer?',
+      options: [
+        '$5,900',
+        '$5,940',
+        '$6,000',
+        '$6,048',
+      ],
+      correctAnswer: 1,
+      explanation: 'Buyer’s premium is 10% of $5,000 = $500. Tax base is $5,000 + $500 = $5,500. Tax at 8% is $440. Total due is $5,000 + $500 + $440 = $5,940.'
+    },
+    {
+      id: 'la-q287',
+      topic: 'Financial and Records',
+      question: 'A Louisiana auctioneer accidentally double-charges a buyer’s premium and later discovers the mistake. The auctioneer should:',
+      options: [
+        'Keep the extra money',
+        'Promptly correct the error, refund the overpayment, and document the correction',
+        'Wait to see if the buyer notices',
+        'Offer only store credit with no record',
+      ],
+      correctAnswer: 1,
+      explanation: 'Ethical and legal practice requires promptly correcting overcharges and keeping accurate records of any corrections or refunds.'
+    },
+    {
+      id: 'la-q288',
+      topic: 'Auction Procedures',
+      question: 'In Louisiana, a "hammer price" is best defined as:',
+      options: [
+        'The total including buyer’s premium and tax',
+        'The last bid accepted when the auctioneer’s hammer (or equivalent signal) falls, not including any buyer’s premium',
+        'The reserve price',
+        'The opening bid only',
+      ],
+      correctAnswer: 1,
+      explanation: 'Hammer price is the final accepted bid at the moment the auctioneer announces the item sold, before adding premiums or tax.'
+    },
+    {
+      id: 'la-q289',
+      topic: 'Auction Procedures',
+      question: 'A Louisiana auctioneer conducts a sale in which the written terms state "auctioneer reserves the right to reject any and all bids." This clause primarily affects:',
+      options: [
+        'The auctioneer’s ability to withdraw property or reject bids prior to the fall of the hammer',
+        'The buyer’s right to inspect items',
+        'The seller’s obligation to pay commission',
+        'The need for a written contract',
+      ],
+      correctAnswer: 0,
+      explanation: 'Such language typically preserves the auctioneer’s and seller’s discretion in reserve auctions to reject bids or withdraw property before the item is declared sold.'
+    },
+    {
+      id: 'la-q290',
+      topic: 'Auction Procedures',
+      question: 'At a Louisiana auction, two bidders simultaneously make the same high bid and the auctioneer cannot determine who was first. The most appropriate action is to:',
+      options: [
+        'Arbitrarily choose one bidder',
+        'Refuse both bids and cancel the sale',
+        'Reopen the bidding between the tied bidders, and if necessary the whole floor, to resolve the tie',
+        'Ask the seller to pick the winner',
+      ],
+      correctAnswer: 2,
+      explanation: 'Standard practice is to reopen bidding between the tied bidders (and others if needed) until a clear high bidder emerges, ensuring fairness and transparency.'
+    },
+    {
+      id: 'la-q291',
+      topic: 'Auction Procedures',
+      question: 'Which of the following best describes "knockdown" in the context of a Louisiana auction?',
+      options: [
+        'The moment bidding opens',
+        'The moment the auctioneer announces an item as sold to the highest bidder',
+        'The moment the catalog is printed',
+        'The time buyers register',
+      ],
+      correctAnswer: 1,
+      explanation: 'Knockdown occurs when the auctioneer’s hammer falls or equivalent signal is given, finalizing the sale to the highest bidder under the terms of the auction.'
+    },
+    {
+      id: 'la-q292',
+      topic: 'Prohibited Acts and Violations',
+      question: 'A Louisiana auctioneer suspects that a consignor may be attempting to sell counterfeit items. The auctioneer’s BEST course of action is to:',
+      options: [
+        'Ignore the concern',
+        'Investigate further, consult experts if needed, and refuse to sell the items if authenticity cannot be reasonably verified or properly disclosed',
+        'Sell the items but deny knowledge',
+        'List them as "genuine" without checking',
+      ],
+      correctAnswer: 1,
+      explanation: 'Auctioneers should avoid misrepresentation and may need to decline consignments that appear fraudulent or disclose uncertainty clearly to protect bidders.'
+    },
+    {
+      id: 'la-q293',
+      topic: 'Auction Procedures',
+      question: 'A consignor demands that a Louisiana auctioneer misrepresent used items as "new in box." The auctioneer should:',
+      options: [
+        'Comply to keep the client',
+        'Decline to misrepresent the items and, if necessary, refuse the consignment',
+        'Agree but lower the reserve',
+        'List the items with no description',
+      ],
+      correctAnswer: 1,
+      explanation: 'Misrepresentation is prohibited; the auctioneer has a duty to be honest in describing items and may need to refuse consignments conditioned on false advertising.'
+    },
+    {
+      id: 'la-q294',
+      topic: 'Legal and Contracts',
+      question: 'Which of the following BEST describes the role of internal office policies for a Louisiana auction company?',
+      options: [
+        'They are irrelevant if the law is followed',
+        'They translate legal requirements into day-to-day procedures and help ensure consistent compliance by staff',
+        'They replace state statutes',
+        'They allow employees to ignore board rules',
+      ],
+      correctAnswer: 1,
+      explanation: 'Written policies bridge the gap between statutory requirements and daily operations, supporting compliance and reducing errors.'
+    },
+    {
+      id: 'la-q295',
+      topic: 'Auction Procedures',
+      question: 'Why is regular training on Louisiana auction law important for staff who interact with bidders and consignors?',
+      options: [
+        'So staff can answer every legal question in court',
+        'So staff understand basic legal requirements, avoid making unauthorized promises, and know when to refer issues to the licensed auctioneer',
+        'So staff can act as lawyers',
+        'So the board never inspects the business',
+      ],
+      correctAnswer: 1,
+      explanation: 'Trained staff are less likely to inadvertently misstate terms or violate rules and can direct legal questions appropriately to the licensed auctioneer.'
+    },
+    {
+      id: 'la-q296',
+      topic: 'Board and Governance',
+      question: 'Under Louisiana auction law, continuing education requirements for license renewal are generally:',
+      options: [
+        'Fixed forever in the statute and never changed',
+        'Set and adjusted by the board through rules and regulations',
+        'Determined by each auction company individually',
+        'Unnecessary for any licensee',
+      ],
+      correctAnswer: 1,
+      explanation: 'Continuing education requirements are typically adopted and updated by the board through rulemaking so they can be adjusted as laws and best practices change.'
+    },
+    {
+      id: 'la-q297',
+      topic: 'Licensing and Registration',
+      question: 'A nonresident auctioneer seeks a Louisiana license through reciprocity. In addition to holding a valid home-state license, which is commonly required?',
+      options: [
+        'Proof that the home state has no rules at all',
+        'A certificate of good standing from the home licensing authority and evidence that the home state’s requirements are comparable',
+        'Only a letter from a friend',
+        'A guarantee of ten Louisiana auctions per year',
+      ],
+      correctAnswer: 1,
+      explanation: 'Reciprocity normally requires that the applicant be in good standing where already licensed and that the other state’s requirements are substantially equivalent to Louisiana’s.'
+    },
+    {
+      id: 'la-q298',
+      topic: 'Board and Governance',
+      question: 'Which of the following best describes the board’s subpoena power under Louisiana auction law?',
+      options: [
+        'The board cannot compel any testimony or documents',
+        'The board may subpoena witnesses and records relevant to investigations and hearings',
+        'Only private citizens can issue subpoenas',
+        'Subpoenas are used only in criminal court',
+      ],
+      correctAnswer: 1,
+      explanation: 'To investigate complaints and hold meaningful hearings, the board is typically empowered to compel testimony and the production of relevant documents.'
+    },
+    {
+      id: 'la-q299',
+      topic: 'Licensing and Registration',
+      question: 'Funds collected by the Louisiana Auctioneers Licensing Board from fees and fines are usually deposited:',
+      options: [
+        'Into a private account owned by the chair',
+        'Into the Louisiana Auctioneers Licensing Fund in the state treasury for use in administering the law',
+        'Directly into licensees’ personal accounts',
+        'Into a federal grant program',
+      ],
+      correctAnswer: 1,
+      explanation: 'Statute establishes a dedicated fund in the state treasury for board receipts, which finances the administration and enforcement of the licensing law.'
+    },
+    {
+      id: 'la-q300',
+      topic: 'Licensing and Registration',
+      question: 'If the board finds that a licensee’s continued practice presents an immediate danger to the public, which emergency action is often authorized under administrative law principles?',
+      options: [
+        'Issuing an immediate summary suspension of the license, followed by a prompt hearing',
+        'Waiting for the next annual meeting',
+        'Ignoring the problem until a civil lawsuit is filed',
+        'Letting other licensees vote on punishment',
+      ],
+      correctAnswer: 0,
+      explanation: 'In urgent situations, many licensing boards are empowered to summarily suspend a license to protect the public, subject to quick post-suspension due process.'
+    },
+    {
+      id: 'la-q301',
+      topic: 'Licensing and Registration',
+      question: 'Which of the following is generally a minimum educational requirement to qualify for an initial Louisiana auctioneer license?',
+      options: [
+        'Completion of a high school education or equivalent, along with approved auction education',
+        'A doctoral degree in business',
+        'No education at all',
+        'Completion of a four-year law degree',
+      ],
+      correctAnswer: 0,
+      explanation: 'Most auction licensing schemes require at least a high school education or GED plus completion of an approved course of auction instruction.'
+    },
+    {
+      id: 'la-q302',
+      topic: 'Licensing and Registration',
+      question: 'An apprentice auctioneer in Louisiana wants to supervise another apprentice. Under typical licensing structures, this is:',
+      options: [
+        'Allowed if both agree in writing',
+        'Not allowed; supervision must be provided by a fully licensed auctioneer, not an apprentice',
+        'Required by law',
+        'Permitted only online',
+      ],
+      correctAnswer: 1,
+      explanation: 'Supervisory responsibility is normally reserved for fully licensed auctioneers; apprentices are in training and not authorized to supervise other trainees.'
+    }
+  ]
 };
 
 // Get questions for a specific state

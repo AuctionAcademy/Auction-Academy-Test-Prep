@@ -5,6 +5,7 @@ import './StudyGuide.css';
 import alGuide from '../data/al_study_guide.json';
 import gaGuide from '../data/ga_study_guide.json';
 import kyGuide from '../data/ky_study_guide.json';
+import laGuide from '../data/la_study_guide.json';
 import tnGuide from '../data/tn_study_guide.json';
 import txGuide from '../data/tx_study_guide.json';
 
@@ -20,6 +21,8 @@ const StudyGuide = ({ selectedState, onBack }) => {
       setGuide(gaGuide);
     } else if (selectedState === 'Kentucky') {
       setGuide(kyGuide);
+    } else if (selectedState === 'Louisiana') {
+      setGuide(laGuide);
     } else if (selectedState === 'Tennessee') {
       setGuide(tnGuide);
     } else if (selectedState === 'Texas') {
