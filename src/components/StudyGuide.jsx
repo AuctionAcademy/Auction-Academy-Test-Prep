@@ -3,6 +3,7 @@ import './StudyGuide.css';
 
 // Import study guide data
 import alGuide from '../data/al_study_guide.json';
+import arGuide from '../data/ar_study_guide.json';
 import gaGuide from '../data/ga_study_guide.json';
 import kyGuide from '../data/ky_study_guide.json';
 import laGuide from '../data/la_study_guide.json';
@@ -17,6 +18,8 @@ const StudyGuide = ({ selectedState, onBack }) => {
     // Load appropriate study guide based on state
     if (selectedState === 'Alabama') {
       setGuide(alGuide);
+    } else if (selectedState === 'Arkansas') {
+      setGuide(arGuide);
     } else if (selectedState === 'Georgia') {
       setGuide(gaGuide);
     } else if (selectedState === 'Kentucky') {
