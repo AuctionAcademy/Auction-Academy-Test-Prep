@@ -36,8 +36,8 @@ function Game({ state, topic, onExit }) {
         isCorrect: idx === question.correctAnswer,
         x: Math.random() * 60 + 20, // 20-80% of width
         y: Math.random() * 40 + 10, // 10-50% of height
-        vx: (Math.random() - 0.5) * 1, // velocity x (reduced for readability)
-        vy: (Math.random() - 0.5) * 1, // velocity y (reduced for readability)
+        vx: (Math.random() - 0.5) * 0.3, // velocity x (much slower for readability)
+        vy: (Math.random() - 0.5) * 0.3, // velocity y (much slower for readability)
         radius: 80, // collision radius in pixels
         removed: false
       }));
@@ -75,9 +75,7 @@ function Game({ state, topic, onExit }) {
       const dy = mousePosition.y - rocketY;
       let angle = Math.atan2(dy, dx) * (180 / Math.PI);
       
-      // Clamp angle to -90 to +90 degrees (left to right only, no full rotation)
-      angle = Math.max(-90, Math.min(90, angle));
-      
+      // No clamping - allow rocket to point anywhere on screen
       setRocketAngle(angle + 90); // +90 to adjust for rocket facing up by default
     }
   }, [mousePosition]);
@@ -94,8 +92,8 @@ function Game({ state, topic, onExit }) {
           let { x, y, vx, vy } = bubble;
 
           // Update position
-          x += vx * 0.5;
-          y += vy * 0.5;
+          x += vx * 0.3;
+          y += vy * 0.3;
 
           // Bounce off walls
           if (x <= 5 || x >= 95) {
