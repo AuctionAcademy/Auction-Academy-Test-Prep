@@ -391,7 +391,7 @@
 /* Question Section - Separate header area below stats */
 .game-question-section {
   width: 100%;
-  background: linear-gradient(135deg, rgba(0, 24, 41, 0.98), rgba(0, 40, 70, 0.98));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(240, 245, 255, 0.98));
   padding: 1.5rem 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   z-index: 25;
@@ -399,16 +399,16 @@
   align-items: center;
   justify-content: center;
   min-height: 90px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(0, 24, 41, 0.2);
+  border-top: 2px solid rgba(0, 24, 41, 0.2);
 }
 
 .question-text {
-  color: #fff;
+  color: #001829;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.5;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  text-shadow: none;
   pointer-events: none; /* Ensure question text doesn't intercept clicks */
 }
 
@@ -537,12 +537,12 @@
 }
 
 .bubble-content {
-  color: #fff;
+  color: #001829;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
   line-height: 1.4;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  text-shadow: none;
   z-index: 1;
 }
 

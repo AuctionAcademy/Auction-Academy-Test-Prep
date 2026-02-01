@@ -32,17 +32,15 @@ function Game({ state, topic, onExit }) {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
       const question = questions[currentQuestionIndex];
       const newBubbles = question.options.map((opt, idx) => {
-        // Consistent slow speed for all bubbles, random direction
-        const angle = Math.random() * Math.PI * 2;
-        const speed = 0.15; // Very slow, consistent speed
+        // Stationary bubbles - no movement
         return {
           id: idx,
           text: opt,
           isCorrect: idx === question.correctAnswer,
           x: Math.random() * 60 + 20, // 20-80% of width
           y: Math.random() * 40 + 10, // 10-50% of height
-          vx: Math.cos(angle) * speed, // Consistent speed, random direction
-          vy: Math.sin(angle) * speed, // Consistent speed, random direction
+          vx: 0, // No movement - stationary
+          vy: 0, // No movement - stationary
           radius: 80, // collision radius in pixels
           removed: false
         };
