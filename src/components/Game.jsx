@@ -13,6 +13,7 @@ function Game({ state, topic, onExit }) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [rocketAngle, setRocketAngle] = useState(0);
   const [laserShot, setLaserShot] = useState(null); // { start, end, active }
+  const [bulletPosition, setBulletPosition] = useState(null); // For animated bullet
   const [bubbles, setBubbles] = useState([]);
   const gameAreaRef = useRef(null);
   const animationFrameRef = useRef(null);
@@ -30,17 +31,22 @@ function Game({ state, topic, onExit }) {
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
       const question = questions[currentQuestionIndex];
-      const newBubbles = question.options.map((opt, idx) => ({
-        id: idx,
-        text: opt,
-        isCorrect: idx === question.correctAnswer,
-        x: Math.random() * 60 + 20, // 20-80% of width
-        y: Math.random() * 40 + 10, // 10-50% of height
-        vx: (Math.random() - 0.5) * 0.3, // velocity x (much slower for readability)
-        vy: (Math.random() - 0.5) * 0.3, // velocity y (much slower for readability)
-        radius: 80, // collision radius in pixels
-        removed: false
-      }));
+      const newBubbles = question.options.map((opt, idx) => {
+        // Consistent slow speed for all bubbles, random direction
+        const angle = Math.random() * Math.PI * 2;
+        const speed = 0.15; // Very slow, consistent speed
+        return {
+          id: idx,
+          text: opt,
+          isCorrect: idx === question.correctAnswer,
+          x: Math.random() * 60 + 20, // 20-80% of width
+          y: Math.random() * 40 + 10, // 10-50% of height
+          vx: Math.cos(angle) * speed, // Consistent speed, random direction
+          vy: Math.sin(angle) * speed, // Consistent speed, random direction
+          radius: 80, // collision radius in pixels
+          removed: false
+        };
+      });
       setBubbles(newBubbles);
       setTimeRemaining(60);
       setShowFeedback(null);
@@ -180,22 +186,43 @@ function Game({ state, topic, onExit }) {
   const handleBubbleClick = (bubble) => {
     if (showFeedback || bubble.removed) return;
 
-    // Calculate laser shot path
+    // Calculate laser shot path and animate bullet
     if (gameAreaRef.current) {
       const rect = gameAreaRef.current.getBoundingClientRect();
-      const rocketX = rect.width / 2;
-      const rocketY = rect.height - 80;
+      
+      // Calculate rocket tip position (considering rotation)
+      const rocketCenterX = rect.width / 2;
+      const rocketCenterY = rect.height - 30;
+      const tipOffset = 40; // Distance from rocket center to tip
+      const angleRad = (rocketAngle * Math.PI) / 180;
+      const rocketTipX = rocketCenterX + Math.sin(angleRad) * tipOffset;
+      const rocketTipY = rocketCenterY - Math.cos(angleRad) * tipOffset;
+      
       const bubbleX = (bubble.x / 100) * rect.width;
       const bubbleY = (bubble.y / 100) * rect.height;
 
-      setLaserShot({
-        start: { x: rocketX, y: rocketY },
-        end: { x: bubbleX, y: bubbleY },
-        active: true
-      });
-
-      // Clear laser after animation
-      setTimeout(() => setLaserShot(null), 300);
+      // Animate bullet from rocket tip to bubble
+      const startTime = Date.now();
+      const duration = 200; // ms
+      
+      const animateBullet = () => {
+        const elapsed = Date.now() - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        
+        const currentX = rocketTipX + (bubbleX - rocketTipX) * progress;
+        const currentY = rocketTipY + (bubbleY - rocketTipY) * progress;
+        const angle = Math.atan2(bubbleY - rocketTipY, bubbleX - rocketTipX) * (180 / Math.PI);
+        
+        setBulletPosition({ x: currentX, y: currentY, angle, active: true });
+        
+        if (progress < 1) {
+          requestAnimationFrame(animateBullet);
+        } else {
+          setBulletPosition(null);
+        }
+      };
+      
+      animateBullet();
     }
 
     // Mark bubble as removed
@@ -365,17 +392,16 @@ function Game({ state, topic, onExit }) {
           ))}
         </div>
 
-        {/* Laser shot animation */}
-        {laserShot && laserShot.active && (
-          <svg className="laser-svg">
-            <line
-              x1={laserShot.start.x}
-              y1={laserShot.start.y}
-              x2={laserShot.end.x}
-              y2={laserShot.end.y}
-              className="laser-beam"
-            />
-          </svg>
+        {/* Animated laser bullet */}
+        {bulletPosition && bulletPosition.active && (
+          <div 
+            className="laser-bullet"
+            style={{
+              left: `${bulletPosition.x}px`,
+              top: `${bulletPosition.y}px`,
+              transform: `translate(-50%, -50%) rotate(${bulletPosition.angle}deg)`
+            }}
+          />
         )}
 
         {/* Rocket ship - rotates to follow mouse */}
