@@ -164,7 +164,7 @@ function Test({ state, questionCount, topic, onExit }) {
     <div className="test-container">
       <div className="test-header">
         <div className="test-info">
-          <h2>{questionCount === 75 ? 'Full Practice Test' : `${topic || 'All Topics'} Quiz`}</h2>
+          <h2>{questionCount === 75 ? 'Full Practice Test' : `Quiz - ${questionCount} Questions`}</h2>
           <div className="test-meta">
             <span>{state}</span>
             <span>•</span>

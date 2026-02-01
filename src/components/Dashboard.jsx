@@ -3,7 +3,6 @@ import { getAvailableTopics } from '../data/questionBank';
 import './Dashboard.css';
 
 function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide }) {
-  const [quizTopic, setQuizTopic] = useState('');
   const [flashcardTopic, setFlashcardTopic] = useState('');
   const [gameTopic, setGameTopic] = useState('');
   const [quizSize, setQuizSize] = useState(10);
@@ -49,21 +48,10 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
           {/* Topic Quiz */}
           <div className="study-mode-card">
             <div className="card-icon">🎯</div>
-            <h3>Topic Quiz</h3>
-            <p>Focus on specific sections to strengthen your knowledge</p>
+            <h3>Quick Quiz</h3>
+            <p>Take a quick quiz with customizable question count</p>
             
             <div className="quiz-options">
-              <select 
-                value={quizTopic} 
-                onChange={(e) => setQuizTopic(e.target.value)}
-                className="topic-select"
-              >
-                <option value="">All Topics</option>
-                {availableTopics.filter(t => t !== 'All Topics').map(topic => (
-                  <option key={topic} value={topic}>{topic}</option>
-                ))}
-              </select>
-
               <select 
                 value={quizSize} 
                 onChange={(e) => setQuizSize(Number(e.target.value))}
@@ -77,7 +65,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             </div>
 
             <button 
-              onClick={() => onStartQuiz(quizTopic, quizSize)} 
+              onClick={() => onStartQuiz('', quizSize)} 
               className="btn-mode"
             >
               Start Quiz

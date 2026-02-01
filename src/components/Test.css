@@ -370,6 +370,7 @@
   font-size: 1.1rem;
   margin-bottom: 1rem;
   font-weight: 500;
+  color: #001829;
 }
 
 .review-options {
@@ -383,6 +384,7 @@
   padding: 0.75rem;
   border-radius: 6px;
   background: white;
+  color: #001829;
 }
 
 .review-option.correct-answer {
