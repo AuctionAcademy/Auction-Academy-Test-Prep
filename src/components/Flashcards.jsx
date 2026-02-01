@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getQuizQuestions } from '../data/questionBank';
+import { getRandomFlashcards } from '../data/flashcardQuestions';
 import './Flashcards.css';
 
 function Flashcards({ state, topic, onExit }) {
@@ -9,9 +9,10 @@ function Flashcards({ state, topic, onExit }) {
   const [knownCards, setKnownCards] = useState([]);
 
   useEffect(() => {
-    const cards = getQuizQuestions(state, 20, topic);
+    // Use dedicated flashcard questions (same for all states)
+    const cards = getRandomFlashcards(20);
     setQuestions(cards);
-  }, [state, topic]);
+  }, []);
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
@@ -54,7 +55,7 @@ function Flashcards({ state, topic, onExit }) {
       <div className="flashcards-header">
         <div className="header-info">
           <h2>🎴 Flashcards</h2>
-          <p>{topic || 'All Topics'} - {state}</p>
+          <p>Core Auction Concepts - {state}</p>
         </div>
         <button onClick={onExit} className="btn-exit">Exit</button>
       </div>
@@ -75,29 +76,21 @@ function Flashcards({ state, topic, onExit }) {
         >
           <div className="flashcard-front">
             <div className="card-label">Question</div>
-            <div className="card-topic">{currentCard.topic}</div>
             <div className="card-content">{currentCard.question}</div>
-            {currentCard.options && currentCard.options.length > 0 && (
-              <div className="card-options">
-                {currentCard.options.map((option, idx) => (
-                  <div key={idx} className="card-option">
-                    {String.fromCharCode(65 + idx)}. {option}
-                  </div>
-                ))}
-              </div>
-            )}
             <div className="card-hint">Click to see answer</div>
           </div>
           
           <div className="flashcard-back">
             <div className="card-label">Answer</div>
             <div className="card-content answer">
-              {currentCard.options[currentCard.correctAnswer]}
+              {currentCard.answer}
             </div>
-            <div className="card-explanation">
-              <strong>Explanation:</strong><br/>
-              {currentCard.explanation}
-            </div>
+            {currentCard.explanation && (
+              <div className="card-explanation">
+                <strong>Explanation:</strong><br/>
+                {currentCard.explanation}
+              </div>
+            )}
             <div className="card-hint">Click to go back</div>
           </div>
         </div>
