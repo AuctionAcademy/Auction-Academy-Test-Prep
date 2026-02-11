@@ -31,14 +31,25 @@ function Game({ state, topic, onExit }) {
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
       const question = questions[currentQuestionIndex];
+      
+      // Fixed positions for 4 bubbles in a 2x2 grid - evenly distributed
+      // This prevents overlap and ensures all bubbles are visible
+      const positions = [
+        { x: 25, y: 25 },  // Top-left
+        { x: 75, y: 25 },  // Top-right
+        { x: 25, y: 55 },  // Bottom-left
+        { x: 75, y: 55 }   // Bottom-right
+      ];
+      
       const newBubbles = question.options.map((opt, idx) => {
-        // Stationary bubbles - no movement
+        // Use fixed positions to prevent overlap
+        const pos = positions[idx % positions.length];
         return {
           id: idx,
           text: opt,
           isCorrect: idx === question.correctAnswer,
-          x: Math.random() * 60 + 20, // 20-80% of width
-          y: Math.random() * 40 + 10, // 10-50% of height
+          x: pos.x, // Fixed x position (percentage)
+          y: pos.y, // Fixed y position (percentage)
           vx: 0, // No movement - stationary
           vy: 0, // No movement - stationary
           radius: 80, // collision radius in pixels
