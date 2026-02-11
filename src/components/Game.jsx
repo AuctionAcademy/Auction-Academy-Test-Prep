@@ -84,77 +84,9 @@ function Game({ state, topic, onExit }) {
     }
   }, [mousePosition]);
 
-  // Physics animation loop
-  useEffect(() => {
-    if (gameState !== 'playing') return;
-
-    const animate = () => {
-      setBubbles(prevBubbles => {
-        return prevBubbles.map(bubble => {
-          if (bubble.removed) return bubble;
-
-          let { x, y, vx, vy } = bubble;
-
-          // Update position
-          x += vx * 0.3;
-          y += vy * 0.3;
-
-          // Bounce off walls
-          if (x <= 5 || x >= 95) {
-            vx = -vx;
-            x = x <= 5 ? 5 : 95;
-          }
-          if (y <= 5 || y >= 65) { // Keep away from bottom where rocket is
-            vy = -vy;
-            y = y <= 5 ? 5 : 65;
-          }
-
-          return { ...bubble, x, y, vx, vy };
-        });
-      });
-
-      // Check bubble-to-bubble collisions
-      setBubbles(prevBubbles => {
-        const newBubbles = [...prevBubbles];
-        for (let i = 0; i < newBubbles.length; i++) {
-          for (let j = i + 1; j < newBubbles.length; j++) {
-            if (newBubbles[i].removed || newBubbles[j].removed) continue;
-
-            const dx = newBubbles[j].x - newBubbles[i].x;
-            const dy = newBubbles[j].y - newBubbles[i].y;
-            const distance = Math.sqrt(dx * dx + dy * dy);
-            const minDistance = 18; // Minimum distance between bubble centers (in %)
-
-            if (distance < minDistance) {
-              // Collision detected - bounce off each other
-              const angle = Math.atan2(dy, dx);
-              const targetX = newBubbles[i].x + Math.cos(angle) * minDistance;
-              const targetY = newBubbles[i].y + Math.sin(angle) * minDistance;
-
-              // Separate bubbles
-              const ax = targetX - newBubbles[j].x;
-              const ay = targetY - newBubbles[j].y;
-              
-              newBubbles[i].vx -= ax * 0.1;
-              newBubbles[i].vy -= ay * 0.1;
-              newBubbles[j].vx += ax * 0.1;
-              newBubbles[j].vy += ay * 0.1;
-            }
-          }
-        }
-        return newBubbles;
-      });
-
-      animationFrameRef.current = requestAnimationFrame(animate);
-    };
-
-    animationFrameRef.current = requestAnimationFrame(animate);
-    return () => {
-      if (animationFrameRef.current) {
-        cancelAnimationFrame(animationFrameRef.current);
-      }
-    };
-  }, [gameState]);
+  // Physics animation loop - DISABLED for stationary bubbles
+  // Bubbles are now completely stationary with vx=0, vy=0
+  // No physics updates or collision detection needed
 
   // Timer countdown
   useEffect(() => {
