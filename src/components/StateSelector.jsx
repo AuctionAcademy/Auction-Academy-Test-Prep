@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { states } from '../data/questionBank';
 import './StateSelector.css';
 
-function StateSelector({ onSelectState }) {
+function StateSelector({ onSelectState, onLogin, onLogout, user }) {
   const [selectedState, setSelectedState] = useState('');
   const [showStateDialog, setShowStateDialog] = useState(false);
   const [selectedMode, setSelectedMode] = useState(null);
@@ -30,6 +30,16 @@ function StateSelector({ onSelectState }) {
   return (
     <div className="state-selector-container">
       <div className="brand-header">
+        <div className="brand-header-top">
+          {user ? (
+            <div className="user-menu">
+              <span className="user-greeting">👋 {user.username}</span>
+              <button className="logout-btn" onClick={onLogout}>Logout</button>
+            </div>
+          ) : (
+            <button className="login-btn" onClick={onLogin}>Login</button>
+          )}
+        </div>
         <img src="/auction-academy-logo.png" alt="Auction Academy" className="brand-logo" />
         <h2>Auctioneer Exam Prep</h2>
         <p className="tagline">Master Your State Licensing Exam</p>
