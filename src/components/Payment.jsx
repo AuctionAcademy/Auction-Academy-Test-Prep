@@ -1,8 +1,13 @@
 import { useState, useEffect } from 'react';
+import { loadStripe } from '@stripe/stripe-js';
 import { useAuth } from './AuthContext';
 import './Payment.css';
 
-const API_URL = import.meta.env.VITE_API_URL || '';
+const STRIPE_PUBLISHABLE_KEY = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || '';
+const STRIPE_PRICE_ID = import.meta.env.VITE_STRIPE_PRICE_ID || '';
+
+// Initialize Stripe only if we have a publishable key
+const stripePromise = STRIPE_PUBLISHABLE_KEY ? loadStripe(STRIPE_PUBLISHABLE_KEY) : null;
 
 function Payment({ onSuccess, onBack }) {
   const [processing, setProcessing] = useState(false);
@@ -12,26 +17,11 @@ function Payment({ onSuccess, onBack }) {
   // Check for successful payment return from Stripe Checkout
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const sessionId = params.get('session_id');
 
-    if (params.get('payment') === 'success' && sessionId) {
-      // Verify payment with the backend before marking as paid
-      fetch(`${API_URL}/api/verify-session?session_id=${sessionId}`)
-        .then(res => res.json())
-        .then(data => {
-          if (data.paid) {
-            markAsPaid();
-            window.history.replaceState({}, '', window.location.pathname);
-            onSuccess();
-          } else {
-            setError('Payment could not be verified. Please contact support.');
-            window.history.replaceState({}, '', window.location.pathname);
-          }
-        })
-        .catch(() => {
-          setError('Unable to verify payment. Please contact support.');
-          window.history.replaceState({}, '', window.location.pathname);
-        });
+    if (params.get('payment') === 'success') {
+      markAsPaid();
+      window.history.replaceState({}, '', window.location.pathname);
+      onSuccess();
     } else if (params.get('payment') === 'cancelled') {
       setError('Payment was cancelled. Please try again.');
       window.history.replaceState({}, '', window.location.pathname);
@@ -42,30 +32,37 @@ function Payment({ onSuccess, onBack }) {
     setError('');
     setProcessing(true);
 
-    try {
-      const response = await fetch(`${API_URL}/api/create-checkout-session`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ userEmail: user?.email }),
-      });
+    if (!STRIPE_PUBLISHABLE_KEY) {
+      setError('Stripe is not configured. Please set VITE_STRIPE_PUBLISHABLE_KEY in the environment.');
+      setProcessing(false);
+      return;
+    }
 
-      if (!response.ok) {
-        let errorMessage = 'Failed to start checkout.';
-        try {
-          const data = await response.json();
-          errorMessage = data.error || errorMessage;
-        } catch {
-          // Response was not JSON
-        }
-        throw new Error(errorMessage);
+    if (!STRIPE_PRICE_ID) {
+      setError('Stripe Price ID is not configured. Please set VITE_STRIPE_PRICE_ID in the environment.');
+      setProcessing(false);
+      return;
+    }
+
+    try {
+      const stripe = await stripePromise;
+      if (!stripe) {
+        throw new Error('Failed to load Stripe.');
       }
 
-      const data = await response.json();
+      const { error: stripeError } = await stripe.redirectToCheckout({
+        lineItems: [{ price: STRIPE_PRICE_ID, quantity: 1 }],
+        mode: 'payment',
+        successUrl: `${window.location.origin}?payment=success`,
+        cancelUrl: `${window.location.origin}?payment=cancelled`,
+        customerEmail: user?.email || undefined,
+      });
 
-      // Redirect to Stripe Checkout
-      window.location.href = data.url;
+      if (stripeError) {
+        throw new Error(stripeError.message);
+      }
     } catch (err) {
-      setError(err.message || 'Unable to connect to payment server. Please try again.');
+      setError(err.message || 'Unable to start checkout. Please try again.');
       setProcessing(false);
     }
   };
