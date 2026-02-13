@@ -18,7 +18,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173' }));
 app.use(express.json());
 
-// Create a Stripe Checkout Session for $100 USD one-time payment
+// Create a Stripe Checkout Session for $0.01 USD one-time payment
 app.post('/api/create-checkout-session', async (req, res) => {
   const { userEmail } = req.body;
 
@@ -34,7 +34,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
               name: 'Auction Academy Exam Prep - Full Access',
               description: 'One-time payment for complete auctioneer exam prep access across all 7 states',
             },
-            unit_amount: 10000, // $100.00 in cents
+            unit_amount: 1, // $0.01 in cents
           },
           quantity: 1,
         },
