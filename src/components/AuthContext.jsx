@@ -2,6 +2,14 @@ import { createContext, useContext, useState, useCallback } from 'react';
 
 const AuthContext = createContext(null);
 
+async function hashPassword(password) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
 function getInitialUser() {
   const storedUser = localStorage.getItem('auctionAcademyUser');
   if (storedUser) {
@@ -17,7 +25,7 @@ function getInitialUser() {
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(getInitialUser);
 
-  const signup = useCallback((username, email, password) => {
+  const signup = useCallback(async (username, email, password) => {
     const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
     
     if (users.find(u => u.email === email)) {
@@ -27,11 +35,13 @@ export function AuthProvider({ children }) {
       return { success: false, error: 'This username is already taken.' };
     }
 
+    const hashedPassword = await hashPassword(password);
+
     const newUser = {
       id: Date.now().toString(),
       username,
       email,
-      password,
+      password: hashedPassword,
       hasPaid: false,
       createdAt: new Date().toISOString()
     };
@@ -46,9 +56,10 @@ export function AuthProvider({ children }) {
     return { success: true };
   }, []);
 
-  const login = useCallback((email, password) => {
+  const login = useCallback(async (email, password) => {
     const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
-    const foundUser = users.find(u => u.email === email && u.password === password);
+    const hashedPassword = await hashPassword(password);
+    const foundUser = users.find(u => u.email === email && u.password === hashedPassword);
     
     if (!foundUser) {
       return { success: false, error: 'Invalid email or password.' };

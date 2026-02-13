@@ -5,7 +5,7 @@ import { useAuth } from './AuthContext';
 import './Payment.css';
 
 // Replace with your actual Stripe publishable key
-const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || 'pk_test_placeholder');
+const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || '');
 
 const CARD_ELEMENT_OPTIONS = {
   style: {

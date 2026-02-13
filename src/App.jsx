@@ -88,9 +88,9 @@ function AppContent() {
   }
 
   const handleAuthSuccess = () => {
-    // After auth, check if user has paid
-    const storedUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}')
-    if (storedUser.hasPaid) {
+    // Check payment status from localStorage (source of truth, written synchronously by auth functions)
+    const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}')
+    if (currentUser.hasPaid) {
       setMode('select')
     } else {
       setMode('payment')

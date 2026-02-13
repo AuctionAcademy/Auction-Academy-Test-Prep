@@ -11,7 +11,7 @@ function AuthPage({ onAuthSuccess, onBack }) {
   const [error, setError] = useState('');
   const { login, signup } = useAuth();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
 
@@ -29,14 +29,14 @@ function AuthPage({ onAuthSuccess, onBack }) {
         return;
       }
 
-      const result = signup(username.trim(), email.trim(), password);
+      const result = await signup(username.trim(), email.trim(), password);
       if (result.success) {
         onAuthSuccess();
       } else {
         setError(result.error);
       }
     } else {
-      const result = login(email.trim(), password);
+      const result = await login(email.trim(), password);
       if (result.success) {
         onAuthSuccess();
       } else {
