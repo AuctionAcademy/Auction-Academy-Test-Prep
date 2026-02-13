@@ -12,11 +12,26 @@ function Payment({ onSuccess, onBack }) {
   // Check for successful payment return from Stripe Checkout
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    if (params.get('payment') === 'success') {
-      markAsPaid();
-      // Clean up URL parameters
-      window.history.replaceState({}, '', window.location.pathname);
-      onSuccess();
+    const sessionId = params.get('session_id');
+
+    if (params.get('payment') === 'success' && sessionId) {
+      // Verify payment with the backend before marking as paid
+      fetch(`${API_URL}/api/verify-session?session_id=${sessionId}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.paid) {
+            markAsPaid();
+            window.history.replaceState({}, '', window.location.pathname);
+            onSuccess();
+          } else {
+            setError('Payment could not be verified. Please contact support.');
+            window.history.replaceState({}, '', window.location.pathname);
+          }
+        })
+        .catch(() => {
+          setError('Unable to verify payment. Please contact support.');
+          window.history.replaceState({}, '', window.location.pathname);
+        });
     } else if (params.get('payment') === 'cancelled') {
       setError('Payment was cancelled. Please try again.');
       window.history.replaceState({}, '', window.location.pathname);
