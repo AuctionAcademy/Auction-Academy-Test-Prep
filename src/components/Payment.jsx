@@ -1,13 +1,6 @@
 import { useState, useEffect } from 'react';
-import { loadStripe } from '@stripe/stripe-js';
 import { useAuth } from './AuthContext';
 import './Payment.css';
-
-const STRIPE_PUBLISHABLE_KEY = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || '';
-const STRIPE_PRICE_ID = import.meta.env.VITE_STRIPE_PRICE_ID || '';
-
-// Initialize Stripe only if we have a publishable key
-const stripePromise = STRIPE_PUBLISHABLE_KEY ? loadStripe(STRIPE_PUBLISHABLE_KEY) : null;
 
 function Payment({ onSuccess, onBack }) {
   const [processing, setProcessing] = useState(false);
@@ -32,35 +25,26 @@ function Payment({ onSuccess, onBack }) {
     setError('');
     setProcessing(true);
 
-    if (!STRIPE_PUBLISHABLE_KEY) {
-      setError('Stripe is not configured. Please set VITE_STRIPE_PUBLISHABLE_KEY in the environment.');
-      setProcessing(false);
-      return;
-    }
-
-    if (!STRIPE_PRICE_ID) {
-      setError('Stripe Price ID is not configured. Please set VITE_STRIPE_PRICE_ID in the environment.');
-      setProcessing(false);
-      return;
-    }
-
     try {
-      const stripe = await stripePromise;
-      if (!stripe) {
-        throw new Error('Failed to load Stripe.');
-      }
-
-      const { error: stripeError } = await stripe.redirectToCheckout({
-        lineItems: [{ price: STRIPE_PRICE_ID, quantity: 1 }],
-        mode: 'payment',
-        successUrl: `${window.location.origin}?payment=success`,
-        cancelUrl: `${window.location.origin}?payment=cancelled`,
-        customerEmail: user?.email || undefined,
+      const response = await fetch('/api/create-checkout-session', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userEmail: user?.email }),
       });
 
-      if (stripeError) {
-        throw new Error(stripeError.message);
+      if (!response.ok) {
+        let errorMessage = 'Failed to start checkout.';
+        try {
+          const data = await response.json();
+          errorMessage = data.error || errorMessage;
+        } catch {
+          // Response was not JSON
+        }
+        throw new Error(errorMessage);
       }
+
+      const { url } = await response.json();
+      window.location.href = url;
     } catch (err) {
       setError(err.message || 'Unable to start checkout. Please try again.');
       setProcessing(false);

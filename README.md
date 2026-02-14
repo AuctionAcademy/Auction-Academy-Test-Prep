@@ -153,7 +153,7 @@ The app will automatically reload when you make changes!
 
 ### 💳 Setting Up Stripe Payments (`.env` File)
 
-To enable the Stripe payment feature, you need to create a `.env` file in the project root with your Stripe API keys.
+To enable the Stripe payment feature, you need to create a `.env` file in the project root with your Stripe secret key.
 
 **Step 1: Create the `.env` file**
 
@@ -165,36 +165,30 @@ cp .env.example .env
 Or create a new file called `.env` in the project root (same folder as `package.json`) with this content:
 
 ```env
-# Your Stripe publishable key (starts with pk_test_ or pk_live_)
-VITE_STRIPE_PUBLISHABLE_KEY=pk_test_your_key_here
+# Your Stripe secret key (starts with sk_test_ or sk_live_)
+STRIPE_SECRET_KEY=sk_test_your_secret_key_here
 
-# Your Stripe Price ID (starts with price_)
-VITE_STRIPE_PRICE_ID=price_your_price_id_here
+# Frontend URL (for Stripe redirect after payment)
+CLIENT_URL=http://localhost:5173
 ```
 
-**Step 2: Get your Stripe keys**
+**Step 2: Get your Stripe secret key**
 
 1. Go to [https://dashboard.stripe.com/apikeys](https://dashboard.stripe.com/apikeys)
-2. Copy your **Publishable key** (starts with `pk_test_`) and paste it as `VITE_STRIPE_PUBLISHABLE_KEY`
+2. Copy your **Secret key** (starts with `sk_test_`) and paste it as `STRIPE_SECRET_KEY`
 
-**Step 3: Create a Price ID in Stripe**
+**Step 3: Start both the backend and frontend servers**
 
-1. Go to [https://dashboard.stripe.com/products](https://dashboard.stripe.com/products)
-2. Click **"+ Add product"**
-3. Set the name (e.g., "Auction Academy Exam Prep - Full Access")
-4. Set the price to **$0.01** (or your desired amount), **One time** payment
-5. Click **"Save product"**
-6. Click into the product, find the **Price ID** (starts with `price_`) and paste it as `VITE_STRIPE_PRICE_ID`
-
-**Step 4: Restart the dev server**
-
-After creating or editing the `.env` file, restart the development server:
 ```bash
-# Stop the server (Ctrl+C), then start again
-npm run dev
+# Option A: Start both together
+npm run dev:all
+
+# Option B: Start separately (in two terminal windows)
+npm run server    # Terminal 1: starts the payment server on port 3001
+npm run dev       # Terminal 2: starts the frontend on port 5173
 ```
 
-> ⚠️ **Important:** The `.env` file contains your API keys and is already listed in `.gitignore` — it will NOT be committed to git. Never share your API keys publicly.
+> ⚠️ **Important:** The `.env` file contains your secret keys and is already listed in `.gitignore` — it will NOT be committed to git. Never share your secret keys publicly.
 
 ### Option 2: Build and Deploy for Production
 
