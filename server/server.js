@@ -1,15 +1,35 @@
 import express from 'express';
 import Stripe from 'stripe';
 import cors from 'cors';
-import 'dotenv/config';
+import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
+import { dirname, resolve } from 'path';
+
+// Load .env from the project root (where package.json is)
+const __dirname = dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: resolve(__dirname, '..', '.env') });
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Validate required environment variables
 if (!process.env.STRIPE_SECRET_KEY) {
-  console.error('ERROR: STRIPE_SECRET_KEY is not set in environment variables.');
-  console.error('Create a .env file with your Stripe secret key. See .env.example for reference.');
+  console.error('');
+  console.error('============================================================');
+  console.error('  ERROR: STRIPE_SECRET_KEY is not set!');
+  console.error('============================================================');
+  console.error('');
+  console.error('  To fix this, create a .env file in the project root:');
+  console.error('');
+  console.error('    cp .env.example .env');
+  console.error('');
+  console.error('  Then edit .env and set your Stripe secret key:');
+  console.error('');
+  console.error('    STRIPE_SECRET_KEY=sk_test_your_key_here');
+  console.error('');
+  console.error('  Get your key from: https://dashboard.stripe.com/apikeys');
+  console.error('============================================================');
+  console.error('');
   process.exit(1);
 }
 
