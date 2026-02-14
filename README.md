@@ -151,6 +151,51 @@ npm run dev
 
 The app will automatically reload when you make changes!
 
+### 💳 Setting Up Stripe Payments (`.env` File)
+
+To enable the Stripe payment feature, you need to create a `.env` file in the project root with your Stripe API keys.
+
+**Step 1: Create the `.env` file**
+
+Copy the example file:
+```bash
+cp .env.example .env
+```
+
+Or create a new file called `.env` in the project root (same folder as `package.json`) with this content:
+
+```env
+# Your Stripe publishable key (starts with pk_test_ or pk_live_)
+VITE_STRIPE_PUBLISHABLE_KEY=pk_test_your_key_here
+
+# Your Stripe Price ID (starts with price_)
+VITE_STRIPE_PRICE_ID=price_your_price_id_here
+```
+
+**Step 2: Get your Stripe keys**
+
+1. Go to [https://dashboard.stripe.com/apikeys](https://dashboard.stripe.com/apikeys)
+2. Copy your **Publishable key** (starts with `pk_test_`) and paste it as `VITE_STRIPE_PUBLISHABLE_KEY`
+
+**Step 3: Create a Price ID in Stripe**
+
+1. Go to [https://dashboard.stripe.com/products](https://dashboard.stripe.com/products)
+2. Click **"+ Add product"**
+3. Set the name (e.g., "Auction Academy Exam Prep - Full Access")
+4. Set the price to **$0.01** (or your desired amount), **One time** payment
+5. Click **"Save product"**
+6. Click into the product, find the **Price ID** (starts with `price_`) and paste it as `VITE_STRIPE_PRICE_ID`
+
+**Step 4: Restart the dev server**
+
+After creating or editing the `.env` file, restart the development server:
+```bash
+# Stop the server (Ctrl+C), then start again
+npm run dev
+```
+
+> ⚠️ **Important:** The `.env` file contains your API keys and is already listed in `.gitignore` — it will NOT be committed to git. Never share your API keys publicly.
+
 ### Option 2: Build and Deploy for Production
 
 1. **Install dependencies** (if you haven't already):
