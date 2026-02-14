@@ -46,7 +46,11 @@ function Payment({ onSuccess, onBack }) {
       const { url } = await response.json();
       window.location.href = url;
     } catch (err) {
-      setError(err.message || 'Unable to start checkout. Please try again.');
+      if (err instanceof TypeError && err.message === 'Failed to fetch') {
+        setError('Cannot connect to payment server. Make sure to run: npm run dev:all');
+      } else {
+        setError(err.message || 'Unable to start checkout. Please try again.');
+      }
       setProcessing(false);
     }
   };
@@ -72,7 +76,7 @@ function Payment({ onSuccess, onBack }) {
         <div className="checkout-form">
           <div className="price-display">
             <span className="price-label">Full Access</span>
-            <span className="price-amount">$0.01 <span className="price-currency">USD</span></span>
+            <span className="price-amount">$0.50 <span className="price-currency">USD</span></span>
             <span className="price-description">One-time payment for complete exam prep access</span>
           </div>
 
@@ -83,7 +87,7 @@ function Payment({ onSuccess, onBack }) {
             onClick={handleCheckout}
             disabled={processing}
           >
-            {processing ? 'Redirecting to Stripe...' : 'Pay $0.01 with Stripe'}
+            {processing ? 'Redirecting to Stripe...' : 'Pay $0.50 with Stripe'}
           </button>
 
           <button type="button" className="pay-back-btn" onClick={onBack}>
