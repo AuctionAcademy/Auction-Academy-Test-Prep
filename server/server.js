@@ -2,12 +2,52 @@ import express from 'express';
 import Stripe from 'stripe';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import { existsSync, copyFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
 
 // Load .env from the project root (where package.json is)
 const __dirname = dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: resolve(__dirname, '..', '.env') });
+const projectRoot = resolve(__dirname, '..');
+const envPath = resolve(projectRoot, '.env');
+const envExamplePath = resolve(projectRoot, '.env.example');
+
+// Auto-create .env from .env.example if it doesn't exist
+if (!existsSync(envPath)) {
+  if (existsSync(envExamplePath)) {
+    copyFileSync(envExamplePath, envPath);
+    console.log('');
+    console.log('============================================================');
+    console.log('  .env file created from .env.example');
+    console.log('============================================================');
+    console.log('');
+    console.log('  Please edit .env and set your Stripe secret key:');
+    console.log('');
+    console.log('    STRIPE_SECRET_KEY=sk_test_your_key_here');
+    console.log('');
+    console.log('  Get your key from: https://dashboard.stripe.com/apikeys');
+    console.log('  Then restart: npm run dev:all');
+    console.log('============================================================');
+    console.log('');
+  } else {
+    console.error('');
+    console.error('============================================================');
+    console.error('  ERROR: No .env file found and .env.example is missing!');
+    console.error('============================================================');
+    console.error('');
+    console.error('  Create a .env file in the project root with:');
+    console.error('');
+    console.error('    STRIPE_SECRET_KEY=sk_test_your_key_here');
+    console.error('    CLIENT_URL=http://localhost:5173');
+    console.error('');
+    console.error('  Get your key from: https://dashboard.stripe.com/apikeys');
+    console.error('============================================================');
+    console.error('');
+  }
+  process.exit(1);
+}
+
+dotenv.config({ path: envPath });
 
 const app = express();
 const PORT = process.env.PORT || 3001;
