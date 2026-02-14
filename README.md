@@ -151,6 +151,45 @@ npm run dev
 
 The app will automatically reload when you make changes!
 
+### 💳 Setting Up Stripe Payments (`.env` File)
+
+To enable the Stripe payment feature, you need to create a `.env` file in the project root with your Stripe secret key.
+
+**Step 1: Create the `.env` file**
+
+Copy the example file:
+```bash
+cp .env.example .env
+```
+
+Or create a new file called `.env` in the project root (same folder as `package.json`) with this content:
+
+```env
+# Your Stripe secret key (starts with sk_test_ or sk_live_)
+STRIPE_SECRET_KEY=sk_test_your_secret_key_here
+
+# Frontend URL (for Stripe redirect after payment)
+CLIENT_URL=http://localhost:5173
+```
+
+**Step 2: Get your Stripe secret key**
+
+1. Go to [https://dashboard.stripe.com/apikeys](https://dashboard.stripe.com/apikeys)
+2. Copy your **Secret key** (starts with `sk_test_`) and paste it as `STRIPE_SECRET_KEY`
+
+**Step 3: Start both the backend and frontend servers**
+
+```bash
+# Option A: Start both together
+npm run dev:all
+
+# Option B: Start separately (in two terminal windows)
+npm run server    # Terminal 1: starts the payment server on port 3001
+npm run dev       # Terminal 2: starts the frontend on port 5173
+```
+
+> ⚠️ **Important:** The `.env` file contains your secret keys and is already listed in `.gitignore` — it will NOT be committed to git. Never share your secret keys publicly.
+
 ### Option 2: Build and Deploy for Production
 
 1. **Install dependencies** (if you haven't already):

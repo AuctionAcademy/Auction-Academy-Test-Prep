@@ -1,28 +1,42 @@
 import { useState } from 'react'
+import { AuthProvider, useAuth } from './components/AuthContext'
 import StateSelector from './components/StateSelector'
 import Dashboard from './components/Dashboard'
 import Test from './components/Test'
 import Flashcards from './components/Flashcards'
 import Game from './components/Game'
 import StudyGuide from './components/StudyGuide'
+import AuthPage from './components/AuthPage'
+import Payment from './components/Payment'
 import './App.css'
 
-function App() {
+function AppContent() {
   const [selectedState, setSelectedState] = useState(null)
-  const [mode, setMode] = useState('select') // select, dashboard, test, quiz, flashcards, game, studyguide
+  const [mode, setMode] = useState('select') // select, dashboard, test, quiz, flashcards, game, studyguide, auth, payment
   const [testConfig, setTestConfig] = useState({})
+  const { user, logout } = useAuth()
 
-  const handleSelectState = (state, mode = null) => {
+  const handleSelectState = (state, selectedMode = null) => {
+    // If user is not logged in or hasn't paid, redirect to auth/payment
+    if (!user) {
+      setMode('auth')
+      return
+    }
+    if (!user.hasPaid) {
+      setMode('payment')
+      return
+    }
+
     setSelectedState(state)
-    if (mode === 'test') {
+    if (selectedMode === 'test') {
       setTestConfig({ questionCount: 75, topic: 'All Topics' })
       setMode('test')
-    } else if (mode === 'quiz') {
+    } else if (selectedMode === 'quiz') {
       setMode('dashboard') // Go to dashboard to select topic
-    } else if (mode === 'flashcards') {
+    } else if (selectedMode === 'flashcards') {
       setTestConfig({ topic: 'All Topics' })
       setMode('flashcards')
-    } else if (mode === 'game') {
+    } else if (selectedMode === 'game') {
       setTestConfig({ topic: 'All Topics' })
       setMode('game')
     } else {
@@ -63,10 +77,57 @@ function App() {
     setMode('dashboard')
   }
 
+  const handleLogin = () => {
+    setMode('auth')
+  }
+
+  const handleLogout = () => {
+    logout()
+    setSelectedState(null)
+    setMode('select')
+  }
+
+  const handleAuthSuccess = () => {
+    // Check payment status from localStorage (source of truth, written synchronously by auth functions)
+    const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}')
+    if (currentUser.hasPaid) {
+      setMode('select')
+    } else {
+      setMode('payment')
+    }
+  }
+
+  const handlePaymentSuccess = () => {
+    setMode('select')
+  }
+
+  const handlePaymentBack = () => {
+    setMode('select')
+  }
+
   return (
     <div className="app">
+      {mode === 'auth' && (
+        <AuthPage 
+          onAuthSuccess={handleAuthSuccess} 
+          onBack={() => setMode('select')} 
+        />
+      )}
+
+      {mode === 'payment' && (
+        <Payment 
+          onSuccess={handlePaymentSuccess} 
+          onBack={handlePaymentBack} 
+        />
+      )}
+
       {mode === 'select' && (
-        <StateSelector onSelectState={handleSelectState} />
+        <StateSelector 
+          onSelectState={handleSelectState} 
+          onLogin={handleLogin}
+          onLogout={handleLogout}
+          user={user}
+        />
       )}
       
       {mode === 'dashboard' && (
@@ -113,6 +174,14 @@ function App() {
         />
       )}
     </div>
+  )
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
   )
 }
 
