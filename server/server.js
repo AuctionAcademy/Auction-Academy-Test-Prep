@@ -84,7 +84,6 @@ app.post('/api/create-checkout-session', async (req, res) => {
 
   try {
     const session = await stripe.checkout.sessions.create({
-      payment_method_types: ['card'],
       customer_email: userEmail || undefined,
       line_items: [
         {
@@ -107,7 +106,11 @@ app.post('/api/create-checkout-session', async (req, res) => {
     res.json({ url: session.url });
   } catch (error) {
     console.error('Stripe session creation error:', error.message);
-    res.status(500).json({ error: 'Failed to create checkout session.' });
+    // Forward Stripe-specific error messages (they are user-safe)
+    const userMessage = error.type?.startsWith('Stripe')
+      ? error.message
+      : 'Failed to create checkout session.';
+    res.status(500).json({ error: userMessage });
   }
 });
 
