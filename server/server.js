@@ -78,6 +78,11 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173' }));
 app.use(express.json());
 
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok' });
+});
+
 // Create a Stripe Checkout Session for $0.50 USD one-time payment
 app.post('/api/create-checkout-session', async (req, res) => {
   const { userEmail } = req.body;
@@ -105,12 +110,19 @@ app.post('/api/create-checkout-session', async (req, res) => {
 
     res.json({ url: session.url });
   } catch (error) {
-    console.error('Stripe session creation error:', error.message);
-    // Forward Stripe-specific error messages (they are user-safe)
-    const userMessage = error.type?.startsWith('Stripe')
+    console.error('Stripe session creation error:');
+    console.error('  Type:', error.type || 'unknown');
+    console.error('  Code:', error.code || 'none');
+    console.error('  Message:', error.message);
+    if (error.statusCode) console.error('  Status:', error.statusCode);
+
+    // Forward Stripe API error messages (they are user-safe by design)
+    // For non-Stripe errors, use a generic message
+    const isStripeError = error.type && error.type.startsWith('Stripe');
+    const userMessage = isStripeError
       ? error.message
-      : 'Failed to create checkout session.';
-    res.status(500).json({ error: userMessage });
+      : 'Failed to create checkout session. Check the server logs for details.';
+    res.status(error.statusCode || 500).json({ error: userMessage });
   }
 });
 
