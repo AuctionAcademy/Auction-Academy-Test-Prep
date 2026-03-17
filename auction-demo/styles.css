@@ -1,0 +1,1360 @@
+/* =====================================================
+   styles.css — Prestige Auction Group Demo Website
+   
+   TABLE OF CONTENTS
+   1.  CSS Variables (design tokens)
+   2.  Reset & Base
+   3.  Typography
+   4.  Layout Utilities
+   5.  Buttons
+   6.  Recently-Sold Ticker
+   7.  Navigation Bar
+   8.  Hero Section
+   9.  Auction Cards
+   10. Live Bid Demo
+   11. How It Works Steps
+   12. Testimonials
+   13. Registration Form
+   14. Footer
+   15. Animations & Keyframes
+   16. Responsive / Mobile
+===================================================== */
+
+
+/* ─────────────────────────────────────────────────────
+   1. CSS VARIABLES (Design Tokens)
+   Change these to quickly restyle the entire site.
+───────────────────────────────────────────────────── */
+:root {
+  /* Brand colors */
+  --navy:       #0f172a;   /* dark hero/section backgrounds */
+  --navy-mid:   #1e293b;   /* slightly lighter dark bg */
+  --gold:       #d4af37;   /* accent color for badges, highlights */
+  --gold-light: #f0d060;   /* hover state for gold elements */
+  --crimson:    #b91c1c;   /* "LIVE" badge, urgent accents */
+  --cream:      #f8f5ee;   /* light section background */
+  --white:      #ffffff;
+
+  /* Neutral grays */
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
+  --gray-400: #94a3b8;
+  --gray-600: #475569;
+  --gray-800: #1e293b;
+
+  /* Typography */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body:    'Open Sans', sans-serif;
+
+  /* Spacing scale */
+  --space-xs:  0.5rem;
+  --space-sm:  1rem;
+  --space-md:  1.5rem;
+  --space-lg:  3rem;
+  --space-xl:  6rem;
+
+  /* Shadows */
+  --shadow-sm:  0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md:  0 6px 24px rgba(0,0,0,0.12);
+  --shadow-lg:  0 16px 48px rgba(0,0,0,0.18);
+
+  /* Border radius */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+
+  /* Transitions */
+  --transition: 0.25s ease;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   2. RESET & BASE
+   Remove default browser margins/padding and set
+   box-sizing so padding is included in element width.
+───────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Smooth scroll is also handled in JS, but this
+     acts as a CSS fallback. */
+  scroll-behavior: smooth;
+  font-size: 16px; /* base for rem units */
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--gray-800);
+  background: var(--white);
+  line-height: 1.6;
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   3. TYPOGRAPHY
+───────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   4. LAYOUT UTILITIES
+───────────────────────────────────────────────────── */
+
+/* Max-width wrapper, centered */
+.container {
+  width: min(1200px, 90%);
+  margin-inline: auto; /* center horizontally */
+}
+
+/* Standard section padding */
+.section {
+  padding: var(--space-xl) 0;
+}
+
+/* Alternate section backgrounds */
+.section-dark  { background: var(--navy); }
+.section-light { background: var(--cream); }
+
+/* Section heading group (eyebrow + title + subtitle) */
+.section-header {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.section-eyebrow {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: var(--space-xs);
+}
+
+.section-title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: var(--navy);
+  margin-bottom: var(--space-sm);
+}
+
+.section-subtitle {
+  font-size: 1.05rem;
+  color: var(--gray-600);
+  max-width: 540px;
+  margin-inline: auto;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   5. BUTTONS
+───────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform var(--transition),
+              box-shadow var(--transition),
+              background var(--transition),
+              color var(--transition);
+}
+
+/* Primary: gold background */
+.btn-primary {
+  background: var(--gold);
+  color: var(--navy);
+}
+
+.btn-primary:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(212,175,55,0.4);
+}
+
+/* Outline: transparent with gold border */
+.btn-outline {
+  background: transparent;
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.btn-outline:hover {
+  background: var(--gold);
+  color: var(--navy);
+  transform: translateY(-2px);
+}
+
+/* Hero call-to-action — slightly larger */
+.btn-hero {
+  font-size: 1.05rem;
+  padding: 1rem 2.25rem;
+}
+
+/* Bid increment buttons */
+.btn-bid {
+  background: var(--navy);
+  color: var(--gold);
+  border: 2px solid var(--gold);
+  font-size: 1rem;
+  padding: 0.65rem 1.25rem;
+}
+
+.btn-bid:hover {
+  background: var(--gold);
+  color: var(--navy);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(212,175,55,0.35);
+}
+
+/* Larger bid button */
+.btn-bid-large {
+  padding: 0.65rem 1.75rem;
+  font-size: 1.05rem;
+}
+
+/* Full-width submit button */
+.btn-submit {
+  width: 100%;
+  justify-content: center;
+  font-size: 1.05rem;
+  padding: 1rem;
+  margin-top: var(--space-xs);
+}
+
+
+/* ─────────────────────────────────────────────────────
+   6. RECENTLY-SOLD TICKER
+   A horizontal scrolling bar at the very top.
+───────────────────────────────────────────────────── */
+.ticker-wrap {
+  background: var(--navy);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 36px;
+  position: relative;
+  z-index: 200;
+}
+
+.ticker-label {
+  /* Fixed label on the left side */
+  flex-shrink: 0;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0 1rem;
+  background: var(--gold);
+  color: var(--navy);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* The track that scrolls */
+.ticker-track {
+  display: flex;
+  gap: 4rem;
+  white-space: nowrap;
+  /* Infinite left-scrolling animation (defined in §15) */
+  animation: ticker-scroll 30s linear infinite;
+  padding-left: 2rem;
+}
+
+.ticker-item {
+  font-size: 0.8rem;
+  font-family: var(--font-heading);
+}
+
+.ticker-item strong {
+  color: var(--gold-light);
+}
+
+/* Pause scroll on hover so users can read */
+.ticker-wrap:hover .ticker-track {
+  animation-play-state: paused;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   7. NAVIGATION BAR
+   Sticky header; collapses to a hamburger on mobile.
+───────────────────────────────────────────────────── */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(15, 23, 42, 0.97);
+  backdrop-filter: blur(8px); /* frosted-glass effect in modern browsers */
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  transition: box-shadow var(--transition);
+}
+
+/* Add shadow when user has scrolled (added by JS) */
+.navbar.scrolled {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 5%;
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+/* Brand / logo area */
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--white);
+  letter-spacing: 0.02em;
+}
+
+.brand-icon {
+  font-size: 1.4rem;
+}
+
+/* Desktop nav links */
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gray-200);
+  position: relative;
+  transition: color var(--transition);
+}
+
+/* Gold underline hover effect */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gold);
+  transition: width var(--transition);
+}
+
+.nav-link:hover {
+  color: var(--gold);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Hamburger button — hidden on desktop */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: transform var(--transition), opacity var(--transition);
+}
+
+
+/* ─────────────────────────────────────────────────────
+   8. HERO SECTION
+   Full-viewport banner with a background photo.
+───────────────────────────────────────────────────── */
+.hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* Background: gradient fallback + a royalty-free photo */
+  background:
+    linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%),
+    url('https://picsum.photos/seed/auction-hero/1920/1080') center/cover no-repeat;
+
+  /* Blend the gradient over the photo */
+  background-blend-mode: multiply;
+
+  padding: var(--space-lg) var(--space-sm);
+  overflow: hidden;
+}
+
+/* Semi-transparent overlay for contrast */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center,
+    rgba(15,23,42,0.3) 0%,
+    rgba(15,23,42,0.75) 100%);
+  pointer-events: none;
+}
+
+/* Hero text content sits above the overlay */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+}
+
+.hero-eyebrow {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: var(--space-sm);
+  /* Fade-in from below on page load */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fade-up 0.7s ease 0.2s forwards;
+}
+
+.hero-title {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  margin-bottom: var(--space-sm);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fade-up 0.7s ease 0.4s forwards;
+}
+
+.hero-tagline {
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-lg);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fade-up 0.7s ease 0.6s forwards;
+}
+
+.btn-hero {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fade-up 0.7s ease 0.8s forwards;
+}
+
+/* Scroll-down chevron at the bottom of the hero */
+.hero-scroll-hint {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--gold);
+  font-size: 1.5rem;
+  z-index: 1;
+  animation: bounce 2s ease infinite;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   9. AUCTION CARDS
+───────────────────────────────────────────────────── */
+
+/* Responsive 3-column grid */
+.auction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-md);
+}
+
+.auction-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  transition: transform var(--transition), box-shadow var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Lift card on hover */
+.auction-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Image wrapper clips the image and gives it a fixed aspect ratio */
+.card-image-wrap {
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* Zoom image slightly on card hover */
+.auction-card:hover .card-image {
+  transform: scale(1.05);
+}
+
+/* Badge (LIVE / UPCOMING) */
+.card-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 4px 10px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge-live {
+  background: var(--crimson);
+  color: var(--white);
+}
+
+.badge-upcoming {
+  background: var(--navy);
+  color: var(--gold);
+}
+
+/* Pulsing dot next to "LIVE" */
+.pulse-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--white);
+  animation: pulse-scale 1.2s ease-in-out infinite;
+}
+
+/* Card text body */
+.card-body {
+  padding: 1.25rem;
+  flex: 1;          /* stretch to fill card height */
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.card-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.card-desc {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  flex: 1; /* push the rest to bottom */
+}
+
+/* Row with current bid + countdown */
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
+  margin: 0.25rem 0;
+}
+
+.card-bid {
+  display: flex;
+  flex-direction: column;
+}
+
+.bid-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray-400);
+  font-family: var(--font-heading);
+}
+
+.bid-amount {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.card-timer {
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* The countdown text goes red when under 1 hour */
+.countdown.urgent {
+  color: var(--crimson);
+  font-weight: 700;
+  animation: pulse-text 1s ease infinite;
+}
+
+.btn-card {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   10. LIVE BID DEMO
+───────────────────────────────────────────────────── */
+.live-bid-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  background: var(--navy-mid);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid rgba(212,175,55,0.25);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Left column: image */
+.live-bid-image {
+  position: relative;
+}
+
+.live-bid-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.live-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: var(--crimson);
+  color: var(--white);
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 5px 14px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Right column: bid controls */
+.live-bid-details {
+  padding: var(--space-md) var(--space-md) var(--space-md) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.live-item-name {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.live-item-desc {
+  font-size: 0.9rem;
+  color: var(--gray-400);
+}
+
+.live-current-bid {
+  background: rgba(212,175,55,0.08);
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.live-bid-label {
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray-400);
+}
+
+/* Big animated bid number */
+.live-bid-amount {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--gold);
+  /* "pop" animation applied by JS when bid updates */
+  transition: transform 0.2s ease;
+}
+
+.live-bid-amount.bid-pop {
+  animation: bid-pop 0.4s ease;
+}
+
+/* Bid increment buttons row */
+.bid-buttons {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+}
+
+/* Success message (hidden until bid placed) */
+.bid-message {
+  display: none;  /* JS will set this to flex */
+  align-items: center;
+  gap: 8px;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #34d399;
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  animation: fade-up 0.3s ease;
+}
+
+/* Bid history */
+.bid-history {
+  margin-top: auto;
+}
+
+.bid-history-title {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray-400);
+  margin-bottom: 0.5rem;
+}
+
+.bid-log {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bid-log li {
+  font-size: 0.85rem;
+  color: var(--gray-400);
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* First item in the log (most recent bid) gets a highlight */
+.bid-log li:first-child {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   11. HOW IT WORKS — STEP CARDS
+───────────────────────────────────────────────────── */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+  position: relative;
+}
+
+/* Connector line between steps (desktop only) */
+.steps-grid::before {
+  content: '';
+  position: absolute;
+  top: 2.5rem;
+  left: 15%;
+  right: 15%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), var(--gold));
+  z-index: 0;
+  opacity: 0.25;
+}
+
+.step-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  z-index: 1;
+  border-bottom: 3px solid transparent;
+  transition: transform var(--transition),
+              box-shadow var(--transition),
+              border-color var(--transition);
+}
+
+.step-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--gold);
+}
+
+.step-number {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin-bottom: var(--space-xs);
+}
+
+.step-icon {
+  font-size: 2rem;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+}
+
+.step-title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.step-desc {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   12. TESTIMONIALS
+───────────────────────────────────────────────────── */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.testimonial-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.testimonial-stars {
+  color: var(--gold);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: 2px;
+}
+
+.testimonial-text {
+  font-size: 0.95rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: var(--space-sm);
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.author-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--gold);
+}
+
+.testimonial-author strong {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  color: var(--navy);
+}
+
+.testimonial-author span {
+  font-size: 0.78rem;
+  color: var(--gray-400);
+}
+
+
+/* ─────────────────────────────────────────────────────
+   13. REGISTRATION FORM
+───────────────────────────────────────────────────── */
+.form-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+/* Left side info */
+.form-info {
+  padding-top: var(--space-sm);
+}
+
+.form-info p {
+  color: var(--gray-600);
+  margin-bottom: var(--space-sm);
+}
+
+.form-perks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.form-perks li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--gray-600);
+}
+
+.form-perks li i {
+  color: var(--gold);
+  font-size: 0.85rem;
+}
+
+/* The form itself */
+.bid-form {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  border-top: 4px solid var(--gold);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--gray-600);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.7rem 1rem;
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--gray-800);
+  background: var(--gray-100);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(212,175,55,0.15);
+  background: var(--white);
+}
+
+/* Success banner (hidden by default) */
+.form-success {
+  display: none;  /* JS toggles this to flex */
+  align-items: center;
+  gap: 10px;
+  background: rgba(16,185,129,0.1);
+  border: 1px solid rgba(16,185,129,0.4);
+  color: #059669;
+  border-radius: var(--radius-sm);
+  padding: 0.9rem 1rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  animation: fade-up 0.4s ease;
+}
+
+
+/* ─────────────────────────────────────────────────────
+   14. FOOTER
+───────────────────────────────────────────────────── */
+.footer {
+  background: var(--navy);
+  color: var(--gray-200);
+  padding-top: var(--space-lg);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-logo-text {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.4rem;
+}
+
+.footer-tagline {
+  font-family: var(--font-heading);
+  color: var(--gold);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: var(--space-xs);
+}
+
+.footer-desc {
+  font-size: 0.88rem;
+  color: var(--gray-400);
+  line-height: 1.7;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin-bottom: var(--space-sm);
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-links a {
+  font-size: 0.9rem;
+  color: var(--gray-400);
+  transition: color var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--gold);
+}
+
+.footer-contact p {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--gray-400);
+  margin-bottom: 0.6rem;
+}
+
+.footer-contact i {
+  color: var(--gold);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+/* Social icons row */
+.social-icons {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: var(--space-sm);
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  color: var(--gray-400);
+  font-size: 0.85rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: background var(--transition),
+              color var(--transition),
+              transform var(--transition);
+}
+
+.social-icons a:hover {
+  background: var(--gold);
+  color: var(--navy);
+  transform: translateY(-2px);
+}
+
+/* Copyright bar */
+.footer-bottom {
+  text-align: center;
+  padding: var(--space-sm) 0;
+  font-size: 0.8rem;
+  color: var(--gray-400);
+}
+
+.footer-bottom a {
+  color: var(--gray-400);
+  transition: color var(--transition);
+}
+
+.footer-bottom a:hover {
+  color: var(--gold);
+}
+
+
+/* ─────────────────────────────────────────────────────
+   15. ANIMATIONS & KEYFRAMES
+───────────────────────────────────────────────────── */
+
+/* Fade in while moving up */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ticker scroll — moves the track from right to left */
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* Bouncing scroll indicator */
+@keyframes bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%       { transform: translateX(-50%) translateY(10px); }
+}
+
+/* Pulsing scale for "live" dot */
+@keyframes pulse-scale {
+  0%, 100% { transform: scale(1);   opacity: 1; }
+  50%       { transform: scale(1.6); opacity: 0.6; }
+}
+
+/* Pulsing text (urgency) */
+@keyframes pulse-text {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.5; }
+}
+
+/* Bid pop — brief scale-up when a bid is placed */
+@keyframes bid-pop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.12); }
+  70%  { transform: scale(0.96); }
+  100% { transform: scale(1); }
+}
+
+
+/* ─────────────────────────────────────────────────────
+   16. RESPONSIVE / MOBILE
+   Uses min-width breakpoints (mobile-first approach).
+───────────────────────────────────────────────────── */
+
+/* ── Tablet & below (≤ 900px) ── */
+@media (max-width: 900px) {
+
+  /* Stack live-bid card vertically */
+  .live-bid-card {
+    grid-template-columns: 1fr;
+  }
+
+  .live-bid-image {
+    max-height: 300px;
+    overflow: hidden;
+  }
+
+  .live-bid-image img {
+    height: 300px;
+  }
+
+  .live-bid-details {
+    padding: var(--space-md);
+  }
+
+  /* Stack registration form */
+  .form-wrapper {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  /* Reduce step connector (looks odd on 2-col grid) */
+  .steps-grid::before {
+    display: none;
+  }
+
+  /* Footer: 2 columns */
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1; /* span full width */
+  }
+}
+
+/* ── Mobile (≤ 640px) ── */
+@media (max-width: 640px) {
+
+  /* Show hamburger, hide desktop nav */
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--navy);
+    flex-direction: column;
+    padding: 1rem 5%;
+    gap: 0;
+    border-top: 1px solid rgba(212,175,55,0.2);
+  }
+
+  /* JS adds "open" class to show the menu */
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    font-size: 0.95rem;
+  }
+
+  /* Make navbar position relative so dropdown works */
+  .navbar {
+    position: sticky;
+  }
+
+  .nav-container {
+    position: relative;
+  }
+
+  /* Hero adjustments */
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .hero-tagline {
+    font-size: 1rem;
+  }
+
+  /* Single-column grids on mobile */
+  .auction-grid,
+  .steps-grid,
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Bid buttons wrap */
+  .bid-buttons {
+    flex-direction: column;
+  }
+
+  /* Footer single column */
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Live bid amount font size */
+  .live-bid-amount {
+    font-size: 2rem;
+  }
+
+  /* Reduce section padding on small screens */
+  .section {
+    padding: var(--space-lg) 0;
+  }
+}
