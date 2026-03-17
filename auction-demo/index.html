@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Prestige Auction Group – Bid Bold. Win Big."
+    />
+    <title>Prestige Auction Group</title>
+
+    <!-- Link to our external stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome for icons (free CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts: Montserrat for headings, Open Sans for body -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ===================================================
+         RECENTLY-SOLD TICKER
+         A scrolling banner that shows recently sold items.
+         Pure CSS marquee-style animation.
+    =================================================== -->
+    <div class="ticker-wrap">
+      <div class="ticker-label">🔨 Recently Sold:</div>
+      <div class="ticker-track">
+        <span class="ticker-item"
+          >160 Acre Farm – <strong>$1,250,000</strong></span
+        >
+        <span class="ticker-item"
+          >John Deere 8370R Tractor – <strong>$187,500</strong></span
+        >
+        <span class="ticker-item"
+          >Luxury Lake House – <strong>$945,000</strong></span
+        >
+        <span class="ticker-item"
+          >Construction Excavator – <strong>$78,000</strong></span
+        >
+        <span class="ticker-item"
+          >Commercial Building – <strong>$2,100,000</strong></span
+        >
+        <span class="ticker-item"
+          >Vintage Car Collection – <strong>$312,000</strong></span
+        >
+        <!-- Duplicate items so the scroll loops seamlessly -->
+        <span class="ticker-item"
+          >160 Acre Farm – <strong>$1,250,000</strong></span
+        >
+        <span class="ticker-item"
+          >John Deere 8370R Tractor – <strong>$187,500</strong></span
+        >
+        <span class="ticker-item"
+          >Luxury Lake House – <strong>$945,000</strong></span
+        >
+        <span class="ticker-item"
+          >Construction Excavator – <strong>$78,000</strong></span
+        >
+      </div>
+    </div>
+
+    <!-- ===================================================
+         NAVIGATION BAR
+         Sticky top nav with the company logo and links.
+         The hamburger icon appears on small screens.
+    =================================================== -->
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <!-- Brand / Logo -->
+        <a href="#home" class="nav-brand">
+          <span class="brand-icon">🏛️</span>
+          <span class="brand-text">Prestige Auction Group</span>
+        </a>
+
+        <!-- Hamburger button (mobile only) -->
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <!-- Navigation links -->
+        <nav class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#auctions" class="nav-link">Current Auctions</a>
+          <a href="#how-it-works" class="nav-link">How It Works</a>
+          <a href="#register" class="nav-link">Register to Bid</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===================================================
+         HERO SECTION
+         Full-viewport banner with company name, tagline,
+         and a call-to-action button.
+    =================================================== -->
+    <section class="hero" id="home">
+      <!-- Dark overlay gradient so text stays readable -->
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow">Trusted Auctioneers Since 1987</p>
+        <h1 class="hero-title">Prestige<br />Auction Group</h1>
+        <p class="hero-tagline">Bid Bold. Win Big.</p>
+        <a href="#auctions" class="btn btn-primary btn-hero">
+          View Current Auctions
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Animated scroll-down indicator -->
+      <a href="#auctions" class="hero-scroll-hint" aria-label="Scroll down">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ===================================================
+         FEATURED AUCTIONS SECTION
+         Three auction cards showing example listings.
+         Each card has an image, title, description,
+         current bid, countdown timer, and Bid Now button.
+    =================================================== -->
+    <section class="section" id="auctions">
+      <div class="container">
+        <!-- Section heading -->
+        <div class="section-header">
+          <span class="section-eyebrow">Live &amp; Upcoming</span>
+          <h2 class="section-title">Current Auctions</h2>
+          <p class="section-subtitle">
+            Don't miss your chance to bid on premium properties and equipment.
+          </p>
+        </div>
+
+        <!-- Auction cards grid -->
+        <div class="auction-grid">
+
+          <!-- ── CARD 1: Farm Estate ───────────────────── -->
+          <div class="auction-card">
+            <!-- "LIVE NOW" pulsing badge -->
+            <div class="card-badge badge-live">
+              <span class="pulse-dot"></span> LIVE NOW
+            </div>
+
+            <!-- Placeholder image (picsum.photos gives a random landscape) -->
+            <div class="card-image-wrap">
+              <img
+                src="https://picsum.photos/seed/farm/600/400"
+                alt="160 Acre Farm Estate"
+                class="card-image"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">160 Acre Farm Estate</h3>
+              <p class="card-desc">
+                Productive cropland with a 4-bed farmhouse, outbuildings, and
+                tile drainage. Prime Midwest agriculture opportunity.
+              </p>
+
+              <div class="card-meta">
+                <div class="card-bid">
+                  <span class="bid-label">Current Bid</span>
+                  <span class="bid-amount" id="farmBid">$875,000</span>
+                </div>
+                <div class="card-timer">
+                  <i class="fa-regular fa-clock"></i>
+                  <!-- JavaScript fills this in -->
+                  <span id="timer1" class="countdown">Loading…</span>
+                </div>
+              </div>
+
+              <!-- "Bid Now" opens the live-bid demo section -->
+              <a href="#live-bid" class="btn btn-primary btn-card">
+                Bid Now <i class="fa-solid fa-gavel"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- ── CARD 2: Equipment ──────────────────────── -->
+          <div class="auction-card">
+            <div class="card-badge badge-upcoming">UPCOMING</div>
+
+            <div class="card-image-wrap">
+              <img
+                src="https://picsum.photos/seed/equipment/600/400"
+                alt="Construction Equipment Liquidation"
+                class="card-image"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Construction Equipment Liquidation</h3>
+              <p class="card-desc">
+                Over 40 pieces including excavators, loaders, graders, and haul
+                trucks from a retiring contractor.
+              </p>
+
+              <div class="card-meta">
+                <div class="card-bid">
+                  <span class="bid-label">Starting Bid</span>
+                  <span class="bid-amount">$25,000</span>
+                </div>
+                <div class="card-timer">
+                  <i class="fa-regular fa-clock"></i>
+                  <span id="timer2" class="countdown">Loading…</span>
+                </div>
+              </div>
+
+              <a href="#register" class="btn btn-outline btn-card">
+                Pre-Register <i class="fa-solid fa-pen"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- ── CARD 3: Luxury Home ────────────────────── -->
+          <div class="auction-card">
+            <div class="card-badge badge-live">
+              <span class="pulse-dot"></span> LIVE NOW
+            </div>
+
+            <div class="card-image-wrap">
+              <img
+                src="https://picsum.photos/seed/luxury/600/400"
+                alt="Luxury Waterfront Home"
+                class="card-image"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Luxury Waterfront Home</h3>
+              <p class="card-desc">
+                5-bed, 4-bath lakefront estate with private dock, infinity pool,
+                and panoramic views on 1.2 acres.
+              </p>
+
+              <div class="card-meta">
+                <div class="card-bid">
+                  <span class="bid-label">Current Bid</span>
+                  <span class="bid-amount">$1,450,000</span>
+                </div>
+                <div class="card-timer">
+                  <i class="fa-regular fa-clock"></i>
+                  <span id="timer3" class="countdown">Loading…</span>
+                </div>
+              </div>
+
+              <a href="#live-bid" class="btn btn-primary btn-card">
+                Bid Now <i class="fa-solid fa-gavel"></i>
+              </a>
+            </div>
+          </div>
+
+        </div><!-- /auction-grid -->
+      </div>
+    </section>
+
+    <!-- ===================================================
+         LIVE BID DEMO
+         Interactive fake bidding section.
+         JavaScript updates the displayed bid amount
+         and shows an animated confirmation message.
+    =================================================== -->
+    <section class="section section-dark" id="live-bid">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-eyebrow" style="color: var(--gold);"
+            >Interactive Demo</span
+          >
+          <h2 class="section-title" style="color: #fff;">Live Bidding</h2>
+          <p class="section-subtitle" style="color: #cbd5e1;">
+            Experience real-time bidding — click a button to place your bid!
+          </p>
+        </div>
+
+        <div class="live-bid-card">
+          <!-- Property thumbnail -->
+          <div class="live-bid-image">
+            <img
+              src="https://picsum.photos/seed/farm/600/400"
+              alt="160 Acre Farm Estate"
+            />
+            <!-- "LIVE" badge with pulse animation -->
+            <div class="live-badge">
+              <span class="pulse-dot"></span> LIVE
+            </div>
+          </div>
+
+          <!-- Bid controls -->
+          <div class="live-bid-details">
+            <h3 class="live-item-name">160 Acre Farm Estate</h3>
+            <p class="live-item-desc">
+              Bidder count: <strong id="bidderCount">14</strong> active bidders
+            </p>
+
+            <!-- Current bid display — JavaScript updates this -->
+            <div class="live-current-bid">
+              <span class="live-bid-label">Current Bid</span>
+              <span class="live-bid-amount" id="liveBidAmount">$875,000</span>
+            </div>
+
+            <!-- Bid increment buttons -->
+            <div class="bid-buttons">
+              <button class="btn btn-bid" onclick="placeBid(100)">
+                +$100
+              </button>
+              <button class="btn btn-bid" onclick="placeBid(500)">
+                +$500
+              </button>
+              <button class="btn btn-bid btn-bid-large" onclick="placeBid(1000)">
+                +$1,000
+              </button>
+            </div>
+
+            <!-- Animated confirmation message (hidden until a bid is placed) -->
+            <div class="bid-message" id="bidMessage">
+              <i class="fa-solid fa-circle-check"></i>
+              New bid placed! You are the high bidder.
+            </div>
+
+            <!-- Bid history log -->
+            <div class="bid-history">
+              <p class="bid-history-title">Recent Bids</p>
+              <ul class="bid-log" id="bidLog">
+                <li>Bidder #472 — $875,000</li>
+                <li>Bidder #219 — $870,000</li>
+                <li>Bidder #104 — $865,000</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================
+         HOW IT WORKS SECTION
+         Four steps with icons showing the auction process.
+    =================================================== -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-eyebrow">Simple Process</span>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">
+            Buying at auction is straightforward. Here's all you need to know.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-icon"><i class="fa-solid fa-user-plus"></i></div>
+            <h3 class="step-title">Register</h3>
+            <p class="step-desc">
+              Create a free bidder account online or at the auction site. Provide
+              a valid ID and any required deposits.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-icon"><i class="fa-solid fa-gavel"></i></div>
+            <h3 class="step-title">Bid</h3>
+            <p class="step-desc">
+              Place your bids online, by phone, or in person. Each increment
+              raises the current price — be strategic!
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-icon"><i class="fa-solid fa-trophy"></i></div>
+            <h3 class="step-title">Win</h3>
+            <p class="step-desc">
+              The highest bidder at close wins. You'll receive an immediate
+              confirmation with purchase details.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <div class="step-icon"><i class="fa-solid fa-handshake"></i></div>
+            <h3 class="step-title">Close</h3>
+            <p class="step-desc">
+              Sign the purchase agreement, pay the buyer's premium, and
+              coordinate transfer of ownership. Simple as that!
+            </p>
+          </div>
+
+        </div><!-- /steps-grid -->
+      </div>
+    </section>
+
+    <!-- ===================================================
+         TESTIMONIALS SECTION
+         Fake reviews from happy buyers and sellers.
+    =================================================== -->
+    <section class="section section-light" id="testimonials">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-eyebrow">What People Say</span>
+          <h2 class="section-title">Success Stories</h2>
+        </div>
+
+        <div class="testimonial-grid">
+
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "We sold our 240-acre farm through Prestige and couldn't be
+              happier. The competitive bidding pushed the price $80,000 above
+              our reserve. Absolutely professional from start to finish."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://i.pravatar.cc/60?img=11"
+                alt="Robert H."
+                class="author-avatar"
+              />
+              <div>
+                <strong>Robert H.</strong>
+                <span>Seller – Iowa Farm Estate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "I won the bid on a fantastic lakefront property for well under
+              market value. The online bidding platform was easy to use and the
+              team kept me informed every step of the way."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://i.pravatar.cc/60?img=5"
+                alt="Sarah M."
+                class="author-avatar"
+              />
+              <div>
+                <strong>Sarah M.</strong>
+                <span>Buyer – Luxury Waterfront Home</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Liquidating our construction fleet was painless. Prestige handled
+              everything — marketing, bidder verification, and settlement. We
+              moved 42 pieces in a single-day auction."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://i.pravatar.cc/60?img=33"
+                alt="Dave K."
+                class="author-avatar"
+              />
+              <div>
+                <strong>Dave K.</strong>
+                <span>Seller – Equipment Liquidation</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /testimonial-grid -->
+      </div>
+    </section>
+
+    <!-- ===================================================
+         REGISTRATION FORM
+         Simple bidder sign-up form.
+         JavaScript prevents page reload and shows a
+         success message on submit.
+    =================================================== -->
+    <section class="section" id="register">
+      <div class="container">
+        <div class="form-wrapper">
+
+          <!-- Left: info panel -->
+          <div class="form-info">
+            <span class="section-eyebrow">Join Today</span>
+            <h2 class="section-title" style="text-align:left;">
+              Register to Bid
+            </h2>
+            <p>
+              Create your free bidder profile and get instant access to all
+              upcoming auctions. No fees to register.
+            </p>
+            <ul class="form-perks">
+              <li><i class="fa-solid fa-check"></i> Bid online from anywhere</li>
+              <li><i class="fa-solid fa-check"></i> Real-time notifications</li>
+              <li><i class="fa-solid fa-check"></i> Secure payment processing</li>
+              <li><i class="fa-solid fa-check"></i> Dedicated buyer support</li>
+            </ul>
+          </div>
+
+          <!-- Right: the form -->
+          <form class="bid-form" id="registerForm" novalidate>
+
+            <div class="form-group">
+              <label for="fullName">Full Name *</label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="John Smith"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(555) 123-4567"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="interest">Auction Interest</label>
+              <select id="interest" name="interest">
+                <option value="">-- Select one --</option>
+                <option value="real-estate">Real Estate</option>
+                <option value="equipment">Equipment & Machinery</option>
+                <option value="farm">Farm & Land</option>
+                <option value="luxury">Luxury Properties</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">
+              Register Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+            <!-- Success message (hidden by default, shown by JS) -->
+            <div class="form-success" id="formSuccess">
+              <i class="fa-solid fa-circle-check"></i>
+              Thanks for registering! We'll be in touch soon.
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         FOOTER / CONTACT
+         Company contact info and social media links.
+    =================================================== -->
+    <footer class="footer" id="contact">
+      <div class="container footer-grid">
+
+        <!-- Column 1: Brand -->
+        <div class="footer-brand">
+          <p class="footer-logo-text">
+            <span class="brand-icon">🏛️</span> Prestige Auction Group
+          </p>
+          <p class="footer-tagline">Bid Bold. Win Big.</p>
+          <p class="footer-desc">
+            Licensed auctioneers serving buyers and sellers across the Midwest
+            since 1987. Trusted. Transparent. Results-Driven.
+          </p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#auctions">Current Auctions</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#register">Register to Bid</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Contact -->
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p><i class="fa-solid fa-phone"></i> (800) 555-0192</p>
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            info@prestigeauctiongroup.com
+          </p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            123 Auction Lane, Des Moines, IA 50309
+          </p>
+          <!-- Social media icons -->
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Prestige Auction Group. All Rights Reserved. |
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Link to our external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
